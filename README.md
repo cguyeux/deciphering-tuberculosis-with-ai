@@ -22,7 +22,7 @@ The software and online tools listed here are released openly. The reference dat
 
 ## Contributing
 
-If you would like to help validate, finish or co-author any of these works, please open an issue on this repository or contact Christophe Guyeux (guyeux@gmail.com). Microbiologists, clinicians and population geneticists are especially welcome.
+If you would like to help validate, finish or co-author any of these works, please open an issue on this repository or contact Christophe Guyeux (cguyeux@femto-st.fr). Microbiologists, clinicians and population geneticists are especially welcome.
 
 ## Acknowledgements
 
