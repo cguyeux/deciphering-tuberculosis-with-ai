@@ -8,12 +8,17 @@ This page is a curated index. New items are added one at a time, as each reaches
 
 The software and online tools listed here are released openly. The reference datasets, when published, are provisional, dated and versioned, and may be revised. The manuscripts are preprints or working drafts pending peer review. None of the scientific claims should be cited as established results before peer-reviewed publication. We welcome collaborators willing to help validate, complete and submit this work.
 
-## Contents
+## Applications and web tools
 
-| Item | Type | Access | Status |
-|------|------|--------|--------|
-| MTBC gene annotation atlas (a successor to Mycobrowser) | Web tool | [Live site](https://mtbc127bab2a-mtbc.functions.fnc.fr-par.scw.cloud) | Online, in development |
-| The re-humanisation of L6/L9/L10: opportunistic re-colonisation of *H. sapiens* by an animal-adapted lineage, without genomic reversion | Manuscript | [PDF](manuscripts/rehumanisation-L6L9L10.pdf) ([version française](manuscripts/rehumanisation-L6L9L10-fr.pdf)) | Draft, pending peer review |
+| Tool | Description | Access | Status |
+|------|-------------|--------|--------|
+| MTBC gene annotation atlas | A successor to the discontinued Mycobrowser reference database, providing curated, AI-assisted functional annotations of MTBC genes, with a focus on requalifying the large stock of genes still labelled as hypothetical proteins. | [Live site](https://mtbc127bab2a-mtbc.functions.fnc.fr-par.scw.cloud) | Online, in development |
+
+## Manuscripts
+
+| Title | Description | Access | Status |
+|-------|-------------|--------|--------|
+| The re-humanisation of L6/L9/L10: opportunistic re-colonisation of *H. sapiens* by an animal-adapted lineage, without genomic reversion | The MTBC lineages L6, L9 and L10 branch within the animal-associated part of the complex yet are found almost exclusively in humans today. The manuscript argues that they re-colonised *Homo sapiens* opportunistically, without reversing the genomic signatures inherited from their animal-adapted ancestry. | [PDF](manuscripts/rehumanisation-L6L9L10.pdf) | Draft, pending peer review |
 
 ## Contributing
 
