@@ -18,3 +18,7 @@ The software and online tools listed here are released openly. The reference dat
 ## Contributing
 
 If you would like to help validate, finish or co-author any of these works, please open an issue on this repository or contact Christophe Guyeux (guyeux@gmail.com). Microbiologists, clinicians and population geneticists are especially welcome.
+
+## Acknowledgements
+
+This project would never have come to life without the many discussions and reflections shared with Guislaine Refrégier, Christophe Sola, Clément Lecarpentier and Gaétan Senelle.
