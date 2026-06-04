@@ -15,6 +15,7 @@ The software and online tools listed here are released openly. The reference dat
 | Tool | Description | Access | Status |
 |------|-------------|--------|--------|
 | MTBC gene annotation atlas | A successor to the discontinued Mycobrowser reference database, providing curated, AI-assisted functional annotations of MTBC genes, with a focus on requalifying the large stock of genes still labelled as hypothetical proteins. | [Live site](https://mtbc127bab2a-mtbc.functions.fnc.fr-par.scw.cloud) | Online, in development |
+| MTBC lineage atlas | A wiki-like dictionary of the taxonomic diversity of the complex, with one normalised fiche per lineage and sub-lineage (phylogeny, geography, dating, drug resistance, selection, codivergence, host and epidemiology), a clickable phylogenetic tree and a world map. A parallel publication channel for the dozens of sub-lineages characterised in this program. | [Live site](https://mtbc127bab2a-atlas-lineage.functions.fnc.fr-par.scw.cloud) | Online, in development |
 | MTBC drug-resistance tester | A companion tool that predicts anti-tuberculosis drug resistance from a strain's variants, using the WHO catalogue of mutations (2nd ed., 2023) consolidated with the tb-profiler database and CRyPTIC empirical signal. Variant matching is reconciled across representations (single-nucleotide, multi-nucleotide and indel) to avoid systematic under-calling. A research tool, not a clinical diagnostic. | [Live site](https://mtbc127bab2a-mtbc.functions.fnc.fr-par.scw.cloud/resistance) | Online, in development |
 
 ## Manuscripts
