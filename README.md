@@ -4,7 +4,7 @@ An open, AI-assisted research program on the *Mycobacterium tuberculosis* comple
 
 This page is a curated index. New items are added one at a time, as each reaches sufficient maturity.
 
-Last updated: 2026-06-03.
+Last updated: 2026-06-04.
 
 ## About this repository
 
@@ -15,6 +15,7 @@ The software and online tools listed here are released openly. The reference dat
 | Tool | Description | Access | Status |
 |------|-------------|--------|--------|
 | MTBC gene annotation atlas | A successor to the discontinued Mycobrowser reference database, providing curated, AI-assisted functional annotations of MTBC genes, with a focus on requalifying the large stock of genes still labelled as hypothetical proteins. | [Live site](https://mtbc127bab2a-mtbc.functions.fnc.fr-par.scw.cloud) | Online, in development |
+| MTBC drug-resistance tester | A companion tool that predicts anti-tuberculosis drug resistance from a strain's variants, using the WHO catalogue of mutations (2nd ed., 2023) consolidated with the tb-profiler database and CRyPTIC empirical signal. Variant matching is reconciled across representations (single-nucleotide, multi-nucleotide and indel) to avoid systematic under-calling. A research tool, not a clinical diagnostic. | [Live site](https://mtbc127bab2a-mtbc.functions.fnc.fr-par.scw.cloud/resistance) | Online, in development |
 
 ## Manuscripts
 
