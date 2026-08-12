@@ -4,7 +4,7 @@ An open, AI-assisted research program on the *Mycobacterium tuberculosis* comple
 
 This page is a curated index. New items are added one at a time, as each reaches sufficient maturity.
 
-Last updated: 2026-06-04.
+Last updated: 2026-08-12.
 
 ## About this repository
 
@@ -24,6 +24,7 @@ The software and online tools listed here are released openly. The reference dat
 |-------|-------------|--------|--------|
 | The re-humanisation of L6/L9/L10: opportunistic re-colonisation of *H. sapiens* by an animal-adapted lineage, without genomic reversion | The MTBC lineages L6, L9 and L10 branch within the animal-associated part of the complex yet are found almost exclusively in humans today. The manuscript argues that they re-colonised *Homo sapiens* opportunistically, without reversing the genomic signatures inherited from their animal-adapted ancestry. | [PDF](manuscripts/rehumanisation-L6L9L10.pdf) | Draft, pending peer review |
 | Characterisation of L4.13, a cryptic European sub-lineage of *Mycobacterium tuberculosis* with candidate positive selection on accessory ESX-2/4 type VII secretion modules | A phylogenomic characterisation of L4.13, a European L4 sub-lineage defined by Freschi et al. (2021) but absent from the Coll, Stucki and Napier barcoding schemes and undiscussed since. From 258 genomes it proposes validated SNP markers for its bipartite structure (L4.13.1 and L4.13.2), places its origin in Western Europe, and reports candidate positive selection on the accessory ESX-2/4 type VII secretion modules. | [PDF](manuscripts/L4.13-characterisation.pdf) | Draft, pending peer review |
+| Rv3222c, the unnamed gene between *sigH* and *rshA*, encodes an essential intrinsically disordered protein and is the last intact member of a degenerate gene family in *Mycobacterium tuberculosis* | Rv3222c surfaced from an atlas-wide vulnerability screen as an uncharacterised hypothetical protein physically inserted (4-bp overlaps on both flanks) between the *sigH*-*rshA* oxidative-stress operon. Systematic re-derivation of every inherited claim shows it is essential (Tn-seq, robust to mappability and polarity objections, with a phylogenetic pattern of unequal requirement across lineages), intrinsically disordered (44.8%), under strong purifying selection, has no detectable sequence or structural homolog, and is the last coding survivor of a small gene family degraded across the genus by an ancestral IS110-family insertion. An existing PROSPECT chemogenomic depletion strain makes it experimentally tractable despite the absence of a druggability claim. | [PDF](manuscripts/Rv3222c-characterisation.pdf) | Draft, pending peer review |
 
 ## Contributing
 
