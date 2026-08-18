@@ -1,0 +1,159 @@
+Query         I6XWB9_MYCTU/2-60
+Match_columns 63
+No_of_seqs    196 out of 1930
+Neff          4.7
+Searched_HMMs 13730
+Date          Mon Aug 10 14:15:01 2026
+Command       /home/christophe/docs/codes/mtbc/investigate_phylo/resources/hhsuite_bin/hhsearch -i /home/christophe/docs/codes/mtbc/Rv0810c/résultats/p3_1_hhsearch/duf3073_full.hhm -d /home/christophe/docs/codes/mtbc/investigate_phylo/resources/hhsuite/scop70_1.75 -o /home/christophe/docs/codes/mtbc/Rv0810c/résultats/p3_1_hhsearch/proteine_entiere__scop70.hhr -cpu 8 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 d2d0oa3 c.55.1.6 (A:404-606) D  23.5      12 0.00087   24.0   0.0   26    4-29    118-147 (203)
+  2 d1f60b_ d.58.12.1 (B:) Guanine  22.8      12 0.00091   20.6   0.0   22   15-36     10-31  (90)
+  3 d1xp8a2 d.48.1.1 (A:283-341) R  20.3      15  0.0011   18.9   0.0   10    1-10     30-39  (59)
+  4 d1gh8a_ d.58.12.1 (A:) aEF-1be  20.0      16  0.0011   20.0   0.0   22   16-37     10-31  (89)
+  5 d1gdta1 a.4.1.2 (A:141-183) ga  19.7      16  0.0012   18.0   0.0   11    9-19     21-31  (43)
+  6 d1nbwa3 c.55.1.6 (A:406-607) A  18.4      18  0.0013   23.1   0.0   25    4-28    118-146 (202)
+  7 d1b64a_ d.58.12.1 (A:) Guanine  18.1      18  0.0013   19.9   0.0   22   15-36     11-32  (91)
+  8 d1u94a2 d.48.1.1 (A:269-328) R  17.6      19  0.0014   18.5   0.0    9    1-9      31-39  (60)
+  9 d1jhga_ a.4.12.1 (A:) Trp repr  15.4      23  0.0017   20.0   0.0   16    7-22     73-88  (101)
+ 10 d2c3fa1 b.108.1.5 (A:7-336) Ph  14.9      25  0.0018   23.5   0.0   14   15-29     45-58  (330)
+
+No 1
+>d2d0oa3 c.55.1.6 (A:404-606) Diol dehydratase-reactivating factor large subunit DdrA {Klebsiella oxytoca [TaxId: 571]}
+Probab=23.48  E-value=12  Score=24.03  Aligned_cols=26  Identities=31%  Similarity=0.489  Sum_probs=20.2  Template_Neff=2.400
+
+Q I6XWB9_MYCTU/2    4 RAKAKQ----TKVARELKYSSPQTDFQRLQ   29 (59)
+Q Consensus         4 R~KAKq----tKvAR~LKY~Sp~TD~~aLe   29 (63)
+                      |+.||+    |-..|.||..+|.-|+..+.
+T Consensus       118 Rr~aK~kvfvtNa~RaL~~vsP~gnir~i~  147 (203)
+T d2d0oa3         118 RRSAKERVFVTNALRALRQVSPTGNIRDIP  147 (203)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHSSSSCGGGCC
+T ss_pred             HHHHhhhhhHHHHHHHHHhcCCCCCcCCCC
+Confidence            677887    45689999999988776554
+
+
+No 2
+>d1f60b_ d.58.12.1 (B:) Guanine nucleotide exchange factor (GEF) domain from elongation factor-1 beta {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=22.84  E-value=12  Score=20.58  Aligned_cols=22  Identities=9%  Similarity=0.217  Sum_probs=17.7  Template_Neff=5.300
+
+Q I6XWB9_MYCTU/2   15 ELKYSSPQTDFQRLQRELSGTG   36 (59)
+Q Consensus        15 ~LKY~Sp~TD~~aLeREL~~~~   36 (63)
+                      +.|=.+++||+++|+.++.+-.
+T Consensus        10 ~VkP~d~e~Dl~~l~~~ik~i~   31 (90)
+T d1f60b_          10 DVKPWDDETNLEEMVANVKAIE   31 (90)
+T ss_dssp             EEEESSTTSCHHHHHHHHHTCC
+T ss_pred             EEeeCCCCCCHHHHHHHHHHhC
+Confidence            4566789999999999997543
+
+
+No 3
+>d1xp8a2 d.48.1.1 (A:283-341) RecA protein, C-terminal domain {Deinococcus radiodurans [TaxId: 1299]}
+Probab=20.27  E-value=15  Score=18.91  Aligned_cols=10  Identities=30%  Similarity=0.567  Sum_probs=7.5  Template_Neff=4.600
+
+Q I6XWB9_MYCTU/2    1 GRGRAKAKQT   10 (59)
+Q Consensus         1 GRGR~KAKqt   10 (63)
+                      |.||-+||+.
+T Consensus        30 GQGre~a~~~   39 (59)
+T d1xp8a2          30 GQGKEKTIAY   39 (59)
+T ss_dssp             EESHHHHHHH
+T ss_pred             hhhHHHHHHH
+Confidence            6788888763
+
+
+No 4
+>d1gh8a_ d.58.12.1 (A:) aEF-1beta {Archaeon Methanobacterium thermoautotrophicum [TaxId: 145262]}
+Probab=19.97  E-value=16  Score=20.02  Aligned_cols=22  Identities=23%  Similarity=0.386  Sum_probs=17.2  Template_Neff=5.500
+
+Q I6XWB9_MYCTU/2   16 LKYSSPQTDFQRLQRELSGTGT   37 (59)
+Q Consensus        16 LKY~Sp~TD~~aLeREL~~~~~   37 (63)
+                      .|=.+|+||++.|+.++.+...
+T Consensus        10 V~P~~~e~dl~~l~~~ik~~~~   31 (89)
+T d1gh8a_          10 VMPESPDVDLEALKKEIQERIP   31 (89)
+T ss_dssp             EEESSSCCCHHHHHHHHHHHSC
+T ss_pred             ECCCCCCCCHHHHHHHHHhhcc
+Confidence            3456899999999999976543
+
+
+No 5
+>d1gdta1 a.4.1.2 (A:141-183) gamma,delta resolvase (C-terminal domain) {Escherichia coli [TaxId: 562]}
+Probab=19.71  E-value=16  Score=18.00  Aligned_cols=11  Identities=0%  Similarity=0.386  Sum_probs=7.8  Template_Neff=3.400
+
+Q I6XWB9_MYCTU/2    9 QTKVARELKYS   19 (59)
+Q Consensus         9 qtKvAR~LKY~   19 (63)
+                      -|+|||+|.-.
+T Consensus        21 at~IAk~lgI~   31 (43)
+T d1gdta1          21 ASHISKTMNIA   31 (43)
+T ss_dssp             HHHHHHHHTCC
+T ss_pred             HHHHHHHHCCC
+Confidence            47788888654
+
+
+No 6
+>d1nbwa3 c.55.1.6 (A:406-607) ATPase domain of the glycerol dehydratase reactivase alpha subunit {Klebsiella pneumoniae [TaxId: 573]}
+Probab=18.36  E-value=18  Score=23.14  Aligned_cols=25  Identities=32%  Similarity=0.493  Sum_probs=18.8  Template_Neff=2.500
+
+Q I6XWB9_MYCTU/2    4 RAKAKQ----TKVARELKYSSPQTDFQRL   28 (59)
+Q Consensus         4 R~KAKq----tKvAR~LKY~Sp~TD~~aL   28 (63)
+                      |+.||+    |-..|.||..+|.-|+..+
+T Consensus       118 R~~aK~~vfvtNa~RaL~~vsp~gnir~i  146 (202)
+T d1nbwa3         118 RRQAKEKVFVTNCLRALRQVSPGGSIRDI  146 (202)
+T ss_dssp             HHHHHHHHHHHHHHHHHSSSSTTCCSTTC
+T ss_pred             HHHHhhHhHHHHHHHHHhhcCCCCCcCCC
+Confidence            667776    4567999999998875544
+
+
+No 7
+>d1b64a_ d.58.12.1 (A:) Guanine nucleotide exchange factor (GEF) domain from elongation factor-1 beta {Human (Homo sapiens) [TaxId: 9606]}
+Probab=18.14  E-value=18  Score=19.88  Aligned_cols=22  Identities=18%  Similarity=0.268  Sum_probs=17.7  Template_Neff=5.300
+
+Q I6XWB9_MYCTU/2   15 ELKYSSPQTDFQRLQRELSGTG   36 (59)
+Q Consensus        15 ~LKY~Sp~TD~~aLeREL~~~~   36 (63)
+                      +.|=.+++||++.|+..+.+-.
+T Consensus        11 ~VkP~d~e~Dl~~l~~~vk~i~   32 (91)
+T d1b64a_          11 DVKPWDDETDMAKLEECVRSIQ   32 (91)
+T ss_dssp             EEEESSTTSCHHHHHHHHHHCC
+T ss_pred             EEeeCCCCCCHHHHHHHHHHhc
+Confidence            4566789999999999987643
+
+
+No 8
+>d1u94a2 d.48.1.1 (A:269-328) RecA protein, C-terminal domain {Escherichia coli [TaxId: 562]}
+Probab=17.65  E-value=19  Score=18.53  Aligned_cols=9  Identities=44%  Similarity=0.848  Sum_probs=6.7  Template_Neff=4.700
+
+Q I6XWB9_MYCTU/2    1 GRGRAKAKQ    9 (59)
+Q Consensus         1 GRGR~KAKq    9 (63)
+                      |.||.+||+
+T Consensus        31 GQGre~~~~   39 (60)
+T d1u94a2          31 GQGKANATA   39 (60)
+T ss_dssp             ESSHHHHHH
+T ss_pred             cchHHHHHH
+Confidence            678888865
+
+
+No 9
+>d1jhga_ a.4.12.1 (A:) Trp repressor, TrpR {Escherichia coli [TaxId: 562]}
+Probab=15.37  E-value=23  Score=20.03  Aligned_cols=16  Identities=25%  Similarity=0.221  Sum_probs=12.6  Template_Neff=4.400
+
+Q I6XWB9_MYCTU/2    7 AKQTKVARELKYSSPQ   22 (59)
+Q Consensus         7 AKqtKvAR~LKY~Sp~   22 (63)
+                      |.=|+|+|.|||-++.
+T Consensus        73 aTItR~s~~Lk~~~~~   88 (101)
+T d1jhga_          73 ATITRGSNSLKAAPVE   88 (101)
+T ss_dssp             HHHHHHHHHHHHSCHH
+T ss_pred             HHHHHHHHHHHhCChH
+Confidence            4557889999998776
+
+
+No 10
+>d2c3fa1 b.108.1.5 (A:7-336) Phage-associated hyaluronidase, HylP1 {Streptococcus pyogenes [TaxId: 1314]}
+Probab=14.88  E-value=25  Score=23.53  Aligned_cols=14  Identities=43%  Similarity=0.771  Sum_probs=0.0  Template_Neff=1.400
+
+Q I6XWB9_MYCTU/2   15 ELKYSSPQTDFQRLQ   29 (59)
+Q Consensus        15 ~LKY~Sp~TD~~aLe   29 (63)
+                      .|||-+| |||.+||
+T Consensus        45 ~l~yl~~-tdy~qlq   58 (330)
+T d2c3fa1          45 DLGYISP-LDYNLLT   58 (330)
+T ss_dssp             GSCBSSC-CCGGGCS
+T ss_pred             hcccCCc-ccHHHhc
+
+

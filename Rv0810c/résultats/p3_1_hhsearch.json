@@ -1,0 +1,528 @@
+{
+  "piste": "P3.1",
+  "profil_requete": {
+    "source": "alignement Pfam full PF11273 (release courante InterPro)",
+    "n_sequences": 1930,
+    "requete_en_tete": "I6XWB9_MYCTU/2-60",
+    "sequence_requete_a3m": "GRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPS-DDDSW-NDEDDW----rr"
+  },
+  "garde_fou_lecture": "Prob > 95 % = hit confiant ; 50-95 % = a signaler ; sous 50 %, la CONVERGENCE de plusieurs hits vers un meme repli compte autant qu'un hit isole. Ne jamais lire le rang 1 sans sa Prob et son E-value.",
+  "recherches": {
+    "proteine_entiere__pfam": [
+      {
+        "rang": 1,
+        "hit": "PF11273.11 ; DUF3073 ; Protein",
+        "Prob": 99.9,
+        "E_value": 1.9e-29,
+        "P_value": 9.8e-34,
+        "Score": 145.6,
+        "SS": 0.0,
+        "Cols": 57,
+        "Query_HMM": "1-63",
+        "Template_HMM": "1-58"
+      },
+      {
+        "rang": 2,
+        "hit": "PF12040.11 ; DUF3526 ; Domain",
+        "Prob": 42.1,
+        "E_value": 5.2,
+        "P_value": 0.00026,
+        "Score": 22.6,
+        "SS": 0.0,
+        "Cols": 36,
+        "Query_HMM": "4-39",
+        "Template_HMM": "68-103"
+      },
+      {
+        "rang": 3,
+        "hit": "PF05895.15 ; DUF859 ; Siphovir",
+        "Prob": 26.2,
+        "E_value": 14.0,
+        "P_value": 0.00071,
+        "Score": 26.6,
+        "SS": 0.0,
+        "Cols": 26,
+        "Query_HMM": "2-27",
+        "Template_HMM": "321-346"
+      },
+      {
+        "rang": 4,
+        "hit": "PF06894.14 ; Phage_TAC_2 ; Bac",
+        "Prob": 21.2,
+        "E_value": 20.0,
+        "P_value": 0.001,
+        "Score": 21.1,
+        "SS": 0.0,
+        "Cols": 26,
+        "Query_HMM": "11-36",
+        "Template_HMM": "66-91"
+      },
+      {
+        "rang": 5,
+        "hit": "PF18742.4 ; DpnII-MboI ; REase",
+        "Prob": 15.5,
+        "E_value": 33.0,
+        "P_value": 0.0017,
+        "Score": 20.1,
+        "SS": 0.0,
+        "Cols": 26,
+        "Query_HMM": "9-34",
+        "Template_HMM": "72-97"
+      },
+      {
+        "rang": 6,
+        "hit": "PF04502.16 ; Saf4_Yju2 ; Saf4/",
+        "Prob": 13.7,
+        "E_value": 40.0,
+        "P_value": 0.002,
+        "Score": 22.1,
+        "SS": 0.0,
+        "Cols": 8,
+        "Query_HMM": "18-25",
+        "Template_HMM": "2-9"
+      },
+      {
+        "rang": 7,
+        "hit": "PF18383.4 ; IFT81_CH ; Intrafl",
+        "Prob": 13.6,
+        "E_value": 40.0,
+        "P_value": 0.0021,
+        "Score": 19.7,
+        "SS": 0.0,
+        "Cols": 25,
+        "Query_HMM": "12-36",
+        "Template_HMM": "66-92"
+      },
+      {
+        "rang": 8,
+        "hit": "PF10893.11 ; Phage_186_Fil ; B",
+        "Prob": 11.4,
+        "E_value": 52.0,
+        "P_value": 0.0026,
+        "Score": 17.6,
+        "SS": 0.0,
+        "Cols": 15,
+        "Query_HMM": "12-26",
+        "Template_HMM": "4-18"
+      },
+      {
+        "rang": 9,
+        "hit": "PF18055.4 ; RPN6_N ; 26S prote",
+        "Prob": 11.1,
+        "E_value": 54.0,
+        "P_value": 0.0027,
+        "Score": 18.2,
+        "SS": 0.0,
+        "Cols": 12,
+        "Query_HMM": "5-16",
+        "Template_HMM": "69-80"
+      },
+      {
+        "rang": 10,
+        "hit": "PF01616.19 ; Orbi_NS3 ; Orbivi",
+        "Prob": 10.3,
+        "E_value": 60.0,
+        "P_value": 0.003,
+        "Score": 20.8,
+        "SS": 0.0,
+        "Cols": 21,
+        "Query_HMM": "14-34",
+        "Template_HMM": "58-78"
+      }
+    ],
+    "proteine_entiere__scop70": [
+      {
+        "rang": 1,
+        "hit": "d2d0oa3 c.55.1.6 (A:404-606) D",
+        "Prob": 23.5,
+        "E_value": 12.0,
+        "P_value": 0.00087,
+        "Score": 24.0,
+        "SS": 0.0,
+        "Cols": 26,
+        "Query_HMM": "4-29",
+        "Template_HMM": "118-147"
+      },
+      {
+        "rang": 2,
+        "hit": "d1f60b_ d.58.12.1 (B:) Guanine",
+        "Prob": 22.8,
+        "E_value": 12.0,
+        "P_value": 0.00091,
+        "Score": 20.6,
+        "SS": 0.0,
+        "Cols": 22,
+        "Query_HMM": "15-36",
+        "Template_HMM": "10-31"
+      },
+      {
+        "rang": 3,
+        "hit": "d1xp8a2 d.48.1.1 (A:283-341) R",
+        "Prob": 20.3,
+        "E_value": 15.0,
+        "P_value": 0.0011,
+        "Score": 18.9,
+        "SS": 0.0,
+        "Cols": 10,
+        "Query_HMM": "1-10",
+        "Template_HMM": "30-39"
+      },
+      {
+        "rang": 4,
+        "hit": "d1gh8a_ d.58.12.1 (A:) aEF-1be",
+        "Prob": 20.0,
+        "E_value": 16.0,
+        "P_value": 0.0011,
+        "Score": 20.0,
+        "SS": 0.0,
+        "Cols": 22,
+        "Query_HMM": "16-37",
+        "Template_HMM": "10-31"
+      },
+      {
+        "rang": 5,
+        "hit": "d1gdta1 a.4.1.2 (A:141-183) ga",
+        "Prob": 19.7,
+        "E_value": 16.0,
+        "P_value": 0.0012,
+        "Score": 18.0,
+        "SS": 0.0,
+        "Cols": 11,
+        "Query_HMM": "9-19",
+        "Template_HMM": "21-31"
+      },
+      {
+        "rang": 6,
+        "hit": "d1nbwa3 c.55.1.6 (A:406-607) A",
+        "Prob": 18.4,
+        "E_value": 18.0,
+        "P_value": 0.0013,
+        "Score": 23.1,
+        "SS": 0.0,
+        "Cols": 25,
+        "Query_HMM": "4-28",
+        "Template_HMM": "118-146"
+      },
+      {
+        "rang": 7,
+        "hit": "d1b64a_ d.58.12.1 (A:) Guanine",
+        "Prob": 18.1,
+        "E_value": 18.0,
+        "P_value": 0.0013,
+        "Score": 19.9,
+        "SS": 0.0,
+        "Cols": 22,
+        "Query_HMM": "15-36",
+        "Template_HMM": "11-32"
+      },
+      {
+        "rang": 8,
+        "hit": "d1u94a2 d.48.1.1 (A:269-328) R",
+        "Prob": 17.6,
+        "E_value": 19.0,
+        "P_value": 0.0014,
+        "Score": 18.5,
+        "SS": 0.0,
+        "Cols": 9,
+        "Query_HMM": "1-9",
+        "Template_HMM": "31-39"
+      },
+      {
+        "rang": 9,
+        "hit": "d1jhga_ a.4.12.1 (A:) Trp repr",
+        "Prob": 15.4,
+        "E_value": 23.0,
+        "P_value": 0.0017,
+        "Score": 20.0,
+        "SS": 0.0,
+        "Cols": 16,
+        "Query_HMM": "7-22",
+        "Template_HMM": "73-88"
+      },
+      {
+        "rang": 10,
+        "hit": "d2c3fa1 b.108.1.5 (A:7-336) Ph",
+        "Prob": 14.9,
+        "E_value": 25.0,
+        "P_value": 0.0018,
+        "Score": 23.5,
+        "SS": 0.0,
+        "Cols": 14,
+        "Query_HMM": "15-29",
+        "Template_HMM": "45-58"
+      }
+    ],
+    "module_2_33__pfam": [
+      {
+        "rang": 1,
+        "hit": "PF11273.11 ; DUF3073 ; Protein",
+        "Prob": 99.8,
+        "E_value": 3.8e-23,
+        "P_value": 2e-27,
+        "Score": 110.9,
+        "SS": 0.0,
+        "Cols": 32,
+        "Query_HMM": "1-32",
+        "Template_HMM": "1-32"
+      },
+      {
+        "rang": 2,
+        "hit": "PF06894.14 ; Phage_TAC_2 ; Bac",
+        "Prob": 40.5,
+        "E_value": 5.7,
+        "P_value": 0.00029,
+        "Score": 21.1,
+        "SS": 0.0,
+        "Cols": 22,
+        "Query_HMM": "11-32",
+        "Template_HMM": "66-87"
+      },
+      {
+        "rang": 3,
+        "hit": "PF05895.15 ; DUF859 ; Siphovir",
+        "Prob": 21.3,
+        "E_value": 20.0,
+        "P_value": 0.001,
+        "Score": 22.7,
+        "SS": 0.0,
+        "Cols": 26,
+        "Query_HMM": "2-27",
+        "Template_HMM": "321-346"
+      },
+      {
+        "rang": 4,
+        "hit": "PF04502.16 ; Saf4_Yju2 ; Saf4/",
+        "Prob": 18.0,
+        "E_value": 26.0,
+        "P_value": 0.0013,
+        "Score": 20.3,
+        "SS": 0.0,
+        "Cols": 12,
+        "Query_HMM": "17-28",
+        "Template_HMM": "1-12"
+      },
+      {
+        "rang": 5,
+        "hit": "PF18742.4 ; DpnII-MboI ; REase",
+        "Prob": 17.4,
+        "E_value": 28.0,
+        "P_value": 0.0014,
+        "Score": 18.1,
+        "SS": 0.0,
+        "Cols": 22,
+        "Query_HMM": "10-31",
+        "Template_HMM": "73-94"
+      },
+      {
+        "rang": 6,
+        "hit": "PF09894.12 ; DUF2121 ; Unchara",
+        "Prob": 17.1,
+        "E_value": 29.0,
+        "P_value": 0.0015,
+        "Score": 20.5,
+        "SS": 0.0,
+        "Cols": 19,
+        "Query_HMM": "14-32",
+        "Template_HMM": "20-38"
+      },
+      {
+        "rang": 7,
+        "hit": "PF12086.11 ; DUF3563 ; Protein",
+        "Prob": 16.1,
+        "E_value": 31.0,
+        "P_value": 0.0016,
+        "Score": 16.3,
+        "SS": 0.0,
+        "Cols": 20,
+        "Query_HMM": "11-30",
+        "Template_HMM": "19-38"
+      },
+      {
+        "rang": 8,
+        "hit": "PF10845.11 ; DUF2576 ; Protein",
+        "Prob": 15.6,
+        "E_value": 33.0,
+        "P_value": 0.0017,
+        "Score": 16.8,
+        "SS": 0.0,
+        "Cols": 11,
+        "Query_HMM": "22-32",
+        "Template_HMM": "10-20"
+      },
+      {
+        "rang": 9,
+        "hit": "PF02183.21 ; HALZ ; Homeobox a",
+        "Prob": 15.6,
+        "E_value": 33.0,
+        "P_value": 0.0017,
+        "Score": 14.0,
+        "SS": 0.0,
+        "Cols": 14,
+        "Query_HMM": "18-31",
+        "Template_HMM": "14-27"
+      },
+      {
+        "rang": 10,
+        "hit": "PF18383.4 ; IFT81_CH ; Intrafl",
+        "Prob": 14.5,
+        "E_value": 37.0,
+        "P_value": 0.0019,
+        "Score": 17.8,
+        "SS": 0.0,
+        "Cols": 20,
+        "Query_HMM": "12-31",
+        "Template_HMM": "66-87"
+      }
+    ],
+    "module_2_33__scop70": [
+      {
+        "rang": 1,
+        "hit": "d1gh8a_ d.58.12.1 (A:) aEF-1be",
+        "Prob": 25.4,
+        "E_value": 10.0,
+        "P_value": 0.00075,
+        "Score": 18.8,
+        "SS": 0.0,
+        "Cols": 17,
+        "Query_HMM": "16-32",
+        "Template_HMM": "10-26"
+      },
+      {
+        "rang": 2,
+        "hit": "d1f60b_ d.58.12.1 (B:) Guanine",
+        "Prob": 25.3,
+        "E_value": 10.0,
+        "P_value": 0.00076,
+        "Score": 18.9,
+        "SS": 0.0,
+        "Cols": 18,
+        "Query_HMM": "15-32",
+        "Template_HMM": "10-27"
+      },
+      {
+        "rang": 3,
+        "hit": "d1rp3a3 a.177.1.1 (A:0-86) Sig",
+        "Prob": 24.9,
+        "E_value": 11.0,
+        "P_value": 0.00078,
+        "Score": 18.1,
+        "SS": 0.0,
+        "Cols": 21,
+        "Query_HMM": "11-31",
+        "Template_HMM": "25-46"
+      },
+      {
+        "rang": 4,
+        "hit": "d1b64a_ d.58.12.1 (A:) Guanine",
+        "Prob": 21.0,
+        "E_value": 14.0,
+        "P_value": 0.001,
+        "Score": 18.4,
+        "SS": 0.0,
+        "Cols": 17,
+        "Query_HMM": "15-31",
+        "Template_HMM": "11-27"
+      },
+      {
+        "rang": 5,
+        "hit": "d1xp8a2 d.48.1.1 (A:283-341) R",
+        "Prob": 19.7,
+        "E_value": 16.0,
+        "P_value": 0.0012,
+        "Score": 17.2,
+        "SS": 0.0,
+        "Cols": 9,
+        "Query_HMM": "1-9",
+        "Template_HMM": "30-38"
+      },
+      {
+        "rang": 6,
+        "hit": "d1jhga_ a.4.12.1 (A:) Trp repr",
+        "Prob": 18.4,
+        "E_value": 18.0,
+        "P_value": 0.0013,
+        "Score": 18.7,
+        "SS": 0.0,
+        "Cols": 17,
+        "Query_HMM": "6-22",
+        "Template_HMM": "72-88"
+      },
+      {
+        "rang": 7,
+        "hit": "d1u94a2 d.48.1.1 (A:269-328) R",
+        "Prob": 17.3,
+        "E_value": 20.0,
+        "P_value": 0.0014,
+        "Score": 16.9,
+        "SS": 0.0,
+        "Cols": 9,
+        "Query_HMM": "1-9",
+        "Template_HMM": "31-39"
+      },
+      {
+        "rang": 8,
+        "hit": "d1hnra_ a.155.1.1 (A:) H1 prot",
+        "Prob": 16.2,
+        "E_value": 22.0,
+        "P_value": 0.0016,
+        "Score": 16.3,
+        "SS": 0.0,
+        "Cols": 6,
+        "Query_HMM": "1-6",
+        "Template_HMM": "21-26"
+      },
+      {
+        "rang": 9,
+        "hit": "d1fada_ a.77.1.2 (A:) FADD (Mo",
+        "Prob": 12.6,
+        "E_value": 31.0,
+        "P_value": 0.0023,
+        "Score": 15.9,
+        "SS": 0.0,
+        "Cols": 15,
+        "Query_HMM": "10-24",
+        "Template_HMM": "25-39"
+      },
+      {
+        "rang": 10,
+        "hit": "d1hlva1 a.4.1.7 (A:1-66) DNA-b",
+        "Prob": 12.1,
+        "E_value": 33.0,
+        "P_value": 0.0024,
+        "Score": 16.3,
+        "SS": 0.0,
+        "Cols": 13,
+        "Query_HMM": "6-18",
+        "Template_HMM": "25-37"
+      }
+    ]
+  },
+  "profil_module": {
+    "residus_proteine": [
+      2,
+      33
+    ],
+    "colonnes_match_alignement": [
+      1,
+      32
+    ],
+    "n_sequences": 1930,
+    "sequence_module_requete": "GRGRAKAKQTKVARELKYSSPQTDFQRLQREL"
+  },
+  "controle_positif": {
+    "attendu": "la recherche Pfam doit retrouver DUF3073 (PF11273) a Prob ~100 %",
+    "auto_hit_trouve": {
+      "rang": 1,
+      "hit": "PF11273.11 ; DUF3073 ; Protein",
+      "Prob": 99.9,
+      "E_value": 1.9e-29,
+      "P_value": 9.8e-34,
+      "Score": 145.6,
+      "SS": 0.0,
+      "Cols": 57,
+      "Query_HMM": "1-63",
+      "Template_HMM": "1-58"
+    },
+    "instrument_valide": true
+  }
+}

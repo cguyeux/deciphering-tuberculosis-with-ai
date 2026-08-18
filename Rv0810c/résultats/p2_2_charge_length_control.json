@@ -1,0 +1,336 @@
+{
+  "piste": "P2.2",
+  "question": "La bipolarite de charge de Rv0810c est-elle l'attendu pour une proteine de 60 aa du proteome H37Rv, ou un ecart mesurable ?",
+  "proteome": "/home/christophe/docs/codes/mtbc/annotation_mtbc/résultats/phase2d_eggnog/proteome.faa",
+  "n_proteines_proteome": 3906,
+  "validation_instrument": {
+    "sv1_kappa": 0.00087,
+    "sv1_expected": "~0.000 (charges parfaitement alternees)",
+    "sv30_kappa": 1.0,
+    "sv30_expected": "1.000 (charges completement segregees)",
+    "instrument_valide": true
+  },
+  "garde_fou_longueur_charge": {
+    "commentaire": "Verification que le garde-fou invoque est reel dans CE proteome : les proteines courtes sont-elles effectivement plus chargees ?",
+    "tendance": [
+      {
+        "classe_longueur_aa": "0-75",
+        "n": 118,
+        "FCR_median": 0.2601
+      },
+      {
+        "classe_longueur_aa": "75-150",
+        "n": 696,
+        "FCR_median": 0.2238
+      },
+      {
+        "classe_longueur_aa": "150-300",
+        "n": 1269,
+        "FCR_median": 0.2163
+      },
+      {
+        "classe_longueur_aa": "300-600",
+        "n": 1487,
+        "FCR_median": 0.206
+      },
+      {
+        "classe_longueur_aa": "600-inf",
+        "n": 336,
+        "FCR_median": 0.2119
+      }
+    ]
+  },
+  "temoin_strict_50_70aa": {
+    "n_temoins": 75,
+    "fenetre_longueur_aa": [
+      50,
+      70
+    ],
+    "stat1_segments_fixes": {
+      "commentaire": "Frontieres 1-19 / 27 derniers residus, issues du profil pLDDT de Rv0810c. Fair mais choisi a posteriori : lire avec stat2.",
+      "charge_nette_module_1_19": {
+        "valeur": 6.0,
+        "n_temoins": 75,
+        "n_aussi_extremes": 4,
+        "p_empirique": 0.0533,
+        "percentile": 94.7,
+        "mediane_temoins": 0.0,
+        "q05_temoins": -4.0,
+        "q95_temoins": 5.3
+      },
+      "charge_nette_queue_27C": {
+        "valeur": -7.0,
+        "n_temoins": 75,
+        "n_aussi_extremes": 4,
+        "p_empirique": 0.0533,
+        "percentile": 5.3,
+        "mediane_temoins": 1.0,
+        "q05_temoins": -6.3,
+        "q95_temoins": 5.0
+      },
+      "contraste_NCPR_module_moins_queue": {
+        "valeur": 0.575,
+        "n_temoins": 75,
+        "n_aussi_extremes": 1,
+        "p_empirique": 0.0133,
+        "percentile": 98.7,
+        "mediane_temoins": -0.0097,
+        "q05_temoins": -0.2737,
+        "q95_temoins": 0.2181
+      }
+    },
+    "stat2_frontiere_optimisee_par_proteine": {
+      "commentaire": "Chaque temoin recoit le meme privilege que Rv0810c : sa MEILLEURE coupure. Neutralise le biais de selection de la frontiere.",
+      "coupure_optimale_Rv0810c": 15,
+      "contraste_max": {
+        "valeur": 0.5556,
+        "n_temoins": 75,
+        "n_aussi_extremes": 1,
+        "p_empirique": 0.0133,
+        "percentile": 98.7,
+        "mediane_temoins": 0.1346,
+        "q05_temoins": -0.075,
+        "q95_temoins": 0.3672
+      }
+    },
+    "stat3_kappa_Das_Pappu": {
+      "commentaire": "Patterning de charge, sans frontiere a choisir. Test decisif.",
+      "kappa": {
+        "valeur": 0.3365,
+        "n_temoins": 72,
+        "n_aussi_extremes": 25,
+        "p_empirique": 0.3472,
+        "percentile": 65.3,
+        "mediane_temoins": 0.306,
+        "q05_temoins": 0.166,
+        "q95_temoins": 0.7761
+      }
+    },
+    "top10_temoins_par_kappa": [
+      {
+        "rv": "Rv0900",
+        "len": 50,
+        "kappa": 1.49,
+        "ncpr": -0.04,
+        "seq": "MDFVIQWSCYLLAFLGGSAVAWVVVTLSIKRASRDEGAAEAPSAAETGAQ"
+      },
+      {
+        "rv": "Rv3678A",
+        "len": 53,
+        "kappa": 1.1003,
+        "ncpr": -0.0189,
+        "seq": "MTQPTAWEYATVPLLTHATKQILDQWGADGWELVAVLPGPTGEQHVAYLKRPK"
+      },
+      {
+        "rv": "Rv3656c",
+        "len": 68,
+        "kappa": 0.954,
+        "ncpr": 0.0147,
+        "seq": "MLVITMFRVLVARMTALAVDESGMSTVEYAIGTIAAAAFGAILYTVVTGDSIVSALNRIIGRALSTKV"
+      },
+      {
+        "rv": "Rv2401A",
+        "len": 67,
+        "kappa": 0.7809,
+        "ncpr": 0.0299,
+        "seq": "MGPMNGFLSWWDGVELWLSGLPFALQALAVMPVVLALAYFTAALLDALLGRVIQLIRRARRPDQAPR"
+      },
+      {
+        "rv": "Rv2371",
+        "len": 61,
+        "kappa": 0.7722,
+        "ncpr": -0.0492,
+        "seq": "MSLVSVAPELVVTAVPDVARIGSSIGAPDTAAAARPTTSVLAAGADEVSADVVALFGWVAR"
+      },
+      {
+        "rv": "Rv0530A",
+        "len": 53,
+        "kappa": 0.698,
+        "ncpr": 0.0566,
+        "seq": "MLYLLLVLILATLIYLGWRAARAQMNRPKTRVIGPDDDPEFLRRLGHGDNNRS"
+      },
+      {
+        "rv": "Rv1799",
+        "len": 63,
+        "kappa": 0.6474,
+        "ncpr": 0.0635,
+        "seq": "MSVKSKNGRLAARVLVALAALFAMIALTGSACLAEGPPLGRNPQGAPAPVGGTVIVAPMHSGV"
+      },
+      {
+        "rv": "Rv2386a",
+        "len": 69,
+        "kappa": 0.6149,
+        "ncpr": -0.029,
+        "seq": "MFVIRLADGEEVHGECDELTINPATGVLTVCRVDGFEETTTHYSPSAWRSVTHRKRGVGVRPSLVSTAQ"
+      },
+      {
+        "rv": "Rv3613c",
+        "len": 53,
+        "kappa": 0.6052,
+        "ncpr": 0.0566,
+        "seq": "MCTMPKLWRAFMAGRPLGSTFTPRQPTGAAPNHVRALDDSIDPSSAPAARAAL"
+      },
+      {
+        "rv": "Rv3857c",
+        "len": 65,
+        "kappa": 0.6003,
+        "ncpr": 0.0308,
+        "seq": "MNCALGFDTKPILLASYVTHGARRATANQFERPAKGAGVLMALLILGEMAGFAVVVTGVVFGQLV"
+      }
+    ]
+  },
+  "temoin_large_45_75aa": {
+    "n_temoins": 117,
+    "fenetre_longueur_aa": [
+      45,
+      75
+    ],
+    "stat1_segments_fixes": {
+      "commentaire": "Frontieres 1-19 / 27 derniers residus, issues du profil pLDDT de Rv0810c. Fair mais choisi a posteriori : lire avec stat2.",
+      "charge_nette_module_1_19": {
+        "valeur": 6.0,
+        "n_temoins": 117,
+        "n_aussi_extremes": 5,
+        "p_empirique": 0.0427,
+        "percentile": 95.7,
+        "mediane_temoins": 0.0,
+        "q05_temoins": -4.0,
+        "q95_temoins": 5.0
+      },
+      "charge_nette_queue_27C": {
+        "valeur": -7.0,
+        "n_temoins": 117,
+        "n_aussi_extremes": 4,
+        "p_empirique": 0.0342,
+        "percentile": 3.4,
+        "mediane_temoins": 0.0,
+        "q05_temoins": -6.0,
+        "q95_temoins": 5.2
+      },
+      "contraste_NCPR_module_moins_queue": {
+        "valeur": 0.575,
+        "n_temoins": 117,
+        "n_aussi_extremes": 1,
+        "p_empirique": 0.0085,
+        "percentile": 99.1,
+        "mediane_temoins": 0.0058,
+        "q05_temoins": -0.2721,
+        "q95_temoins": 0.2242
+      }
+    },
+    "stat2_frontiere_optimisee_par_proteine": {
+      "commentaire": "Chaque temoin recoit le meme privilege que Rv0810c : sa MEILLEURE coupure. Neutralise le biais de selection de la frontiere.",
+      "coupure_optimale_Rv0810c": 15,
+      "contraste_max": {
+        "valeur": 0.5556,
+        "n_temoins": 117,
+        "n_aussi_extremes": 1,
+        "p_empirique": 0.0085,
+        "percentile": 99.1,
+        "mediane_temoins": 0.1614,
+        "q05_temoins": -0.0617,
+        "q95_temoins": 0.3693
+      }
+    },
+    "stat3_kappa_Das_Pappu": {
+      "commentaire": "Patterning de charge, sans frontiere a choisir. Test decisif.",
+      "kappa": {
+        "valeur": 0.3365,
+        "n_temoins": 113,
+        "n_aussi_extremes": 38,
+        "p_empirique": 0.3363,
+        "percentile": 66.4,
+        "mediane_temoins": 0.3002,
+        "q05_temoins": 0.1594,
+        "q95_temoins": 0.7757
+      }
+    },
+    "top10_temoins_par_kappa": [
+      {
+        "rv": "Rv2660c",
+        "len": 75,
+        "kappa": 1.6708,
+        "ncpr": -0.0267,
+        "seq": "MIAGVDQALAATGQASQRAAGASGGVTVGVGVGTEQRNLSVVAPSQFTFSSRSPDFVDETAGQSWCAILGLNQFH"
+      },
+      {
+        "rv": "Rv0900",
+        "len": 50,
+        "kappa": 1.49,
+        "ncpr": -0.04,
+        "seq": "MDFVIQWSCYLLAFLGGSAVAWVVVTLSIKRASRDEGAAEAPSAAETGAQ"
+      },
+      {
+        "rv": "Rv2452c",
+        "len": 48,
+        "kappa": 1.3945,
+        "ncpr": 0.0,
+        "seq": "MAFRDILVLFSMKTLLTLAMAAASSTALTTVGVSGARLITYCVGVEDI"
+      },
+      {
+        "rv": "Rv3678A",
+        "len": 53,
+        "kappa": 1.1003,
+        "ncpr": -0.0189,
+        "seq": "MTQPTAWEYATVPLLTHATKQILDQWGADGWELVAVLPGPTGEQHVAYLKRPK"
+      },
+      {
+        "rv": "Rv3656c",
+        "len": 68,
+        "kappa": 0.954,
+        "ncpr": 0.0147,
+        "seq": "MLVITMFRVLVARMTALAVDESGMSTVEYAIGTIAAAAFGAILYTVVTGDSIVSALNRIIGRALSTKV"
+      },
+      {
+        "rv": "Rv2401A",
+        "len": 67,
+        "kappa": 0.7809,
+        "ncpr": 0.0299,
+        "seq": "MGPMNGFLSWWDGVELWLSGLPFALQALAVMPVVLALAYFTAALLDALLGRVIQLIRRARRPDQAPR"
+      },
+      {
+        "rv": "Rv2371",
+        "len": 61,
+        "kappa": 0.7722,
+        "ncpr": -0.0492,
+        "seq": "MSLVSVAPELVVTAVPDVARIGSSIGAPDTAAAARPTTSVLAAGADEVSADVVALFGWVAR"
+      },
+      {
+        "rv": "Rv0530A",
+        "len": 53,
+        "kappa": 0.698,
+        "ncpr": 0.0566,
+        "seq": "MLYLLLVLILATLIYLGWRAARAQMNRPKTRVIGPDDDPEFLRRLGHGDNNRS"
+      },
+      {
+        "rv": "Rv0749A",
+        "len": 45,
+        "kappa": 0.6868,
+        "ncpr": 0.0667,
+        "seq": "MVRKHAFHWRYDSTEELELLNQLWQLVSLRLNFFTPTKKALGFRP"
+      },
+      {
+        "rv": "Rv1799",
+        "len": 63,
+        "kappa": 0.6474,
+        "ncpr": 0.0635,
+        "seq": "MSVKSKNGRLAARVLVALAALFAMIALTGSACLAEGPPLGRNPQGAPAPVGGTVIVAPMHSGV"
+      }
+    ]
+  },
+  "cible": {
+    "rv": "Rv0810c",
+    "len": 60,
+    "seq": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR",
+    "module_1_19": "MGRGRAKAKQTKVARELKY",
+    "queue_34_60": "SGTGTDRLDGDGPSDDDSWNDEDDWRR",
+    "charge_nette_totale": -1,
+    "charge_nette_module_1_19": 6,
+    "charge_nette_queue_34_60": -7,
+    "NCPR_module": 0.3158,
+    "NCPR_queue": -0.2593,
+    "FCR_total": 0.4167,
+    "kappa": 0.3365,
+    "coupure_optimale": 15
+  }
+}

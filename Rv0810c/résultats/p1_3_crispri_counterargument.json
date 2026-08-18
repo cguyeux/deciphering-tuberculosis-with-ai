@@ -1,0 +1,184 @@
+{
+  "piste": "P1.3",
+  "source": "/home/christophe/docs/codes/mtbc/annotation_mtbc/data/bosch2021/mmc3.xlsx",
+  "cible_Rv0810c_ligne_brute": {
+    "locus_tag": "RVBD0810c",
+    "name": "RVBD0810c",
+    "antibacterial": "None",
+    "tnseq_ess": "Essential",
+    "crispr_ess": "Essential",
+    "n_guides": 23,
+    "str_span": 0.698,
+    "gene_gamma": 1.544,
+    "l_gamma": 1.49,
+    "u_gamma": 1.595,
+    "K": -0.42,
+    "l_K": -0.6,
+    "u_K": -0.185,
+    "H": 9.721,
+    "l_H": 3.138,
+    "u_H": 18.68,
+    "beta_max": -0.586,
+    "l_beta": -0.687,
+    "u_beta": -0.481,
+    "beta_max_span": 0.206,
+    "M": 0.419,
+    "l_M": 0.101,
+    "u_M": 0.754,
+    "M_span": 0.653,
+    "certain": false,
+    "Vulnerability Index": -11.982,
+    "VI Lower Bound": -15.409,
+    "VI Upper Bound": -8.596
+  },
+  "1_flag_certain": {
+    "definition_Bosch": "certain = le gene remplit les criteres d'une estimation FIABLE de la vulnerabilite (legende de mmc3.xlsx).",
+    "Rv0810c_certain": false,
+    "n_genes": 4052,
+    "n_certain_True": 603,
+    "n_certain_False": 3449,
+    "VI_si_certain_True": {
+      "n": 603,
+      "mediane": -6.761,
+      "moyenne": -6.87,
+      "q05": -13.207,
+      "q95": -0.942
+    },
+    "VI_si_certain_False": {
+      "n": 3449,
+      "mediane": 0.69,
+      "moyenne": -0.006,
+      "q05": -4.328,
+      "q95": 1.452
+    }
+  },
+  "2_test_de_la_lecture_charitable": {
+    "hypothese": "Si le flag `certain=False` etait la consequence d'une vulnerabilite extreme (deplétion trop rapide), alors les genes a VI tres negatif seraient majoritairement non-certains.",
+    "table_certain_par_classe_de_VI": [
+      {
+        "classe_VI": "(-inf ; -15]",
+        "n": 21,
+        "n_certain_True": 11,
+        "pct_certain_True": 52.4
+      },
+      {
+        "classe_VI": "(-15 ; -10]",
+        "n": 182,
+        "n_certain_True": 102,
+        "pct_certain_True": 56.0
+      },
+      {
+        "classe_VI": "(-10 ; -5]",
+        "n": 371,
+        "n_certain_True": 300,
+        "pct_certain_True": 80.9
+      },
+      {
+        "classe_VI": "(-5 ; 0]",
+        "n": 741,
+        "n_certain_True": 190,
+        "pct_certain_True": 25.6
+      },
+      {
+        "classe_VI": "(0 ; +inf]",
+        "n": 2737,
+        "n_certain_True": 0,
+        "pct_certain_True": 0.0
+      }
+    ],
+    "VI_Rv0810c": -11.982,
+    "n_genes_VI_inferieur_ou_egal_a_Rv0810c": 102,
+    "parmi_eux_n_certain_True": 50
+  },
+  "3_qualite_de_l_ajustement": {
+    "reference": "parmi les genes appeles Essential par CRISPRi",
+    "str_span": {
+      "valeur_Rv0810c": 0.698,
+      "n_comparaison": 737,
+      "mediane": 0.914,
+      "percentile_de_Rv0810c": 24.7
+    },
+    "M_span": {
+      "valeur_Rv0810c": 0.653,
+      "n_comparaison": 737,
+      "mediane": 0.082,
+      "percentile_de_Rv0810c": 97.3
+    },
+    "beta_max_span": {
+      "valeur_Rv0810c": 0.206,
+      "n_comparaison": 737,
+      "mediane": 0.062,
+      "percentile_de_Rv0810c": 85.6
+    },
+    "largeur_IC_H": {
+      "valeur_Rv0810c": 15.542,
+      "n_comparaison": 737,
+      "mediane": 8.418,
+      "percentile_de_Rv0810c": 96.7
+    },
+    "largeur_IC_VI": {
+      "valeur_Rv0810c": 6.813,
+      "n_comparaison": 737,
+      "mediane": 1.954,
+      "percentile_de_Rv0810c": 81.3
+    },
+    "n_guides": {
+      "valeur_Rv0810c": 23.0,
+      "n_comparaison": 737,
+      "mediane": 74.0,
+      "percentile_de_Rv0810c": 27.7
+    }
+  },
+  "4_niveau_sgRNA_flatliners": {
+    "definition_Flat": "sgRNA classe 'flatliner' par la regression par morceaux de Bosch : aucune deplétion detectable. Mesure faite SANS antibiotique, ce qui repond directement a la question (1) de la piste.",
+    "Rv0810c": {
+      "n_sgRNA_dans_le_fit": 23,
+      "n_guides_declare_mmc3": 23,
+      "n_flatliners": 3,
+      "frac_flatliners": 0.13,
+      "Alpha_L_median": 0.023,
+      "Beta_E_median": -0.615
+    },
+    "fond_tous_genes": {
+      "n": 4052,
+      "mediane": 0.0,
+      "moyenne": 0.02,
+      "q05": 0.0,
+      "q95": 0.122
+    },
+    "fond_essentiels_CRISPRi": {
+      "n": 737,
+      "mediane": 0.059,
+      "moyenne": 0.078,
+      "q05": 0.0,
+      "q95": 0.228
+    },
+    "panel_apparie_VI_et_n_guides": {
+      "critere": "Essential, |VI - -11.98| <= 3, |n_guides - 23| <= 8",
+      "n": 32,
+      "frac_flatliners": {
+        "n": 32,
+        "mediane": 0.12,
+        "moyenne": 0.127,
+        "q05": 0.0,
+        "q95": 0.297
+      },
+      "percentile_de_Rv0810c": 62.5,
+      "dont_certain_True": 21,
+      "frac_flatliners_si_certain_True": {
+        "n": 21,
+        "mediane": 0.115,
+        "moyenne": 0.115,
+        "q05": 0.0,
+        "q95": 0.267
+      }
+    }
+  },
+  "5_reconciliation_comptage_guides": {
+    "RLC12_bibliotheque_P0.3": 23,
+    "mmc3_n_guides": 23,
+    "mmc2_sgRNA_effectivement_ajustes": 23,
+    "Choudhery2024_rapporte": 22,
+    "lecture": "Le comptage bibliotheque (23) et le comptage Bosch (mmc3) doivent coincider ; l'ecart avec Choudhery se joue au filtrage de son propre jeu (un sgRNA elimine pour comptages insuffisants dans l'experience RIF D10), pas sur la composition de la bibliotheque."
+  }
+}

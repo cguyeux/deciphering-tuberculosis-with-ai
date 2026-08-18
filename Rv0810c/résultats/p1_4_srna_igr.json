@@ -1,0 +1,891 @@
+{
+  "question": "L'IGR purM-Rv0810c exprime-t-il un sRNA ? (Zeng et al. 2018)",
+  "geometrie": {
+    "Rv0810c": {
+      "start": 904905,
+      "end": 905087,
+      "strand": "-"
+    },
+    "purM_Rv0809": {
+      "start": 903725,
+      "end": 904819,
+      "strand": "+"
+    },
+    "Rv0811c": {
+      "start": 905234,
+      "end": 906340,
+      "strand": "-"
+    },
+    "IGR_purM_Rv0810c": {
+      "pair": "purM-Rv0810c",
+      "start": 904820,
+      "end": 904904,
+      "length": 85,
+      "left": "Rv0809(+)",
+      "right": "Rv0810c(-)",
+      "orientation": "convergent"
+    },
+    "IGR_Rv0810c_Rv0811c": {
+      "pair": "Rv0810c-Rv0811c",
+      "start": 905088,
+      "end": 905233,
+      "length": 146,
+      "left": "Rv0810c(-)",
+      "right": "Rv0811c(-)",
+      "orientation": "tandem"
+    }
+  },
+  "refseq_ncrna": {
+    "n_total_genome": 20,
+    "dans_IGR_purM_Rv0810c": [],
+    "plus_proche": {
+      "start": 918264,
+      "end": 918458,
+      "strand": "+",
+      "name": "ASdes",
+      "product": "Putative small regulatory RNA",
+      "distance_nt": 13360
+    },
+    "liste": [
+      {
+        "start": 293604,
+        "end": 293705,
+        "strand": "+",
+        "name": "F6",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 704187,
+        "end": 704247,
+        "strand": "+",
+        "name": "B55",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 918264,
+        "end": 918458,
+        "strand": "+",
+        "name": "ASdes",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 1220388,
+        "end": 1220487,
+        "strand": "-",
+        "name": "MTS0858",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 1283693,
+        "end": 1283815,
+        "strand": "+",
+        "name": "mcr10",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 1413094,
+        "end": 1413224,
+        "strand": "-",
+        "name": "mcr11",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 1471619,
+        "end": 1471742,
+        "strand": "+",
+        "name": "mcr3",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 1535417,
+        "end": 1535716,
+        "strand": "-",
+        "name": "mcr15",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 1547129,
+        "end": 1547268,
+        "strand": "+",
+        "name": "MTS1082",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 1914962,
+        "end": 1915190,
+        "strand": "-",
+        "name": "G2",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 1952291,
+        "end": 1952503,
+        "strand": "-",
+        "name": "AS1726",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 1960667,
+        "end": 1960783,
+        "strand": "+",
+        "name": "MTS1338",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 2139419,
+        "end": 2139656,
+        "strand": "+",
+        "name": "AS1890",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 2299745,
+        "end": 2299886,
+        "strand": "+",
+        "name": "ASpks",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 2517032,
+        "end": 2517134,
+        "strand": "-",
+        "name": "mcr16",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 2692172,
+        "end": 2692521,
+        "strand": "+",
+        "name": "mcr7",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 4099386,
+        "end": 4099478,
+        "strand": "-",
+        "name": "B11",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 4100669,
+        "end": 4100968,
+        "strand": "+",
+        "name": "MTS2823",
+        "product": "Putative small regulatory RNA"
+      },
+      {
+        "start": 4168154,
+        "end": 4168281,
+        "strand": "-",
+        "name": "C8",
+        "product": "Possible 4.5S RNA in signal recognition particle (small cytoplasmic RNA) (SC-RNA)"
+      },
+      {
+        "start": 4317073,
+        "end": 4317165,
+        "strand": "+",
+        "name": "MTS2975",
+        "product": "Putative small regulatory RNA"
+      }
+    ]
+  },
+  "catalogues": {
+    "arnvig2009_molmicrobiol_PMID19555452": {
+      "n_fichiers": 1,
+      "fichiers_absents": [],
+      "n_lignes_scannees": 134,
+      "hits_par_coordonnee": [],
+      "hits_par_nom": []
+    },
+    "dichiara2010_nar_PMID20181675": {
+      "n_fichiers": 1,
+      "fichiers_absents": [],
+      "n_lignes_scannees": 223,
+      "hits_par_coordonnee": [],
+      "hits_par_nom": []
+    },
+    "arnvig2011_plospathog_PMID22072964": {
+      "n_fichiers": 6,
+      "fichiers_absents": [],
+      "n_lignes_scannees": 6292,
+      "hits_par_coordonnee": [
+        "ppat.1002342.s009.xlsx: IG624\t904818\t904902\t84\t442.8\t138.5",
+        "ppat.1002342.s009.xlsx: IG625\t905086\t905231\t145\t98\t14"
+      ],
+      "hits_par_nom": [
+        "ppat.1002342.s008.xlsx: Rv0809\t purM\t I.F.1\t1095\t847.6\t23.28\t432.6\t11.92\t39\t0.81029527656885\t115\t2.37576918352903",
+        "ppat.1002342.s008.xlsx: Rv0810c\t -\t V\t183\t348\t56.7\t115\t18.96\t132.5\t16.5089566448334\t22.5\t2.75841389319189"
+      ]
+    },
+    "miotto2012_plosone_PMID23284830": {
+      "n_fichiers": 6,
+      "fichiers_absents": [],
+      "n_lignes_scannees": 2047,
+      "hits_par_coordonnee": [
+        "pone.0051950.s007.xlsx: candidate_710\t905089\t905185\t+\tC\t96\t18.979381443299999\t4.7986842548000004\t0\t0\t3.4999999999999996E-2\t\t\tAS to 5'/3' UTRs\t\t3', Rv0811c; 5', Rv0810c\t2\t49",
+        "pone.0051950.s007.xlsx: candidate_1073\t904787\t904881\t-\tA\t94\t220.96842105260001\t9.0091105099999999E-2\t0\t1\t0.81199999999999994\t2.3883562996762599E-6\t2.7561631698264102E-3\tAS to 5'/3' UTRs\t3', Rv0810c\t3', Rv0809\t-32\t-1156",
+        "pone.0051950.s007.xlsx: candidate_1074\t905114\t905163\t-\tA\t49\t233.2\t4.6313196735000002\t1\t0\t0.43\t0\t0\tWithin 5'/3' UTRs\t3', Rv0811c; 5', Rv0810c\t\t27\t71"
+      ],
+      "hits_par_nom": [
+        "pone.0051950.s007.xlsx: candidate_710\t905089\t905185\t+\tC\t96\t18.979381443299999\t4.7986842548000004\t0\t0\t3.4999999999999996E-2\t\t\tAS to 5'/3' UTRs\t\t3', Rv0811c; 5', Rv0810c\t2\t49",
+        "pone.0051950.s007.xlsx: candidate_1072\t904079\t904157\t-\tA\t78\t158.417721519\t0\t0\t0\t0.54899999999999993\t0.89486047031001903\t1\tAS\t\tRv0809\t-740\t-432",
+        "pone.0051950.s007.xlsx: candidate_1073\t904787\t904881\t-\tA\t94\t220.96842105260001\t9.0091105099999999E-2\t0\t1\t0.81199999999999994\t2.3883562996762599E-6\t2.7561631698264102E-3\tAS to 5'/3' UTRs\t3', Rv0810c\t3', Rv0809\t-32\t-1156",
+        "pone.0051950.s007.xlsx: candidate_1074\t905114\t905163\t-\tA\t49\t233.2\t4.6313196735000002\t1\t0\t0.43\t0\t0\tWithin 5'/3' UTRs\t3', Rv0811c; 5', Rv0810c\t\t27\t71"
+      ]
+    },
+    "gerrick2018_pnas_PMID29871950": {
+      "n_fichiers": 5,
+      "fichiers_absents": [],
+      "n_lignes_scannees": 28240,
+      "hits_par_coordonnee": [],
+      "hits_par_nom": [
+        "pnas.1718003115.sd04.xlsx: Rv0809\t-2.6238000000000001E-2\t1.3598269999999999",
+        "pnas.1718003115.sd04.xlsx: Rv0810c\t-8.3696000000000007E-2\t16.256406999999999",
+        "pnas.1718003115.sd04.xlsx: Rv0809\t-1.3860000000000001E-3\t3.539355",
+        "pnas.1718003115.sd04.xlsx: Rv0810c\t-8.1504999999999994E-2\t1.316457",
+        "pnas.1718003115.sd04.xlsx: Rv0809\t0.25663900000000001\t0.78963899999999998",
+        "pnas.1718003115.sd04.xlsx: Rv0810c\t0.17402400000000001\t1.2232879999999999"
+      ]
+    },
+    "ami2020_bmcgenomics_PMID32070281": {
+      "n_fichiers": 4,
+      "fichiers_absents": [],
+      "n_lignes_scannees": 2862,
+      "hits_par_coordonnee": [
+        "12864_2020_6573_MOESM9_ESM.pdf: Rv0809    903725        904819             1625.373                   Rv0964c         1076196         1076678   30.605",
+        "12864_2020_6573_MOESM9_ESM.pdf: Rv0810c    904905        905087              361.859                   Rv0972c         1082584         1083750   35.635",
+        "12864_2020_6573_MOESM10_ESM.pdf: ncRv10810c    905113    905163           Intergenic and 5'UTR of Rv0810c          4"
+      ],
+      "hits_par_nom": [
+        "12864_2020_6573_MOESM9_ESM.pdf: Rv0809    903725        904819             1625.373                   Rv0964c         1076196         1076678   30.605",
+        "12864_2020_6573_MOESM9_ESM.pdf: Rv0810c    904905        905087              361.859                   Rv0972c         1082584         1083750   35.635",
+        "12864_2020_6573_MOESM10_ESM.pdf: ncRv10810c    905113    905163           Intergenic and 5'UTR of Rv0810c          4"
+      ]
+    }
+  },
+  "controle_positif": {
+    "igr_zeng_table_s11": {
+      "ctpE-Rv0909": {
+        "intervalle": [
+          1014125,
+          1014680
+        ],
+        "longueur_nt": 556,
+        "orientation": "tandem",
+        "hits_coord": 3,
+        "hits_nom": 7,
+        "catalogues_touches": [
+          "arnvig2011",
+          "miotto2012",
+          "gerrick2018",
+          "ami2020"
+        ],
+        "ncRNA_RefSeq_dans_IGR": []
+      },
+      "lipX-mshB": {
+        "intervalle": [
+          1300125,
+          1300303
+        ],
+        "longueur_nt": 179,
+        "orientation": "divergent",
+        "hits_coord": 5,
+        "hits_nom": 3,
+        "catalogues_touches": [
+          "arnvig2011",
+          "miotto2012",
+          "gerrick2018",
+          "ami2020"
+        ],
+        "ncRNA_RefSeq_dans_IGR": []
+      },
+      "nrdH-Rv3054c": {
+        "intervalle": [
+          3414959,
+          3415434
+        ],
+        "longueur_nt": 476,
+        "orientation": "tandem",
+        "hits_coord": 10,
+        "hits_nom": 7,
+        "catalogues_touches": [
+          "arnvig2011",
+          "miotto2012",
+          "gerrick2018",
+          "ami2020"
+        ],
+        "ncRNA_RefSeq_dans_IGR": []
+      },
+      "PE12-fbiC": {
+        "intervalle": [
+          1302682,
+          1302930
+        ],
+        "longueur_nt": 249,
+        "orientation": "divergent",
+        "hits_coord": 8,
+        "hits_nom": 3,
+        "catalogues_touches": [
+          "arnvig2011",
+          "miotto2012",
+          "ami2020"
+        ],
+        "ncRNA_RefSeq_dans_IGR": []
+      },
+      "rplM-esxT": {
+        "intervalle": [
+          3862391,
+          3862623
+        ],
+        "longueur_nt": 233,
+        "orientation": "tandem",
+        "hits_coord": 7,
+        "hits_nom": 3,
+        "catalogues_touches": [
+          "arnvig2011",
+          "miotto2012",
+          "ami2020"
+        ],
+        "ncRNA_RefSeq_dans_IGR": []
+      },
+      "Rv0922-Rv0923c": {
+        "intervalle": [
+          1029338,
+          1029512
+        ],
+        "longueur_nt": 175,
+        "orientation": "convergent",
+        "hits_coord": 4,
+        "hits_nom": 12,
+        "catalogues_touches": [
+          "arnvig2011",
+          "miotto2012",
+          "gerrick2018",
+          "ami2020"
+        ],
+        "ncRNA_RefSeq_dans_IGR": []
+      },
+      "Rv1045-Rv1047": {
+        "intervalle": [
+          1168555,
+          1169422
+        ],
+        "longueur_nt": 868,
+        "orientation": "tandem",
+        "hits_coord": 3,
+        "hits_nom": 9,
+        "catalogues_touches": [
+          "arnvig2011",
+          "miotto2012",
+          "gerrick2018",
+          "ami2020"
+        ],
+        "ncRNA_RefSeq_dans_IGR": []
+      },
+      "Rv1179c-pks3": {
+        "intervalle": [
+          1313300,
+          1313724
+        ],
+        "longueur_nt": 425,
+        "orientation": "divergent",
+        "hits_coord": 5,
+        "hits_nom": 6,
+        "catalogues_touches": [
+          "arnvig2011",
+          "miotto2012",
+          "gerrick2018",
+          "ami2020"
+        ],
+        "ncRNA_RefSeq_dans_IGR": []
+      },
+      "Rv3402c-Rv3403c": {
+        "intervalle": [
+          3821892,
+          3822261
+        ],
+        "longueur_nt": 370,
+        "orientation": "tandem",
+        "hits_coord": 6,
+        "hits_nom": 12,
+        "catalogues_touches": [
+          "arnvig2011",
+          "miotto2012",
+          "gerrick2018",
+          "ami2020"
+        ],
+        "ncRNA_RefSeq_dans_IGR": []
+      },
+      "serB1-mmpS2": {
+        "intervalle": [
+          596586,
+          596758
+        ],
+        "longueur_nt": 173,
+        "orientation": "divergent",
+        "hits_coord": 2,
+        "hits_nom": 2,
+        "catalogues_touches": [
+          "arnvig2011",
+          "miotto2012"
+        ],
+        "ncRNA_RefSeq_dans_IGR": []
+      }
+    },
+    "ncrna_refseq": {
+      "F6": {
+        "intervalle": [
+          293604,
+          293705
+        ],
+        "catalogues_touches": [
+          "arnvig2009(0c/10n)",
+          "arnvig2011(1c/0n)",
+          "miotto2012(4c/0n)",
+          "gerrick2018(3c/0n)",
+          "ami2020(4c/0n)"
+        ],
+        "n_catalogues": 5
+      },
+      "B55": {
+        "intervalle": [
+          704187,
+          704247
+        ],
+        "catalogues_touches": [
+          "arnvig2009(0c/6n)",
+          "miotto2012(2c/0n)",
+          "gerrick2018(1c/0n)",
+          "ami2020(2c/0n)"
+        ],
+        "n_catalogues": 4
+      },
+      "ASdes": {
+        "intervalle": [
+          918264,
+          918458
+        ],
+        "catalogues_touches": [
+          "arnvig2009(0c/4n)",
+          "miotto2012(1c/0n)"
+        ],
+        "n_catalogues": 2
+      },
+      "MTS0858": {
+        "intervalle": [
+          1220388,
+          1220487
+        ],
+        "catalogues_touches": [
+          "arnvig2011(1c/1n)",
+          "gerrick2018(1c/0n)",
+          "ami2020(2c/0n)"
+        ],
+        "n_catalogues": 3
+      },
+      "mcr10": {
+        "intervalle": [
+          1283693,
+          1283815
+        ],
+        "catalogues_touches": [],
+        "n_catalogues": 0
+      },
+      "mcr11": {
+        "intervalle": [
+          1413094,
+          1413224
+        ],
+        "catalogues_touches": [
+          "arnvig2011(1c/0n)",
+          "miotto2012(5c/0n)",
+          "gerrick2018(1c/0n)",
+          "ami2020(1c/0n)"
+        ],
+        "n_catalogues": 4
+      },
+      "mcr3": {
+        "intervalle": [
+          1471619,
+          1471742
+        ],
+        "catalogues_touches": [
+          "arnvig2011(1c/0n)",
+          "miotto2012(4c/0n)",
+          "gerrick2018(1c/0n)",
+          "ami2020(1c/0n)"
+        ],
+        "n_catalogues": 4
+      },
+      "mcr15": {
+        "intervalle": [
+          1535417,
+          1535716
+        ],
+        "catalogues_touches": [
+          "arnvig2011(1c/0n)",
+          "miotto2012(2c/0n)",
+          "ami2020(1c/0n)"
+        ],
+        "n_catalogues": 3
+      },
+      "MTS1082": {
+        "intervalle": [
+          1547129,
+          1547268
+        ],
+        "catalogues_touches": [
+          "arnvig2011(1c/1n)",
+          "ami2020(2c/0n)"
+        ],
+        "n_catalogues": 2
+      },
+      "G2": {
+        "intervalle": [
+          1914962,
+          1915190
+        ],
+        "catalogues_touches": [
+          "arnvig2009(0c/7n)",
+          "arnvig2011(1c/0n)",
+          "miotto2012(2c/0n)",
+          "gerrick2018(2c/0n)",
+          "ami2020(1c/0n)"
+        ],
+        "n_catalogues": 5
+      },
+      "AS1726": {
+        "intervalle": [
+          1952291,
+          1952503
+        ],
+        "catalogues_touches": [
+          "arnvig2009(0c/4n)"
+        ],
+        "n_catalogues": 1
+      },
+      "MTS1338": {
+        "intervalle": [
+          1960667,
+          1960783
+        ],
+        "catalogues_touches": [
+          "arnvig2011(1c/1n)",
+          "miotto2012(3c/0n)",
+          "gerrick2018(1c/0n)",
+          "ami2020(3c/0n)"
+        ],
+        "n_catalogues": 4
+      },
+      "AS1890": {
+        "intervalle": [
+          2139419,
+          2139656
+        ],
+        "catalogues_touches": [
+          "arnvig2009(0c/4n)",
+          "arnvig2011(1c/0n)",
+          "ami2020(2c/0n)"
+        ],
+        "n_catalogues": 3
+      },
+      "ASpks": {
+        "intervalle": [
+          2299745,
+          2299886
+        ],
+        "catalogues_touches": [
+          "arnvig2009(0c/4n)"
+        ],
+        "n_catalogues": 1
+      },
+      "mcr16": {
+        "intervalle": [
+          2517032,
+          2517134
+        ],
+        "catalogues_touches": [],
+        "n_catalogues": 0
+      },
+      "mcr7": {
+        "intervalle": [
+          2692172,
+          2692521
+        ],
+        "catalogues_touches": [
+          "arnvig2011(1c/0n)",
+          "miotto2012(2c/0n)",
+          "gerrick2018(1c/0n)",
+          "ami2020(7c/0n)"
+        ],
+        "n_catalogues": 4
+      },
+      "B11": {
+        "intervalle": [
+          4099386,
+          4099478
+        ],
+        "catalogues_touches": [
+          "arnvig2009(0c/9n)",
+          "arnvig2011(1c/0n)",
+          "miotto2012(2c/0n)",
+          "gerrick2018(2c/0n)",
+          "ami2020(3c/0n)"
+        ],
+        "n_catalogues": 5
+      },
+      "MTS2823": {
+        "intervalle": [
+          4100669,
+          4100968
+        ],
+        "catalogues_touches": [
+          "arnvig2011(1c/2n)",
+          "miotto2012(7c/0n)",
+          "gerrick2018(2c/0n)",
+          "ami2020(3c/0n)"
+        ],
+        "n_catalogues": 4
+      },
+      "C8": {
+        "intervalle": [
+          4168154,
+          4168281
+        ],
+        "catalogues_touches": [
+          "arnvig2009(0c/6n)",
+          "arnvig2011(1c/0n)",
+          "miotto2012(3c/0n)",
+          "gerrick2018(1c/0n)",
+          "ami2020(2c/0n)"
+        ],
+        "n_catalogues": 5
+      },
+      "MTS2975": {
+        "intervalle": [
+          4317073,
+          4317165
+        ],
+        "catalogues_touches": [
+          "arnvig2011(0c/1n)",
+          "ami2020(1c/0n)"
+        ],
+        "n_catalogues": 2
+      }
+    },
+    "resume": {
+      "ncRNA_RefSeq_retrouves": "18/20",
+      "IGR_S11_avec_hit": "10/10"
+    }
+  },
+  "miotto2012_structure": {
+    "n_candidats_total": 1948,
+    "hits_fenetre": [
+      {
+        "Candidate ID": "candidate_710",
+        "Start": "905089",
+        "End": "905185",
+        "Strand": "+",
+        "Type": "C",
+        "Length": "96",
+        "mean reads coverage": "18.979381443299999",
+        "mean conservation": "4.7986842548000004",
+        "-10 promoter consensus": "0",
+        "Terminator": "0",
+        "MFE p-val": "3.4999999999999996E-2",
+        "Array p-val": "",
+        "p-adj": "",
+        "Relative position to CDSs": "AS to 5'/3' UTRs",
+        "Within": "",
+        "Antisense to": "3', Rv0811c; 5', Rv0810c",
+        "DistClosestGeneUP": "2",
+        "DistClosestGeneDOWN": "49"
+      },
+      {
+        "Candidate ID": "candidate_1073",
+        "Start": "904787",
+        "End": "904881",
+        "Strand": "-",
+        "Type": "A",
+        "Length": "94",
+        "mean reads coverage": "220.96842105260001",
+        "mean conservation": "9.0091105099999999E-2",
+        "-10 promoter consensus": "0",
+        "Terminator": "1",
+        "MFE p-val": "0.81199999999999994",
+        "Array p-val": "2.3883562996762599E-6",
+        "p-adj": "2.7561631698264102E-3",
+        "Relative position to CDSs": "AS to 5'/3' UTRs",
+        "Within": "3', Rv0810c",
+        "Antisense to": "3', Rv0809",
+        "DistClosestGeneUP": "-32",
+        "DistClosestGeneDOWN": "-1156"
+      },
+      {
+        "Candidate ID": "candidate_1074",
+        "Start": "905114",
+        "End": "905163",
+        "Strand": "-",
+        "Type": "A",
+        "Length": "49",
+        "mean reads coverage": "233.2",
+        "mean conservation": "4.6313196735000002",
+        "-10 promoter consensus": "1",
+        "Terminator": "0",
+        "MFE p-val": "0.43",
+        "Array p-val": "0",
+        "p-adj": "0",
+        "Relative position to CDSs": "Within 5'/3' UTRs",
+        "Within": "3', Rv0811c; 5', Rv0810c",
+        "Antisense to": "",
+        "DistClosestGeneUP": "27",
+        "DistClosestGeneDOWN": "71"
+      }
+    ]
+  },
+  "ami2020_structure": {
+    "n_srna_nommes": 449,
+    "hits_fenetre": {
+      "ncRv10810c": {
+        "start": 905113,
+        "end": 905163,
+        "location": "Intergenic and 5'UTR of Rv0810c",
+        "n_conditions": 4,
+        "binaire": [
+          "0",
+          "1",
+          "1",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "total": 4
+      }
+    }
+  },
+  "arnvig2011_structure": {
+    "n_IGR_table": 1890,
+    "orientations": {
+      "convergent": 158,
+      "divergent": 314,
+      "tandem": 620,
+      "inconnue": 798
+    },
+    "IGR_purM_Rv0810c": {
+      "region": "IG624",
+      "start": 904818,
+      "end": 904902,
+      "length": 84,
+      "exp_reads": 442.8,
+      "sta_reads": 138.5,
+      "exp_per_nt": 5.271428571428571,
+      "sta_per_nt": 1.6488095238095237,
+      "orientation": "convergent",
+      "rang_global": {
+        "rang": 73,
+        "n": 1890,
+        "percentile": 96.2,
+        "mediane_strate": 0.545
+      },
+      "rang_dans_sa_strate": {
+        "rang": 9,
+        "n": 158,
+        "percentile": 94.9,
+        "mediane_strate": 0.895
+      }
+    },
+    "IGR_Rv0810c_Rv0811c": {
+      "region": "IG625",
+      "start": 905086,
+      "end": 905231,
+      "length": 145,
+      "exp_reads": 98.0,
+      "sta_reads": 14.0,
+      "exp_per_nt": 0.6758620689655173,
+      "sta_per_nt": 0.09655172413793103,
+      "orientation": "tandem",
+      "rang_global": {
+        "rang": 806,
+        "n": 1890,
+        "percentile": 57.4,
+        "mediane_strate": 0.545
+      },
+      "rang_dans_sa_strate": {
+        "rang": 320,
+        "n": 620,
+        "percentile": 48.5,
+        "mediane_strate": 0.706
+      }
+    },
+    "mediane_exp_par_nt_par_orientation": {
+      "convergent": 0.895,
+      "divergent": 0.246,
+      "tandem": 0.706
+    },
+    "CDS": {
+      "Rv0810c": {
+        "CDS": "Rv0810c",
+        "gene": "-",
+        "class": "V",
+        "Length": "183",
+        "exp_sense_reads": "348",
+        "exp_sense_RPKM": "56.7",
+        "exp_AS_reads": "115",
+        "exp_AS_RPKM": "18.96",
+        "sta_sense_reads": "132.5",
+        "sta_sense_RPKM": "16.5089566448334",
+        "sta_AS_reads": "22.5",
+        "sta_AS_RPKM": "2.75841389319189",
+        "ratio_AS_sur_sens_exp": 0.334,
+        "rang_AS_RPKM": 122,
+        "n_CDS": 3999,
+        "percentile_AS_RPKM": 97.0
+      },
+      "Rv0809": {
+        "CDS": "Rv0809",
+        "gene": "purM",
+        "class": "I.F.1",
+        "Length": "1095",
+        "exp_sense_reads": "847.6",
+        "exp_sense_RPKM": "23.28",
+        "exp_AS_reads": "432.6",
+        "exp_AS_RPKM": "11.92",
+        "sta_sense_reads": "39",
+        "sta_sense_RPKM": "0.81029527656885",
+        "sta_AS_reads": "115",
+        "sta_AS_RPKM": "2.37576918352903",
+        "ratio_AS_sur_sens_exp": 0.512,
+        "rang_AS_RPKM": 252,
+        "n_CDS": 3999,
+        "percentile_AS_RPKM": 93.7
+      },
+      "Rv0811c": {
+        "CDS": "Rv0811c",
+        "gene": "-",
+        "class": "V",
+        "Length": "1107",
+        "exp_sense_reads": "520",
+        "exp_sense_RPKM": "14.24",
+        "exp_AS_reads": "30.6",
+        "exp_AS_RPKM": "0.8",
+        "sta_sense_reads": "136",
+        "sta_sense_RPKM": "2.74666892710837",
+        "sta_AS_reads": "20",
+        "sta_AS_RPKM": "0.426644438825581",
+        "ratio_AS_sur_sens_exp": 0.056,
+        "rang_AS_RPKM": 3414,
+        "n_CDS": 3999,
+        "percentile_AS_RPKM": 14.7
+      }
+    }
+  }
+}

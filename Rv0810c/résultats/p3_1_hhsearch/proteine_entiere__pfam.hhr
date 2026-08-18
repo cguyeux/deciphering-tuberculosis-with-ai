@@ -1,0 +1,149 @@
+Query         I6XWB9_MYCTU/2-60
+Match_columns 63
+No_of_seqs    196 out of 1930
+Neff          4.7
+Searched_HMMs 19632
+Date          Mon Aug 10 14:14:49 2026
+Command       /home/christophe/docs/codes/mtbc/investigate_phylo/resources/hhsuite_bin/hhsearch -i /home/christophe/docs/codes/mtbc/Rv0810c/résultats/p3_1_hhsearch/duf3073_full.hhm -d /home/christophe/docs/codes/mtbc/investigate_phylo/resources/hhsuite/pfam -o /home/christophe/docs/codes/mtbc/Rv0810c/résultats/p3_1_hhsearch/proteine_entiere__pfam.hhr -cpu 8 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF11273.11 ; DUF3073 ; Protein  99.9 1.9E-29 9.8E-34  145.6   0.0   57    1-63      1-58  (58)
+  2 PF12040.11 ; DUF3526 ; Domain   42.1     5.2 0.00026   22.6   0.0   36    4-39     68-103 (144)
+  3 PF05895.15 ; DUF859 ; Siphovir  26.2      14 0.00071   26.6   0.0   26    2-27    321-346 (570)
+  4 PF06894.14 ; Phage_TAC_2 ; Bac  21.2      20   0.001   21.1   0.0   26   11-36     66-91  (121)
+  5 PF18742.4 ; DpnII-MboI ; REase  15.5      33  0.0017   20.1   0.0   26    9-34     72-97  (148)
+  6 PF04502.16 ; Saf4_Yju2 ; Saf4/  13.7      40   0.002   22.1   0.0    8   18-25      2-9   (309)
+  7 PF18383.4 ; IFT81_CH ; Intrafl  13.6      40  0.0021   19.7   0.0   25   12-36     66-92  (124)
+  8 PF10893.11 ; Phage_186_Fil ; B  11.4      52  0.0026   17.6   0.0   15   12-26      4-18  (62)
+  9 PF18055.4 ; RPN6_N ; 26S prote  11.1      54  0.0027   18.2   0.0   12    5-16     69-80  (117)
+ 10 PF01616.19 ; Orbi_NS3 ; Orbivi  10.3      60   0.003   20.8   0.0   21   14-34     58-78  (193)
+
+No 1
+>PF11273.11 ; DUF3073 ; Protein of unknown function (DUF3073)
+Probab=99.90  E-value=1.9e-29  Score=145.62  Aligned_cols=57  Identities=61%  Similarity=0.840  Sum_probs=46.0  Template_Neff=2.800
+
+Q I6XWB9_MYCTU/2    1 GRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPS-DDDSW-ND-EDDW----rr   59 (59)
+Q Consensus         1 GRGR~KAKqtKvAR~LKY~Sp~TD~~aLeREL~~~~~~~~~~~~~~~~~d~~dD~-~d~y~d~~..   63 (63)
+                      ||||+|||||||||+|||++|+|||++|++||++..+....      ++++++|. |++|++|.  
+T Consensus         1 GRGRaKAKqtkvAR~LKY~s~~~D~~~L~rEL~~~~~~~~~------dd~~~dd~~y~~Yad~~..   58 (58)
+T F6EKI4_HOYSD/2    1 GRGRAKAKQTKVARALKYSSPNTDFDRLQRELSGTPSSPSR------DDTFSDDAYEKEYSRWV..   58 (58)
+T ss_pred             CCchhhHHHHHHHHHHccCCCCCCHHHHHHHHcCCCCCCCc------ccCccccHHHHHhhccC..
+Confidence            89999999999999999999999999999999876554322      22223455 88898884  
+
+
+No 2
+>PF12040.11 ; DUF3526 ; Domain of unknown function (DUF3526)
+Probab=42.10  E-value=5.2  Score=22.61  Aligned_cols=36  Identities=22%  Similarity=0.343  Sum_probs=30.8  Template_Neff=9.400
+
+Q I6XWB9_MYCTU/2    4 RAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDR   39 (59)
+Q Consensus         4 R~KAKqtKvAR~LKY~Sp~TD~~aLeREL~~~~~~~   39 (63)
+                      .+.++|..+++.|-.-||.+-+..+..+|++.+...
+T Consensus        68 ~~~~~q~~~~~~l~~lSP~~~~~~~~~~lAgT~~~~  103 (144)
+T E0THW8_PARBH/2   68 NGRAARDRMAGRLALFSPPALVERRFQRIAGTDAGA  103 (144)
+T ss_pred             HHHHHHHHHHHHHHHhCHHHHHHHHHHHHhCCCHHH
+Confidence            345789999999999999999999999998766543
+
+
+No 3
+>PF05895.15 ; DUF859 ; Siphovirus protein of unknown function (DUF859)
+Probab=26.18  E-value=14  Score=26.61  Aligned_cols=26  Identities=27%  Similarity=0.448  Sum_probs=21.1  Template_Neff=7.500
+
+Q I6XWB9_MYCTU/2    2 RGRAKAKQTKVARELKYSSPQTDFQR   27 (59)
+Q Consensus         2 RGR~KAKqtKvAR~LKY~Sp~TD~~a   27 (63)
+                      |||+++..++----|-|..|.+.+..
+T Consensus       321 RG~~s~~~t~ti~V~~Y~~P~is~~~  346 (570)
+T Q6SYZ8_STRPY/1  321 RGRQSPRKEVEISLLEYFKPILSFTS  346 (570)
+T ss_pred             CCCccCcEEEEEEEEeccCCEEEEEE
+Confidence            89987777787888999999986543
+
+
+No 4
+>PF06894.14 ; Phage_TAC_2 ; Bacteriophage lambda tail assembly chaperone, TAC, protein G
+Probab=21.22  E-value=20  Score=21.07  Aligned_cols=26  Identities=19%  Similarity=0.084  Sum_probs=21.7  Template_Neff=6.100
+
+Q I6XWB9_MYCTU/2   11 KVARELKYSSPQTDFQRLQRELSGTG   36 (59)
+Q Consensus        11 KvAR~LKY~Sp~TD~~aLeREL~~~~   36 (63)
+                      =|||-|.+..+..|++.|++++-..=
+T Consensus        66 LVA~SLw~~~~~~dv~~l~~~Vl~~W   91 (121)
+T Q8ZN05_SALTY/1   66 LVSRSLCESKKEEEARALYESVRLEW   91 (121)
+T ss_pred             HHHHhccCCCCHHHHHHHHHHHHhhC
+Confidence            47899999888999999999986543
+
+
+No 5
+>PF18742.4 ; DpnII-MboI ; REase_DpnII-MboI
+Probab=15.51  E-value=33  Score=20.12  Aligned_cols=26  Identities=12%  Similarity=0.112  Sum_probs=22.3  Template_Neff=7.500
+
+Q I6XWB9_MYCTU/2    9 QTKVARELKYSSPQTDFQRLQRELSG   34 (59)
+Q Consensus         9 qtKvAR~LKY~Sp~TD~~aLeREL~~   34 (63)
+                      ..++|=++||.....++..+..||..
+T Consensus        72 ~~~i~IEvK~~~~~~~~~~i~~qi~~   97 (148)
+T A0A1C9VMS2_9BU   72 EEGIVIEVKKTRQGLSVSDIGAQLLV   97 (148)
+T ss_pred             CCCEEEEEEEcCCCCChHHHHHHHHH
+Confidence            45788999999999999999999764
+
+
+No 6
+>PF04502.16 ; Saf4_Yju2 ; Saf4/Yju2 protein
+Probab=13.67  E-value=40  Score=22.12  Aligned_cols=8  Identities=38%  Similarity=0.563  Sum_probs=3.2  Template_Neff=7.600
+
+Q I6XWB9_MYCTU/2   18 YSSPQTDF   25 (59)
+Q Consensus        18 Y~Sp~TD~   25 (63)
+                      |..|++|.
+T Consensus         2 YyPPdfdp    9 (309)
+T M3WK58_FELCA/9    2 YYPPDFDP    9 (309)
+T ss_pred             CCCCCCCc
+Confidence            44444443
+
+
+No 7
+>PF18383.4 ; IFT81_CH ; Intraflagellar transport 81 calponin homology domain
+Probab=13.55  E-value=40  Score=19.67  Aligned_cols=25  Identities=24%  Similarity=0.407  Sum_probs=17.8  Template_Neff=6.300
+
+Q I6XWB9_MYCTU/2   12 VARELKYSSPQT--DFQRLQRELSGTG   36 (59)
+Q Consensus        12 vAR~LKY~Sp~T--D~~aLeREL~~~~   36 (63)
+                      .-|-|||..|..  |...+++.|..+.
+T Consensus        66 fLrilkY~p~~~~~d~~~fr~~L~~Gd   92 (124)
+T A0A669EAZ1_ORE   66 LLGMLKYKPPGNISDVSSFRQGLVTGS   92 (124)
+T ss_pred             HHHhhCCCCCCCccchHHHHHHHhhCC
+Confidence            347899966642  7888999886544
+
+
+No 8
+>PF10893.11 ; Phage_186_Fil ; Bacteriophage 186, Fil
+Probab=11.44  E-value=52  Score=17.55  Aligned_cols=15  Identities=33%  Similarity=0.430  Sum_probs=10.5  Template_Neff=4.400
+
+Q I6XWB9_MYCTU/2   12 VARELKYSSPQTDFQ   26 (59)
+Q Consensus        12 vAR~LKY~Sp~TD~~   26 (63)
+                      ||.-||-.+|.+-+.
+T Consensus         4 ~A~lLk~Qsp~~~~~   18 (62)
+T D4E8K4_SEROD/1    4 FAQYLKRQSPAPQLA   18 (62)
+T ss_pred             HHHHhhccCCCCCcc
+Confidence            677888888775443
+
+
+No 9
+>PF18055.4 ; RPN6_N ; 26S proteasome regulatory subunit RPN6 N-terminal domain
+Probab=11.08  E-value=54  Score=18.25  Aligned_cols=12  Identities=58%  Similarity=0.783  Sum_probs=9.2  Template_Neff=7.700
+
+Q I6XWB9_MYCTU/2    5 AKAKQTKVAREL   16 (59)
+Q Consensus         5 ~KAKqtKvAR~L   16 (63)
+                      .|||-+||-|.|
+T Consensus        69 ~kaktaKiir~l   80 (117)
+T A0A0S6XFS2_9FU   69 AKAKTSKLVRQL   80 (117)
+T ss_pred             hHHHHHHHHHHH
+Confidence            578888888755
+
+
+No 10
+>PF01616.19 ; Orbi_NS3 ; Orbivirus NS3
+Probab=10.29  E-value=60  Score=20.77  Aligned_cols=21  Identities=24%  Similarity=0.387  Sum_probs=0.0  Template_Neff=5.000
+
+Q I6XWB9_MYCTU/2   14 RELKYSSPQTDFQRLQRELSG   34 (59)
+Q Consensus        14 R~LKY~Sp~TD~~aLeREL~~   34 (63)
+                      |.||+.-...=+..|+.||.+
+T Consensus        58 R~iK~~Vn~~~ip~L~~~l~~   78 (193)
+T VP8_BTV10/35-2   58 RQIKRHVNEQILPKLKSDLSE   78 (193)
+T ss_pred             HHHHHHHHHhHHHHHHHHHHH
+
+

@@ -1,0 +1,32 @@
+[INFO] Console - predicting pockets for proteins from dataset [rpmg2_rv0634b.pdb]
+[INFO] PredictPocketsRoutine - outdir: p2rank/rpmg2_out
+[INFO] Model - Loading model from directory (v3 format): /home/christophe/docs/codes/mtbc/annotation_mtbc/tools/p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [rpmg2_rv0634b.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [rpmg2_rv0634b.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [rpmg2_rv0634b.pdb] (1/1)
+[INFO] Protein - loading protein [/home/christophe/docs/codes/mtbc/Rv0810c/résultats/p6_3_pocket_detection/rpmg2_rv0634b.pdb]
+[INFO] PdbUtils - loading file [rpmg2_rv0634b.pdb]
+[INFO] Struct - all groups in chain A: 55
+[INFO] Struct - all groups in chain A: 55
+[INFO] Struct - 55 groups in chain A
+[INFO] Protein - structure atoms: 452
+[INFO] Protein - protein   atoms: 437
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 1482
+[INFO] Protein - exposed protein atoms: 355 of 437
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 1482
+[INFO] PocketPredictor - LIGANDABLE POINTS: 0
+[INFO] PocketPredictor - CLUSTERS: 0
+[INFO] PocketPredictor - FILTERED CLUSTERS: 0
+[INFO] PredictionVisualizer - copying [/home/christophe/docs/codes/mtbc/Rv0810c/résultats/p6_3_pocket_detection/rpmg2_rv0634b.pdb] to [p2rank/rpmg2_out/visualizations/data/rpmg2_rv0634b.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 23.114 seconds
+[INFO] Console - results saved to directory [/home/christophe/docs/codes/mtbc/Rv0810c/résultats/p6_3_pocket_detection/p2rank/rpmg2_out]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 36.321 seconds.

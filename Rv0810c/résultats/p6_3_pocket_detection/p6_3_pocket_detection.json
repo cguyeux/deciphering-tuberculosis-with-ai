@@ -1,0 +1,250 @@
+{
+  "rv0810c": {
+    "p2rank": {
+      "n_pockets": 0,
+      "pockets": []
+    },
+    "fpocket": {
+      "n_pockets": 5,
+      "pockets": [
+        {
+          "Score": 0.424,
+          "Druggability Score": 0.024,
+          "Number of Alpha Spheres": 22.0,
+          "Total SASA": 101.61,
+          "Polar SASA": 50.89,
+          "Apolar SASA": 50.72,
+          "Volume": 305.703,
+          "Mean local hydrophobic density": 6.75,
+          "Mean alpha sphere radius": 3.937,
+          "Mean alp. sph. solvent access": 0.673,
+          "Apolar alpha sphere proportion": 0.364,
+          "Hydrophobicity score": 11.667,
+          "Volume score": 4.833,
+          "Polarity score": 5.0,
+          "Charge score": 2.0,
+          "Proportion of polar atoms": 52.174,
+          "Alpha sphere density": 4.205,
+          "Cent. of mass - Alpha Sphere max dist": 8.861,
+          "Flexibility": 0.991
+        },
+        {
+          "Score": 0.319,
+          "Druggability Score": 0.003,
+          "Number of Alpha Spheres": 21.0,
+          "Total SASA": 112.752,
+          "Polar SASA": 59.616,
+          "Apolar SASA": 53.136,
+          "Volume": 442.173,
+          "Mean local hydrophobic density": 5.0,
+          "Mean alpha sphere radius": 4.143,
+          "Mean alp. sph. solvent access": 0.668,
+          "Apolar alpha sphere proportion": 0.286,
+          "Hydrophobicity score": 1.4,
+          "Volume score": 4.4,
+          "Polarity score": 4.0,
+          "Charge score": 2.0,
+          "Proportion of polar atoms": 40.0,
+          "Alpha sphere density": 3.733,
+          "Cent. of mass - Alpha Sphere max dist": 10.221,
+          "Flexibility": 0.912
+        },
+        {
+          "Score": 0.314,
+          "Druggability Score": 0.492,
+          "Number of Alpha Spheres": 18.0,
+          "Total SASA": 97.664,
+          "Polar SASA": 10.715,
+          "Apolar SASA": 86.949,
+          "Volume": 351.513,
+          "Mean local hydrophobic density": 10.0,
+          "Mean alpha sphere radius": 4.174,
+          "Mean alp. sph. solvent access": 0.749,
+          "Apolar alpha sphere proportion": 0.611,
+          "Hydrophobicity score": 55.8,
+          "Volume score": 4.4,
+          "Polarity score": 2.0,
+          "Charge score": 0.0,
+          "Proportion of polar atoms": 36.842,
+          "Alpha sphere density": 3.859,
+          "Cent. of mass - Alpha Sphere max dist": 7.987,
+          "Flexibility": 0.807
+        },
+        {
+          "Score": 0.298,
+          "Druggability Score": 0.003,
+          "Number of Alpha Spheres": 21.0,
+          "Total SASA": 83.697,
+          "Polar SASA": 39.015,
+          "Apolar SASA": 44.682,
+          "Volume": 279.906,
+          "Mean local hydrophobic density": 5.0,
+          "Mean alpha sphere radius": 4.007,
+          "Mean alp. sph. solvent access": 0.623,
+          "Apolar alpha sphere proportion": 0.286,
+          "Hydrophobicity score": 0.0,
+          "Volume score": 4.333,
+          "Polarity score": 5.0,
+          "Charge score": -1.0,
+          "Proportion of polar atoms": 35.294,
+          "Alpha sphere density": 2.285,
+          "Cent. of mass - Alpha Sphere max dist": 5.946,
+          "Flexibility": 0.768
+        },
+        {
+          "Score": 0.284,
+          "Druggability Score": 0.181,
+          "Number of Alpha Spheres": 17.0,
+          "Total SASA": 78.482,
+          "Polar SASA": 19.308,
+          "Apolar SASA": 59.174,
+          "Volume": 334.439,
+          "Mean local hydrophobic density": 10.0,
+          "Mean alpha sphere radius": 4.222,
+          "Mean alp. sph. solvent access": 0.784,
+          "Apolar alpha sphere proportion": 0.647,
+          "Hydrophobicity score": 3.25,
+          "Volume score": 5.0,
+          "Polarity score": 4.0,
+          "Charge score": 0.0,
+          "Proportion of polar atoms": 41.176,
+          "Alpha sphere density": 2.961,
+          "Cent. of mass - Alpha Sphere max dist": 7.939,
+          "Flexibility": 0.957
+        }
+      ]
+    }
+  },
+  "rpmg2_control": {
+    "p2rank": {
+      "n_pockets": 0,
+      "pockets": []
+    },
+    "fpocket": {
+      "n_pockets": 2,
+      "pockets": [
+        {
+          "Score": 0.449,
+          "Druggability Score": 0.007,
+          "Number of Alpha Spheres": 25.0,
+          "Total SASA": 83.613,
+          "Polar SASA": 48.592,
+          "Apolar SASA": 35.021,
+          "Volume": 285.513,
+          "Mean local hydrophobic density": 4.0,
+          "Mean alpha sphere radius": 3.798,
+          "Mean alp. sph. solvent access": 0.557,
+          "Apolar alpha sphere proportion": 0.2,
+          "Hydrophobicity score": -5.889,
+          "Volume score": 5.333,
+          "Polarity score": 7.0,
+          "Charge score": 4.0,
+          "Proportion of polar atoms": 52.174,
+          "Alpha sphere density": 3.637,
+          "Cent. of mass - Alpha Sphere max dist": 8.169,
+          "Flexibility": 0.791
+        },
+        {
+          "Score": 0.325,
+          "Druggability Score": 0.01,
+          "Number of Alpha Spheres": 23.0,
+          "Total SASA": 104.728,
+          "Polar SASA": 45.555,
+          "Apolar SASA": 59.174,
+          "Volume": 508.089,
+          "Mean local hydrophobic density": 6.0,
+          "Mean alpha sphere radius": 4.113,
+          "Mean alp. sph. solvent access": 0.632,
+          "Apolar alpha sphere proportion": 0.304,
+          "Hydrophobicity score": -2.667,
+          "Volume score": 4.778,
+          "Polarity score": 7.0,
+          "Charge score": 2.0,
+          "Proportion of polar atoms": 50.0,
+          "Alpha sphere density": 3.584,
+          "Cent. of mass - Alpha Sphere max dist": 9.852,
+          "Flexibility": 0.908
+        }
+      ]
+    }
+  },
+  "calibration_externe_annotation_mtbc": {
+    "n_enzyme": 25,
+    "n_noncat": 25,
+    "enzyme_drug_score_median": 0.461,
+    "noncat_drug_score_median": 0.429,
+    "enzyme_drug_score_range": [
+      0.023,
+      0.959
+    ],
+    "noncat_drug_score_range": [
+      0.043,
+      0.906
+    ],
+    "closest_length_matches_le100aa": [
+      {
+        "rv": "Rv1086",
+        "group": "enzyme",
+        "len_aa": "37",
+        "plddt_af": "92.5",
+        "n_pockets": "18",
+        "best_drug_score": "0.3871",
+        "best_volume": "252.3693",
+        "best_solv_acc": "0.6412"
+      },
+      {
+        "rv": "Rv3198A",
+        "group": "enzyme",
+        "len_aa": "84",
+        "plddt_af": "83.0",
+        "n_pockets": "3",
+        "best_drug_score": "0.1659",
+        "best_volume": "478.2578",
+        "best_solv_acc": "0.5634"
+      },
+      {
+        "rv": "Rv3219",
+        "group": "noncat",
+        "len_aa": "84",
+        "plddt_af": "85.4",
+        "n_pockets": "5",
+        "best_drug_score": "0.9056",
+        "best_volume": "731.9483",
+        "best_solv_acc": "0.537"
+      },
+      {
+        "rv": "Rv2785c",
+        "group": "noncat",
+        "len_aa": "89",
+        "plddt_af": "95.4",
+        "n_pockets": "8",
+        "best_drug_score": "0.319",
+        "best_volume": "216.634",
+        "best_solv_acc": "0.5929"
+      },
+      {
+        "rv": "Rv1642",
+        "group": "noncat",
+        "len_aa": "64",
+        "plddt_af": "92.7",
+        "n_pockets": "4",
+        "best_drug_score": "0.0431",
+        "best_volume": "501.0492",
+        "best_solv_acc": "0.5274"
+      },
+      {
+        "rv": "Rv0703",
+        "group": "noncat",
+        "len_aa": "100",
+        "plddt_af": "91.4",
+        "n_pockets": "7",
+        "best_drug_score": "0.4292",
+        "best_volume": "345.4477",
+        "best_solv_acc": "0.6205"
+      }
+    ],
+    "source": "/home/christophe/docs/codes/mtbc/annotation_mtbc/résultats/phase99_p16_3h/fpocket.tsv",
+    "p2rank_short_detection_rate": "3.8% (1/26) enzymes <200aa vs 60.5% (75/124) >=200aa -- annotation_mtbc/analyses/phase79_pocket_blind_zone.py",
+    "fpocket_verdict": "NE DISCRIMINE PAS enzymes courtes vs non-catalytiques courtes (Mann-Whitney p=0.82 sur best_drug_score, Fisher p=1.0 sur presence/absence)"
+  }
+}

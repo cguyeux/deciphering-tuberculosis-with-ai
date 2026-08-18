@@ -1,0 +1,136 @@
+{
+  "piste": "P2.2 (phase 2)",
+  "cible": {
+    "rv": "Rv0810c",
+    "len": 60,
+    "FCR": 0.4167,
+    "NCPR": -0.0167,
+    "charge_nette": -1,
+    "kappa": 0.3365,
+    "SCD": -3.1842
+  },
+  "A_composition": {
+    "question": "Rv0810c est-elle anormalement chargee pour 60 aa de H37Rv ?",
+    "n_temoins_50_70aa": 75,
+    "FCR": {
+      "valeur": 0.4167,
+      "n_temoins": 75,
+      "rang": 2,
+      "p_empirique": 0.0267,
+      "mediane_temoins": 0.25,
+      "q95_temoins": 0.3928,
+      "q05_temoins": 0.1147
+    },
+    "charge_nette_absolue": {
+      "valeur": 1.0,
+      "n_temoins": 75,
+      "rang": 71,
+      "p_empirique": 0.9467,
+      "mediane_temoins": 4.0,
+      "q95_temoins": 12.3,
+      "q05_temoins": 0.7
+    }
+  },
+  "B1_arrangement_permutation_intra_sequence": {
+    "question": "A composition RIGOUREUSEMENT identique (memes 60 acides amines, seul l'ordre change), les charges de Rv0810c sont-elles anormalement segregees ?",
+    "resultat": {
+      "n_permutations": 50000,
+      "kappa": {
+        "observe": 0.3365,
+        "nul_median": 0.1693,
+        "nul_q95": 0.3099,
+        "p": 0.029319,
+        "z": 2.22
+      },
+      "SCD": {
+        "observe": -3.1842,
+        "nul_median": -0.7194,
+        "nul_q05": -1.7157,
+        "p": 0.00224,
+        "z": -5.24
+      },
+      "contraste_max_N_moins_C": {
+        "observe": 0.5556,
+        "nul_median": 0.22,
+        "nul_q95": 0.5,
+        "p": 0.0233,
+        "z": 2.03
+      }
+    }
+  },
+  "B2_arrangement_temoins_apparies_longueur_ET_FCR": {
+    "critere": "45-90 aa et |FCR - 0.417| <= 0.08",
+    "n_temoins": 30,
+    "kappa": {
+      "valeur": 0.3365,
+      "n_temoins": 29,
+      "rang": 5,
+      "p_empirique": 0.1724,
+      "mediane_temoins": 0.2474,
+      "q95_temoins": 0.4009,
+      "q05_temoins": 0.1365
+    },
+    "SCD": {
+      "valeur": -3.1842,
+      "n_temoins": 30,
+      "rang": 1,
+      "p_empirique": 0.0333,
+      "mediane_temoins": -0.5736,
+      "q95_temoins": 4.7422,
+      "q05_temoins": -1.2064
+    },
+    "contraste_max": {
+      "valeur": 0.5556,
+      "n_temoins": 30,
+      "rang": 1,
+      "p_empirique": 0.0333,
+      "mediane_temoins": 0.2165,
+      "q95_temoins": 0.3335,
+      "q05_temoins": -0.0978
+    },
+    "liste_temoins": [
+      "Rv0239",
+      "Rv0634A",
+      "Rv0634B",
+      "Rv0657c",
+      "Rv0660c",
+      "Rv0662c",
+      "Rv0709",
+      "Rv0810c",
+      "Rv0898c",
+      "Rv0979A",
+      "Rv1116",
+      "Rv1155a",
+      "Rv1241",
+      "Rv1560",
+      "Rv1576c",
+      "Rv1839c",
+      "Rv1960c",
+      "Rv2009",
+      "Rv2057c",
+      "Rv2104c",
+      "Rv2111c",
+      "Rv2595",
+      "Rv2760c",
+      "Rv2785c",
+      "Rv3260c",
+      "Rv3358",
+      "Rv3503c",
+      "Rv3642c",
+      "Rv3697A",
+      "Rv3924c"
+    ]
+  },
+  "C_controle_negatif_instrument": {
+    "commentaire": "Meme test de permutation (1000 melanges) applique aux 75 temoins apparies en longueur. Si l'instrument declarait significative n'importe quelle petite proteine, il ne vaudrait rien.",
+    "n_temoins_testes": 75,
+    "taux_p<0.05_kappa": 0.133,
+    "taux_p<0.05_SCD": 0.067,
+    "taux_p<0.05_contraste": 0.067,
+    "temoins_significatifs_sur_les_trois": [
+      "Rv0810c"
+    ]
+  }
+}
+
+[ecrit] /home/christophe/docs/codes/mtbc/Rv0810c/résultats/p2_2_composition_vs_arrangement.json

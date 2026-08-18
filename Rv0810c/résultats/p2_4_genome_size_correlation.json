@@ -1,0 +1,118 @@
+{
+  "n_orders": 16,
+  "spearman_rho_tail_vs_genome_size": -0.07647058823529407,
+  "rows": [
+    {
+      "order": "Bifidobacteriales",
+      "n_seq": 57,
+      "median_tail_len": 53,
+      "n_genomes_ref": 20,
+      "median_genome_size_bp": 2084585.0
+    },
+    {
+      "order": "Actinomycetales",
+      "n_seq": 37,
+      "median_tail_len": 34,
+      "n_genomes_ref": 20,
+      "median_genome_size_bp": 2871372.5
+    },
+    {
+      "order": "Micrococcales",
+      "n_seq": 361,
+      "median_tail_len": 31,
+      "n_genomes_ref": 20,
+      "median_genome_size_bp": 3752466.5
+    },
+    {
+      "order": "Allobogoriellales",
+      "n_seq": 7,
+      "median_tail_len": 29,
+      "n_genomes_ref": 18,
+      "median_genome_size_bp": 4123077.0
+    },
+    {
+      "order": "Propionibacteriales",
+      "n_seq": 113,
+      "median_tail_len": 29,
+      "n_genomes_ref": 20,
+      "median_genome_size_bp": 4509213.0
+    },
+    {
+      "order": "Geodermatophilales",
+      "n_seq": 19,
+      "median_tail_len": 38,
+      "n_genomes_ref": 20,
+      "median_genome_size_bp": 4808043.5
+    },
+    {
+      "order": "Nakamurellales",
+      "n_seq": 9,
+      "median_tail_len": 42,
+      "n_genomes_ref": 11,
+      "median_genome_size_bp": 4843278
+    },
+    {
+      "order": "Kineosporiales",
+      "n_seq": 7,
+      "median_tail_len": 32,
+      "n_genomes_ref": 20,
+      "median_genome_size_bp": 4899508.0
+    },
+    {
+      "order": "Mycobacteriales",
+      "n_seq": 198,
+      "median_tail_len": 30.0,
+      "n_genomes_ref": 20,
+      "median_genome_size_bp": 5060154.0
+    },
+    {
+      "order": "Glycomycetales",
+      "n_seq": 6,
+      "median_tail_len": 37.0,
+      "n_genomes_ref": 20,
+      "median_genome_size_bp": 5582152.5
+    },
+    {
+      "order": "Streptosporangiales",
+      "n_seq": 159,
+      "median_tail_len": 31,
+      "n_genomes_ref": 20,
+      "median_genome_size_bp": 6701179.5
+    },
+    {
+      "order": "Jiangellales",
+      "n_seq": 7,
+      "median_tail_len": 32,
+      "n_genomes_ref": 18,
+      "median_genome_size_bp": 6813374.0
+    },
+    {
+      "order": "Frankiales",
+      "n_seq": 15,
+      "median_tail_len": 34,
+      "n_genomes_ref": 20,
+      "median_genome_size_bp": 7649171.5
+    },
+    {
+      "order": "Micromonosporales",
+      "n_seq": 91,
+      "median_tail_len": 35,
+      "n_genomes_ref": 20,
+      "median_genome_size_bp": 8326182.0
+    },
+    {
+      "order": "Kitasatosporales",
+      "n_seq": 226,
+      "median_tail_len": 41.0,
+      "n_genomes_ref": 20,
+      "median_genome_size_bp": 8748426.0
+    },
+    {
+      "order": "Pseudonocardiales",
+      "n_seq": 100,
+      "median_tail_len": 28.0,
+      "n_genomes_ref": 20,
+      "median_genome_size_bp": 8756393.5
+    }
+  ]
+}

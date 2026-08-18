@@ -1,0 +1,43 @@
+P1.9 -- Epitopes T/B references (IEDB) sur Rv0810c / I6XWB9
+==============================================================================
+Enregistrements IEDB bruts : 4 lymphocyte T, 0 lymphocyte B.
+
+PEPTIDES DISTINCTS, RELOCALISES DANS LA SEQUENCE H37Rv (60 aa)
+------------------------------------------------------------------------------
+  DFQRLQRELSGTGTD
+    H37Rv 25-39  unite module_1-33+queue_34-60
+    dosages : 0 POSITIF, 2 negatif
+      - Negative hote Homo sapiens (human), MHC II/HLA class II, PMID 38278794, antigene source 'DUF3073 domain-containing protein' (Mycobacterium tuberculosis H37Rv (Mycobacterium tuberculosis str. H37Rv))
+      - Negative hote Homo sapiens (human), MHC None/None, PMID None, antigene source 'hypothetical protein' (Mycobacterium tuberculosis)
+
+  GPSDDDSWNDEDDWR
+    H37Rv 45-59  unite queue_34-60
+    chevauche : p.Asp56Ala (73/145209 souches, clonal L4.1.1.1, P8.1)
+    dosages : 0 POSITIF, 2 negatif
+      - Negative hote Homo sapiens (human), MHC None/None, PMID None, antigene source 'hypothetical protein' (Mycobacterium tuberculosis)
+      - Negative hote Homo sapiens (human), MHC II/HLA class II, PMID 38278794, antigene source 'DUF3073 domain-containing protein' (Mycobacterium tuberculosis H37Rv (Mycobacterium tuberculosis str. H37Rv))
+
+==============================================================================
+COUVERTURE DE LA SEQUENCE
+  30/60 residus couverts par au moins un dosage IEDB (25-59).
+  Residus JAMAIS testes : 30/60.
+
+VERDICT SUR LE PARADOXE COMAS 2010 (contrainte = pression immunitaire ?)
+  2 peptide(s) distinct(s) testes, 30/60 residus couverts,
+  TOUS LES DOSAGES SONT NEGATIFS en HLA classe II humaine (2 references,
+  dont Panda/Lindestam Arlehamn et al. 2024, Nat Commun, PMID 38278794).
+  >>> Le paradoxe Comas 2010 n'est PAS soutenu par la donnee curatee
+      disponible : la contrainte forte de Rv0810c (P8, percentile 2,7) n'a,
+      pour l'instant, aucun signal immunologique documente a lui attribuer.
+      Ceci COUVRE notamment le hotspot missense p.Asp56Ala (73 souches,
+      expansion clonale L4.1.1.1, P8.1), qui tombe dans le second peptide
+      teste (45-59) et n'y montre aucune reactivite.
+
+  RESERVES, a porter dans toute citation (garde-fou pose avant lecture) :
+   - 'Negative' = teste et non reactif dans UN panel d'alleles/donneurs, pas
+     l'absence d'epitope pour tout HLA -- effectif tres faible (2 peptides).
+   - 30/60 residus n'ont jamais ete testes, dont T24 lui-meme (le
+     phosphosite nomme) et la region 1-24 en totalite : le paradoxe n'est donc
+     instruit que sur une fraction de la sequence, pas sur la proteine entiere.
+   - Deux references seulement, l'une sans PMID (depot IEDB direct) : gisement
+     etroit, coherent avec 'jamais etudiee pour elle-meme' (garde-fou P1.1).

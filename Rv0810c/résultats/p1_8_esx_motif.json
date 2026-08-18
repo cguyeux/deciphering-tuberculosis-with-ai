@@ -1,0 +1,47 @@
+{
+  "motif": "Y-x-x-x-[D/E] (Daleke et al. 2012, JBC 287(47):39471-39481)",
+  "fenetre_c_terminale_residus": 20,
+  "cible": {
+    "longueur": 60,
+    "sequence": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR",
+    "hits": []
+  },
+  "temoins_esx1_confirmes": {
+    "EsxA_ESAT6_Rv3875_P9WNK7": {
+      "longueur": 95,
+      "sequence": "MTEQQWNFAGIEAAASAIQGNVTSIHSLLDEGKQSLTKLAAAWGGSGSEAYQGVQQKWDATATELNNALQNLARTISEAGQAMASTEGNVTGMFA",
+      "hits": []
+    },
+    "EsxB_CFP10_Rv3874_P9WNK5": {
+      "longueur": 100,
+      "sequence": "MAEMKTDAATLAQEAGNFERISGDLKTQIDQVESTAGSLQGQWRGAAGTAAQAAVVRFQEAANKQKQELDEISTNIRQAGVQYSRADEEQQQALSSQMGF",
+      "hits": [
+        {
+          "peptide": "YSRAD",
+          "start": 83,
+          "end": 87,
+          "distance_du_c_terminus": 13,
+          "dans_fenetre_c_terminale": true
+        }
+      ]
+    },
+    "EspB_Rv3881c_P9WJD9": {
+      "longueur": 460,
+      "sequence": "MTQSQTVTVDQQEILNRANEVEAPMADPPTDVPITPCELTAAKNAAQQLVLSADNMREYLAAGAKERQRLATSLRNAAKAYGEVDEEAATALDNDGEGTVQAESAGAVGGDSSAELTDTPRVATAGEPNFMDLKEAARKLETGDQGASLAHFADGWNTFNLTLQGDVKRFRGFDNWEGDAATACEASLDQQRQWILHMAKLSAAMAKQAQYVAQLHVWARREHPTYEDIVGLERLYAENPSARDQILPVYAEYQQRSEKVLTEYNNKAALEPVNPPKPPPAIKIDPPPPPQEQGLIPGFLMPPSDGSGVTPGTGMPAAPMVPPTGSPGGGLPADTAAQLTSAGREAAALSGDVAVKAASLGGGGGGGVPSAPLGSAIGGAESVRPAGAGDIAGLGQGRAGGGAALGGGGMGMPMGAAHQGQGGAKSKGSQQEDEALYTEDRAWTEAVIGNRRRQDSKESK",
+      "hits": [
+        {
+          "peptide": "YGEVD",
+          "start": 81,
+          "end": 85,
+          "distance_du_c_terminus": 375,
+          "dans_fenetre_c_terminale": false
+        }
+      ]
+    }
+  },
+  "verdict": {
+    "temoins_positifs_dans_fenetre": 1,
+    "n_temoins": 3,
+    "rv0810c_dans_fenetre": false
+  }
+}

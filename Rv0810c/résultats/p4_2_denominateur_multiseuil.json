@@ -1,0 +1,1572 @@
+{
+  "piste": "P4.2 (multi-seuils)",
+  "probleme_resolu": {
+    "constat": "Un seuil tblastn unique E<=1e-5 proteome->genome est inatteignable pour une proteine de 60 aa a distance de Tropheryma.",
+    "mesure_sur_la_cible": {
+      "Rv0810c_vs_genome_T_whipplei_tblastn": {
+        "evalue": 0.00088,
+        "qcov_pct": 75
+      },
+      "Rv0810c_vs_proteine_TWT_722_blastp": {
+        "evalue": 1.1e-12,
+        "identite_pct": 57.6,
+        "residus_alignes": "1-33 (le module ordonne)",
+        "longueur_TWT_722_aa": 41
+      }
+    },
+    "consequence": "L'orthologie est certaine ; c'est le seuil qui est sous-puissant. Tout taux de retention lu a seuil unique melange perte reelle et limite de detection, et cette limite depend de la LONGUEUR."
+  },
+  "seuils": {
+    "strict": {
+      "E_max": 1e-05,
+      "qcov_min_pct": 40.0,
+      "genomes": {
+        "M_leprae": {
+          "criblage": "proteome entier",
+          "global": {
+            "n": 3906,
+            "retenus": 2812,
+            "taux_pct": 72.0,
+            "IC95": [
+              70.6,
+              73.4
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 159,
+              "taux_pct": 47.3,
+              "IC95": [
+                41.9,
+                52.8
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 505,
+              "taux_pct": 58.7,
+              "IC95": [
+                55.3,
+                62.0
+              ]
+            },
+            "201-400 aa": {
+              "n": 1599,
+              "retenus": 1259,
+              "taux_pct": 78.7,
+              "IC95": [
+                76.6,
+                80.7
+              ]
+            },
+            "401-inf aa": {
+              "n": 1111,
+              "retenus": 889,
+              "taux_pct": 80.0,
+              "IC95": [
+                77.5,
+                82.3
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 460,
+            "retenus": 454,
+            "taux_pct": 98.7,
+            "IC95": [
+              97.2,
+              99.5
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 1013,
+            "retenus": 563,
+            "taux_pct": 55.6,
+            "IC95": [
+              52.5,
+              58.7
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 7.33e-23,
+          "Rv0810c_qcov": 100.0,
+          "retention_conditionnelle_au_temoin": {
+            "temoin_non_reduit": "M_abscessus",
+            "domaine": "proteome entier",
+            "tous": {
+              "n": 2853,
+              "retenus": 2489,
+              "taux_pct": 87.2,
+              "IC95": [
+                86.0,
+                88.4
+              ]
+            },
+            "longueur_1_100aa": {
+              "n": 117,
+              "retenus": 103,
+              "taux_pct": 88.0,
+              "IC95": [
+                80.7,
+                93.3
+              ]
+            },
+            "longueur_50_70aa": {
+              "n": 29,
+              "retenus": 26,
+              "taux_pct": 89.7,
+              "IC95": [
+                72.6,
+                97.8
+              ]
+            },
+            "essentiels_ES": {
+              "n": 454,
+              "retenus": 452,
+              "taux_pct": 99.6,
+              "IC95": [
+                98.4,
+                99.9
+              ]
+            },
+            "essentiels_ES_et_<=100aa": {
+              "n": 14,
+              "retenus": 14,
+              "taux_pct": 100.0,
+              "IC95": [
+                76.8,
+                100.0
+              ]
+            },
+            "conserved_hypotheticals": {
+              "n": 594,
+              "retenus": 463,
+              "taux_pct": 77.9,
+              "IC95": [
+                74.4,
+                81.2
+              ]
+            }
+          }
+        },
+        "M_lepromatosis": {
+          "criblage": "proteome entier",
+          "global": {
+            "n": 3906,
+            "retenus": 2793,
+            "taux_pct": 71.5,
+            "IC95": [
+              70.1,
+              72.9
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 156,
+              "taux_pct": 46.4,
+              "IC95": [
+                41.0,
+                51.9
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 507,
+              "taux_pct": 59.0,
+              "IC95": [
+                55.6,
+                62.3
+              ]
+            },
+            "201-400 aa": {
+              "n": 1599,
+              "retenus": 1248,
+              "taux_pct": 78.0,
+              "IC95": [
+                75.9,
+                80.1
+              ]
+            },
+            "401-inf aa": {
+              "n": 1111,
+              "retenus": 882,
+              "taux_pct": 79.4,
+              "IC95": [
+                76.9,
+                81.7
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 460,
+            "retenus": 451,
+            "taux_pct": 98.0,
+            "IC95": [
+              96.3,
+              99.1
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 1013,
+            "retenus": 573,
+            "taux_pct": 56.6,
+            "IC95": [
+              53.4,
+              59.6
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 6.12e-24,
+          "Rv0810c_qcov": 100.0,
+          "retention_conditionnelle_au_temoin": {
+            "temoin_non_reduit": "M_abscessus",
+            "domaine": "proteome entier",
+            "tous": {
+              "n": 2853,
+              "retenus": 2481,
+              "taux_pct": 87.0,
+              "IC95": [
+                85.7,
+                88.2
+              ]
+            },
+            "longueur_1_100aa": {
+              "n": 117,
+              "retenus": 102,
+              "taux_pct": 87.2,
+              "IC95": [
+                79.7,
+                92.6
+              ]
+            },
+            "longueur_50_70aa": {
+              "n": 29,
+              "retenus": 27,
+              "taux_pct": 93.1,
+              "IC95": [
+                77.2,
+                99.2
+              ]
+            },
+            "essentiels_ES": {
+              "n": 454,
+              "retenus": 450,
+              "taux_pct": 99.1,
+              "IC95": [
+                97.8,
+                99.8
+              ]
+            },
+            "essentiels_ES_et_<=100aa": {
+              "n": 14,
+              "retenus": 14,
+              "taux_pct": 100.0,
+              "IC95": [
+                76.8,
+                100.0
+              ]
+            },
+            "conserved_hypotheticals": {
+              "n": 594,
+              "retenus": 470,
+              "taux_pct": 79.1,
+              "IC95": [
+                75.6,
+                82.3
+              ]
+            }
+          }
+        },
+        "M_abscessus": {
+          "criblage": "proteome entier",
+          "global": {
+            "n": 3906,
+            "retenus": 2853,
+            "taux_pct": 73.0,
+            "IC95": [
+              71.6,
+              74.4
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 117,
+              "taux_pct": 34.8,
+              "IC95": [
+                29.7,
+                40.2
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 512,
+              "taux_pct": 59.5,
+              "IC95": [
+                56.2,
+                62.8
+              ]
+            },
+            "201-400 aa": {
+              "n": 1599,
+              "retenus": 1325,
+              "taux_pct": 82.9,
+              "IC95": [
+                80.9,
+                84.7
+              ]
+            },
+            "401-inf aa": {
+              "n": 1111,
+              "retenus": 899,
+              "taux_pct": 80.9,
+              "IC95": [
+                78.5,
+                83.2
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 460,
+            "retenus": 454,
+            "taux_pct": 98.7,
+            "IC95": [
+              97.2,
+              99.5
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 1013,
+            "retenus": 594,
+            "taux_pct": 58.6,
+            "IC95": [
+              55.5,
+              61.7
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 1.7e-17,
+          "Rv0810c_qcov": 100.0
+        },
+        "T_whipplei": {
+          "criblage": "proteome entier",
+          "global": {
+            "n": 3906,
+            "retenus": 862,
+            "taux_pct": 22.1,
+            "IC95": [
+              20.8,
+              23.4
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 36,
+              "taux_pct": 10.7,
+              "IC95": [
+                7.6,
+                14.5
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 124,
+              "taux_pct": 14.4,
+              "IC95": [
+                12.1,
+                16.9
+              ]
+            },
+            "201-400 aa": {
+              "n": 1599,
+              "retenus": 410,
+              "taux_pct": 25.6,
+              "IC95": [
+                23.5,
+                27.9
+              ]
+            },
+            "401-inf aa": {
+              "n": 1111,
+              "retenus": 292,
+              "taux_pct": 26.3,
+              "IC95": [
+                23.7,
+                29.0
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 460,
+            "retenus": 294,
+            "taux_pct": 63.9,
+            "IC95": [
+              59.3,
+              68.3
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 1013,
+            "retenus": 79,
+            "taux_pct": 7.8,
+            "IC95": [
+              6.2,
+              9.6
+            ]
+          },
+          "Rv0810c_detecte": false,
+          "Rv0810c_evalue": 0.000881,
+          "Rv0810c_qcov": 55.0,
+          "retention_conditionnelle_au_temoin": {
+            "temoin_non_reduit": "M_luteus",
+            "domaine": "proteines <= 200 aa",
+            "tous": {
+              "n": 303,
+              "retenus": 153,
+              "taux_pct": 50.5,
+              "IC95": [
+                44.7,
+                56.3
+              ]
+            },
+            "longueur_1_100aa": {
+              "n": 58,
+              "retenus": 36,
+              "taux_pct": 62.1,
+              "IC95": [
+                48.4,
+                74.5
+              ]
+            },
+            "longueur_50_70aa": {
+              "n": 12,
+              "retenus": 10,
+              "taux_pct": 83.3,
+              "IC95": [
+                51.6,
+                97.9
+              ]
+            },
+            "essentiels_ES": {
+              "n": 58,
+              "retenus": 46,
+              "taux_pct": 79.3,
+              "IC95": [
+                66.6,
+                88.8
+              ]
+            },
+            "essentiels_ES_et_<=100aa": {
+              "n": 11,
+              "retenus": 8,
+              "taux_pct": 72.7,
+              "IC95": [
+                39.0,
+                94.0
+              ]
+            },
+            "conserved_hypotheticals": {
+              "n": 70,
+              "retenus": 26,
+              "taux_pct": 37.1,
+              "IC95": [
+                25.9,
+                49.5
+              ]
+            }
+          }
+        },
+        "M_luteus": {
+          "criblage": "proteines <= 200 aa UNIQUEMENT",
+          "global": {
+            "n": 1196,
+            "retenus": 303,
+            "taux_pct": 25.3,
+            "IC95": [
+              22.9,
+              27.9
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 58,
+              "taux_pct": 17.3,
+              "IC95": [
+                13.4,
+                21.7
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 245,
+              "taux_pct": 28.5,
+              "IC95": [
+                25.5,
+                31.6
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 76,
+            "retenus": 58,
+            "taux_pct": 76.3,
+            "IC95": [
+              65.2,
+              85.3
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 472,
+            "retenus": 70,
+            "taux_pct": 14.8,
+            "IC95": [
+              11.7,
+              18.4
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 3.54e-10,
+          "Rv0810c_qcov": 90.0
+        }
+      }
+    },
+    "intermediaire": {
+      "E_max": 0.001,
+      "qcov_min_pct": 40.0,
+      "genomes": {
+        "M_leprae": {
+          "criblage": "proteome entier",
+          "global": {
+            "n": 3906,
+            "retenus": 2846,
+            "taux_pct": 72.9,
+            "IC95": [
+              71.4,
+              74.3
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 162,
+              "taux_pct": 48.2,
+              "IC95": [
+                42.8,
+                53.7
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 523,
+              "taux_pct": 60.8,
+              "IC95": [
+                57.5,
+                64.1
+              ]
+            },
+            "201-400 aa": {
+              "n": 1599,
+              "retenus": 1269,
+              "taux_pct": 79.4,
+              "IC95": [
+                77.3,
+                81.3
+              ]
+            },
+            "401-inf aa": {
+              "n": 1111,
+              "retenus": 892,
+              "taux_pct": 80.3,
+              "IC95": [
+                77.8,
+                82.6
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 460,
+            "retenus": 454,
+            "taux_pct": 98.7,
+            "IC95": [
+              97.2,
+              99.5
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 1013,
+            "retenus": 573,
+            "taux_pct": 56.6,
+            "IC95": [
+              53.4,
+              59.6
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 7.33e-23,
+          "Rv0810c_qcov": 100.0,
+          "retention_conditionnelle_au_temoin": {
+            "temoin_non_reduit": "M_abscessus",
+            "domaine": "proteome entier",
+            "tous": {
+              "n": 2891,
+              "retenus": 2528,
+              "taux_pct": 87.4,
+              "IC95": [
+                86.2,
+                88.6
+              ]
+            },
+            "longueur_1_100aa": {
+              "n": 123,
+              "retenus": 107,
+              "taux_pct": 87.0,
+              "IC95": [
+                79.7,
+                92.4
+              ]
+            },
+            "longueur_50_70aa": {
+              "n": 29,
+              "retenus": 26,
+              "taux_pct": 89.7,
+              "IC95": [
+                72.6,
+                97.8
+              ]
+            },
+            "essentiels_ES": {
+              "n": 455,
+              "retenus": 453,
+              "taux_pct": 99.6,
+              "IC95": [
+                98.4,
+                99.9
+              ]
+            },
+            "essentiels_ES_et_<=100aa": {
+              "n": 14,
+              "retenus": 14,
+              "taux_pct": 100.0,
+              "IC95": [
+                76.8,
+                100.0
+              ]
+            },
+            "conserved_hypotheticals": {
+              "n": 610,
+              "retenus": 474,
+              "taux_pct": 77.7,
+              "IC95": [
+                74.2,
+                80.9
+              ]
+            }
+          }
+        },
+        "M_lepromatosis": {
+          "criblage": "proteome entier",
+          "global": {
+            "n": 3906,
+            "retenus": 2831,
+            "taux_pct": 72.5,
+            "IC95": [
+              71.0,
+              73.9
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 164,
+              "taux_pct": 48.8,
+              "IC95": [
+                43.3,
+                54.3
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 523,
+              "taux_pct": 60.8,
+              "IC95": [
+                57.5,
+                64.1
+              ]
+            },
+            "201-400 aa": {
+              "n": 1599,
+              "retenus": 1261,
+              "taux_pct": 78.9,
+              "IC95": [
+                76.8,
+                80.8
+              ]
+            },
+            "401-inf aa": {
+              "n": 1111,
+              "retenus": 883,
+              "taux_pct": 79.5,
+              "IC95": [
+                77.0,
+                81.8
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 460,
+            "retenus": 452,
+            "taux_pct": 98.3,
+            "IC95": [
+              96.6,
+              99.2
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 1013,
+            "retenus": 584,
+            "taux_pct": 57.7,
+            "IC95": [
+              54.5,
+              60.7
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 6.12e-24,
+          "Rv0810c_qcov": 100.0,
+          "retention_conditionnelle_au_temoin": {
+            "temoin_non_reduit": "M_abscessus",
+            "domaine": "proteome entier",
+            "tous": {
+              "n": 2891,
+              "retenus": 2525,
+              "taux_pct": 87.3,
+              "IC95": [
+                86.1,
+                88.5
+              ]
+            },
+            "longueur_1_100aa": {
+              "n": 123,
+              "retenus": 106,
+              "taux_pct": 86.2,
+              "IC95": [
+                78.8,
+                91.7
+              ]
+            },
+            "longueur_50_70aa": {
+              "n": 29,
+              "retenus": 27,
+              "taux_pct": 93.1,
+              "IC95": [
+                77.2,
+                99.2
+              ]
+            },
+            "essentiels_ES": {
+              "n": 455,
+              "retenus": 451,
+              "taux_pct": 99.1,
+              "IC95": [
+                97.8,
+                99.8
+              ]
+            },
+            "essentiels_ES_et_<=100aa": {
+              "n": 14,
+              "retenus": 14,
+              "taux_pct": 100.0,
+              "IC95": [
+                76.8,
+                100.0
+              ]
+            },
+            "conserved_hypotheticals": {
+              "n": 610,
+              "retenus": 482,
+              "taux_pct": 79.0,
+              "IC95": [
+                75.6,
+                82.2
+              ]
+            }
+          }
+        },
+        "M_abscessus": {
+          "criblage": "proteome entier",
+          "global": {
+            "n": 3906,
+            "retenus": 2891,
+            "taux_pct": 74.0,
+            "IC95": [
+              72.6,
+              75.4
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 123,
+              "taux_pct": 36.6,
+              "IC95": [
+                31.4,
+                42.0
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 524,
+              "taux_pct": 60.9,
+              "IC95": [
+                57.6,
+                64.2
+              ]
+            },
+            "201-400 aa": {
+              "n": 1599,
+              "retenus": 1342,
+              "taux_pct": 83.9,
+              "IC95": [
+                82.0,
+                85.7
+              ]
+            },
+            "401-inf aa": {
+              "n": 1111,
+              "retenus": 902,
+              "taux_pct": 81.2,
+              "IC95": [
+                78.8,
+                83.4
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 460,
+            "retenus": 455,
+            "taux_pct": 98.9,
+            "IC95": [
+              97.5,
+              99.6
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 1013,
+            "retenus": 610,
+            "taux_pct": 60.2,
+            "IC95": [
+              57.1,
+              63.2
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 1.7e-17,
+          "Rv0810c_qcov": 100.0
+        },
+        "T_whipplei": {
+          "criblage": "proteome entier",
+          "global": {
+            "n": 3906,
+            "retenus": 893,
+            "taux_pct": 22.9,
+            "IC95": [
+              21.6,
+              24.2
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 42,
+              "taux_pct": 12.5,
+              "IC95": [
+                9.2,
+                16.5
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 133,
+              "taux_pct": 15.5,
+              "IC95": [
+                13.1,
+                18.1
+              ]
+            },
+            "201-400 aa": {
+              "n": 1599,
+              "retenus": 423,
+              "taux_pct": 26.5,
+              "IC95": [
+                24.3,
+                28.7
+              ]
+            },
+            "401-inf aa": {
+              "n": 1111,
+              "retenus": 295,
+              "taux_pct": 26.6,
+              "IC95": [
+                24.0,
+                29.3
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 460,
+            "retenus": 297,
+            "taux_pct": 64.6,
+            "IC95": [
+              60.0,
+              68.9
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 1013,
+            "retenus": 85,
+            "taux_pct": 8.4,
+            "IC95": [
+              6.8,
+              10.3
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 0.000881,
+          "Rv0810c_qcov": 55.0,
+          "retention_conditionnelle_au_temoin": {
+            "temoin_non_reduit": "M_luteus",
+            "domaine": "proteines <= 200 aa",
+            "tous": {
+              "n": 324,
+              "retenus": 169,
+              "taux_pct": 52.2,
+              "IC95": [
+                46.6,
+                57.7
+              ]
+            },
+            "longueur_1_100aa": {
+              "n": 64,
+              "retenus": 41,
+              "taux_pct": 64.1,
+              "IC95": [
+                51.1,
+                75.7
+              ]
+            },
+            "longueur_50_70aa": {
+              "n": 12,
+              "retenus": 11,
+              "taux_pct": 91.7,
+              "IC95": [
+                61.5,
+                99.8
+              ]
+            },
+            "essentiels_ES": {
+              "n": 59,
+              "retenus": 49,
+              "taux_pct": 83.1,
+              "IC95": [
+                71.0,
+                91.6
+              ]
+            },
+            "essentiels_ES_et_<=100aa": {
+              "n": 12,
+              "retenus": 10,
+              "taux_pct": 83.3,
+              "IC95": [
+                51.6,
+                97.9
+              ]
+            },
+            "conserved_hypotheticals": {
+              "n": 75,
+              "retenus": 29,
+              "taux_pct": 38.7,
+              "IC95": [
+                27.6,
+                50.6
+              ]
+            }
+          }
+        },
+        "M_luteus": {
+          "criblage": "proteines <= 200 aa UNIQUEMENT",
+          "global": {
+            "n": 1196,
+            "retenus": 324,
+            "taux_pct": 27.1,
+            "IC95": [
+              24.6,
+              29.7
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 64,
+              "taux_pct": 19.0,
+              "IC95": [
+                15.0,
+                23.7
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 260,
+              "taux_pct": 30.2,
+              "IC95": [
+                27.2,
+                33.4
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 76,
+            "retenus": 59,
+            "taux_pct": 77.6,
+            "IC95": [
+              66.6,
+              86.4
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 472,
+            "retenus": 75,
+            "taux_pct": 15.9,
+            "IC95": [
+              12.7,
+              19.5
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 3.54e-10,
+          "Rv0810c_qcov": 90.0
+        }
+      }
+    },
+    "permissif": {
+      "E_max": 0.01,
+      "qcov_min_pct": 40.0,
+      "genomes": {
+        "M_leprae": {
+          "criblage": "proteome entier",
+          "global": {
+            "n": 3906,
+            "retenus": 2846,
+            "taux_pct": 72.9,
+            "IC95": [
+              71.4,
+              74.3
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 162,
+              "taux_pct": 48.2,
+              "IC95": [
+                42.8,
+                53.7
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 523,
+              "taux_pct": 60.8,
+              "IC95": [
+                57.5,
+                64.1
+              ]
+            },
+            "201-400 aa": {
+              "n": 1599,
+              "retenus": 1269,
+              "taux_pct": 79.4,
+              "IC95": [
+                77.3,
+                81.3
+              ]
+            },
+            "401-inf aa": {
+              "n": 1111,
+              "retenus": 892,
+              "taux_pct": 80.3,
+              "IC95": [
+                77.8,
+                82.6
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 460,
+            "retenus": 454,
+            "taux_pct": 98.7,
+            "IC95": [
+              97.2,
+              99.5
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 1013,
+            "retenus": 573,
+            "taux_pct": 56.6,
+            "IC95": [
+              53.4,
+              59.6
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 7.33e-23,
+          "Rv0810c_qcov": 100.0,
+          "retention_conditionnelle_au_temoin": {
+            "temoin_non_reduit": "M_abscessus",
+            "domaine": "proteome entier",
+            "tous": {
+              "n": 2891,
+              "retenus": 2528,
+              "taux_pct": 87.4,
+              "IC95": [
+                86.2,
+                88.6
+              ]
+            },
+            "longueur_1_100aa": {
+              "n": 123,
+              "retenus": 107,
+              "taux_pct": 87.0,
+              "IC95": [
+                79.7,
+                92.4
+              ]
+            },
+            "longueur_50_70aa": {
+              "n": 29,
+              "retenus": 26,
+              "taux_pct": 89.7,
+              "IC95": [
+                72.6,
+                97.8
+              ]
+            },
+            "essentiels_ES": {
+              "n": 455,
+              "retenus": 453,
+              "taux_pct": 99.6,
+              "IC95": [
+                98.4,
+                99.9
+              ]
+            },
+            "essentiels_ES_et_<=100aa": {
+              "n": 14,
+              "retenus": 14,
+              "taux_pct": 100.0,
+              "IC95": [
+                76.8,
+                100.0
+              ]
+            },
+            "conserved_hypotheticals": {
+              "n": 610,
+              "retenus": 474,
+              "taux_pct": 77.7,
+              "IC95": [
+                74.2,
+                80.9
+              ]
+            }
+          }
+        },
+        "M_lepromatosis": {
+          "criblage": "proteome entier",
+          "global": {
+            "n": 3906,
+            "retenus": 2831,
+            "taux_pct": 72.5,
+            "IC95": [
+              71.0,
+              73.9
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 164,
+              "taux_pct": 48.8,
+              "IC95": [
+                43.3,
+                54.3
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 523,
+              "taux_pct": 60.8,
+              "IC95": [
+                57.5,
+                64.1
+              ]
+            },
+            "201-400 aa": {
+              "n": 1599,
+              "retenus": 1261,
+              "taux_pct": 78.9,
+              "IC95": [
+                76.8,
+                80.8
+              ]
+            },
+            "401-inf aa": {
+              "n": 1111,
+              "retenus": 883,
+              "taux_pct": 79.5,
+              "IC95": [
+                77.0,
+                81.8
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 460,
+            "retenus": 452,
+            "taux_pct": 98.3,
+            "IC95": [
+              96.6,
+              99.2
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 1013,
+            "retenus": 584,
+            "taux_pct": 57.7,
+            "IC95": [
+              54.5,
+              60.7
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 6.12e-24,
+          "Rv0810c_qcov": 100.0,
+          "retention_conditionnelle_au_temoin": {
+            "temoin_non_reduit": "M_abscessus",
+            "domaine": "proteome entier",
+            "tous": {
+              "n": 2891,
+              "retenus": 2525,
+              "taux_pct": 87.3,
+              "IC95": [
+                86.1,
+                88.5
+              ]
+            },
+            "longueur_1_100aa": {
+              "n": 123,
+              "retenus": 106,
+              "taux_pct": 86.2,
+              "IC95": [
+                78.8,
+                91.7
+              ]
+            },
+            "longueur_50_70aa": {
+              "n": 29,
+              "retenus": 27,
+              "taux_pct": 93.1,
+              "IC95": [
+                77.2,
+                99.2
+              ]
+            },
+            "essentiels_ES": {
+              "n": 455,
+              "retenus": 451,
+              "taux_pct": 99.1,
+              "IC95": [
+                97.8,
+                99.8
+              ]
+            },
+            "essentiels_ES_et_<=100aa": {
+              "n": 14,
+              "retenus": 14,
+              "taux_pct": 100.0,
+              "IC95": [
+                76.8,
+                100.0
+              ]
+            },
+            "conserved_hypotheticals": {
+              "n": 610,
+              "retenus": 482,
+              "taux_pct": 79.0,
+              "IC95": [
+                75.6,
+                82.2
+              ]
+            }
+          }
+        },
+        "M_abscessus": {
+          "criblage": "proteome entier",
+          "global": {
+            "n": 3906,
+            "retenus": 2891,
+            "taux_pct": 74.0,
+            "IC95": [
+              72.6,
+              75.4
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 123,
+              "taux_pct": 36.6,
+              "IC95": [
+                31.4,
+                42.0
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 524,
+              "taux_pct": 60.9,
+              "IC95": [
+                57.6,
+                64.2
+              ]
+            },
+            "201-400 aa": {
+              "n": 1599,
+              "retenus": 1342,
+              "taux_pct": 83.9,
+              "IC95": [
+                82.0,
+                85.7
+              ]
+            },
+            "401-inf aa": {
+              "n": 1111,
+              "retenus": 902,
+              "taux_pct": 81.2,
+              "IC95": [
+                78.8,
+                83.4
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 460,
+            "retenus": 455,
+            "taux_pct": 98.9,
+            "IC95": [
+              97.5,
+              99.6
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 1013,
+            "retenus": 610,
+            "taux_pct": 60.2,
+            "IC95": [
+              57.1,
+              63.2
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 1.7e-17,
+          "Rv0810c_qcov": 100.0
+        },
+        "T_whipplei": {
+          "criblage": "proteome entier",
+          "global": {
+            "n": 3906,
+            "retenus": 893,
+            "taux_pct": 22.9,
+            "IC95": [
+              21.6,
+              24.2
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 42,
+              "taux_pct": 12.5,
+              "IC95": [
+                9.2,
+                16.5
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 133,
+              "taux_pct": 15.5,
+              "IC95": [
+                13.1,
+                18.1
+              ]
+            },
+            "201-400 aa": {
+              "n": 1599,
+              "retenus": 423,
+              "taux_pct": 26.5,
+              "IC95": [
+                24.3,
+                28.7
+              ]
+            },
+            "401-inf aa": {
+              "n": 1111,
+              "retenus": 295,
+              "taux_pct": 26.6,
+              "IC95": [
+                24.0,
+                29.3
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 460,
+            "retenus": 297,
+            "taux_pct": 64.6,
+            "IC95": [
+              60.0,
+              68.9
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 1013,
+            "retenus": 85,
+            "taux_pct": 8.4,
+            "IC95": [
+              6.8,
+              10.3
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 0.000881,
+          "Rv0810c_qcov": 55.0,
+          "retention_conditionnelle_au_temoin": {
+            "temoin_non_reduit": "M_luteus",
+            "domaine": "proteines <= 200 aa",
+            "tous": {
+              "n": 324,
+              "retenus": 169,
+              "taux_pct": 52.2,
+              "IC95": [
+                46.6,
+                57.7
+              ]
+            },
+            "longueur_1_100aa": {
+              "n": 64,
+              "retenus": 41,
+              "taux_pct": 64.1,
+              "IC95": [
+                51.1,
+                75.7
+              ]
+            },
+            "longueur_50_70aa": {
+              "n": 12,
+              "retenus": 11,
+              "taux_pct": 91.7,
+              "IC95": [
+                61.5,
+                99.8
+              ]
+            },
+            "essentiels_ES": {
+              "n": 59,
+              "retenus": 49,
+              "taux_pct": 83.1,
+              "IC95": [
+                71.0,
+                91.6
+              ]
+            },
+            "essentiels_ES_et_<=100aa": {
+              "n": 12,
+              "retenus": 10,
+              "taux_pct": 83.3,
+              "IC95": [
+                51.6,
+                97.9
+              ]
+            },
+            "conserved_hypotheticals": {
+              "n": 75,
+              "retenus": 29,
+              "taux_pct": 38.7,
+              "IC95": [
+                27.6,
+                50.6
+              ]
+            }
+          }
+        },
+        "M_luteus": {
+          "criblage": "proteines <= 200 aa UNIQUEMENT",
+          "global": {
+            "n": 1196,
+            "retenus": 324,
+            "taux_pct": 27.1,
+            "IC95": [
+              24.6,
+              29.7
+            ]
+          },
+          "par_longueur": {
+            "1-100 aa": {
+              "n": 336,
+              "retenus": 64,
+              "taux_pct": 19.0,
+              "IC95": [
+                15.0,
+                23.7
+              ]
+            },
+            "101-200 aa": {
+              "n": 860,
+              "retenus": 260,
+              "taux_pct": 30.2,
+              "IC95": [
+                27.2,
+                33.4
+              ]
+            }
+          },
+          "essentiels_ES": {
+            "n": 76,
+            "retenus": 59,
+            "taux_pct": 77.6,
+            "IC95": [
+              66.6,
+              86.4
+            ]
+          },
+          "conserved_hypotheticals": {
+            "n": 472,
+            "retenus": 75,
+            "taux_pct": 15.9,
+            "IC95": [
+              12.7,
+              19.5
+            ]
+          },
+          "Rv0810c_detecte": true,
+          "Rv0810c_evalue": 3.54e-10,
+          "Rv0810c_qcov": 90.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "Solwaraspora": {
+    "n_hits": 10,
+    "hits": [
+      {
+        "hit_def": "MULTISPECIES: DUF3073 domain-containing protein [unclassified Solwaraspora] >gb|MFY1696826.1| DUF3073 domain-containing protein [Solwaraspora sp. WMMA2101] >gb|WFE25875.1| DUF3073 domain-containing protein [Solwaraspora sp. WMMD791] >gb|WJK41531.1| DUF3073 domain-containing protein [Solwaraspora sp. WMMA2056]",
+        "hit_accession": "WP_282224767",
+        "evalue": 3.32887e-15,
+        "identity": 30,
+        "align_length": 37,
+        "score": 152.0
+      },
+      {
+        "hit_def": "MULTISPECIES: DUF3073 domain-containing protein [Micromonosporaceae] >gb|MDG4773834.1| DUF3073 domain-containing protein [Solwaraspora sp. WMMD792] >gb|MFV2010664.1| DUF3073 domain-containing protein [Micromonospora sp. LOL_027] >gb|MFV2025258.1| DUF3073 domain-containing protein [Micromonospora sp. LOL_028] >gb|MFV2085468.1| DUF3073 domain-containing protein [Micromonospora sp. LOL_021] >gb|MFV2096532.1| DUF3073 domain-containing protein [Micromonospora sp. LOL_014]",
+        "hit_accession": "WP_123606444",
+        "evalue": 3.55503e-15,
+        "identity": 30,
+        "align_length": 37,
+        "score": 152.0
+      },
+      {
+        "hit_def": "DUF3073 domain-containing protein [Solwaraspora sp. WMMB335] >gb|MFY1635172.1| DUF3073 domain-containing protein [Solwaraspora sp. WMMB335]",
+        "hit_accession": "WP_421434883",
+        "evalue": 3.55503e-15,
+        "identity": 30,
+        "align_length": 37,
+        "score": 152.0
+      },
+      {
+        "hit_def": "DUF3073 domain-containing protein [Solwaraspora sp. WMMD406] >gb|MDG4762835.1| DUF3073 domain-containing protein [Solwaraspora sp. WMMD406]",
+        "hit_accession": "WP_278110829",
+        "evalue": 4.03113e-15,
+        "identity": 30,
+        "align_length": 37,
+        "score": 151.0
+      },
+      {
+        "hit_def": "DUF3073 domain-containing protein [Solwaraspora sp. WMMD1047] >gb|MDG4834472.1| DUF3073 domain-containing protein [Solwaraspora sp. WMMD1047]",
+        "hit_accession": "WP_278097705",
+        "evalue": 8.60948e-15,
+        "identity": 30,
+        "align_length": 37,
+        "score": 149.0
+      },
+      {
+        "hit_def": "dephospho-CoA kinase [Solwaraspora sp. WMMB335] >gb|MFY1637687.1| dephospho-CoA kinase [Solwaraspora sp. WMMB335]",
+        "hit_accession": "WP_421439033",
+        "evalue": 0.257111,
+        "identity": 15,
+        "align_length": 39,
+        "score": 62.0
+      },
+      {
+        "hit_def": "ABC transporter ATP-binding protein [Solwaraspora sp. WMMD1047] >gb|MDG4832813.1| ABC transporter ATP-binding protein [Solwaraspora sp. WMMD1047]",
+        "hit_accession": "WP_278098442",
+        "evalue": 9.48451,
+        "identity": 12,
+        "align_length": 40,
+        "score": 51.0
+      },
+      {
+        "hit_def": "hypothetical protein [Solwaraspora sp. WMMD406] >gb|MDG4766974.1| hypothetical protein [Solwaraspora sp. WMMD406]",
+        "hit_accession": "WP_278117186",
+        "evalue": 13.6358,
+        "identity": 12,
+        "align_length": 24,
+        "score": 50.0
+      },
+      {
+        "hit_def": "WXG100-like domain-containing protein [Solwaraspora sp. WMMD791] >gb|WFE28320.1| hypothetical protein O7623_03665 [Solwaraspora sp. WMMD791]",
+        "hit_accession": "WP_282227168",
+        "evalue": 89.4546,
+        "identity": 13,
+        "align_length": 49,
+        "score": 44.0
+      },
+      {
+        "hit_def": "amylo-alpha-1,6-glucosidase [Solwaraspora sp. WMMB762] >gb|MFY1649919.1| glycogen debranching N-terminal domain-containing protein [Solwaraspora sp. WMMB762]",
+        "hit_accession": "WP_421363427",
+        "evalue": 92.9059,
+        "identity": 15,
+        "align_length": 43,
+        "score": 44.0
+      }
+    ],
+    "verdict": "HIT TROUVE -- le manque dans InterPro etait un faux negatif de l'outil, PAS une perte"
+  },
+  "Spirillospora": {
+    "n_hits": 10,
+    "hits": [
+      {
+        "hit_def": "DUF3073 domain-containing protein [Spirillospora sp. CA-255316]",
+        "hit_accession": "XVQ09208",
+        "evalue": 4.45441e-11,
+        "identity": 26,
+        "align_length": 33,
+        "score": 127.0
+      },
+      {
+        "hit_def": "DUF3073 domain-containing protein [Spirillospora sp. NPDC029432] >gb|MEW2359594.1| DUF3073 domain-containing protein [Spirillospora sp. NPDC029432]",
+        "hit_accession": "WP_366625191",
+        "evalue": 8.11184e-11,
+        "identity": 25,
+        "align_length": 33,
+        "score": 125.0
+      },
+      {
+        "hit_def": "DUF3073 domain-containing protein [Actinomadura meridiana] >gb|WUI04532.1| DUF3073 domain-containing protein [Spirillospora sp. NBC_00431]",
+        "hit_accession": "WUI04532",
+        "evalue": 3.82424e-10,
+        "identity": 24,
+        "align_length": 33,
+        "score": 121.0
+      },
+      {
+        "hit_def": "MULTISPECIES: DUF3073 domain-containing protein [Thermomonosporaceae] >gb|MEU8804481.1| DUF3073 domain-containing protein [Spirillospora sp. NPDC048819] >gb|MGP4026463.1| DUF3073 domain-containing protein [Actinomadura sp. 3N407]",
+        "hit_accession": "WP_358469704",
+        "evalue": 3.90885e-10,
+        "identity": 24,
+        "align_length": 33,
+        "score": 121.0
+      },
+      {
+        "hit_def": "MULTISPECIES: DUF3073 domain-containing protein [Thermomonosporaceae] >gb|XWD43992.1| DUF3073 domain-containing protein [Spirillospora sp. CA-129312] >gb|KAB2376440.1| DUF3073 domain-containing protein [Actinomadura montaniterrae] >gb|MBD2899459.1| hypothetical protein [Actinomadura sp. RB99] >gb|MGI5325247.1| DUF3073 domain-containing protein [Actinomadura nitritigenes] >gb|XVR04094.1| DUF3073 domain-containing protein [Actinomadura nitritigenes]",
+        "hit_accession": "XWD43992",
+        "evalue": 4.22001e-10,
+        "identity": 24,
+        "align_length": 33,
+        "score": 121.0
+      },
+      {
+        "hit_def": "DUF3073 domain-containing protein [Spirillospora sp.]",
+        "hit_accession": "MGH3241591",
+        "evalue": 4.40881e-10,
+        "identity": 24,
+        "align_length": 33,
+        "score": 121.0
+      },
+      {
+        "hit_def": "MULTISPECIES: DUF3073 domain-containing protein [unclassified Spirillospora] >gb|MFG2087428.1| DUF3073 domain-containing protein [Spirillospora sp. NPDC048824] >gb|MFG2249666.1| DUF3073 domain-containing protein [Spirillospora sp. NPDC048823] >gb|MFI8551768.1| DUF3073 domain-containing protein [Spirillospora sp. NPDC077959]",
+        "hit_accession": "WP_392911449",
+        "evalue": 4.45732e-10,
+        "identity": 24,
+        "align_length": 33,
+        "score": 121.0
+      },
+      {
+        "hit_def": "DUF3073 domain-containing protein [Spirillospora albida]",
+        "hit_accession": "WP_030175572",
+        "evalue": 5.36851e-10,
+        "identity": 24,
+        "align_length": 33,
+        "score": 120.0
+      },
+      {
+        "hit_def": "DUF3073 domain-containing protein [Actinomadura sp. 7K507] >gb|TDC93541.1| DUF3073 domain-containing protein [Actinomadura sp. 7K507] >gb|XWC72905.1| DUF3073 domain-containing protein [Spirillospora sp. CA-290852]",
+        "hit_accession": "XWC72905",
+        "evalue": 7.53617e-10,
+        "identity": 24,
+        "align_length": 33,
+        "score": 119.0
+      },
+      {
+        "hit_def": "DUF3073 domain-containing protein [Spirillospora sp. CA-294931] >gb|XVS56697.1| DUF3073 domain-containing protein [Spirillospora sp. CA-294931]",
+        "hit_accession": "WP_433331836",
+        "evalue": 9.18753e-10,
+        "identity": 24,
+        "align_length": 33,
+        "score": 119.0
+      }
+    ],
+    "verdict": "HIT TROUVE -- le manque dans InterPro etait un faux negatif de l'outil, PAS une perte"
+  },
+  "Carbonicoccus": {
+    "n_hits": 10,
+    "hits": [
+      {
+        "hit_def": "DUF3073 domain-containing protein [Carbonicoccus niuqiaonis] >gb|MFW6598094.1| DUF3073 domain-containing protein [Carbonicoccus niuqiaonis] >gb|MGD7707482.1| DUF3073 domain-containing protein [Carbonicoccus niuqiaonis] >gb|XSS46027.1| DUF3073 domain-containing protein [Carbonicoccus niuqiaonis]",
+        "hit_accession": "WP_434550928",
+        "evalue": 1.0587e-12,
+        "identity": 29,
+        "align_length": 40,
+        "score": 131.0
+      },
+      {
+        "hit_def": "DUF3073 domain-containing protein [Carbonicoccus zhangzhihongae] >gb|MGD7789714.1| DUF3073 domain-containing protein [Carbonicoccus zhangzhihongae] >gb|MGD7789834.1| DUF3073 domain-containing protein [Carbonicoccus zhangzhihongae]",
+        "hit_accession": "WP_434554765",
+        "evalue": 2.20611e-11,
+        "identity": 25,
+        "align_length": 35,
+        "score": 122.0
+      },
+      {
+        "hit_def": "DUF3073 domain-containing protein [Carbonicoccus zhangzhihongae] >gb|MFX4272099.1| DUF3073 domain-containing protein [Carbonicoccus zhangzhihongae] >gb|XSS44705.1| DUF3073 domain-containing protein [Carbonicoccus zhangzhihongae]",
+        "hit_accession": "WP_465258287",
+        "evalue": 2.65699e-11,
+        "identity": 25,
+        "align_length": 35,
+        "score": 122.0
+      },
+      {
+        "hit_def": "serine hydrolase domain-containing protein [Carbonicoccus zhangzhihongae] >gb|MFX4272582.1| serine hydrolase [Carbonicoccus zhangzhihongae] >gb|XSS43900.1| serine hydrolase [Carbonicoccus zhangzhihongae]",
+        "hit_accession": "WP_465258376",
+        "evalue": 0.585014,
+        "identity": 11,
+        "align_length": 43,
+        "score": 55.0
+      },
+      {
+        "hit_def": "serine hydrolase domain-containing protein [Carbonicoccus zhangzhihongae] >gb|MGD7788282.1| serine hydrolase [Carbonicoccus zhangzhihongae]",
+        "hit_accession": "WP_434553333",
+        "evalue": 0.627234,
+        "identity": 11,
+        "align_length": 43,
+        "score": 55.0
+      },
+      {
+        "hit_def": "alpha/beta fold hydrolase [Carbonicoccus niuqiaonis] >gb|MGD7705044.1| alpha/beta fold hydrolase [Carbonicoccus niuqiaonis]",
+        "hit_accession": "WP_434548498",
+        "evalue": 2.56448,
+        "identity": 12,
+        "align_length": 31,
+        "score": 50.0
+      },
+      {
+        "hit_def": "fumarylacetoacetate hydrolase family protein [Carbonicoccus zhangzhihongae] >gb|MFX4270984.1| fumarylacetoacetate hydrolase family protein [Carbonicoccus zhangzhihongae] >gb|XSS41518.1| fumarylacetoacetate hydrolase family protein [Carbonicoccus zhangzhihongae]",
+        "hit_accession": "WP_465257322",
+        "evalue": 3.10835,
+        "identity": 12,
+        "align_length": 36,
+        "score": 49.0
+      },
+      {
+        "hit_def": "fumarylacetoacetate hydrolase family protein [Carbonicoccus zhangzhihongae] >gb|MGD7787391.1| fumarylacetoacetate hydrolase family protein [Carbonicoccus zhangzhihongae]",
+        "hit_accession": "WP_434552453",
+        "evalue": 3.57453,
+        "identity": 12,
+        "align_length": 36,
+        "score": 49.0
+      },
+      {
+        "hit_def": "glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit [Carbonicoccus niuqiaonis] >gb|MFW6599645.1| glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit [Carbonicoccus niuqiaonis] >gb|XSS48178.1| glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit [Carbonicoccus niuqiaonis]",
+        "hit_accession": "WP_465256618",
+        "evalue": 13.3528,
+        "identity": 15,
+        "align_length": 58,
+        "score": 45.0
+      },
+      {
+        "hit_def": "glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit [Carbonicoccus niuqiaonis] >gb|MGD7707072.1| glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit [Carbonicoccus niuqiaonis]",
+        "hit_accession": "WP_434550515",
+        "evalue": 13.7599,
+        "identity": 15,
+        "align_length": 58,
+        "score": 45.0
+      }
+    ],
+    "verdict": "HIT TROUVE -- le manque dans InterPro etait un faux negatif de l'outil, PAS une perte"
+  },
+  "Oryzobacter": {
+    "n_hits": 10,
+    "hits": [
+      {
+        "hit_def": "MULTISPECIES: DUF3073 domain-containing protein [Oryzobacter]",
+        "hit_accession": "WP_377645213",
+        "evalue": 4.00164e-15,
+        "identity": 36,
+        "align_length": 58,
+        "score": 146.0
+      },
+      {
+        "hit_def": "DUF3073 domain-containing protein [Oryzobacter faecalis] >gb|MFQ6171360.1| DUF3073 domain-containing protein [Oryzobacter faecalis]",
+        "hit_accession": "WP_411939981",
+        "evalue": 2.36835e-14,
+        "identity": 29,
+        "align_length": 36,
+        "score": 141.0
+      },
+      {
+        "hit_def": "AAA family ATPase [Oryzobacter telluris]",
+        "hit_accession": "WP_392542144",
+        "evalue": 0.663704,
+        "identity": 12,
+        "align_length": 31,
+        "score": 54.0
+      },
+      {
+        "hit_def": "heavy metal translocating P-type ATPase [Oryzobacter faecalis] >gb|MFQ6170814.1| heavy metal translocating P-type ATPase [Oryzobacter faecalis]",
+        "hit_accession": "WP_411939436",
+        "evalue": 1.46544,
+        "identity": 19,
+        "align_length": 67,
+        "score": 51.0
+      },
+      {
+        "hit_def": "inositol-3-phosphate synthase [Oryzobacter telluris]",
+        "hit_accession": "WP_392543714",
+        "evalue": 1.7739,
+        "identity": 15,
+        "align_length": 41,
+        "score": 51.0
+      },
+      {
+        "hit_def": "ATP-binding cassette domain-containing protein [Oryzobacter telluris]",
+        "hit_accession": "WP_392544407",
+        "evalue": 3.19978,
+        "identity": 11,
+        "align_length": 27,
+        "score": 49.0
+      },
+      {
+        "hit_def": "inositol-3-phosphate synthase [Oryzobacter faecalis] >gb|MFQ6171016.1| inositol-3-phosphate synthase [Oryzobacter faecalis]",
+        "hit_accession": "WP_411939632",
+        "evalue": 5.32,
+        "identity": 14,
+        "align_length": 41,
+        "score": 47.0
+      },
+      {
+        "hit_def": "inositol-3-phosphate synthase [Oryzobacter terrae]",
+        "hit_accession": "WP_377639424",
+        "evalue": 5.93836,
+        "identity": 14,
+        "align_length": 41,
+        "score": 47.0
+      },
+      {
+        "hit_def": "MBL fold metallo-hydrolase [Oryzobacter faecalis] >gb|MFQ6171319.1| MBL fold metallo-hydrolase [Oryzobacter faecalis]",
+        "hit_accession": "WP_411939940",
+        "evalue": 7.71518,
+        "identity": 9,
+        "align_length": 25,
+        "score": 46.0
+      },
+      {
+        "hit_def": "SpoIID/LytB domain-containing protein [Oryzobacter telluris]",
+        "hit_accession": "WP_392544829",
+        "evalue": 13.6974,
+        "identity": 19,
+        "align_length": 54,
+        "score": 44.0
+      }
+    ],
+    "verdict": "HIT TROUVE -- le manque dans InterPro etait un faux negatif de l'outil, PAS une perte"
+  }
+}

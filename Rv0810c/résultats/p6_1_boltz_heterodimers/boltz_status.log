@@ -1,0 +1,10 @@
+09:24:44 : un autre job Boltz tourne deja, attente...
+=== rv0810c_rpmg2_control_heterodimer 11:04:56 ===
+  rv0810c_rpmg2_control_heterodimer OK 16:29:36
+=== rv0810c_rv0812_heterodimer 16:29:36 ===
+  rv0810c_rv0812_heterodimer OK 20:35:26
+=== rv0810c_rv0811c_heterodimer 21:51:29 ===
+  rv0810c_rv0811c_heterodimer ECHEC 11:24:57
+=== TERMINE 11:24:57 ===
+=== RELANCE rv0810c_rv0811c_heterodimer 2026-08-17 11:25:09 ===
+=== RELANCE2 (run_in_background) rv0810c_rv0811c_heterodimer 2026-08-17 11:27:05 ===

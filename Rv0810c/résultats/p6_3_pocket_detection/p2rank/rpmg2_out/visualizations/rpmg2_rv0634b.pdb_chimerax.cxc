@@ -1,0 +1,19 @@
+open data/rpmg2_rv0634b.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+
+
+
+open data/rpmg2_rv0634b.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

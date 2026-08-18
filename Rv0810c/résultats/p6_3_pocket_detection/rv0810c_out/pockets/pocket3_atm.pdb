@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.3137
+HEADER 1  - Drug Score                        : 0.4921
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1739
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7489
+HEADER 5  - Mean B-factor of pocket residues  : 0.8075
+HEADER 6  - Hydrophobicity Score              : 55.8000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 351.5127
+HEADER 10 - Pocket volume (convex hull)       : 12.5266
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6111
+ATOM    236   CA GLN A  30     -19.172  -2.983  11.140  0.00  0.00           C 0
+ATOM    267   CB LEU A  33     -17.226  -3.670  15.182  0.00  0.00           C 0
+ATOM    271  CD2 LEU A  33     -16.002  -1.630  15.986  0.00  0.00           C 0
+ATOM    240   CG GLN A  30     -21.262  -1.541  11.309  0.00  0.00           C 0
+ATOM    238   CB GLN A  30     -20.129  -2.039  10.398  0.00  0.00           C 0
+ATOM    275   CB SER A  34     -22.406  -4.632  15.146  0.00  0.00           C 0
+ATOM    273   CA SER A  34     -21.378  -5.278  16.086  0.00  0.00           C 0
+ATOM    272    N SER A  34     -20.037  -5.225  15.493  0.00  0.00           N 0
+ATOM    232   CG LEU A  29     -14.235  -2.897  10.667  0.00  0.00           C 0
+ATOM    231    O LEU A  29     -16.972  -4.556  11.816  0.00  0.00           O 0
+ATOM    234  CD2 LEU A  29     -13.342  -1.708  10.314  0.00  0.00           C 0
+ATOM    239    O GLN A  30     -20.169  -4.302  12.840  0.00  0.00           O 0
+ATOM    268    O LEU A  33     -18.960  -5.248  17.452  0.00  0.00           O 0
+ATOM    235    N GLN A  30     -18.057  -3.346  10.269  0.00  0.00           N 0
+ATOM    200    O PHE A  26     -18.127  -1.778   7.869  0.62  3.21           O 0
+ATOM    243  OE1 GLN A  30     -21.848   0.314   9.883  0.00  0.00           O 0
+ATOM    202  CD1 PHE A  26     -14.756   1.627   6.908  0.00  0.00           C 0
+ATOM    199   CB PHE A  26     -16.857   0.528   6.033  0.00  0.00           C 0
+ATOM    266    C LEU A  33     -18.921  -5.216  16.228  0.00  0.00           C 0
+TER
+END

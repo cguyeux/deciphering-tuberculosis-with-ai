@@ -1,0 +1,429 @@
+{
+  "n_residues_modeled": 60,
+  "method": "freesasa (Shrake-Rupley) -> RSA%, seuil expose = RSA >= 25% (Rost & Sander 1994)",
+  "module_range": [
+    1,
+    33
+  ],
+  "exposed_threshold_RSA_percent": 25.0,
+  "basic_residues_module": [
+    [
+      3,
+      "R",
+      73.3
+    ],
+    [
+      5,
+      "R",
+      83.8
+    ],
+    [
+      7,
+      "K",
+      70.8
+    ],
+    [
+      9,
+      "K",
+      74.2
+    ],
+    [
+      12,
+      "K",
+      65.8
+    ],
+    [
+      15,
+      "R",
+      61.3
+    ],
+    [
+      18,
+      "K",
+      75.0
+    ],
+    [
+      28,
+      "R",
+      63.6
+    ],
+    [
+      31,
+      "R",
+      57.3
+    ]
+  ],
+  "basic_residues_module_exposed_RSA_ge_25pct": [
+    [
+      3,
+      "R",
+      73.3
+    ],
+    [
+      5,
+      "R",
+      83.8
+    ],
+    [
+      7,
+      "K",
+      70.8
+    ],
+    [
+      9,
+      "K",
+      74.2
+    ],
+    [
+      12,
+      "K",
+      65.8
+    ],
+    [
+      15,
+      "R",
+      61.3
+    ],
+    [
+      18,
+      "K",
+      75.0
+    ],
+    [
+      28,
+      "R",
+      63.6
+    ],
+    [
+      31,
+      "R",
+      57.3
+    ]
+  ],
+  "acidic_residues_module": [
+    [
+      16,
+      "E",
+      48.4
+    ],
+    [
+      25,
+      "D",
+      50.6
+    ],
+    [
+      32,
+      "E",
+      55.3
+    ]
+  ],
+  "observed_mean_pairwise_CA_dist_basic_exposed_A": 20.154496550559998,
+  "null_n_draws": 2000,
+  "null_mean_pairwise_CA_dist_A": 19.987119151012767,
+  "null_sd_pairwise_CA_dist_A": 2.8309700551972536,
+  "z_score_contiguity": 0.05912369127322634,
+  "empirical_p_observed_le_null": 0.489,
+  "per_residue_RSA": [
+    {
+      "resnum": 1,
+      "aa": "M",
+      "RSA_percent": 116.40951372730721
+    },
+    {
+      "resnum": 2,
+      "aa": "G",
+      "RSA_percent": 92.14065477211795
+    },
+    {
+      "resnum": 3,
+      "aa": "R",
+      "RSA_percent": 73.27023718033038
+    },
+    {
+      "resnum": 4,
+      "aa": "G",
+      "RSA_percent": 64.66362973076556
+    },
+    {
+      "resnum": 5,
+      "aa": "R",
+      "RSA_percent": 83.8282861191509
+    },
+    {
+      "resnum": 6,
+      "aa": "A",
+      "RSA_percent": 61.686044056315794
+    },
+    {
+      "resnum": 7,
+      "aa": "K",
+      "RSA_percent": 70.78671664168522
+    },
+    {
+      "resnum": 8,
+      "aa": "A",
+      "RSA_percent": 59.498636099641395
+    },
+    {
+      "resnum": 9,
+      "aa": "K",
+      "RSA_percent": 74.16086395130188
+    },
+    {
+      "resnum": 10,
+      "aa": "Q",
+      "RSA_percent": 65.96006073296353
+    },
+    {
+      "resnum": 11,
+      "aa": "T",
+      "RSA_percent": 41.99617106956338
+    },
+    {
+      "resnum": 12,
+      "aa": "K",
+      "RSA_percent": 65.76176755049664
+    },
+    {
+      "resnum": 13,
+      "aa": "V",
+      "RSA_percent": 56.73791997359242
+    },
+    {
+      "resnum": 14,
+      "aa": "A",
+      "RSA_percent": 50.327336305912546
+    },
+    {
+      "resnum": 15,
+      "aa": "R",
+      "RSA_percent": 61.34931615326505
+    },
+    {
+      "resnum": 16,
+      "aa": "E",
+      "RSA_percent": 48.36032336419906
+    },
+    {
+      "resnum": 17,
+      "aa": "L",
+      "RSA_percent": 83.44281806626562
+    },
+    {
+      "resnum": 18,
+      "aa": "K",
+      "RSA_percent": 75.00438635588492
+    },
+    {
+      "resnum": 19,
+      "aa": "Y",
+      "RSA_percent": 70.65981577291922
+    },
+    {
+      "resnum": 20,
+      "aa": "S",
+      "RSA_percent": 55.74256425470427
+    },
+    {
+      "resnum": 21,
+      "aa": "S",
+      "RSA_percent": 71.77019146529783
+    },
+    {
+      "resnum": 22,
+      "aa": "P",
+      "RSA_percent": 81.53556713599843
+    },
+    {
+      "resnum": 23,
+      "aa": "Q",
+      "RSA_percent": 95.91760117062856
+    },
+    {
+      "resnum": 24,
+      "aa": "T",
+      "RSA_percent": 50.68709043550627
+    },
+    {
+      "resnum": 25,
+      "aa": "D",
+      "RSA_percent": 50.59920995614426
+    },
+    {
+      "resnum": 26,
+      "aa": "F",
+      "RSA_percent": 76.87004559436947
+    },
+    {
+      "resnum": 27,
+      "aa": "Q",
+      "RSA_percent": 58.56834020878643
+    },
+    {
+      "resnum": 28,
+      "aa": "R",
+      "RSA_percent": 63.64388038943899
+    },
+    {
+      "resnum": 29,
+      "aa": "L",
+      "RSA_percent": 53.42300762631145
+    },
+    {
+      "resnum": 30,
+      "aa": "Q",
+      "RSA_percent": 59.39332737492707
+    },
+    {
+      "resnum": 31,
+      "aa": "R",
+      "RSA_percent": 57.31762212529383
+    },
+    {
+      "resnum": 32,
+      "aa": "E",
+      "RSA_percent": 55.28397556771682
+    },
+    {
+      "resnum": 33,
+      "aa": "L",
+      "RSA_percent": 86.74810825778052
+    },
+    {
+      "resnum": 34,
+      "aa": "S",
+      "RSA_percent": 58.15240370856044
+    },
+    {
+      "resnum": 35,
+      "aa": "G",
+      "RSA_percent": 66.02938007743678
+    },
+    {
+      "resnum": 36,
+      "aa": "T",
+      "RSA_percent": 73.6197352222701
+    },
+    {
+      "resnum": 37,
+      "aa": "G",
+      "RSA_percent": 57.80999386340262
+    },
+    {
+      "resnum": 38,
+      "aa": "T",
+      "RSA_percent": 93.9647574926325
+    },
+    {
+      "resnum": 39,
+      "aa": "D",
+      "RSA_percent": 75.89187846069372
+    },
+    {
+      "resnum": 40,
+      "aa": "R",
+      "RSA_percent": 79.50188572135501
+    },
+    {
+      "resnum": 41,
+      "aa": "L",
+      "RSA_percent": 96.97962142294301
+    },
+    {
+      "resnum": 42,
+      "aa": "D",
+      "RSA_percent": 98.36876986976712
+    },
+    {
+      "resnum": 43,
+      "aa": "G",
+      "RSA_percent": 67.3615538740451
+    },
+    {
+      "resnum": 44,
+      "aa": "D",
+      "RSA_percent": 99.80298287233045
+    },
+    {
+      "resnum": 45,
+      "aa": "G",
+      "RSA_percent": 67.9251268218159
+    },
+    {
+      "resnum": 46,
+      "aa": "P",
+      "RSA_percent": 100.78123415970252
+    },
+    {
+      "resnum": 47,
+      "aa": "S",
+      "RSA_percent": 80.44438153404766
+    },
+    {
+      "resnum": 48,
+      "aa": "D",
+      "RSA_percent": 72.21772930260423
+    },
+    {
+      "resnum": 49,
+      "aa": "D",
+      "RSA_percent": 72.23365916533442
+    },
+    {
+      "resnum": 50,
+      "aa": "D",
+      "RSA_percent": 78.46116547913489
+    },
+    {
+      "resnum": 51,
+      "aa": "S",
+      "RSA_percent": 64.28631928706923
+    },
+    {
+      "resnum": 52,
+      "aa": "W",
+      "RSA_percent": 92.39021522514932
+    },
+    {
+      "resnum": 53,
+      "aa": "N",
+      "RSA_percent": 77.51781218296442
+    },
+    {
+      "resnum": 54,
+      "aa": "D",
+      "RSA_percent": 67.84677063463124
+    },
+    {
+      "resnum": 55,
+      "aa": "E",
+      "RSA_percent": 66.1964834884891
+    },
+    {
+      "resnum": 56,
+      "aa": "D",
+      "RSA_percent": 60.52007549855025
+    },
+    {
+      "resnum": 57,
+      "aa": "D",
+      "RSA_percent": 70.06940159071723
+    },
+    {
+      "resnum": 58,
+      "aa": "W",
+      "RSA_percent": 88.17155411332415
+    },
+    {
+      "resnum": 59,
+      "aa": "R",
+      "RSA_percent": 74.9240548140675
+    },
+    {
+      "resnum": 60,
+      "aa": "R",
+      "RSA_percent": 112.27867711276988
+    }
+  ],
+  "interpretation_note": "z tres negatif / p faible => les residus bases exposes du module sont PLUS PROCHES les uns des autres qu'un tirage aleatoire parmi les residus exposes du module : patch electropositif contigu, coherent avec un site de liaison a un polyanion. z proche de 0 => pas plus regroupes que le hasard, les residus bases exposes sont disperses sur plusieurs faces, ce qui affaiblit l'hypothese d'un patch de liaison dedie."
+}

@@ -1,0 +1,19 @@
+open data/rv0810c.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+
+
+
+open data/rv0810c.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

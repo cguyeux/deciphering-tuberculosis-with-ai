@@ -1,0 +1,626 @@
+{
+  "piste": "P8",
+  "source_donnees": "/home/christophe/docs/codes/mtbc/Rv0810c/data/p8_ns_s_sites_75_controls.csv",
+  "avertissement_ecart_P4_3": "P4.3 recensait 3 sites missense (R31Q, G35S, Q27T) et 11 sites synonymes pour Rv0810c, un sous-ensemble construit a la main pour une autre question (la disruption clonale), PAS une requete exhaustive de tb_report_spdi_annotations. La requete exhaustive de ce script trouve 84 sites missense (dont p.Thr24Pro a 32 souches et p.Asp56Ala a 73 souches, jamais mentionnes dans P4.3) et 100 sites synonymes, TOUS seuils de frequence confondus, references verifiees sur le genome. A signaler pour correction de etat_des_decouvertes.md §2 / P4.3.",
+  "Rv0810c": {
+    "NS_missense_stop": 86,
+    "S_synonymous": 100,
+    "NS_over_S": 0.86,
+    "NS_proportion": 0.4624
+  },
+  "rang_empirique_parmi_75": {
+    "n_temoins": 74,
+    "rang_1_est_le_moins_charge_NS": 2,
+    "percentile": 2.7,
+    "mediane_temoins_NS_proportion": 0.6788
+  },
+  "fisher_vs_pool_74_temoins": {
+    "NS_pool": 11696,
+    "S_pool": 6067,
+    "NS_over_S_pool": 1.9278,
+    "DoS": -0.1961,
+    "NI": 2.2397,
+    "alpha_1_moins_NI": -1.2397,
+    "p_fisher": 5.795668526408909e-08,
+    "lecture": "DoS<0 et alpha<0 : Rv0810c est MOINS charge en NS/S que le pool des temoins (plus contraint) ; DoS>0 : l'inverse."
+  },
+  "tests_individuels_vs_chaque_temoin": {
+    "n_temoins_testes": 74,
+    "n_significatifs_Rv0810c_plus_contraint_p<0.05": 65,
+    "n_significatifs_Rv0810c_moins_contraint_p<0.05": 0,
+    "detail": [
+      {
+        "gene": "Rv1576c",
+        "NS": 866,
+        "S": 351,
+        "NS_over_S": 2.4672,
+        "DoS_vs_Rv0810c": -0.2492,
+        "p_fisher": 7.06152038247996e-11
+      },
+      {
+        "gene": "Rv2082",
+        "NS": 1298,
+        "S": 556,
+        "NS_over_S": 2.3345,
+        "DoS_vs_Rv0810c": -0.2377,
+        "p_fisher": 1.9269569861469495e-10
+      },
+      {
+        "gene": "Rv3402c",
+        "NS": 758,
+        "S": 340,
+        "NS_over_S": 2.2294,
+        "DoS_vs_Rv0810c": -0.228,
+        "p_fisher": 3.4645825411427514e-09
+      },
+      {
+        "gene": "Rv1498A",
+        "NS": 146,
+        "S": 48,
+        "NS_over_S": 3.0417,
+        "DoS_vs_Rv0810c": -0.2902,
+        "p_fisher": 6.201175029649321e-09
+      },
+      {
+        "gene": "Rv0115a",
+        "NS": 139,
+        "S": 49,
+        "NS_over_S": 2.8367,
+        "DoS_vs_Rv0810c": -0.277,
+        "p_fisher": 5.7537321444229275e-08
+      },
+      {
+        "gene": "Rv0979c",
+        "NS": 133,
+        "S": 47,
+        "NS_over_S": 2.8298,
+        "DoS_vs_Rv0810c": -0.2765,
+        "p_fisher": 7.980054428166413e-08
+      },
+      {
+        "gene": "Rv3643",
+        "NS": 145,
+        "S": 54,
+        "NS_over_S": 2.6852,
+        "DoS_vs_Rv0810c": -0.2663,
+        "p_fisher": 1.0091999281185608e-07
+      },
+      {
+        "gene": "Rv2512a",
+        "NS": 104,
+        "S": 34,
+        "NS_over_S": 3.0588,
+        "DoS_vs_Rv0810c": -0.2913,
+        "p_fisher": 1.3005430931554433e-07
+      },
+      {
+        "gene": "Rv2970A",
+        "NS": 110,
+        "S": 38,
+        "NS_over_S": 2.8947,
+        "DoS_vs_Rv0810c": -0.2809,
+        "p_fisher": 2.271620752162026e-07
+      },
+      {
+        "gene": "Rv3613c",
+        "NS": 127,
+        "S": 47,
+        "NS_over_S": 2.7021,
+        "DoS_vs_Rv0810c": -0.2675,
+        "p_fisher": 2.4148183084583004e-07
+      },
+      {
+        "gene": "Rv0063a",
+        "NS": 143,
+        "S": 57,
+        "NS_over_S": 2.5088,
+        "DoS_vs_Rv0810c": -0.2526,
+        "p_fisher": 5.628446794277357e-07
+      },
+      {
+        "gene": "Rv1786",
+        "NS": 133,
+        "S": 52,
+        "NS_over_S": 2.5577,
+        "DoS_vs_Rv0810c": -0.2566,
+        "p_fisher": 6.103190760892125e-07
+      },
+      {
+        "gene": "Rv3190A",
+        "NS": 132,
+        "S": 54,
+        "NS_over_S": 2.4444,
+        "DoS_vs_Rv0810c": -0.2473,
+        "p_fisher": 1.9060567317831085e-06
+      },
+      {
+        "gene": "Rv1116",
+        "NS": 104,
+        "S": 39,
+        "NS_over_S": 2.6667,
+        "DoS_vs_Rv0810c": -0.2649,
+        "p_fisher": 1.9437310315053993e-06
+      },
+      {
+        "gene": "Rv3857c",
+        "NS": 157,
+        "S": 69,
+        "NS_over_S": 2.2754,
+        "DoS_vs_Rv0810c": -0.2323,
+        "p_fisher": 2.113050553780161e-06
+      },
+      {
+        "gene": "Rv1706A",
+        "NS": 96,
+        "S": 36,
+        "NS_over_S": 2.6667,
+        "DoS_vs_Rv0810c": -0.2649,
+        "p_fisher": 2.3401916379108993e-06
+      },
+      {
+        "gene": "Rv0909",
+        "NS": 118,
+        "S": 48,
+        "NS_over_S": 2.4583,
+        "DoS_vs_Rv0810c": -0.2485,
+        "p_fisher": 2.967006807704556e-06
+      },
+      {
+        "gene": "Rv0456B",
+        "NS": 108,
+        "S": 43,
+        "NS_over_S": 2.5116,
+        "DoS_vs_Rv0810c": -0.2529,
+        "p_fisher": 3.0728729848985775e-06
+      },
+      {
+        "gene": "Rv3222c",
+        "NS": 297,
+        "S": 150,
+        "NS_over_S": 1.98,
+        "DoS_vs_Rv0810c": -0.2021,
+        "p_fisher": 3.1163979448467133e-06
+      },
+      {
+        "gene": "Rv0186A",
+        "NS": 113,
+        "S": 46,
+        "NS_over_S": 2.4565,
+        "DoS_vs_Rv0810c": -0.2483,
+        "p_fisher": 3.968664660710042e-06
+      },
+      {
+        "gene": "Rv0078B",
+        "NS": 146,
+        "S": 65,
+        "NS_over_S": 2.2462,
+        "DoS_vs_Rv0810c": -0.2296,
+        "p_fisher": 4.16075545817275e-06
+      },
+      {
+        "gene": "Rv3745c",
+        "NS": 137,
+        "S": 61,
+        "NS_over_S": 2.2459,
+        "DoS_vs_Rv0810c": -0.2296,
+        "p_fisher": 5.34904543287899e-06
+      },
+      {
+        "gene": "Rv3202a",
+        "NS": 133,
+        "S": 59,
+        "NS_over_S": 2.2542,
+        "DoS_vs_Rv0810c": -0.2303,
+        "p_fisher": 6.923919925223743e-06
+      },
+      {
+        "gene": "Rv2307A",
+        "NS": 112,
+        "S": 47,
+        "NS_over_S": 2.383,
+        "DoS_vs_Rv0810c": -0.242,
+        "p_fisher": 6.929003506952768e-06
+      },
+      {
+        "gene": "Rv2806",
+        "NS": 124,
+        "S": 56,
+        "NS_over_S": 2.2143,
+        "DoS_vs_Rv0810c": -0.2265,
+        "p_fisher": 1.3835629572091117e-05
+      },
+      {
+        "gene": "Rv2490a",
+        "NS": 141,
+        "S": 67,
+        "NS_over_S": 2.1045,
+        "DoS_vs_Rv0810c": -0.2155,
+        "p_fisher": 1.750138122212618e-05
+      },
+      {
+        "gene": "Rv1228a",
+        "NS": 111,
+        "S": 49,
+        "NS_over_S": 2.2653,
+        "DoS_vs_Rv0810c": -0.2314,
+        "p_fisher": 1.9958956672523245e-05
+      },
+      {
+        "gene": "Rv0657c",
+        "NS": 102,
+        "S": 44,
+        "NS_over_S": 2.3182,
+        "DoS_vs_Rv0810c": -0.2363,
+        "p_fisher": 2.0622052658926417e-05
+      },
+      {
+        "gene": "Rv3312b",
+        "NS": 101,
+        "S": 44,
+        "NS_over_S": 2.2955,
+        "DoS_vs_Rv0810c": -0.2342,
+        "p_fisher": 2.121894622103148e-05
+      },
+      {
+        "gene": "Rv0763c",
+        "NS": 146,
+        "S": 71,
+        "NS_over_S": 2.0563,
+        "DoS_vs_Rv0810c": -0.2104,
+        "p_fisher": 2.1868450003497195e-05
+      },
+      {
+        "gene": "Rv2128",
+        "NS": 106,
+        "S": 48,
+        "NS_over_S": 2.2083,
+        "DoS_vs_Rv0810c": -0.2259,
+        "p_fisher": 2.9787539750259913e-05
+      },
+      {
+        "gene": "Rv2395B",
+        "NS": 131,
+        "S": 62,
+        "NS_over_S": 2.1129,
+        "DoS_vs_Rv0810c": -0.2164,
+        "p_fisher": 3.040134359302482e-05
+      },
+      {
+        "gene": "Rv2231B",
+        "NS": 101,
+        "S": 45,
+        "NS_over_S": 2.2444,
+        "DoS_vs_Rv0810c": -0.2294,
+        "p_fisher": 3.485696962625561e-05
+      },
+      {
+        "gene": "Rv2307D",
+        "NS": 102,
+        "S": 46,
+        "NS_over_S": 2.2174,
+        "DoS_vs_Rv0810c": -0.2268,
+        "p_fisher": 3.802255929546734e-05
+      },
+      {
+        "gene": "Rv2283",
+        "NS": 112,
+        "S": 52,
+        "NS_over_S": 2.1538,
+        "DoS_vs_Rv0810c": -0.2206,
+        "p_fisher": 3.8425743377091944e-05
+      },
+      {
+        "gene": "Rv2256a",
+        "NS": 115,
+        "S": 54,
+        "NS_over_S": 2.1296,
+        "DoS_vs_Rv0810c": -0.2181,
+        "p_fisher": 4.355980096218512e-05
+      },
+      {
+        "gene": "Rv1088a",
+        "NS": 104,
+        "S": 48,
+        "NS_over_S": 2.1667,
+        "DoS_vs_Rv0810c": -0.2218,
+        "p_fisher": 4.546091887966372e-05
+      },
+      {
+        "gene": "Rv3196A",
+        "NS": 106,
+        "S": 49,
+        "NS_over_S": 2.1633,
+        "DoS_vs_Rv0810c": -0.2215,
+        "p_fisher": 4.7516938471449394e-05
+      },
+      {
+        "gene": "Rv0666",
+        "NS": 101,
+        "S": 46,
+        "NS_over_S": 2.1957,
+        "DoS_vs_Rv0810c": -0.2247,
+        "p_fisher": 5.8066698173782015e-05
+      },
+      {
+        "gene": "Rv1740",
+        "NS": 126,
+        "S": 63,
+        "NS_over_S": 2.0,
+        "DoS_vs_Rv0810c": -0.2043,
+        "p_fisher": 7.42977069233318e-05
+      },
+      {
+        "gene": "Rv2738c",
+        "NS": 131,
+        "S": 66,
+        "NS_over_S": 1.9848,
+        "DoS_vs_Rv0810c": -0.2026,
+        "p_fisher": 8.424170392892754e-05
+      },
+      {
+        "gene": "Rv1155a",
+        "NS": 108,
+        "S": 52,
+        "NS_over_S": 2.0769,
+        "DoS_vs_Rv0810c": -0.2126,
+        "p_fisher": 8.781154408435392e-05
+      },
+      {
+        "gene": "Rv3430a",
+        "NS": 84,
+        "S": 38,
+        "NS_over_S": 2.2105,
+        "DoS_vs_Rv0810c": -0.2262,
+        "p_fisher": 0.0001068127306817222
+      },
+      {
+        "gene": "Rv1950c",
+        "NS": 118,
+        "S": 60,
+        "NS_over_S": 1.9667,
+        "DoS_vs_Rv0810c": -0.2006,
+        "p_fisher": 0.00013911771775740688
+      },
+      {
+        "gene": "Rv3656c",
+        "NS": 145,
+        "S": 78,
+        "NS_over_S": 1.859,
+        "DoS_vs_Rv0810c": -0.1879,
+        "p_fisher": 0.00014453731703673934
+      },
+      {
+        "gene": "Rv2386a",
+        "NS": 120,
+        "S": 61,
+        "NS_over_S": 1.9672,
+        "DoS_vs_Rv0810c": -0.2006,
+        "p_fisher": 0.00014533090917183465
+      },
+      {
+        "gene": "Rv2304c",
+        "NS": 119,
+        "S": 61,
+        "NS_over_S": 1.9508,
+        "DoS_vs_Rv0810c": -0.1987,
+        "p_fisher": 0.00014737909350133444
+      },
+      {
+        "gene": "Rv0530A",
+        "NS": 120,
+        "S": 62,
+        "NS_over_S": 1.9355,
+        "DoS_vs_Rv0810c": -0.197,
+        "p_fisher": 0.00015629379870276934
+      },
+      {
+        "gene": "Rv3251c",
+        "NS": 103,
+        "S": 52,
+        "NS_over_S": 1.9808,
+        "DoS_vs_Rv0810c": -0.2022,
+        "p_fisher": 0.00020014264281924824
+      },
+      {
+        "gene": "Rv0108c",
+        "NS": 161,
+        "S": 90,
+        "NS_over_S": 1.7889,
+        "DoS_vs_Rv0810c": -0.1791,
+        "p_fisher": 0.0002096157389671084
+      },
+      {
+        "gene": "Rv1473A",
+        "NS": 138,
+        "S": 78,
+        "NS_over_S": 1.7692,
+        "DoS_vs_Rv0810c": -0.1765,
+        "p_fisher": 0.0004261348375148407
+      },
+      {
+        "gene": "Rv2371",
+        "NS": 92,
+        "S": 48,
+        "NS_over_S": 1.9167,
+        "DoS_vs_Rv0810c": -0.1948,
+        "p_fisher": 0.0005034218351108534
+      },
+      {
+        "gene": "Rv2057c",
+        "NS": 108,
+        "S": 59,
+        "NS_over_S": 1.8305,
+        "DoS_vs_Rv0810c": -0.1843,
+        "p_fisher": 0.0005999725654101135
+      },
+      {
+        "gene": "Rv1693",
+        "NS": 104,
+        "S": 57,
+        "NS_over_S": 1.8246,
+        "DoS_vs_Rv0810c": -0.1836,
+        "p_fisher": 0.0007813489049101225
+      },
+      {
+        "gene": "Rv0900",
+        "NS": 77,
+        "S": 39,
+        "NS_over_S": 1.9744,
+        "DoS_vs_Rv0810c": -0.2014,
+        "p_fisher": 0.0008552982168078288
+      },
+      {
+        "gene": "Rv1799",
+        "NS": 105,
+        "S": 59,
+        "NS_over_S": 1.7797,
+        "DoS_vs_Rv0810c": -0.1779,
+        "p_fisher": 0.0008850267581773979
+      },
+      {
+        "gene": "Rv2975a",
+        "NS": 183,
+        "S": 116,
+        "NS_over_S": 1.5776,
+        "DoS_vs_Rv0810c": -0.1497,
+        "p_fisher": 0.0014075618804750207
+      },
+      {
+        "gene": "Rv3642c",
+        "NS": 112,
+        "S": 67,
+        "NS_over_S": 1.6716,
+        "DoS_vs_Rv0810c": -0.1633,
+        "p_fisher": 0.0022676281453378596
+      },
+      {
+        "gene": "Rv2401A",
+        "NS": 82,
+        "S": 50,
+        "NS_over_S": 1.64,
+        "DoS_vs_Rv0810c": -0.1588,
+        "p_fisher": 0.0061942510006682905
+      },
+      {
+        "gene": "Rv3250c",
+        "NS": 127,
+        "S": 90,
+        "NS_over_S": 1.4111,
+        "DoS_vs_Rv0810c": -0.1229,
+        "p_fisher": 0.016274241335809167
+      },
+      {
+        "gene": "Rv0863",
+        "NS": 92,
+        "S": 63,
+        "NS_over_S": 1.4603,
+        "DoS_vs_Rv0810c": -0.1312,
+        "p_fisher": 0.016919564680721852
+      },
+      {
+        "gene": "Rv1113",
+        "NS": 85,
+        "S": 57,
+        "NS_over_S": 1.4912,
+        "DoS_vs_Rv0810c": -0.1362,
+        "p_fisher": 0.019017126421651105
+      },
+      {
+        "gene": "Rv3489",
+        "NS": 101,
+        "S": 71,
+        "NS_over_S": 1.4225,
+        "DoS_vs_Rv0810c": -0.1248,
+        "p_fisher": 0.02002538903127455
+      },
+      {
+        "gene": "Rv0416",
+        "NS": 88,
+        "S": 61,
+        "NS_over_S": 1.4426,
+        "DoS_vs_Rv0810c": -0.1282,
+        "p_fisher": 0.021181492995106493
+      },
+      {
+        "gene": "Rv0979A",
+        "NS": 88,
+        "S": 63,
+        "NS_over_S": 1.3968,
+        "DoS_vs_Rv0810c": -0.1204,
+        "p_fisher": 0.029046209578352116
+      },
+      {
+        "gene": "Rv0717",
+        "NS": 177,
+        "S": 145,
+        "NS_over_S": 1.2207,
+        "DoS_vs_Rv0810c": -0.0873,
+        "p_fisher": 0.06536784183132563
+      },
+      {
+        "gene": "Rv3678A",
+        "NS": 163,
+        "S": 137,
+        "NS_over_S": 1.1898,
+        "DoS_vs_Rv0810c": -0.081,
+        "p_fisher": 0.09299517314542755
+      },
+      {
+        "gene": "Rv3503c",
+        "NS": 119,
+        "S": 104,
+        "NS_over_S": 1.1442,
+        "DoS_vs_Rv0810c": -0.0713,
+        "p_fisher": 0.16500064015140614
+      },
+      {
+        "gene": "Rv0722",
+        "NS": 117,
+        "S": 103,
+        "NS_over_S": 1.1359,
+        "DoS_vs_Rv0810c": -0.0695,
+        "p_fisher": 0.1952901098012068
+      },
+      {
+        "gene": "Rv2111c",
+        "NS": 208,
+        "S": 194,
+        "NS_over_S": 1.0722,
+        "DoS_vs_Rv0810c": -0.055,
+        "p_fisher": 0.2489486814708525
+      },
+      {
+        "gene": "Rv1642",
+        "NS": 148,
+        "S": 140,
+        "NS_over_S": 1.0571,
+        "DoS_vs_Rv0810c": -0.0515,
+        "p_fisher": 0.30101954070876064
+      },
+      {
+        "gene": "Rv3648c",
+        "NS": 181,
+        "S": 173,
+        "NS_over_S": 1.0462,
+        "DoS_vs_Rv0810c": -0.0489,
+        "p_fisher": 0.31915161613761284
+      },
+      {
+        "gene": "Rv0634B",
+        "NS": 113,
+        "S": 128,
+        "NS_over_S": 0.8828,
+        "DoS_vs_Rv0810c": -0.0065,
+        "p_fisher": 0.922239597401031
+      },
+      {
+        "gene": "Rv0236A",
+        "NS": 95,
+        "S": 111,
+        "NS_over_S": 0.8559,
+        "DoS_vs_Rv0810c": 0.0012,
+        "p_fisher": 1.0
+      }
+    ]
+  }
+}

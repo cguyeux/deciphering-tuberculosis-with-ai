@@ -1,0 +1,12 @@
+09:24:44 : un autre job Boltz tourne deja, attente...
+  pre-vol OK : 17309 Mio dispo, besoin estime 5722 Mio (116 tokens)
+=== rv0810c_rpmg2_control_heterodimer 11:04:56 ===
+  rv0810c_rpmg2_control_heterodimer OK 16:29:36
+  pre-vol OK : 16148 Mio dispo, besoin estime 9078 Mio (375 tokens)
+=== rv0810c_rv0812_heterodimer 16:29:36 ===
+  rv0810c_rv0812_heterodimer OK 20:35:26
+  pre-vol OK : 17402 Mio dispo, besoin estime 10201 Mio (428 tokens)
+=== rv0810c_rv0811c_heterodimer 21:51:29 ===
+run_boltz.sh : ligne 64 : 1607853 Processus arrêté         "$B" predict "$y.yaml" --out_dir "out_$y" --accelerator cpu --devices 1 --output_format mmcif --diffusion_samples 5 --num_workers 0 --use_msa_server >> boltz.log 2>&1
+  rv0810c_rv0811c_heterodimer ECHEC 11:24:57
+=== TERMINE 11:24:57 ===

@@ -1,0 +1,109 @@
+{
+  "n_sequences": 1930,
+  "n_uniprot_annotated": 1930,
+  "n_with_order": 1428,
+  "boundary_column": 36,
+  "module_end_residue": 33,
+  "tail_len_distribution": {
+    "min": 8,
+    "max": 68
+  },
+  "order_stats_sorted_by_median": {
+    "Pseudonocardiales": {
+      "n": 100,
+      "median_tail_len": 28.0,
+      "min": 20,
+      "max": 35
+    },
+    "Propionibacteriales": {
+      "n": 113,
+      "median_tail_len": 29,
+      "min": 18,
+      "max": 45
+    },
+    "Allobogoriellales": {
+      "n": 7,
+      "median_tail_len": 29,
+      "min": 27,
+      "max": 32
+    },
+    "Mycobacteriales": {
+      "n": 198,
+      "median_tail_len": 30.0,
+      "min": 20,
+      "max": 48
+    },
+    "Streptosporangiales": {
+      "n": 159,
+      "median_tail_len": 31,
+      "min": 19,
+      "max": 53
+    },
+    "Micrococcales": {
+      "n": 361,
+      "median_tail_len": 31,
+      "min": 8,
+      "max": 59
+    },
+    "Kineosporiales": {
+      "n": 7,
+      "median_tail_len": 32,
+      "min": 29,
+      "max": 54
+    },
+    "Jiangellales": {
+      "n": 7,
+      "median_tail_len": 32,
+      "min": 29,
+      "max": 35
+    },
+    "Actinomycetales": {
+      "n": 37,
+      "median_tail_len": 34,
+      "min": 27,
+      "max": 50
+    },
+    "Frankiales": {
+      "n": 15,
+      "median_tail_len": 34,
+      "min": 30,
+      "max": 42
+    },
+    "Micromonosporales": {
+      "n": 91,
+      "median_tail_len": 35,
+      "min": 22,
+      "max": 48
+    },
+    "Glycomycetales": {
+      "n": 6,
+      "median_tail_len": 37.0,
+      "min": 33,
+      "max": 40
+    },
+    "Geodermatophilales": {
+      "n": 19,
+      "median_tail_len": 38,
+      "min": 34,
+      "max": 40
+    },
+    "Kitasatosporales": {
+      "n": 226,
+      "median_tail_len": 41.0,
+      "min": 27,
+      "max": 56
+    },
+    "Nakamurellales": {
+      "n": 9,
+      "median_tail_len": 42,
+      "min": 29,
+      "max": 45
+    },
+    "Bifidobacteriales": {
+      "n": 57,
+      "median_tail_len": 53,
+      "min": 37,
+      "max": 68
+    }
+  }
+}

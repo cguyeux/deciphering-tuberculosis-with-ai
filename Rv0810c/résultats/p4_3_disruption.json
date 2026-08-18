@@ -1,0 +1,260 @@
+{
+  "piste": "P4.3",
+  "convention_coordonnees": {
+    "SPDI_TBannotator": "0-based (norme NCBI)",
+    "controle": "rpoB S450L = 1-based 761155 (ref C) dans la litterature ; TBannotator le porte en NC_000962.3:761154:C:T, 46 303 souches.",
+    "verification_locale_761155": "C",
+    "verification_locale_761154_si_1based": "T"
+  },
+  "CDS": {
+    "coordonnees_1based": [
+      904905,
+      905087
+    ],
+    "brin": "-",
+    "longueur_nt": 183,
+    "proteine": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+    "codon_start_1based": [
+      905085,
+      905087
+    ],
+    "sequence_codon_start_brin_plus": "CAT"
+  },
+  "1_variant_de_disruption": {
+    "spdi": "NC_000962.3:905086:TG:T",
+    "strain_count_TBannotator": 754,
+    "atlas_disrupt_strains": 406,
+    "note_denominateurs": "406/145 209 = 0,28 % (sous-ensemble de l'atlas) et 754/~255 000 = 0,30 % (TBannotator entier) : meme variant, deux denominateurs.",
+    "ref_verifiee_0based": true,
+    "ref_lue_en_1based": "AT",
+    "base_supprimee_1based": 905088,
+    "dans_la_CDS": false,
+    "position_relative_au_codon_start": "1 nt en amont du codon start (brin -)",
+    "contexte_sequence": {
+      "base": "G",
+      "homopolymere_1based": [
+        905088,
+        905092
+      ],
+      "longueur_homopolymere": 5,
+      "contexte": "GCCGCGGCCCATGGGGGAACCCCCT"
+    }
+  },
+  "2_autres_indels_du_meme_run": {
+    "NC_000962.3:905087:GGGGGA:TGGG": {
+      "strain_count": 4,
+      "premiere_base_1based": 905088,
+      "ref_verifiee": true,
+      "lecture": "seconde deletion independante DANS le meme run de G"
+    }
+  },
+  "3_effets_proteiques": {
+    "avertissement": "La couche `conservation` de l'atlas annonce missense=0. Elle ne compte que les variants de type SNP. Les variants `complex` (substitutions multi-nucleotidiques) du meme locus sont re-traduits ici : s'ils changent des acides amines, l'affirmation '0 missense sur 145 209 souches' ne tient pas telle quelle — et c'est un argument porteur de la piste P5.",
+    "SNP": [
+      {
+        "spdi_0based": 905081,
+        "premiere_base_1based": 905082,
+        "derniere_base_1based": 905082,
+        "ref": "G",
+        "alt": "C",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [],
+        "synonyme": true,
+        "strain_count": 6518
+      },
+      {
+        "spdi_0based": 905045,
+        "premiere_base_1based": 905046,
+        "derniere_base_1based": 905046,
+        "ref": "A",
+        "alt": "T",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [],
+        "synonyme": true,
+        "strain_count": 471
+      },
+      {
+        "spdi_0based": 905038,
+        "premiere_base_1based": 905039,
+        "derniere_base_1based": 905039,
+        "ref": "A",
+        "alt": "G",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [],
+        "synonyme": true,
+        "strain_count": 423
+      },
+      {
+        "spdi_0based": 904994,
+        "premiere_base_1based": 904995,
+        "derniere_base_1based": 904995,
+        "ref": "A",
+        "alt": "G",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [],
+        "synonyme": true,
+        "strain_count": 335
+      },
+      {
+        "spdi_0based": 904910,
+        "premiere_base_1based": 904911,
+        "derniere_base_1based": 904911,
+        "ref": "C",
+        "alt": "A",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [],
+        "synonyme": true,
+        "strain_count": 197
+      },
+      {
+        "spdi_0based": 905063,
+        "premiere_base_1based": 905064,
+        "derniere_base_1based": 905064,
+        "ref": "T",
+        "alt": "C",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [],
+        "synonyme": true,
+        "strain_count": 176
+      }
+    ],
+    "complex": [
+      {
+        "spdi_0based": 905036,
+        "premiere_base_1based": 905037,
+        "derniere_base_1based": 905039,
+        "ref": "CAA",
+        "alt": "GAG",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [],
+        "synonyme": true,
+        "strain_count": 1123
+      },
+      {
+        "spdi_0based": 905024,
+        "premiere_base_1based": 905025,
+        "derniere_base_1based": 905028,
+        "ref": "GGAG",
+        "alt": "AGAA",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [],
+        "synonyme": true,
+        "strain_count": 798
+      },
+      {
+        "spdi_0based": 905036,
+        "premiere_base_1based": 905037,
+        "derniere_base_1based": 905039,
+        "ref": "CAA",
+        "alt": "AAG",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [],
+        "synonyme": true,
+        "strain_count": 158
+      },
+      {
+        "spdi_0based": 905072,
+        "premiere_base_1based": 905073,
+        "derniere_base_1based": 905079,
+        "ref": "CCGGCCG",
+        "alt": "ACGTCCT",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [],
+        "synonyme": true,
+        "strain_count": 89
+      },
+      {
+        "spdi_0based": 904994,
+        "premiere_base_1based": 904995,
+        "derniere_base_1based": 904996,
+        "ref": "AC",
+        "alt": "TT",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQQELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [
+          "R31Q"
+        ],
+        "synonyme": false,
+        "strain_count": 29
+      },
+      {
+        "spdi_0based": 904984,
+        "premiere_base_1based": 904985,
+        "derniere_base_1based": 904989,
+        "ref": "CTGAC",
+        "alt": "TTGAT",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSSTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [
+          "G35S"
+        ],
+        "synonyme": false,
+        "strain_count": 29
+      },
+      {
+        "spdi_0based": 905033,
+        "premiere_base_1based": 905034,
+        "derniere_base_1based": 905039,
+        "ref": "TTTCAA",
+        "alt": "CTTAAG",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [],
+        "synonyme": true,
+        "strain_count": 25
+      },
+      {
+        "spdi_0based": 905007,
+        "premiere_base_1based": 905008,
+        "derniere_base_1based": 905009,
+        "ref": "TG",
+        "alt": "GT",
+        "ref_verifiee": true,
+        "dans_la_CDS": true,
+        "proteine_WT": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "proteine_mutante": "MGRGRAKAKQTKVARELKYSSPQTDFTRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR*",
+        "changements_aa": [
+          "Q27T"
+        ],
+        "synonyme": false,
+        "strain_count": 24
+      }
+    ]
+  }
+}

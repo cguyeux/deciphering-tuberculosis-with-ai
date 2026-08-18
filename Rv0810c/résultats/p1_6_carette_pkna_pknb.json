@@ -1,0 +1,57 @@
+{
+  "S3A-all phosphopeptides": [
+    {
+      "Rv number": "Rv0810c",
+      "Sequence": "_YSSPQT(ph)DFQR_",
+      "Phosphorylated Residue": "T",
+      "S(ph)": 0,
+      "T(ph)": 1,
+      "Y(ph)": 0,
+      "ph": 1
+    }
+  ],
+  "S3B-Summary": [],
+  "S3C-Quantified phosphopeptides": [
+    {
+      "peptide": "_YSSPQT(ph)DFQR_",
+      "RV": "Rv0810c",
+      "Gene.Symbol": null,
+      "Product": "Conserved hypothetical protein",
+      "Log2FC": -0.25581080877629,
+      "P.Value": 0.0221543062239829,
+      "adj.P.Value": 0.0353959605187772,
+      "Samp. in control_12": 9,
+      "Samp. in control_13": 9,
+      "Samp. in inhibitor_12": 7,
+      "Samp. in inhibitor_13": 1,
+      "Reads in control_12": 390629100,
+      "Reads in control_13": 218965600,
+      "Reads in inhibitor_12": 135386000,
+      "Reads in inhibitor_13": 29951000,
+      "Sphos": null,
+      "Tphos": null,
+      "Prop Sphos": null,
+      "": null
+    }
+  ],
+  "S3D-Decreased P": [],
+  "S3E-Increased P": [],
+  "S3F-Time course": [
+    {
+      "Peptide": "_YSSPQT(ph)DFQR_",
+      "RV": "Rv0810c",
+      "Gene.Symbol": null,
+      "Product": "Conserved hypothetical protein",
+      "Log2FC.12hr": -0.413623833586317,
+      "P.Value.12hr": 0.0243039558511532,
+      "adj.P.Val.12hr": 0.064112098611763,
+      "Log2FC.24hr": -0.424812815199447,
+      "P.Value.24hr": 0.0135731607007579,
+      "adj.P.Val.24hr": 0.0343030788619153,
+      "Log2FC.48hr": 0.000990174729476045,
+      "P.Value.48hr": 0.995397990908043,
+      "adj.P.Val.48hr": 1,
+      "": null
+    }
+  ]
+}

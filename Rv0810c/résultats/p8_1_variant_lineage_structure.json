@@ -1,0 +1,62 @@
+{
+  "p.Asp56Ala": {
+    "spdi": "NC_000962.3:904920:T:G",
+    "hgvs_c": "c.167A>C",
+    "n_strains_total": 73,
+    "n_classified": 73,
+    "n_unclassified": 0,
+    "lineage_breakdown": {
+      "4.1.1.1": 69,
+      "1.3.2": 4
+    },
+    "dominant_lineage": "4.1.1.1",
+    "contingency_table_[[a,b],[c,d]]": [
+      [
+        69,
+        4
+      ],
+      [
+        3051,
+        245333
+      ]
+    ],
+    "odds_ratio": 1387.1,
+    "p_fisher_one_sided_enrichment": 3.274153688741419e-126,
+    "frac_carriers_in_dominant_lineage": 0.9452,
+    "frac_dominant_lineage_carrying_variant": 0.02212,
+    "frac_dominant_lineage_of_database": 0.0126,
+    "fixe_dans_la_lignee": false,
+    "verdict": "MONOPHYLETIQUE : 94.5% des porteurs concentres dans 4.1.1.1, alors que cette lignee ne pese que 1.26% de la base (p=3.27e-126, OR=1387). PAS FIXE dans cette lignee (2.21% seulement des souches de 4.1.1.1 portent le variant) -> signature d'une expansion clonale recente d'un evenement mutationnel unique (ou tres peu nombreux), pas d'un marqueur de lignee fixe ni d'un bruit mutationnel recurrent disperse."
+  },
+  "p.Thr24Pro": {
+    "spdi": "NC_000962.3:905017:T:G",
+    "hgvs_c": "c.70A>C",
+    "n_strains_total": 32,
+    "n_classified": 30,
+    "n_unclassified": 2,
+    "lineage_breakdown": {
+      "4.3.3": 29,
+      "2.2.1": 1
+    },
+    "dominant_lineage": "4.3.3",
+    "contingency_table_[[a,b],[c,d]]": [
+      [
+        29,
+        1
+      ],
+      [
+        14398,
+        234029
+      ]
+    ],
+    "odds_ratio": 471.4,
+    "p_fisher_one_sided_enrichment": 3.929894332896387e-35,
+    "frac_carriers_in_dominant_lineage": 0.9667,
+    "frac_dominant_lineage_carrying_variant": 0.00201,
+    "frac_dominant_lineage_of_database": 0.0581,
+    "fixe_dans_la_lignee": false,
+    "verdict": "MONOPHYLETIQUE : 96.7% des porteurs concentres dans 4.3.3, alors que cette lignee ne pese que 5.81% de la base (p=3.93e-35, OR=471). PAS FIXE dans cette lignee (0.20% seulement des souches de 4.3.3 portent le variant) -> signature d'une expansion clonale recente d'un evenement mutationnel unique (ou tres peu nombreux), pas d'un marqueur de lignee fixe ni d'un bruit mutationnel recurrent disperse."
+  },
+  "_methode": "Modele nul P5.1 : Fisher exact one-sided, porteurs-dans-la-lignee-dominante vs porteurs-hors-lignee, contre taille-de-lignee vs reste-de-la-base (248 457 souches classifiees systeme tblearn, le systeme par defaut de TBannotator). Repere anti-biais d'echantillonnage : la lignee dominante N'EST PAS la plus grosse lignee de la base dans les deux cas (2.2.1, 71 496 souches, la plus echantillonnee de toutes, n'est PRESQUE PAS representee : 4/73 pour D56A [en 1.3.2], 1/32 pour T24P) -- ecarte directement le contre-argument de la piste (concentration = simple reflet d'un biais de densite d'echantillonnage global).",
+  "_conclusion_p8_1": "Les DEUX variants les plus frequents du catalogue missense de P8 sont chacun MONOPHYLETIQUES et NON FIXES dans leur lignee de concentration -- lecture (b) de la piste (polyphyletique, bruit mutationnel disperse) est REFUTEE pour ces deux variants precis ; lecture (a) partiellement verifiee mais nuancee : la concentration est compatible avec une expansion clonale recente d'un evenement mutationnel unique suivi de transmission (meme risque d'interpretation que 904821:AC:A en P5.1 -- ne PAS conclure a un relachement de contrainte fonctionnelle sans etape supplementaire distinguant 'foyer de transmission compact' de 'origines multiples independantes au sein de la meme lignee'). Ceci COMPLETE P8 (contrainte NS/S agregee au niveau du gene) par une lecture structurale : le gene reste tres majoritairement invariant (percentile 2.7 en NS/S) et les deux seules exceptions notables sont chacune traçables a une poignee d'evenements mutationnels ponctuels, pas a un relachement diffus de la contrainte purificatrice a l'echelle de l'espece."
+}

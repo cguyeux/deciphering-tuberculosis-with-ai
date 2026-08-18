@@ -1,0 +1,16 @@
+{
+  "n_sequences": 1930,
+  "spearman_net_charge_vs_tail_len": -0.6967588242441993,
+  "spearman_fracDE_vs_tail_len": 0.0869674325641242,
+  "median_frac_DE": 0.35355392156862747,
+  "median_net_charge": -9.0,
+  "H37Rv_Rv0810c": {
+    "id": "I6XWB9_MYCTU/2-60",
+    "tail_len": 27,
+    "n_acidic": 10,
+    "n_basic": 3,
+    "net_charge": -7,
+    "frac_DE": 0.37037037037037035
+  },
+  "note": "rho proche de 0 sur frac_DE => composition maintenue independamment de la longueur (la queue s'allonge en ajoutant plus de D/E dans la meme proportion, pas en diluant la charge) ; rho positif fort sur net_charge => la charge negative TOTALE croit avec la longueur (mecanique, pas informatif en soi)."
+}

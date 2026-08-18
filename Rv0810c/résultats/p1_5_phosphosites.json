@@ -1,0 +1,2121 @@
+{
+  "question": "Quel est le site de phosphorylation exact de Rv0810c ?",
+  "sequence": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR",
+  "longueur_aa": 60,
+  "source": "Malakar et al. 2023, mBio, PMID 37791794, Data Sets S1-S8 (Europe PMC)",
+  "S2_lysat": {
+    "n_lignes_Rv0810c": 3,
+    "sites": [
+      {
+        "peptide": "ELKYSSPQTDFQR",
+        "start_annonce": 16,
+        "stop_annonce": 28,
+        "modification": "S5",
+        "present_dans_la_sequence": true,
+        "position_reelle": 16,
+        "positions_coherentes": true,
+        "site_calcule": "S20",
+        "residu_a_cette_position": "S",
+        "residu_concorde": true,
+        "segment": "charniere du module (pLDDT 85,6)",
+        "site_position": 20,
+        "site_aa": "S",
+        "tryptique": true,
+        "etiquette_publiee": "Rv0810c_S20",
+        "jeu": "S2 (lysat, cette etude)"
+      },
+      {
+        "peptide": "YSSPQTDFQR",
+        "start_annonce": 19,
+        "stop_annonce": 28,
+        "modification": "S3",
+        "present_dans_la_sequence": true,
+        "position_reelle": 19,
+        "positions_coherentes": true,
+        "site_calcule": "S21",
+        "residu_a_cette_position": "S",
+        "residu_concorde": true,
+        "segment": "charniere du module (pLDDT 85,6)",
+        "site_position": 21,
+        "site_aa": "S",
+        "tryptique": true,
+        "etiquette_publiee": "Rv0810c_S21",
+        "jeu": "S2 (lysat, cette etude)"
+      },
+      {
+        "peptide": "YSSPQTDFQR",
+        "start_annonce": 19,
+        "stop_annonce": 28,
+        "modification": "T6",
+        "present_dans_la_sequence": true,
+        "position_reelle": 19,
+        "positions_coherentes": true,
+        "site_calcule": "T24",
+        "residu_a_cette_position": "T",
+        "residu_concorde": true,
+        "segment": "charniere du module (pLDDT 85,6)",
+        "site_position": 24,
+        "site_aa": "T",
+        "tryptique": true,
+        "etiquette_publiee": "Rv0810c_T24",
+        "jeu": "S2 (lysat, cette etude)"
+      }
+    ]
+  },
+  "S8_filtrat": {
+    "lecture_naive_colonne_Rv_number": [
+      {
+        "peptide": "SSPASSPELTPALEATAAPAAPSGASTTR",
+        "start_annonce": 801,
+        "stop_annonce": 829,
+        "modification": "T28",
+        "present_dans_la_sequence": false,
+        "position_reelle": null,
+        "positions_coherentes": false,
+        "site_calcule": null,
+        "residu_concorde": false,
+        "tryptique": true,
+        "etiquette_publiee": "Rv0206c_T828"
+      }
+    ],
+    "lecture_corrigee_colonne_Protein_phospho_site": [
+      {
+        "peptide": "YSSPQTDFQR",
+        "start_annonce": 19,
+        "stop_annonce": 28,
+        "modification": "T6",
+        "present_dans_la_sequence": true,
+        "position_reelle": 19,
+        "positions_coherentes": true,
+        "site_calcule": "T24",
+        "residu_a_cette_position": "T",
+        "residu_concorde": true,
+        "segment": "charniere du module (pLDDT 85,6)",
+        "site_position": 24,
+        "site_aa": "T",
+        "tryptique": true,
+        "etiquette_publiee": "Rv0810c_T24",
+        "jeu": "S8 (filtrat de culture)"
+      }
+    ],
+    "diagnostic_desalignement": {
+      "n_lignes_avec_Rv_number": 38,
+      "n_lignes_de_peptides": 57,
+      "explication": "Colonne A = 38 proteines uniques ; colonnes B-G = 57 phosphopeptides. Deux listes collees cote a cote, donc desalignees des la 2e ligne de donnees."
+    }
+  },
+  "S3_comparaison_inter_etudes": {
+    "Rv0810c (Dataset S3a)": {
+      "Unique": "Rv0810c",
+      "Fortuin": "0",
+      "Prisic": "0",
+      "Verma": "1",
+      "Carette": "1",
+      "This study_any two rep": "1",
+      "": "1"
+    },
+    "Rv0810c_S21": {
+      "Unique": "Rv0810c_S21",
+      "Fortuin": "0",
+      "Prisic": "0",
+      "Verma": "1",
+      "Carette": "0",
+      "This study_any two rep": "0",
+      "": ""
+    },
+    "Rv0810c_S51": {
+      "Unique": "Rv0810c_S51",
+      "Fortuin": "0",
+      "Prisic": "0",
+      "Verma": "1",
+      "Carette": "0",
+      "This study_any two rep": "0",
+      "": ""
+    },
+    "Rv0810c_T24": {
+      "Unique": "Rv0810c_T24",
+      "Fortuin": "0",
+      "Prisic": "0",
+      "Verma": "1",
+      "Carette": "1",
+      "This study_any two rep": "1",
+      "": ""
+    },
+    "Rv0810c_S20": {
+      "Unique": "Rv0810c_S20",
+      "Fortuin": "0",
+      "Prisic": "0",
+      "Verma": "0",
+      "Carette": "0",
+      "This study_any two rep": "1",
+      "": ""
+    }
+  },
+  "presence_autres_jeux": {
+    "S1_proteines_phosphorylees": [
+      {
+        "onglet": "Dataset S1a",
+        "ligne": [
+          "I6XWB9",
+          "Rv0810c",
+          "Rv0810c",
+          "conserved hypotheticals",
+          "Uncharacterized protein",
+          ""
+        ]
+      },
+      {
+        "onglet": "Dataset S1b",
+        "ligne": [
+          "I6XWB9",
+          "Rv0810c",
+          "1",
+          "1",
+          "1",
+          "3",
+          ""
+        ]
+      }
+    ],
+    "S4_secretome": [],
+    "S5_secretome_multi_etudes": [],
+    "S7_phosphoproteines_filtrat": [
+      {
+        "onglet": "Dataset S7",
+        "ligne": [
+          "I6XWB9",
+          "Rv0810c",
+          "conserved hypotheticals",
+          "2"
+        ]
+      }
+    ]
+  },
+  "synthese_sites": {
+    "S20": {
+      "position": 20,
+      "residu": "S",
+      "segment": "charniere du module (pLDDT 85,6)",
+      "peptides": [
+        "ELKYSSPQTDFQR"
+      ],
+      "jeux": [
+        "S2 (lysat, cette etude)",
+        "This study_any two rep"
+      ],
+      "residu_concorde_sequence": true,
+      "n_jeux_independants": 2
+    },
+    "S21": {
+      "position": 21,
+      "residu": "S",
+      "segment": "charniere du module (pLDDT 85,6)",
+      "peptides": [
+        "YSSPQTDFQR"
+      ],
+      "jeux": [
+        "S2 (lysat, cette etude)",
+        "Verma"
+      ],
+      "residu_concorde_sequence": true,
+      "n_jeux_independants": 2
+    },
+    "T24": {
+      "position": 24,
+      "residu": "T",
+      "segment": "charniere du module (pLDDT 85,6)",
+      "peptides": [
+        "YSSPQTDFQR"
+      ],
+      "jeux": [
+        "Carette",
+        "S2 (lysat, cette etude)",
+        "S8 (filtrat de culture)",
+        "This study_any two rep",
+        "Verma"
+      ],
+      "residu_concorde_sequence": true,
+      "n_jeux_independants": 5
+    },
+    "S51": {
+      "position": 51,
+      "residu": "S",
+      "segment": "queue acide desordonnee (pLDDT 62,0)",
+      "peptides": [],
+      "jeux": [
+        "Verma"
+      ],
+      "residu_concorde_sequence": true,
+      "n_jeux_independants": 1
+    }
+  },
+  "conservation_PF11273": {
+    "alignement": "PF11273_full.sto",
+    "n_sequences": 1930,
+    "n_sequences_declarees_GF_SQ": 1930,
+    "n_positions_mappees": 59,
+    "sites": {
+      "S20": {
+        "position": 20,
+        "residu_Rv0810c": "S",
+        "colonne": 19,
+        "n_sequences_alignees": 1925,
+        "n_gaps": 5,
+        "taux_gaps_pct": 0.26,
+        "identite_max_pct": 25.6,
+        "residu_majoritaire": "N",
+        "top3": [
+          [
+            "N",
+            493,
+            25.6
+          ],
+          [
+            "S",
+            482,
+            25.0
+          ],
+          [
+            "F",
+            312,
+            16.2
+          ]
+        ],
+        "phosphorylable_STY_pct": 36.7,
+        "rang_identite": 48,
+        "n_positions": 59,
+        "percentile_identite": 20.3,
+        "rang_absence_de_gaps": 19
+      },
+      "S21": {
+        "position": 21,
+        "residu_Rv0810c": "S",
+        "colonne": 21,
+        "n_sequences_alignees": 1921,
+        "n_gaps": 9,
+        "taux_gaps_pct": 0.47,
+        "identite_max_pct": 74.2,
+        "residu_majoritaire": "S",
+        "top3": [
+          [
+            "S",
+            1425,
+            74.2
+          ],
+          [
+            "T",
+            383,
+            19.9
+          ],
+          [
+            "V",
+            31,
+            1.6
+          ]
+        ],
+        "phosphorylable_STY_pct": 94.1,
+        "rang_identite": 24,
+        "n_positions": 59,
+        "percentile_identite": 61.0,
+        "rang_absence_de_gaps": 21
+      },
+      "T24": {
+        "position": 24,
+        "residu_Rv0810c": "T",
+        "colonne": 27,
+        "n_sequences_alignees": 1930,
+        "n_gaps": 0,
+        "taux_gaps_pct": 0.0,
+        "identite_max_pct": 81.3,
+        "residu_majoritaire": "T",
+        "top3": [
+          [
+            "T",
+            1569,
+            81.3
+          ],
+          [
+            "M",
+            140,
+            7.3
+          ],
+          [
+            "V",
+            105,
+            5.4
+          ]
+        ],
+        "phosphorylable_STY_pct": 81.4,
+        "rang_identite": 21,
+        "n_positions": 59,
+        "percentile_identite": 66.1,
+        "rang_absence_de_gaps": 1
+      },
+      "S51": {
+        "position": 51,
+        "residu_Rv0810c": "S",
+        "colonne": 94,
+        "n_sequences_alignees": 1698,
+        "n_gaps": 232,
+        "taux_gaps_pct": 12.02,
+        "identite_max_pct": 33.8,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            574,
+            33.8
+          ],
+          [
+            "E",
+            517,
+            30.4
+          ],
+          [
+            "P",
+            133,
+            7.8
+          ]
+        ],
+        "phosphorylable_STY_pct": 11.7,
+        "rang_identite": 39,
+        "n_positions": 59,
+        "percentile_identite": 35.6,
+        "rang_absence_de_gaps": 52
+      }
+    },
+    "profil_par_position": {
+      "2": {
+        "position": 2,
+        "residu_Rv0810c": "G",
+        "colonne": 1,
+        "n_sequences_alignees": 1895,
+        "n_gaps": 35,
+        "taux_gaps_pct": 1.81,
+        "identite_max_pct": 100.0,
+        "residu_majoritaire": "G",
+        "top3": [
+          [
+            "G",
+            1895,
+            100.0
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "3": {
+        "position": 3,
+        "residu_Rv0810c": "R",
+        "colonne": 2,
+        "n_sequences_alignees": 1895,
+        "n_gaps": 35,
+        "taux_gaps_pct": 1.81,
+        "identite_max_pct": 100.0,
+        "residu_majoritaire": "R",
+        "top3": [
+          [
+            "R",
+            1895,
+            100.0
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "4": {
+        "position": 4,
+        "residu_Rv0810c": "G",
+        "colonne": 3,
+        "n_sequences_alignees": 1895,
+        "n_gaps": 35,
+        "taux_gaps_pct": 1.81,
+        "identite_max_pct": 100.0,
+        "residu_majoritaire": "G",
+        "top3": [
+          [
+            "G",
+            1895,
+            100.0
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "5": {
+        "position": 5,
+        "residu_Rv0810c": "R",
+        "colonne": 4,
+        "n_sequences_alignees": 1895,
+        "n_gaps": 35,
+        "taux_gaps_pct": 1.81,
+        "identite_max_pct": 100.0,
+        "residu_majoritaire": "R",
+        "top3": [
+          [
+            "R",
+            1895,
+            100.0
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "6": {
+        "position": 6,
+        "residu_Rv0810c": "A",
+        "colonne": 5,
+        "n_sequences_alignees": 1895,
+        "n_gaps": 35,
+        "taux_gaps_pct": 1.81,
+        "identite_max_pct": 70.1,
+        "residu_majoritaire": "A",
+        "top3": [
+          [
+            "A",
+            1328,
+            70.1
+          ],
+          [
+            "Q",
+            566,
+            29.9
+          ],
+          [
+            "S",
+            1,
+            0.1
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.1
+      },
+      "7": {
+        "position": 7,
+        "residu_Rv0810c": "K",
+        "colonne": 6,
+        "n_sequences_alignees": 1895,
+        "n_gaps": 35,
+        "taux_gaps_pct": 1.81,
+        "identite_max_pct": 99.4,
+        "residu_majoritaire": "K",
+        "top3": [
+          [
+            "K",
+            1883,
+            99.4
+          ],
+          [
+            "R",
+            12,
+            0.6
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "8": {
+        "position": 8,
+        "residu_Rv0810c": "A",
+        "colonne": 7,
+        "n_sequences_alignees": 1895,
+        "n_gaps": 35,
+        "taux_gaps_pct": 1.81,
+        "identite_max_pct": 100.0,
+        "residu_majoritaire": "A",
+        "top3": [
+          [
+            "A",
+            1895,
+            100.0
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "9": {
+        "position": 9,
+        "residu_Rv0810c": "K",
+        "colonne": 8,
+        "n_sequences_alignees": 1895,
+        "n_gaps": 35,
+        "taux_gaps_pct": 1.81,
+        "identite_max_pct": 99.9,
+        "residu_majoritaire": "K",
+        "top3": [
+          [
+            "K",
+            1893,
+            99.9
+          ],
+          [
+            "M",
+            1,
+            0.1
+          ],
+          [
+            "E",
+            1,
+            0.1
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "10": {
+        "position": 10,
+        "residu_Rv0810c": "Q",
+        "colonne": 9,
+        "n_sequences_alignees": 1895,
+        "n_gaps": 35,
+        "taux_gaps_pct": 1.81,
+        "identite_max_pct": 80.6,
+        "residu_majoritaire": "Q",
+        "top3": [
+          [
+            "Q",
+            1528,
+            80.6
+          ],
+          [
+            "H",
+            236,
+            12.5
+          ],
+          [
+            "A",
+            110,
+            5.8
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "11": {
+        "position": 11,
+        "residu_Rv0810c": "T",
+        "colonne": 10,
+        "n_sequences_alignees": 1895,
+        "n_gaps": 35,
+        "taux_gaps_pct": 1.81,
+        "identite_max_pct": 85.0,
+        "residu_majoritaire": "T",
+        "top3": [
+          [
+            "T",
+            1610,
+            85.0
+          ],
+          [
+            "V",
+            97,
+            5.1
+          ],
+          [
+            "Q",
+            75,
+            4.0
+          ]
+        ],
+        "phosphorylable_STY_pct": 85.0
+      },
+      "12": {
+        "position": 12,
+        "residu_Rv0810c": "K",
+        "colonne": 11,
+        "n_sequences_alignees": 1897,
+        "n_gaps": 33,
+        "taux_gaps_pct": 1.71,
+        "identite_max_pct": 94.7,
+        "residu_majoritaire": "K",
+        "top3": [
+          [
+            "K",
+            1797,
+            94.7
+          ],
+          [
+            "R",
+            100,
+            5.3
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "13": {
+        "position": 13,
+        "residu_Rv0810c": "V",
+        "colonne": 12,
+        "n_sequences_alignees": 1920,
+        "n_gaps": 10,
+        "taux_gaps_pct": 0.52,
+        "identite_max_pct": 84.4,
+        "residu_majoritaire": "V",
+        "top3": [
+          [
+            "V",
+            1621,
+            84.4
+          ],
+          [
+            "I",
+            162,
+            8.4
+          ],
+          [
+            "Q",
+            96,
+            5.0
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "14": {
+        "position": 14,
+        "residu_Rv0810c": "A",
+        "colonne": 13,
+        "n_sequences_alignees": 1920,
+        "n_gaps": 10,
+        "taux_gaps_pct": 0.52,
+        "identite_max_pct": 100.0,
+        "residu_majoritaire": "A",
+        "top3": [
+          [
+            "A",
+            1920,
+            100.0
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "15": {
+        "position": 15,
+        "residu_Rv0810c": "R",
+        "colonne": 14,
+        "n_sequences_alignees": 1920,
+        "n_gaps": 10,
+        "taux_gaps_pct": 0.52,
+        "identite_max_pct": 99.9,
+        "residu_majoritaire": "R",
+        "top3": [
+          [
+            "R",
+            1919,
+            99.9
+          ],
+          [
+            "Y",
+            1,
+            0.1
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.1
+      },
+      "16": {
+        "position": 16,
+        "residu_Rv0810c": "E",
+        "colonne": 15,
+        "n_sequences_alignees": 1920,
+        "n_gaps": 10,
+        "taux_gaps_pct": 0.52,
+        "identite_max_pct": 42.8,
+        "residu_majoritaire": "E",
+        "top3": [
+          [
+            "E",
+            822,
+            42.8
+          ],
+          [
+            "Q",
+            616,
+            32.1
+          ],
+          [
+            "D",
+            237,
+            12.3
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.2
+      },
+      "17": {
+        "position": 17,
+        "residu_Rv0810c": "L",
+        "colonne": 16,
+        "n_sequences_alignees": 1927,
+        "n_gaps": 3,
+        "taux_gaps_pct": 0.16,
+        "identite_max_pct": 94.6,
+        "residu_majoritaire": "L",
+        "top3": [
+          [
+            "L",
+            1822,
+            94.6
+          ],
+          [
+            "I",
+            56,
+            2.9
+          ],
+          [
+            "M",
+            48,
+            2.5
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "18": {
+        "position": 18,
+        "residu_Rv0810c": "K",
+        "colonne": 17,
+        "n_sequences_alignees": 1927,
+        "n_gaps": 3,
+        "taux_gaps_pct": 0.16,
+        "identite_max_pct": 99.9,
+        "residu_majoritaire": "K",
+        "top3": [
+          [
+            "K",
+            1926,
+            99.9
+          ],
+          [
+            "R",
+            1,
+            0.1
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "19": {
+        "position": 19,
+        "residu_Rv0810c": "Y",
+        "colonne": 18,
+        "n_sequences_alignees": 1927,
+        "n_gaps": 3,
+        "taux_gaps_pct": 0.16,
+        "identite_max_pct": 96.0,
+        "residu_majoritaire": "Y",
+        "top3": [
+          [
+            "Y",
+            1850,
+            96.0
+          ],
+          [
+            "S",
+            65,
+            3.4
+          ],
+          [
+            "A",
+            12,
+            0.6
+          ]
+        ],
+        "phosphorylable_STY_pct": 99.4
+      },
+      "20": {
+        "position": 20,
+        "residu_Rv0810c": "S",
+        "colonne": 19,
+        "n_sequences_alignees": 1925,
+        "n_gaps": 5,
+        "taux_gaps_pct": 0.26,
+        "identite_max_pct": 25.6,
+        "residu_majoritaire": "N",
+        "top3": [
+          [
+            "N",
+            493,
+            25.6
+          ],
+          [
+            "S",
+            482,
+            25.0
+          ],
+          [
+            "F",
+            312,
+            16.2
+          ]
+        ],
+        "phosphorylable_STY_pct": 36.7
+      },
+      "21": {
+        "position": 21,
+        "residu_Rv0810c": "S",
+        "colonne": 21,
+        "n_sequences_alignees": 1921,
+        "n_gaps": 9,
+        "taux_gaps_pct": 0.47,
+        "identite_max_pct": 74.2,
+        "residu_majoritaire": "S",
+        "top3": [
+          [
+            "S",
+            1425,
+            74.2
+          ],
+          [
+            "T",
+            383,
+            19.9
+          ],
+          [
+            "V",
+            31,
+            1.6
+          ]
+        ],
+        "phosphorylable_STY_pct": 94.1
+      },
+      "22": {
+        "position": 22,
+        "residu_Rv0810c": "P",
+        "colonne": 23,
+        "n_sequences_alignees": 1927,
+        "n_gaps": 3,
+        "taux_gaps_pct": 0.16,
+        "identite_max_pct": 52.3,
+        "residu_majoritaire": "P",
+        "top3": [
+          [
+            "P",
+            1008,
+            52.3
+          ],
+          [
+            "G",
+            529,
+            27.5
+          ],
+          [
+            "H",
+            187,
+            9.7
+          ]
+        ],
+        "phosphorylable_STY_pct": 5.3
+      },
+      "23": {
+        "position": 23,
+        "residu_Rv0810c": "Q",
+        "colonne": 25,
+        "n_sequences_alignees": 1925,
+        "n_gaps": 5,
+        "taux_gaps_pct": 0.26,
+        "identite_max_pct": 26.5,
+        "residu_majoritaire": "G",
+        "top3": [
+          [
+            "G",
+            511,
+            26.5
+          ],
+          [
+            "D",
+            372,
+            19.3
+          ],
+          [
+            "N",
+            311,
+            16.2
+          ]
+        ],
+        "phosphorylable_STY_pct": 10.8
+      },
+      "24": {
+        "position": 24,
+        "residu_Rv0810c": "T",
+        "colonne": 27,
+        "n_sequences_alignees": 1930,
+        "n_gaps": 0,
+        "taux_gaps_pct": 0.0,
+        "identite_max_pct": 81.3,
+        "residu_majoritaire": "T",
+        "top3": [
+          [
+            "T",
+            1569,
+            81.3
+          ],
+          [
+            "M",
+            140,
+            7.3
+          ],
+          [
+            "V",
+            105,
+            5.4
+          ]
+        ],
+        "phosphorylable_STY_pct": 81.4
+      },
+      "25": {
+        "position": 25,
+        "residu_Rv0810c": "D",
+        "colonne": 28,
+        "n_sequences_alignees": 1930,
+        "n_gaps": 0,
+        "taux_gaps_pct": 0.0,
+        "identite_max_pct": 87.3,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            1685,
+            87.3
+          ],
+          [
+            "N",
+            245,
+            12.7
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "26": {
+        "position": 26,
+        "residu_Rv0810c": "F",
+        "colonne": 29,
+        "n_sequences_alignees": 1930,
+        "n_gaps": 0,
+        "taux_gaps_pct": 0.0,
+        "identite_max_pct": 52.9,
+        "residu_majoritaire": "L",
+        "top3": [
+          [
+            "L",
+            1021,
+            52.9
+          ],
+          [
+            "Y",
+            478,
+            24.8
+          ],
+          [
+            "F",
+            358,
+            18.5
+          ]
+        ],
+        "phosphorylable_STY_pct": 24.9
+      },
+      "27": {
+        "position": 27,
+        "residu_Rv0810c": "Q",
+        "colonne": 30,
+        "n_sequences_alignees": 1930,
+        "n_gaps": 0,
+        "taux_gaps_pct": 0.0,
+        "identite_max_pct": 32.1,
+        "residu_majoritaire": "S",
+        "top3": [
+          [
+            "S",
+            619,
+            32.1
+          ],
+          [
+            "D",
+            436,
+            22.6
+          ],
+          [
+            "E",
+            201,
+            10.4
+          ]
+        ],
+        "phosphorylable_STY_pct": 40.6
+      },
+      "28": {
+        "position": 28,
+        "residu_Rv0810c": "R",
+        "colonne": 31,
+        "n_sequences_alignees": 1930,
+        "n_gaps": 0,
+        "taux_gaps_pct": 0.0,
+        "identite_max_pct": 46.7,
+        "residu_majoritaire": "A",
+        "top3": [
+          [
+            "A",
+            901,
+            46.7
+          ],
+          [
+            "R",
+            666,
+            34.5
+          ],
+          [
+            "S",
+            210,
+            10.9
+          ]
+        ],
+        "phosphorylable_STY_pct": 11.1
+      },
+      "29": {
+        "position": 29,
+        "residu_Rv0810c": "L",
+        "colonne": 32,
+        "n_sequences_alignees": 1930,
+        "n_gaps": 0,
+        "taux_gaps_pct": 0.0,
+        "identite_max_pct": 100.0,
+        "residu_majoritaire": "L",
+        "top3": [
+          [
+            "L",
+            1930,
+            100.0
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "30": {
+        "position": 30,
+        "residu_Rv0810c": "Q",
+        "colonne": 33,
+        "n_sequences_alignees": 1930,
+        "n_gaps": 0,
+        "taux_gaps_pct": 0.0,
+        "identite_max_pct": 34.1,
+        "residu_majoritaire": "Q",
+        "top3": [
+          [
+            "Q",
+            658,
+            34.1
+          ],
+          [
+            "A",
+            527,
+            27.3
+          ],
+          [
+            "E",
+            511,
+            26.5
+          ]
+        ],
+        "phosphorylable_STY_pct": 1.2
+      },
+      "31": {
+        "position": 31,
+        "residu_Rv0810c": "R",
+        "colonne": 34,
+        "n_sequences_alignees": 1930,
+        "n_gaps": 0,
+        "taux_gaps_pct": 0.0,
+        "identite_max_pct": 55.6,
+        "residu_majoritaire": "R",
+        "top3": [
+          [
+            "R",
+            1074,
+            55.6
+          ],
+          [
+            "N",
+            187,
+            9.7
+          ],
+          [
+            "E",
+            186,
+            9.6
+          ]
+        ],
+        "phosphorylable_STY_pct": 5.8
+      },
+      "32": {
+        "position": 32,
+        "residu_Rv0810c": "E",
+        "colonne": 35,
+        "n_sequences_alignees": 1930,
+        "n_gaps": 0,
+        "taux_gaps_pct": 0.0,
+        "identite_max_pct": 99.0,
+        "residu_majoritaire": "E",
+        "top3": [
+          [
+            "E",
+            1911,
+            99.0
+          ],
+          [
+            "D",
+            18,
+            0.9
+          ],
+          [
+            "Q",
+            1,
+            0.1
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "33": {
+        "position": 33,
+        "residu_Rv0810c": "L",
+        "colonne": 36,
+        "n_sequences_alignees": 1930,
+        "n_gaps": 0,
+        "taux_gaps_pct": 0.0,
+        "identite_max_pct": 98.8,
+        "residu_majoritaire": "L",
+        "top3": [
+          [
+            "L",
+            1907,
+            98.8
+          ],
+          [
+            "I",
+            23,
+            1.2
+          ]
+        ],
+        "phosphorylable_STY_pct": 0.0
+      },
+      "34": {
+        "position": 34,
+        "residu_Rv0810c": "S",
+        "colonne": 40,
+        "n_sequences_alignees": 1930,
+        "n_gaps": 0,
+        "taux_gaps_pct": 0.0,
+        "identite_max_pct": 41.0,
+        "residu_majoritaire": "G",
+        "top3": [
+          [
+            "G",
+            791,
+            41.0
+          ],
+          [
+            "S",
+            390,
+            20.2
+          ],
+          [
+            "A",
+            289,
+            15.0
+          ]
+        ],
+        "phosphorylable_STY_pct": 28.0
+      },
+      "35": {
+        "position": 35,
+        "residu_Rv0810c": "G",
+        "colonne": 41,
+        "n_sequences_alignees": 1930,
+        "n_gaps": 0,
+        "taux_gaps_pct": 0.0,
+        "identite_max_pct": 39.1,
+        "residu_majoritaire": "G",
+        "top3": [
+          [
+            "G",
+            754,
+            39.1
+          ],
+          [
+            "A",
+            519,
+            26.9
+          ],
+          [
+            "S",
+            240,
+            12.4
+          ]
+        ],
+        "phosphorylable_STY_pct": 15.4
+      },
+      "36": {
+        "position": 36,
+        "residu_Rv0810c": "T",
+        "colonne": 42,
+        "n_sequences_alignees": 1929,
+        "n_gaps": 1,
+        "taux_gaps_pct": 0.05,
+        "identite_max_pct": 34.7,
+        "residu_majoritaire": "S",
+        "top3": [
+          [
+            "S",
+            669,
+            34.7
+          ],
+          [
+            "G",
+            228,
+            11.8
+          ],
+          [
+            "A",
+            177,
+            9.2
+          ]
+        ],
+        "phosphorylable_STY_pct": 38.8
+      },
+      "37": {
+        "position": 37,
+        "residu_Rv0810c": "G",
+        "colonne": 43,
+        "n_sequences_alignees": 1929,
+        "n_gaps": 1,
+        "taux_gaps_pct": 0.05,
+        "identite_max_pct": 20.6,
+        "residu_majoritaire": "S",
+        "top3": [
+          [
+            "S",
+            398,
+            20.6
+          ],
+          [
+            "T",
+            342,
+            17.7
+          ],
+          [
+            "P",
+            238,
+            12.3
+          ]
+        ],
+        "phosphorylable_STY_pct": 38.5
+      },
+      "38": {
+        "position": 38,
+        "residu_Rv0810c": "T",
+        "colonne": 44,
+        "n_sequences_alignees": 1918,
+        "n_gaps": 12,
+        "taux_gaps_pct": 0.62,
+        "identite_max_pct": 33.0,
+        "residu_majoritaire": "S",
+        "top3": [
+          [
+            "S",
+            633,
+            33.0
+          ],
+          [
+            "P",
+            186,
+            9.7
+          ],
+          [
+            "D",
+            183,
+            9.5
+          ]
+        ],
+        "phosphorylable_STY_pct": 41.0
+      },
+      "39": {
+        "position": 39,
+        "residu_Rv0810c": "D",
+        "colonne": 48,
+        "n_sequences_alignees": 1882,
+        "n_gaps": 48,
+        "taux_gaps_pct": 2.49,
+        "identite_max_pct": 24.5,
+        "residu_majoritaire": "S",
+        "top3": [
+          [
+            "S",
+            462,
+            24.5
+          ],
+          [
+            "D",
+            238,
+            12.6
+          ],
+          [
+            "N",
+            189,
+            10.0
+          ]
+        ],
+        "phosphorylable_STY_pct": 30.5
+      },
+      "40": {
+        "position": 40,
+        "residu_Rv0810c": "R",
+        "colonne": 50,
+        "n_sequences_alignees": 1846,
+        "n_gaps": 84,
+        "taux_gaps_pct": 4.35,
+        "identite_max_pct": 18.6,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            343,
+            18.6
+          ],
+          [
+            "Q",
+            251,
+            13.6
+          ],
+          [
+            "S",
+            218,
+            11.8
+          ]
+        ],
+        "phosphorylable_STY_pct": 18.5
+      },
+      "41": {
+        "position": 41,
+        "residu_Rv0810c": "L",
+        "colonne": 53,
+        "n_sequences_alignees": 1874,
+        "n_gaps": 56,
+        "taux_gaps_pct": 2.9,
+        "identite_max_pct": 18.1,
+        "residu_majoritaire": "P",
+        "top3": [
+          [
+            "P",
+            339,
+            18.1
+          ],
+          [
+            "D",
+            219,
+            11.7
+          ],
+          [
+            "S",
+            214,
+            11.4
+          ]
+        ],
+        "phosphorylable_STY_pct": 19.9
+      },
+      "42": {
+        "position": 42,
+        "residu_Rv0810c": "D",
+        "colonne": 56,
+        "n_sequences_alignees": 1904,
+        "n_gaps": 26,
+        "taux_gaps_pct": 1.35,
+        "identite_max_pct": 17.1,
+        "residu_majoritaire": "P",
+        "top3": [
+          [
+            "P",
+            325,
+            17.1
+          ],
+          [
+            "S",
+            298,
+            15.7
+          ],
+          [
+            "D",
+            265,
+            13.9
+          ]
+        ],
+        "phosphorylable_STY_pct": 21.4
+      },
+      "43": {
+        "position": 43,
+        "residu_Rv0810c": "G",
+        "colonne": 58,
+        "n_sequences_alignees": 1858,
+        "n_gaps": 72,
+        "taux_gaps_pct": 3.73,
+        "identite_max_pct": 14.2,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            264,
+            14.2
+          ],
+          [
+            "P",
+            262,
+            14.1
+          ],
+          [
+            "N",
+            237,
+            12.8
+          ]
+        ],
+        "phosphorylable_STY_pct": 14.9
+      },
+      "44": {
+        "position": 44,
+        "residu_Rv0810c": "D",
+        "colonne": 61,
+        "n_sequences_alignees": 1807,
+        "n_gaps": 123,
+        "taux_gaps_pct": 6.37,
+        "identite_max_pct": 24.7,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            447,
+            24.7
+          ],
+          [
+            "E",
+            204,
+            11.3
+          ],
+          [
+            "G",
+            188,
+            10.4
+          ]
+        ],
+        "phosphorylable_STY_pct": 15.1
+      },
+      "45": {
+        "position": 45,
+        "residu_Rv0810c": "G",
+        "colonne": 67,
+        "n_sequences_alignees": 1795,
+        "n_gaps": 135,
+        "taux_gaps_pct": 6.99,
+        "identite_max_pct": 21.9,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            393,
+            21.9
+          ],
+          [
+            "E",
+            332,
+            18.5
+          ],
+          [
+            "G",
+            186,
+            10.4
+          ]
+        ],
+        "phosphorylable_STY_pct": 11.5
+      },
+      "46": {
+        "position": 46,
+        "residu_Rv0810c": "P",
+        "colonne": 71,
+        "n_sequences_alignees": 1777,
+        "n_gaps": 153,
+        "taux_gaps_pct": 7.93,
+        "identite_max_pct": 26.1,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            463,
+            26.1
+          ],
+          [
+            "P",
+            260,
+            14.6
+          ],
+          [
+            "E",
+            244,
+            13.7
+          ]
+        ],
+        "phosphorylable_STY_pct": 9.3
+      },
+      "47": {
+        "position": 47,
+        "residu_Rv0810c": "S",
+        "colonne": 74,
+        "n_sequences_alignees": 1790,
+        "n_gaps": 140,
+        "taux_gaps_pct": 7.25,
+        "identite_max_pct": 17.2,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            307,
+            17.2
+          ],
+          [
+            "E",
+            194,
+            10.8
+          ],
+          [
+            "A",
+            178,
+            9.9
+          ]
+        ],
+        "phosphorylable_STY_pct": 11.8
+      },
+      "48": {
+        "position": 48,
+        "residu_Rv0810c": "D",
+        "colonne": 78,
+        "n_sequences_alignees": 1789,
+        "n_gaps": 141,
+        "taux_gaps_pct": 7.31,
+        "identite_max_pct": 28.4,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            508,
+            28.4
+          ],
+          [
+            "E",
+            423,
+            23.6
+          ],
+          [
+            "A",
+            158,
+            8.8
+          ]
+        ],
+        "phosphorylable_STY_pct": 12.1
+      },
+      "49": {
+        "position": 49,
+        "residu_Rv0810c": "D",
+        "colonne": 92,
+        "n_sequences_alignees": 1728,
+        "n_gaps": 202,
+        "taux_gaps_pct": 10.47,
+        "identite_max_pct": 48.9,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            845,
+            48.9
+          ],
+          [
+            "E",
+            333,
+            19.3
+          ],
+          [
+            "Y",
+            135,
+            7.8
+          ]
+        ],
+        "phosphorylable_STY_pct": 12.3
+      },
+      "50": {
+        "position": 50,
+        "residu_Rv0810c": "D",
+        "colonne": 93,
+        "n_sequences_alignees": 1730,
+        "n_gaps": 200,
+        "taux_gaps_pct": 10.36,
+        "identite_max_pct": 65.0,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            1125,
+            65.0
+          ],
+          [
+            "E",
+            216,
+            12.5
+          ],
+          [
+            "P",
+            115,
+            6.6
+          ]
+        ],
+        "phosphorylable_STY_pct": 4.3
+      },
+      "51": {
+        "position": 51,
+        "residu_Rv0810c": "S",
+        "colonne": 94,
+        "n_sequences_alignees": 1698,
+        "n_gaps": 232,
+        "taux_gaps_pct": 12.02,
+        "identite_max_pct": 33.8,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            574,
+            33.8
+          ],
+          [
+            "E",
+            517,
+            30.4
+          ],
+          [
+            "P",
+            133,
+            7.8
+          ]
+        ],
+        "phosphorylable_STY_pct": 11.7
+      },
+      "52": {
+        "position": 52,
+        "residu_Rv0810c": "W",
+        "colonne": 97,
+        "n_sequences_alignees": 1469,
+        "n_gaps": 461,
+        "taux_gaps_pct": 23.89,
+        "identite_max_pct": 29.5,
+        "residu_majoritaire": "Y",
+        "top3": [
+          [
+            "Y",
+            434,
+            29.5
+          ],
+          [
+            "E",
+            307,
+            20.9
+          ],
+          [
+            "D",
+            191,
+            13.0
+          ]
+        ],
+        "phosphorylable_STY_pct": 35.2
+      },
+      "53": {
+        "position": 53,
+        "residu_Rv0810c": "N",
+        "colonne": 135,
+        "n_sequences_alignees": 1662,
+        "n_gaps": 268,
+        "taux_gaps_pct": 13.89,
+        "identite_max_pct": 83.4,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            1386,
+            83.4
+          ],
+          [
+            "E",
+            148,
+            8.9
+          ],
+          [
+            "A",
+            42,
+            2.5
+          ]
+        ],
+        "phosphorylable_STY_pct": 2.2
+      },
+      "54": {
+        "position": 54,
+        "residu_Rv0810c": "D",
+        "colonne": 136,
+        "n_sequences_alignees": 1620,
+        "n_gaps": 310,
+        "taux_gaps_pct": 16.06,
+        "identite_max_pct": 32.8,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            531,
+            32.8
+          ],
+          [
+            "P",
+            299,
+            18.5
+          ],
+          [
+            "E",
+            226,
+            14.0
+          ]
+        ],
+        "phosphorylable_STY_pct": 9.0
+      },
+      "55": {
+        "position": 55,
+        "residu_Rv0810c": "E",
+        "colonne": 139,
+        "n_sequences_alignees": 1570,
+        "n_gaps": 360,
+        "taux_gaps_pct": 18.65,
+        "identite_max_pct": 52.0,
+        "residu_majoritaire": "Y",
+        "top3": [
+          [
+            "Y",
+            817,
+            52.0
+          ],
+          [
+            "A",
+            174,
+            11.1
+          ],
+          [
+            "E",
+            133,
+            8.5
+          ]
+        ],
+        "phosphorylable_STY_pct": 54.4
+      },
+      "56": {
+        "position": 56,
+        "residu_Rv0810c": "D",
+        "colonne": 140,
+        "n_sequences_alignees": 1556,
+        "n_gaps": 374,
+        "taux_gaps_pct": 19.38,
+        "identite_max_pct": 45.4,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            706,
+            45.4
+          ],
+          [
+            "A",
+            505,
+            32.5
+          ],
+          [
+            "S",
+            160,
+            10.3
+          ]
+        ],
+        "phosphorylable_STY_pct": 11.3
+      },
+      "57": {
+        "position": 57,
+        "residu_Rv0810c": "D",
+        "colonne": 141,
+        "n_sequences_alignees": 1505,
+        "n_gaps": 425,
+        "taux_gaps_pct": 22.02,
+        "identite_max_pct": 28.9,
+        "residu_majoritaire": "D",
+        "top3": [
+          [
+            "D",
+            435,
+            28.9
+          ],
+          [
+            "R",
+            277,
+            18.4
+          ],
+          [
+            "E",
+            242,
+            16.1
+          ]
+        ],
+        "phosphorylable_STY_pct": 4.7
+      },
+      "58": {
+        "position": 58,
+        "residu_Rv0810c": "W",
+        "colonne": 142,
+        "n_sequences_alignees": 1397,
+        "n_gaps": 533,
+        "taux_gaps_pct": 27.62,
+        "identite_max_pct": 78.6,
+        "residu_majoritaire": "Y",
+        "top3": [
+          [
+            "Y",
+            1098,
+            78.6
+          ],
+          [
+            "W",
+            231,
+            16.5
+          ],
+          [
+            "D",
+            30,
+            2.1
+          ]
+        ],
+        "phosphorylable_STY_pct": 78.7
+      },
+      "59": {
+        "position": 59,
+        "residu_Rv0810c": "R",
+        "colonne": 147,
+        "n_sequences_alignees": 1906,
+        "n_gaps": 24,
+        "taux_gaps_pct": 1.24,
+        "identite_max_pct": 18.6,
+        "residu_majoritaire": "L",
+        "top3": [
+          [
+            "L",
+            354,
+            18.6
+          ],
+          [
+            "D",
+            334,
+            17.5
+          ],
+          [
+            "R",
+            240,
+            12.6
+          ]
+        ],
+        "phosphorylable_STY_pct": 12.1
+      },
+      "60": {
+        "position": 60,
+        "residu_Rv0810c": "R",
+        "colonne": 148,
+        "n_sequences_alignees": 1717,
+        "n_gaps": 213,
+        "taux_gaps_pct": 11.04,
+        "identite_max_pct": 23.4,
+        "residu_majoritaire": "Y",
+        "top3": [
+          [
+            "Y",
+            402,
+            23.4
+          ],
+          [
+            "D",
+            285,
+            16.6
+          ],
+          [
+            "E",
+            168,
+            9.8
+          ]
+        ],
+        "phosphorylable_STY_pct": 32.4
+      }
+    },
+    "positions_sans_aucun_gap": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "Thr_de_la_proteine": [
+      11,
+      24,
+      36,
+      38
+    ]
+  },
+  "detectabilite_tryptique": {
+    "n_peptides_tryptiques": 12,
+    "n_peptides_detectables": 3,
+    "peptides": [
+      {
+        "peptide": "MGR",
+        "start": 1,
+        "stop": 3,
+        "longueur": 3,
+        "detectable_LCMS": false,
+        "sites_STY": [],
+        "sites_detectes": []
+      },
+      {
+        "peptide": "GR",
+        "start": 4,
+        "stop": 5,
+        "longueur": 2,
+        "detectable_LCMS": false,
+        "sites_STY": [],
+        "sites_detectes": []
+      },
+      {
+        "peptide": "AK",
+        "start": 6,
+        "stop": 7,
+        "longueur": 2,
+        "detectable_LCMS": false,
+        "sites_STY": [],
+        "sites_detectes": []
+      },
+      {
+        "peptide": "AK",
+        "start": 8,
+        "stop": 9,
+        "longueur": 2,
+        "detectable_LCMS": false,
+        "sites_STY": [],
+        "sites_detectes": []
+      },
+      {
+        "peptide": "QTK",
+        "start": 10,
+        "stop": 12,
+        "longueur": 3,
+        "detectable_LCMS": false,
+        "sites_STY": [
+          "T11"
+        ],
+        "sites_detectes": []
+      },
+      {
+        "peptide": "VAR",
+        "start": 13,
+        "stop": 15,
+        "longueur": 3,
+        "detectable_LCMS": false,
+        "sites_STY": [],
+        "sites_detectes": []
+      },
+      {
+        "peptide": "ELK",
+        "start": 16,
+        "stop": 18,
+        "longueur": 3,
+        "detectable_LCMS": false,
+        "sites_STY": [],
+        "sites_detectes": []
+      },
+      {
+        "peptide": "YSSPQTDFQR",
+        "start": 19,
+        "stop": 28,
+        "longueur": 10,
+        "detectable_LCMS": true,
+        "sites_STY": [
+          "Y19",
+          "S20",
+          "S21",
+          "T24"
+        ],
+        "sites_detectes": [
+          "S20",
+          "S21",
+          "T24"
+        ]
+      },
+      {
+        "peptide": "LQR",
+        "start": 29,
+        "stop": 31,
+        "longueur": 3,
+        "detectable_LCMS": false,
+        "sites_STY": [],
+        "sites_detectes": []
+      },
+      {
+        "peptide": "ELSGTGTDR",
+        "start": 32,
+        "stop": 40,
+        "longueur": 9,
+        "detectable_LCMS": true,
+        "sites_STY": [
+          "S34",
+          "T36",
+          "T38"
+        ],
+        "sites_detectes": []
+      },
+      {
+        "peptide": "LDGDGPSDDDSWNDEDDWR",
+        "start": 41,
+        "stop": 59,
+        "longueur": 19,
+        "detectable_LCMS": true,
+        "sites_STY": [
+          "S47",
+          "S51"
+        ],
+        "sites_detectes": [
+          "S51"
+        ]
+      },
+      {
+        "peptide": "R",
+        "start": 60,
+        "stop": 60,
+        "longueur": 1,
+        "detectable_LCMS": false,
+        "sites_STY": [],
+        "sites_detectes": []
+      }
+    ],
+    "n_STY_total": 10,
+    "n_STY_dans_un_peptide_detectable": 9,
+    "STY_hors_de_portee": [
+      "T11"
+    ],
+    "reserve": "Les sites ne peuvent etre appeles que dans les peptides detectables ; l'absence de site ailleurs n'est pas une absence de phosphorylation."
+  },
+  "site_principal": {
+    "site": "T24",
+    "position": 24,
+    "residu": "T",
+    "segment": "charniere du module (pLDDT 85,6)",
+    "peptides": [
+      "YSSPQTDFQR"
+    ],
+    "jeux": [
+      "Carette",
+      "S2 (lysat, cette etude)",
+      "S8 (filtrat de culture)",
+      "This study_any two rep",
+      "Verma"
+    ],
+    "residu_concorde_sequence": true,
+    "n_jeux_independants": 5,
+    "justification": "site retenu par le plus grand nombre de jeux independants"
+  }
+}

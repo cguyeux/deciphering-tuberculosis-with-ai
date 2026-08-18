@@ -1,0 +1,60 @@
+{
+  "window_coords_H37Rv_1based": [
+    904950,
+    905350
+  ],
+  "core_ncRv10810c_coords_1based": [
+    905113,
+    905163
+  ],
+  "core_sequence_transcription_sense_RNA": "AGGACAAUAAACGACACCAGAGAUCGGAGCCGCCUACUCGUUAGGCCGCUC",
+  "conservation_blastn_window_vs_genome": {
+    "M_bovis_AF2122_97": {
+      "n_hits_evalue_1e-5": 1,
+      "best_hit": {
+        "qseqid": "Rv0810c_Rv0811c_IGR_window_904950_905350",
+        "sseqid": "LT708304.1",
+        "pident": "99.751",
+        "length": "401",
+        "mismatch": "1",
+        "gapopen": "0",
+        "qstart": "1",
+        "qend": "401",
+        "sstart": "905780",
+        "send": "906180",
+        "evalue": "0.0",
+        "bitscore": "736"
+      }
+    },
+    "M_marinum_E11": {
+      "n_hits_evalue_1e-5": 1,
+      "best_hit": {
+        "qseqid": "Rv0810c_Rv0811c_IGR_window_904950_905350",
+        "sseqid": "NZ_HG917972.2",
+        "pident": "92.641",
+        "length": "231",
+        "mismatch": "15",
+        "gapopen": "2",
+        "qstart": "34",
+        "qend": "263",
+        "sstart": "5627708",
+        "send": "5627479",
+        "evalue": "3.51e-91",
+        "bitscore": "331"
+      }
+    },
+    "M_smegmatis_MC2_155": {
+      "n_hits_evalue_1e-5": 0,
+      "best_hit": null
+    }
+  },
+  "rna_fold_vs_mononucleotide_shuffle": {
+    "structure": "...........((((......).)))((((.(((((.....))))).))))",
+    "mfe_kcal_mol": -12.899999618530273,
+    "shuffle_n": 1000,
+    "shuffle_mfe_mean": -9.772699998259544,
+    "shuffle_mfe_sd": 2.729739232572461,
+    "z_score": -1.145640427098091,
+    "empirical_p_le": 0.132
+  }
+}

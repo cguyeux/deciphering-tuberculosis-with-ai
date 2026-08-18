@@ -1,0 +1,163 @@
+{
+  "igr_coordinates": "NC_000962.3:904820-904904 (purM/Rv0809 903725-904819 brin +, Rv0810c 904905-905087 brin -)",
+  "zeng2018_source": "Europe PMC supplementaryFiles API, PMCID PMC5956929, MOESM2 (.docx, 22 tables natives, python-docx)",
+  "zeng2018_table3_pvalues_by_drug": {
+    "INH": "0.47|1",
+    "RIF": "0.38|1",
+    "PZA": "--",
+    "STR": "--",
+    "EMB": "0.64|0.62",
+    "OFX": "0.24|0.38",
+    "MOX": "--",
+    "ETH": "0.00|0.02",
+    "KAN": "--",
+    "AMI": "--",
+    "CAP": "--",
+    "PRO": "--"
+  },
+  "zeng2018_table14_adjusted_p_significant_only": {
+    "ETH": 0.00325
+  },
+  "zeng2018_table20_cross_cohort_validation_frequency": {
+    "Casali_resistant": null,
+    "Casali_sensitive": 0.0,
+    "Zhang_resistant": 0.056,
+    "Zhang_sensitive": 0.0,
+    "Farhat_resistant": 0.0,
+    "Farhat_sensitive": 0.0
+  },
+  "tbannotator_igr_top10_variants": [
+    {
+      "spdi": "NC_000962.3:904884:CG:C",
+      "mutation": "del_CG",
+      "strain_count": 526,
+      "rif_r": 0,
+      "rif_s": 33,
+      "rif_na": 493
+    },
+    {
+      "spdi": "NC_000962.3:904821:AC:A",
+      "mutation": "del_AC",
+      "strain_count": 126,
+      "rif_r": 0,
+      "rif_s": 15,
+      "rif_na": 111
+    },
+    {
+      "spdi": "NC_000962.3:904884:C:CG",
+      "mutation": "ins_CG",
+      "strain_count": 59,
+      "rif_r": 0,
+      "rif_s": 2,
+      "rif_na": 57
+    },
+    {
+      "spdi": "NC_000962.3:904885:G:A",
+      "mutation": "G>A",
+      "strain_count": 23,
+      "rif_r": 0,
+      "rif_s": 3,
+      "rif_na": 20
+    },
+    {
+      "spdi": "NC_000962.3:904855:A:G",
+      "mutation": "A>G",
+      "strain_count": 17,
+      "rif_r": 0,
+      "rif_s": 0,
+      "rif_na": 17
+    },
+    {
+      "spdi": "NC_000962.3:904891:C:T",
+      "mutation": "C>T",
+      "strain_count": 16,
+      "rif_r": 0,
+      "rif_s": 0,
+      "rif_na": 16
+    },
+    {
+      "spdi": "NC_000962.3:904889:G:T",
+      "mutation": "G>T",
+      "strain_count": 14,
+      "rif_r": 0,
+      "rif_s": 0,
+      "rif_na": 14
+    },
+    {
+      "spdi": "NC_000962.3:904893:G:C",
+      "mutation": "G>C",
+      "strain_count": 12,
+      "rif_r": 0,
+      "rif_s": 0,
+      "rif_na": 12
+    },
+    {
+      "spdi": "NC_000962.3:904896:C:T",
+      "mutation": "C>T",
+      "strain_count": 11,
+      "rif_r": 0,
+      "rif_s": 3,
+      "rif_na": 8
+    },
+    {
+      "spdi": "NC_000962.3:904822:C:A",
+      "mutation": "C>A",
+      "strain_count": 10,
+      "rif_r": 0,
+      "rif_s": 3,
+      "rif_na": 7
+    }
+  ],
+  "lineage_purity_top_variants": {
+    "NC_000962.3:904821:AC:A (del_AC, 126 souches)": {
+      "lineage_level_1": {
+        "4": 126
+      },
+      "purity": 1.0,
+      "note": "marqueur EXCLUSIF de L4 -- signature de confusion par lignee, pas de causalite"
+    },
+    "NC_000962.3:904885:G:A (23 souches)": {
+      "lineage_level_1": {
+        "1": 23
+      },
+      "purity": 1.0,
+      "note": "marqueur EXCLUSIF de L1"
+    },
+    "NC_000962.3:904884:CG:C (del_CG, 526 souches)": {
+      "lineage_level_1": {
+        "1": 340,
+        "2": 152,
+        "4": 22,
+        "Caprae_La2+La4": 6,
+        "Caprae_La2": 6,
+        "3": 4,
+        "Bovis_sans_La1": 2,
+        "Bovis_La1": 2
+      },
+      "purity": 0.6367041198501873,
+      "note": "polyphyletique (8 lignees), pas un marqueur de lignee unique"
+    }
+  },
+  "rif_baseline_genome_wide": {
+    "rif_r_total": 388,
+    "rif_s_total": 23035
+  },
+  "fisher_test_pooled_igr_vs_baseline": {
+    "igr_rif_r_pooled_top10": 0,
+    "igr_rif_s_pooled_top10": 59,
+    "contingency_table_[[igr_R,igr_S],[baseline_R,baseline_S]]": [
+      [
+        0,
+        59
+      ],
+      [
+        388,
+        23035
+      ]
+    ],
+    "odds_ratio": 0.0,
+    "fisher_p_two_sided": 1.0,
+    "fisher_p_one_sided_enrichment": 1.0
+  },
+  "verdict": "MODELE NUL : L'ASSOCIATION RIF/RFB NE SURVIT PAS AU CONTROLE. Trois constats independants convergent. (1) Zeng 2018 lui-meme, relu sur les tables natives du supplement (pas un resume web) : la SEULE association medicamenteuse significative de purM-Rv0810c est l'ETHIONAMIDE (p_ajuste=3.25e-3, table 14 ; chi2/Fisher 0.00/0.02, table 3) -- RIF affiche p=0.38/1, non significatif. La 'convergence a trois signaux' de l'enonce de piste etait donc en partie une confusion de medicament : Zeng documente une resistance a l'ETH, pas au RIF/RFB. Validation croisee faible : frequence du marqueur proche de 0 dans 2 des 3 cohortes independantes (Casali, Farhat), 5.6% seulement chez Zhang_resistant. (2) TBannotator (recroise independamment, ~255000 souches) : ZERO souche resistante a la rifampicine parmi TOUTES les porteuses des 10 variants les plus frequents de l'IGR (0/59 phenotypees), alors que 388/23423 souches (1,66%) le sont dans la base entiere -- Fisher exact one-sided p=1.0, OR=0, aucune trace d'enrichissement. (3) Les deux variants les plus discriminants sont des MARQUEURS DE LIGNEE PURS : 904821:AC:A (126 souches) est EXCLUSIF a L4 (126/126), 904885:G:A (23 souches) est EXCLUSIF a L1 (23/23) -- la signature exacte de confusion par structure de population que le contre-argument de la piste anticipait, sur un evenement indel qui cree naturellement un k-mer/oligonucleotide propre a un clade, exactement le type de variant que la methode GWAS de CRyPTIC (test oligonucleotide/oligopeptide) est susceptible de capturer sans que cela implique une causalite. NUANCE A GARDER : CRyPTIC 2022 utilise un modele lineaire mixte (LMM/GEMMA) cense corriger la parente ; ce controle standard n'elimine pas totalement la confusion residuelle quand la resistance elle-meme est distribuee de façon clonale (limite documentee de la methode, pas une erreur des auteurs). Le variant CRyPTIC exact n'a pas ete retrouve (Table 1 ne donne qu'un rang gene-niveau, pas de position) : cette verification porte sur les variants IGR reellement observes et les plus frequents, donc les plus capables de porter un signal a l'echelle de 10228 genomes -- pas sur le variant exact de CRyPTIC, non identifie precisement malgre la recherche."
+}

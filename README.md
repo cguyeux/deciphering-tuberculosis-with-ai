@@ -26,6 +26,12 @@ The software and online tools listed here are released openly. The reference dat
 | Characterisation of L4.13, a cryptic European sub-lineage of *Mycobacterium tuberculosis* with candidate positive selection on accessory ESX-2/4 type VII secretion modules | A phylogenomic characterisation of L4.13, a European L4 sub-lineage defined by Freschi et al. (2021) but absent from the Coll, Stucki and Napier barcoding schemes and undiscussed since. From 258 genomes it proposes validated SNP markers for its bipartite structure (L4.13.1 and L4.13.2), places its origin in Western Europe, and reports candidate positive selection on the accessory ESX-2/4 type VII secretion modules. | [PDF](manuscripts/L4.13-characterisation.pdf) | Draft, pending peer review |
 | Rv3222c, the unnamed gene between *sigH* and *rshA*, encodes an essential intrinsically disordered protein and is the last intact member of a degenerate gene family in *Mycobacterium tuberculosis* | Rv3222c surfaced from an atlas-wide vulnerability screen as an uncharacterised hypothetical protein physically inserted (4-bp overlaps on both flanks) between the *sigH*-*rshA* oxidative-stress operon. Systematic re-derivation of every inherited claim shows it is essential (Tn-seq, robust to mappability and polarity objections, with a phylogenetic pattern of unequal requirement across lineages), intrinsically disordered (44.8%), under strong purifying selection, has no detectable sequence or structural homolog, and is the last coding survivor of a small gene family degraded across the genus by an ancestral IS110-family insertion. An existing PROSPECT chemogenomic depletion strain makes it experimentally tractable despite the absence of a druggability claim. | [PDF](manuscripts/Rv3222c-characterisation.pdf) | Draft, pending peer review |
 
+## Code and reproducibility bundles
+
+| Project | Contents | Access |
+|---------|----------|--------|
+| Rv0810c | Analysis scripts and derived data reproducing every figure and every reported statistic of the Rv0810c manuscript (DUF3073, *M. tuberculosis*). | [Rv0810c/](Rv0810c/) |
+
 ## Contributing
 
 If you would like to help validate, finish or co-author any of these works, please open an issue on this repository or contact Christophe Guyeux (cguyeux@femto-st.fr). Microbiologists, clinicians and population geneticists are especially welcome.

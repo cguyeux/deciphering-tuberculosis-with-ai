@@ -1,0 +1,150 @@
+Query         I6XWB9_MYCTU/2-60
+Match_columns 32
+No_of_seqs    165 out of 1930
+Neff          2.4
+Searched_HMMs 19632
+Date          Mon Aug 10 14:15:18 2026
+Command       /home/christophe/docs/codes/mtbc/investigate_phylo/resources/hhsuite_bin/hhsearch -i /home/christophe/docs/codes/mtbc/Rv0810c/résultats/p3_1_hhsearch/duf3073_module.hhm -d /home/christophe/docs/codes/mtbc/investigate_phylo/resources/hhsuite/pfam -o /home/christophe/docs/codes/mtbc/Rv0810c/résultats/p3_1_hhsearch/module_2_33__pfam.hhr -cpu 8 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF11273.11 ; DUF3073 ; Protein  99.8 3.8E-23   2E-27  110.9   0.0   32    1-32      1-32  (58)
+  2 PF06894.14 ; Phage_TAC_2 ; Bac  40.5     5.7 0.00029   21.1   0.0   22   11-32     66-87  (121)
+  3 PF05895.15 ; DUF859 ; Siphovir  21.3      20   0.001   22.7   0.0   26    2-27    321-346 (570)
+  4 PF04502.16 ; Saf4_Yju2 ; Saf4/  18.0      26  0.0013   20.3   0.0   12   17-28      1-12  (309)
+  5 PF18742.4 ; DpnII-MboI ; REase  17.4      28  0.0014   18.1   0.0   22   10-31     73-94  (148)
+  6 PF09894.12 ; DUF2121 ; Unchara  17.1      29  0.0015   20.5   0.0   19   14-32     20-38  (197)
+  7 PF12086.11 ; DUF3563 ; Protein  16.1      31  0.0016   16.3   0.0   20   11-30     19-38  (57)
+  8 PF10845.11 ; DUF2576 ; Protein  15.6      33  0.0017   16.8   0.0   11   22-32     10-20  (48)
+  9 PF02183.21 ; HALZ ; Homeobox a  15.6      33  0.0017   14.0   0.0   14   18-31     14-27  (42)
+ 10 PF18383.4 ; IFT81_CH ; Intrafl  14.5      37  0.0019   17.8   0.0   20   12-31     66-87  (124)
+
+No 1
+>PF11273.11 ; DUF3073 ; Protein of unknown function (DUF3073)
+Probab=99.75  E-value=3.8e-23  Score=110.85  Aligned_cols=32  Identities=91%  Similarity=1.240  Sum_probs=31.6  Template_Neff=2.800
+
+Q I6XWB9_MYCTU/2    1 GRGRAKAKQTKVARELKYSSPQTDFQRLQREL   32 (32)
+Q Consensus         1 GRGR~KAKqtkvAR~LKY~s~~tD~~aL~rEL   32 (32)
+                      ||||+||||+||||+|||++|++|+++|++||
+T Consensus         1 GRGRaKAKqtkvAR~LKY~s~~~D~~~L~rEL   32 (58)
+T F6EKI4_HOYSD/2    1 GRGRAKAKQTKVARALKYSSPNTDFDRLQREL   32 (58)
+T ss_pred             CCchhhHHHHHHHHHHccCCCCCCHHHHHHHH
+Confidence            89999999999999999999999999999998
+
+
+No 2
+>PF06894.14 ; Phage_TAC_2 ; Bacteriophage lambda tail assembly chaperone, TAC, protein G
+Probab=40.48  E-value=5.7  Score=21.14  Aligned_cols=22  Identities=23%  Similarity=0.231  Sum_probs=17.6  Template_Neff=6.100
+
+Q I6XWB9_MYCTU/2   11 KVARELKYSSPQTDFQRLQREL   32 (32)
+Q Consensus        11 kvAR~LKY~s~~tD~~aL~rEL   32 (32)
+                      =||+-|.+..++.|++.|++|+
+T Consensus        66 LVA~SLw~~~~~~dv~~l~~~V   87 (121)
+T Q8ZN05_SALTY/1   66 LVSRSLCESKKEEEARALYESV   87 (121)
+T ss_pred             HHHHhccCCCCHHHHHHHHHHH
+Confidence            3788888877788899888763
+
+
+No 3
+>PF05895.15 ; DUF859 ; Siphovirus protein of unknown function (DUF859)
+Probab=21.34  E-value=20  Score=22.67  Aligned_cols=26  Identities=27%  Similarity=0.448  Sum_probs=20.9  Template_Neff=7.500
+
+Q I6XWB9_MYCTU/2    2 RGRAKAKQTKVARELKYSSPQTDFQR   27 (32)
+Q Consensus         2 RGR~KAKqtkvAR~LKY~s~~tD~~a   27 (32)
+                      |||+.+..++----+-|..|.+.+.+
+T Consensus       321 RG~~s~~~t~ti~V~~Y~~P~is~~~  346 (570)
+T Q6SYZ8_STRPY/1  321 RGRQSPRKEVEISLLEYFKPILSFTS  346 (570)
+T ss_pred             CCCccCcEEEEEEEEeccCCEEEEEE
+Confidence            89987777777788999999886543
+
+
+No 4
+>PF04502.16 ; Saf4_Yju2 ; Saf4/Yju2 protein
+Probab=18.04  E-value=26  Score=20.28  Aligned_cols=12  Identities=33%  Similarity=0.622  Sum_probs=9.6  Template_Neff=7.600
+
+Q I6XWB9_MYCTU/2   17 KYSSPQTDFQRL   28 (32)
+Q Consensus        17 KY~s~~tD~~aL   28 (32)
+                      ||..|++|...+
+T Consensus         1 kYyPPdfdp~k~   12 (309)
+T M3WK58_FELCA/9    1 KYYPPDFDPSKI   12 (309)
+T ss_pred             CCCCCCCCcccC
+Confidence            799999997653
+
+
+No 5
+>PF18742.4 ; DpnII-MboI ; REase_DpnII-MboI
+Probab=17.42  E-value=28  Score=18.09  Aligned_cols=22  Identities=9%  Similarity=0.128  Sum_probs=16.2  Template_Neff=7.500
+
+Q I6XWB9_MYCTU/2   10 TKVARELKYSSPQTDFQRLQRE   31 (32)
+Q Consensus        10 tkvAR~LKY~s~~tD~~aL~rE   31 (32)
+                      -++|=|+||.....+...+..|
+T Consensus        73 ~~i~IEvK~~~~~~~~~~i~~q   94 (148)
+T A0A1C9VMS2_9BU   73 EGIVIEVKKTRQGLSVSDIGAQ   94 (148)
+T ss_pred             CCEEEEEEEcCCCCChHHHHHH
+Confidence            4677788888777777776665
+
+
+No 6
+>PF09894.12 ; DUF2121 ; Uncharacterized protein conserved in archaea (DUF2121)
+Probab=17.11  E-value=29  Score=20.52  Aligned_cols=19  Identities=26%  Similarity=0.455  Sum_probs=14.5  Template_Neff=4.300
+
+Q I6XWB9_MYCTU/2   14 RELKYSSPQTDFQRLQREL   32 (32)
+Q Consensus        14 R~LKY~s~~tD~~aL~rEL   32 (32)
+                      |++-|....-+.+.|++||
+T Consensus        20 R~I~F~Gd~~~~e~LEeEL   38 (197)
+T O26846_METTH/1   20 RRIAYFGDKSSREVLEEEL   38 (197)
+T ss_pred             ceEEeecCHHHHHHHHHHH
+Confidence            5666777777788888886
+
+
+No 7
+>PF12086.11 ; DUF3563 ; Protein of unknown function (DUF3563)
+Probab=16.11  E-value=31  Score=16.35  Aligned_cols=20  Identities=25%  Similarity=0.232  Sum_probs=15.1  Template_Neff=5.100
+
+Q I6XWB9_MYCTU/2   11 KVARELKYSSPQTDFQRLQR   30 (32)
+Q Consensus        11 kvAR~LKY~s~~tD~~aL~r   30 (32)
+                      .-.++-.|-+..+|+..|++
+T Consensus        19 ~~~~~eaYLa~A~Dl~DLEr   38 (57)
+T C5AJ82_BURGB/1   19 AKERADAYLADATDLYDLEF   38 (57)
+T ss_pred             HHHHHHHHHHHCCCHHHHHH
+Confidence            34466788888899888875
+
+
+No 8
+>PF10845.11 ; DUF2576 ; Protein of unknown function (DUF2576)
+Probab=15.61  E-value=33  Score=16.76  Aligned_cols=11  Identities=36%  Similarity=0.592  Sum_probs=6.3  Template_Neff=1.800
+
+Q I6XWB9_MYCTU/2   22 QTDFQRLQREL   32 (32)
+Q Consensus        22 ~tD~~aL~rEL   32 (32)
+                      +-|-++|.|||
+T Consensus        10 dydr~qlrrel   20 (48)
+T Q773J2_NPVR1/9   10 DYDRDQIKREL   20 (48)
+T ss_pred             cCCHHHHHHHH
+Confidence            34555666665
+
+
+No 9
+>PF02183.21 ; HALZ ; Homeobox associated leucine zipper
+Probab=15.57  E-value=33  Score=14.03  Aligned_cols=14  Identities=29%  Similarity=0.627  Sum_probs=7.4  Template_Neff=7.600
+
+Q I6XWB9_MYCTU/2   18 YSSPQTDFQRLQRE   31 (32)
+Q Consensus        18 Y~s~~tD~~aL~rE   31 (32)
+                      |.+...++++|.+|
+T Consensus        14 yd~L~~~~~~l~~e   27 (42)
+T D7TNF1_VITVI/1   14 YDSLKADYDCILKE   27 (42)
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            45555556655543
+
+
+No 10
+>PF18383.4 ; IFT81_CH ; Intraflagellar transport 81 calponin homology domain
+Probab=14.51  E-value=37  Score=17.76  Aligned_cols=20  Identities=25%  Similarity=0.488  Sum_probs=12.1  Template_Neff=6.300
+
+Q I6XWB9_MYCTU/2   12 VARELKYSSPQT--DFQRLQRE   31 (32)
+Q Consensus        12 vAR~LKY~s~~t--D~~aL~rE   31 (32)
+                      .-|-|||..+..  |.+.+++.
+T Consensus        66 fLrilkY~p~~~~~d~~~fr~~   87 (124)
+T A0A669EAZ1_ORE   66 LLGMLKYKPPGNISDVSSFRQG   87 (124)
+T ss_pred             HHHhhCCCCCCCccchHHHHHH
+Confidence            347789965542  56666554
+
+

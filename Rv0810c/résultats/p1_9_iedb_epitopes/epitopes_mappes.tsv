@@ -1,0 +1,3 @@
+peptide	h37rv_start	h37rv_end	unite	chevauche	n_positif	n_negatif	hotes	pmids
+DFQRLQRELSGTGTD	25	39	module_1-33+queue_34-60	aucun	0	2	Homo sapiens (human)	38278794
+GPSDDDSWNDEDDWR	45	59	queue_34-60	p.Asp56Ala (73/145209 souches, clonal L4.1.1.1, P8.1)	0	2	Homo sapiens (human)	38278794

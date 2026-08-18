@@ -1,0 +1,195 @@
+Running on CPU, this will be slow. Consider using a GPU.
+MSA server enabled: https://api.colabfold.com
+MSA server authentication: no credentials provided
+Checking input data.
+Processing 1 inputs with 1 threads.
+  0%|          | 0/1 [00:00<?, ?it/s]Generating MSA for rv0810c_rpmg2_control_heterodimer.yaml with 2 protein entities.
+Calling MSA server for target rv0810c_rpmg2_control_heterodimer with 2 sequences
+MSA server URL: https://api.colabfold.com
+MSA pairing strategy: greedy
+No authentication provided for MSA server
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:00 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:01 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+PENDING:   0%|          | 0/300 [elapsed: 00:02 remaining: ?][ASleeping for 7s. Reason: PENDING
+
+RUNNING:   0%|          | 0/300 [elapsed: 00:09 remaining: ?][A
+RUNNING:   2%|▏         | 7/300 [elapsed: 00:09 remaining: 06:41][ASleeping for 9s. Reason: RUNNING
+
+RUNNING:   2%|▏         | 7/300 [elapsed: 00:19 remaining: 06:41][A
+RUNNING:   5%|▌         | 16/300 [elapsed: 00:19 remaining: 05:32][ASleeping for 5s. Reason: RUNNING
+
+RUNNING:   5%|▌         | 16/300 [elapsed: 00:24 remaining: 05:32][A
+RUNNING:   7%|▋         | 21/300 [elapsed: 00:24 remaining: 05:21][ASleeping for 9s. Reason: RUNNING
+
+RUNNING:   7%|▋         | 21/300 [elapsed: 00:34 remaining: 05:21][A
+RUNNING:  10%|█         | 30/300 [elapsed: 00:34 remaining: 04:59][ASleeping for 8s. Reason: RUNNING
+
+COMPLETE:  10%|█         | 30/300 [elapsed: 00:42 remaining: 04:59][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:42 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:44 remaining: 00:00]
+100%|██████████| 1/1 [00:46<00:00, 46.74s/it]100%|██████████| 1/1 [00:46<00:00, 46.75s/it]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+Running structure prediction for 1 input.
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [5:22:04<00:00,  0.00it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 1/1 [5:22:04<00:00,  0.00it/s]
+Running on CPU, this will be slow. Consider using a GPU.
+MSA server enabled: https://api.colabfold.com
+MSA server authentication: no credentials provided
+Checking input data.
+Processing 1 inputs with 1 threads.
+  0%|          | 0/1 [00:00<?, ?it/s]Generating MSA for rv0810c_rv0812_heterodimer.yaml with 2 protein entities.
+Calling MSA server for target rv0810c_rv0812_heterodimer with 2 sequences
+MSA server URL: https://api.colabfold.com
+MSA pairing strategy: greedy
+No authentication provided for MSA server
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+PENDING:   0%|          | 0/300 [elapsed: 00:01 remaining: ?][ASleeping for 7s. Reason: PENDING
+
+RUNNING:   0%|          | 0/300 [elapsed: 00:09 remaining: ?][A
+RUNNING:   2%|▏         | 7/300 [elapsed: 00:09 remaining: 06:24][ASleeping for 8s. Reason: RUNNING
+
+RUNNING:   2%|▏         | 7/300 [elapsed: 00:17 remaining: 06:24][A
+RUNNING:   5%|▌         | 15/300 [elapsed: 00:17 remaining: 05:30][ASleeping for 5s. Reason: RUNNING
+
+RUNNING:   5%|▌         | 15/300 [elapsed: 00:23 remaining: 05:30][A
+RUNNING:   7%|▋         | 20/300 [elapsed: 00:23 remaining: 05:20][ASleeping for 8s. Reason: RUNNING
+
+COMPLETE:   7%|▋         | 20/300 [elapsed: 00:31 remaining: 05:20][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:31 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:33 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+PENDING:   0%|          | 0/300 [elapsed: 00:01 remaining: ?][ASleeping for 5s. Reason: PENDING
+
+RUNNING:   0%|          | 0/300 [elapsed: 00:07 remaining: ?][A
+RUNNING:   2%|▏         | 5/300 [elapsed: 00:07 remaining: 07:20][ASleeping for 6s. Reason: RUNNING
+
+RUNNING:   2%|▏         | 5/300 [elapsed: 00:14 remaining: 07:20][A
+RUNNING:   4%|▎         | 11/300 [elapsed: 00:14 remaining: 05:58][ASleeping for 9s. Reason: RUNNING
+
+RUNNING:   4%|▎         | 11/300 [elapsed: 00:23 remaining: 05:58][A
+RUNNING:   7%|▋         | 20/300 [elapsed: 00:23 remaining: 05:19][ASleeping for 9s. Reason: RUNNING
+
+RUNNING:   7%|▋         | 20/300 [elapsed: 00:33 remaining: 05:19][A
+RUNNING:  10%|▉         | 29/300 [elapsed: 00:33 remaining: 04:59][ASleeping for 5s. Reason: RUNNING
+
+COMPLETE:  10%|▉         | 29/300 [elapsed: 00:38 remaining: 04:59][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:38 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:40 remaining: 00:00]
+100%|██████████| 1/1 [01:15<00:00, 75.35s/it]100%|██████████| 1/1 [01:15<00:00, 75.35s/it]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+Running structure prediction for 1 input.
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][rank: 0] Received SIGTERM: 15
+[rank: 0] Received SIGTERM: 15
+[rank: 0] Received SIGTERM: 15
+Predicting DataLoader 0: 100%|██████████| 1/1 [28:02:54<00:00,  0.00it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 1/1 [28:02:54<00:00,  0.00it/s]
+Running on CPU, this will be slow. Consider using a GPU.
+MSA server enabled: https://api.colabfold.com
+MSA server authentication: no credentials provided
+Checking input data.
+Processing 1 inputs with 1 threads.
+  0%|          | 0/1 [00:00<?, ?it/s]Generating MSA for rv0810c_rv0811c_heterodimer.yaml with 2 protein entities.
+Calling MSA server for target rv0810c_rv0811c_heterodimer with 2 sequences
+MSA server URL: https://api.colabfold.com
+MSA pairing strategy: greedy
+No authentication provided for MSA server
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+PENDING:   0%|          | 0/300 [elapsed: 00:01 remaining: ?][ASleeping for 7s. Reason: PENDING
+
+RUNNING:   0%|          | 0/300 [elapsed: 00:09 remaining: ?][A
+RUNNING:   2%|▏         | 7/300 [elapsed: 00:09 remaining: 06:35][ASleeping for 5s. Reason: RUNNING
+
+RUNNING:   2%|▏         | 7/300 [elapsed: 00:15 remaining: 06:35][A
+RUNNING:   4%|▍         | 12/300 [elapsed: 00:15 remaining: 05:54][ASleeping for 6s. Reason: RUNNING
+
+RUNNING:   4%|▍         | 12/300 [elapsed: 00:21 remaining: 05:54][A
+RUNNING:   6%|▌         | 18/300 [elapsed: 00:21 remaining: 05:30][ASleeping for 7s. Reason: RUNNING
+
+RUNNING:   6%|▌         | 18/300 [elapsed: 00:29 remaining: 05:30][A
+RUNNING:   8%|▊         | 25/300 [elapsed: 00:29 remaining: 05:15][ASleeping for 8s. Reason: RUNNING
+
+COMPLETE:   8%|▊         | 25/300 [elapsed: 00:38 remaining: 05:15][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:38 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:39 remaining: 00:00]
+
+  0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+SUBMIT:   0%|          | 0/300 [elapsed: 00:00 remaining: ?][A
+PENDING:   0%|          | 0/300 [elapsed: 00:01 remaining: ?][ASleeping for 5s. Reason: PENDING
+
+RUNNING:   0%|          | 0/300 [elapsed: 00:07 remaining: ?][A
+RUNNING:   2%|▏         | 5/300 [elapsed: 00:07 remaining: 07:07][ASleeping for 6s. Reason: RUNNING
+
+RUNNING:   2%|▏         | 5/300 [elapsed: 00:13 remaining: 07:07][A
+RUNNING:   4%|▎         | 11/300 [elapsed: 00:13 remaining: 05:54][ASleeping for 9s. Reason: RUNNING
+
+RUNNING:   4%|▎         | 11/300 [elapsed: 00:23 remaining: 05:54][A
+RUNNING:   7%|▋         | 20/300 [elapsed: 00:23 remaining: 05:19][ASleeping for 10s. Reason: RUNNING
+
+RUNNING:   7%|▋         | 20/300 [elapsed: 00:34 remaining: 05:19][A
+RUNNING:  10%|█         | 30/300 [elapsed: 00:34 remaining: 04:57][ASleeping for 5s. Reason: RUNNING
+
+RUNNING:  10%|█         | 30/300 [elapsed: 00:39 remaining: 04:57][A
+RUNNING:  12%|█▏        | 35/300 [elapsed: 00:39 remaining: 04:52][ASleeping for 5s. Reason: RUNNING
+
+COMPLETE:  12%|█▏        | 35/300 [elapsed: 00:45 remaining: 04:52][A
+COMPLETE: 100%|██████████| 300/300 [elapsed: 00:45 remaining: 00:00][ACOMPLETE: 100%|██████████| 300/300 [elapsed: 00:46 remaining: 00:00]
+100%|██████████| 1/1 [01:27<00:00, 87.56s/it]100%|██████████| 1/1 [01:27<00:00, 87.56s/it]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+Running structure prediction for 1 input.
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][rank: 0] Received SIGTERM: 15
+[rank: 0] Received SIGTERM: 15
+[rank: 0] Received SIGTERM: 15
+Running on CPU, this will be slow. Consider using a GPU.
+MSA server enabled: https://api.colabfold.com
+MSA server authentication: no credentials provided
+Checking input data.
+All inputs are already processed.
+Processing 0 inputs with 0 threads.
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+Running structure prediction for 1 input.
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+/home/christophe/venvs/boltz/lib/python3.11/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]

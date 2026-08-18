@@ -1,0 +1,160 @@
+Query         I6XWB9_MYCTU/2-60
+Match_columns 32
+No_of_seqs    165 out of 1930
+Neff          2.4
+Searched_HMMs 13730
+Date          Mon Aug 10 14:15:32 2026
+Command       /home/christophe/docs/codes/mtbc/investigate_phylo/resources/hhsuite_bin/hhsearch -i /home/christophe/docs/codes/mtbc/Rv0810c/résultats/p3_1_hhsearch/duf3073_module.hhm -d /home/christophe/docs/codes/mtbc/investigate_phylo/resources/hhsuite/scop70_1.75 -o /home/christophe/docs/codes/mtbc/Rv0810c/résultats/p3_1_hhsearch/module_2_33__scop70.hhr -cpu 8 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 d1gh8a_ d.58.12.1 (A:) aEF-1be  25.4      10 0.00075   18.8   0.0   17   16-32     10-26  (89)
+  2 d1f60b_ d.58.12.1 (B:) Guanine  25.3      10 0.00076   18.9   0.0   18   15-32     10-27  (90)
+  3 d1rp3a3 a.177.1.1 (A:0-86) Sig  24.9      11 0.00078   18.1   0.0   21   11-31     25-46  (87)
+  4 d1b64a_ d.58.12.1 (A:) Guanine  21.0      14   0.001   18.4   0.0   17   15-31     11-27  (91)
+  5 d1xp8a2 d.48.1.1 (A:283-341) R  19.7      16  0.0012   17.2   0.0    9    1-9      30-38  (59)
+  6 d1jhga_ a.4.12.1 (A:) Trp repr  18.4      18  0.0013   18.7   0.0   17    6-22     72-88  (101)
+  7 d1u94a2 d.48.1.1 (A:269-328) R  17.3      20  0.0014   16.9   0.0    9    1-9      31-39  (60)
+  8 d1hnra_ a.155.1.1 (A:) H1 prot  16.2      22  0.0016   16.3   0.0    6    1-6      21-26  (47)
+  9 d1fada_ a.77.1.2 (A:) FADD (Mo  12.6      31  0.0023   15.9   0.0   15   10-24     25-39  (95)
+ 10 d1hlva1 a.4.1.7 (A:1-66) DNA-b  12.1      33  0.0024   16.3   0.0   13    6-18     25-37  (66)
+
+No 1
+>d1gh8a_ d.58.12.1 (A:) aEF-1beta {Archaeon Methanobacterium thermoautotrophicum [TaxId: 145262]}
+Probab=25.39  E-value=10  Score=18.79  Aligned_cols=17  Identities=29%  Similarity=0.600  Sum_probs=12.6  Template_Neff=5.500
+
+Q I6XWB9_MYCTU/2   16 LKYSSPQTDFQRLQREL   32 (32)
+Q Consensus        16 LKY~s~~tD~~aL~rEL   32 (32)
+                      .+=.++++|++.|+.++
+T Consensus        10 V~P~~~e~dl~~l~~~i   26 (89)
+T d1gh8a_          10 VMPESPDVDLEALKKEI   26 (89)
+T ss_dssp             EEESSSCCCHHHHHHHH
+T ss_pred             ECCCCCCCCHHHHHHHH
+Confidence            34458899999988653
+
+
+No 2
+>d1f60b_ d.58.12.1 (B:) Guanine nucleotide exchange factor (GEF) domain from elongation factor-1 beta {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=25.31  E-value=10  Score=18.91  Aligned_cols=18  Identities=11%  Similarity=0.279  Sum_probs=13.4  Template_Neff=5.300
+
+Q I6XWB9_MYCTU/2   15 ELKYSSPQTDFQRLQREL   32 (32)
+Q Consensus        15 ~LKY~s~~tD~~aL~rEL   32 (32)
+                      +.|=.++++|+++|+.++
+T Consensus        10 ~VkP~d~e~Dl~~l~~~i   27 (90)
+T d1f60b_          10 DVKPWDDETNLEEMVANV   27 (90)
+T ss_dssp             EEEESSTTSCHHHHHHHH
+T ss_pred             EEeeCCCCCCHHHHHHHH
+Confidence            445568899999998653
+
+
+No 3
+>d1rp3a3 a.177.1.1 (A:0-86) Sigma factor sigma-28 (FliA) {Aquifex aeolicus [TaxId: 63363]}
+Probab=24.92  E-value=11  Score=18.11  Aligned_cols=21  Identities=19%  Similarity=0.222  Sum_probs=13.6  Template_Neff=6.500
+
+Q I6XWB9_MYCTU/2   11 KVARELKYSS-PQTDFQRLQRE   31 (32)
+Q Consensus        11 kvAR~LKY~s-~~tD~~aL~rE   31 (32)
+                      ++|+.+.... +.+|++.|.+|
+T Consensus        25 ~ia~~~~~~~~~~~e~eDL~q~   46 (87)
+T d1rp3a3          25 AIATNIKKHLPEDVDIRDLISY   46 (87)
+T ss_dssp             HHHHHHHTTSCTTSCHHHHHHH
+T ss_pred             HHHHHHhccCCCCCCHHHHHHH
+Confidence            5777775443 45788888654
+
+
+No 4
+>d1b64a_ d.58.12.1 (A:) Guanine nucleotide exchange factor (GEF) domain from elongation factor-1 beta {Human (Homo sapiens) [TaxId: 9606]}
+Probab=20.96  E-value=14  Score=18.38  Aligned_cols=17  Identities=24%  Similarity=0.339  Sum_probs=12.9  Template_Neff=5.300
+
+Q I6XWB9_MYCTU/2   15 ELKYSSPQTDFQRLQRE   31 (32)
+Q Consensus        15 ~LKY~s~~tD~~aL~rE   31 (32)
+                      +.|=.++++|++.|+.+
+T Consensus        11 ~VkP~d~e~Dl~~l~~~   27 (91)
+T d1b64a_          11 DVKPWDDETDMAKLEEC   27 (91)
+T ss_dssp             EEEESSTTSCHHHHHHH
+T ss_pred             EEeeCCCCCCHHHHHHH
+Confidence            45566889999999765
+
+
+No 5
+>d1xp8a2 d.48.1.1 (A:283-341) RecA protein, C-terminal domain {Deinococcus radiodurans [TaxId: 1299]}
+Probab=19.70  E-value=16  Score=17.21  Aligned_cols=9  Identities=33%  Similarity=0.700  Sum_probs=6.8  Template_Neff=4.600
+
+Q I6XWB9_MYCTU/2    1 GRGRAKAKQ    9 (32)
+Q Consensus         1 GRGR~KAKq    9 (32)
+                      |.||.+|++
+T Consensus        30 GQGre~a~~   38 (59)
+T d1xp8a2          30 GQGKEKTIA   38 (59)
+T ss_dssp             EESHHHHHH
+T ss_pred             hhhHHHHHH
+Confidence            678888875
+
+
+No 6
+>d1jhga_ a.4.12.1 (A:) Trp repressor, TrpR {Escherichia coli [TaxId: 562]}
+Probab=18.40  E-value=18  Score=18.73  Aligned_cols=17  Identities=24%  Similarity=0.167  Sum_probs=13.1  Template_Neff=4.400
+
+Q I6XWB9_MYCTU/2    6 KAKQTKVARELKYSSPQ   22 (32)
+Q Consensus         6 KAKqtkvAR~LKY~s~~   22 (32)
+                      -|.=++++|.|||.++.
+T Consensus        72 ~aTItR~s~~Lk~~~~~   88 (101)
+T d1jhga_          72 IATITRGSNSLKAAPVE   88 (101)
+T ss_dssp             HHHHHHHHHHHHHSCHH
+T ss_pred             hHHHHHHHHHHHhCChH
+Confidence            45567889999998765
+
+
+No 7
+>d1u94a2 d.48.1.1 (A:269-328) RecA protein, C-terminal domain {Escherichia coli [TaxId: 562]}
+Probab=17.32  E-value=20  Score=16.87  Aligned_cols=9  Identities=44%  Similarity=0.848  Sum_probs=6.5  Template_Neff=4.700
+
+Q I6XWB9_MYCTU/2    1 GRGRAKAKQ    9 (32)
+Q Consensus         1 GRGR~KAKq    9 (32)
+                      |.||.+|++
+T Consensus        31 GQGre~~~~   39 (60)
+T d1u94a2          31 GQGKANATA   39 (60)
+T ss_dssp             ESSHHHHHH
+T ss_pred             cchHHHHHH
+Confidence            678887764
+
+
+No 8
+>d1hnra_ a.155.1.1 (A:) H1 protein (H-NS) {Escherichia coli [TaxId: 562]}
+Probab=16.25  E-value=22  Score=16.30  Aligned_cols=6  Identities=50%  Similarity=1.077  Sum_probs=3.8  Template_Neff=3.900
+
+Q I6XWB9_MYCTU/2    1 GRGRAK    6 (32)
+Q Consensus         1 GRGR~K    6 (32)
+                      ||||.-
+T Consensus        21 GrGR~P   26 (47)
+T d1hnra_          21 GQGRTP   26 (47)
+T ss_dssp             TTSSCC
+T ss_pred             cCCcCC
+Confidence            677753
+
+
+No 9
+>d1fada_ a.77.1.2 (A:) FADD (Mort1) {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=12.59  E-value=31  Score=15.85  Aligned_cols=15  Identities=47%  Similarity=0.660  Sum_probs=9.9  Template_Neff=7.700
+
+Q I6XWB9_MYCTU/2   10 TKVARELKYSSPQTD   24 (32)
+Q Consensus        10 tkvAR~LKY~s~~tD   24 (32)
+                      .++||.|.++...+|
+T Consensus        25 k~Lar~Lgls~~~I~   39 (95)
+T d1fada_          25 KRLARELKVSEAKMD   39 (95)
+T ss_dssp             HHHHHHTTCCHHHHH
+T ss_pred             HHHHHHcCCCHHHHH
+Confidence            467888877655444
+
+
+No 10
+>d1hlva1 a.4.1.7 (A:1-66) DNA-binding domain of centromere binding protein B (CENP-B) {Human (Homo sapiens) [TaxId: 9606]}
+Probab=12.12  E-value=33  Score=16.26  Aligned_cols=13  Identities=15%  Similarity=0.419  Sum_probs=9.5  Template_Neff=4.700
+
+Q I6XWB9_MYCTU/2    6 KAKQTKVARELKY   18 (32)
+Q Consensus         6 KAKqtkvAR~LKY   18 (32)
+                      +++|+.||+++--
+T Consensus        25 k~sq~eIA~~fGv   37 (66)
+T d1hlva1          25 DLRKGEIARRFNI   37 (66)
+T ss_dssp             TSCHHHHHHHHTC
+T ss_pred             cchHHHHHHHhCC
+Confidence            4678889987654
+
+

@@ -1,0 +1,615 @@
+{
+  "compendium": "Rychel et al. 2022 (mSphere), GitHub Reosu/modulome_mtb",
+  "n_profils": 647,
+  "n_projets": 53,
+  "panel_taille": 75,
+  "panel_retrouve": 75,
+  "panel_absents": [],
+  "n_base": 27,
+  "n_infection": 28,
+  "n_stress_hote": 97,
+  "cible": "Rv0810c",
+  "rang_percentile_delta": 0.6667,
+  "detail_par_gene": {
+    "Rv0063a": {
+      "base_mean_log_tpm": 0.0854,
+      "infection_mean_log_tpm": -1.3808,
+      "stress_hote_mean_log_tpm": -0.1235,
+      "host_union_mean_log_tpm": -0.4051,
+      "delta_host_minus_base": -0.4906,
+      "variance_across_all_conditions": 0.9612
+    },
+    "Rv0078B": {
+      "base_mean_log_tpm": 0.5246,
+      "infection_mean_log_tpm": -0.2919,
+      "stress_hote_mean_log_tpm": 0.2499,
+      "host_union_mean_log_tpm": 0.1285,
+      "delta_host_minus_base": -0.3961,
+      "variance_across_all_conditions": 0.301
+    },
+    "Rv0108c": {
+      "base_mean_log_tpm": -0.9378,
+      "infection_mean_log_tpm": -0.1776,
+      "stress_hote_mean_log_tpm": 0.1656,
+      "host_union_mean_log_tpm": 0.0887,
+      "delta_host_minus_base": 1.0266,
+      "variance_across_all_conditions": 1.1007
+    },
+    "Rv0115a": {
+      "base_mean_log_tpm": -0.5177,
+      "infection_mean_log_tpm": 0.009,
+      "stress_hote_mean_log_tpm": -0.2337,
+      "host_union_mean_log_tpm": -0.1793,
+      "delta_host_minus_base": 0.3384,
+      "variance_across_all_conditions": 1.356
+    },
+    "Rv0186A": {
+      "base_mean_log_tpm": -0.9538,
+      "infection_mean_log_tpm": -0.2826,
+      "stress_hote_mean_log_tpm": 0.8751,
+      "host_union_mean_log_tpm": 0.6157,
+      "delta_host_minus_base": 1.5695,
+      "variance_across_all_conditions": 4.3824
+    },
+    "Rv0236A": {
+      "base_mean_log_tpm": -1.0009,
+      "infection_mean_log_tpm": 0.0228,
+      "stress_hote_mean_log_tpm": 0.1191,
+      "host_union_mean_log_tpm": 0.0975,
+      "delta_host_minus_base": 1.0984,
+      "variance_across_all_conditions": 0.7512
+    },
+    "Rv0416": {
+      "base_mean_log_tpm": -0.4822,
+      "infection_mean_log_tpm": 0.0571,
+      "stress_hote_mean_log_tpm": -0.6072,
+      "host_union_mean_log_tpm": -0.4584,
+      "delta_host_minus_base": 0.0238,
+      "variance_across_all_conditions": 0.7211
+    },
+    "Rv0456B": {
+      "base_mean_log_tpm": 0.3442,
+      "infection_mean_log_tpm": -0.0822,
+      "stress_hote_mean_log_tpm": 0.1885,
+      "host_union_mean_log_tpm": 0.1278,
+      "delta_host_minus_base": -0.2163,
+      "variance_across_all_conditions": 1.2243
+    },
+    "Rv0530A": {
+      "base_mean_log_tpm": 0.2786,
+      "infection_mean_log_tpm": -0.1618,
+      "stress_hote_mean_log_tpm": -0.3872,
+      "host_union_mean_log_tpm": -0.3367,
+      "delta_host_minus_base": -0.6153,
+      "variance_across_all_conditions": 0.5613
+    },
+    "Rv0634B": {
+      "base_mean_log_tpm": -1.1358,
+      "infection_mean_log_tpm": 0.304,
+      "stress_hote_mean_log_tpm": -0.3017,
+      "host_union_mean_log_tpm": -0.166,
+      "delta_host_minus_base": 0.9697,
+      "variance_across_all_conditions": 0.994
+    },
+    "Rv0657c": {
+      "base_mean_log_tpm": 0.1468,
+      "infection_mean_log_tpm": -0.392,
+      "stress_hote_mean_log_tpm": 0.106,
+      "host_union_mean_log_tpm": -0.0055,
+      "delta_host_minus_base": -0.1523,
+      "variance_across_all_conditions": 0.548
+    },
+    "Rv0666": {
+      "base_mean_log_tpm": -0.5885,
+      "infection_mean_log_tpm": -0.2005,
+      "stress_hote_mean_log_tpm": -0.7598,
+      "host_union_mean_log_tpm": -0.6345,
+      "delta_host_minus_base": -0.046,
+      "variance_across_all_conditions": 1.7591
+    },
+    "Rv0717": {
+      "base_mean_log_tpm": -0.8131,
+      "infection_mean_log_tpm": 0.05,
+      "stress_hote_mean_log_tpm": -0.2391,
+      "host_union_mean_log_tpm": -0.1743,
+      "delta_host_minus_base": 0.6387,
+      "variance_across_all_conditions": 1.045
+    },
+    "Rv0722": {
+      "base_mean_log_tpm": -0.8128,
+      "infection_mean_log_tpm": 0.3959,
+      "stress_hote_mean_log_tpm": -0.2771,
+      "host_union_mean_log_tpm": -0.1263,
+      "delta_host_minus_base": 0.6865,
+      "variance_across_all_conditions": 0.9727
+    },
+    "Rv0763c": {
+      "base_mean_log_tpm": -0.6447,
+      "infection_mean_log_tpm": -0.3185,
+      "stress_hote_mean_log_tpm": -0.763,
+      "host_union_mean_log_tpm": -0.6634,
+      "delta_host_minus_base": -0.0188,
+      "variance_across_all_conditions": 0.8434
+    },
+    "Rv0810c": {
+      "base_mean_log_tpm": -0.3471,
+      "infection_mean_log_tpm": -0.1394,
+      "stress_hote_mean_log_tpm": -0.0483,
+      "host_union_mean_log_tpm": -0.0687,
+      "delta_host_minus_base": 0.2784,
+      "variance_across_all_conditions": 0.3261
+    },
+    "Rv0863": {
+      "base_mean_log_tpm": 0.3958,
+      "infection_mean_log_tpm": -0.1491,
+      "stress_hote_mean_log_tpm": 0.1491,
+      "host_union_mean_log_tpm": 0.0823,
+      "delta_host_minus_base": -0.3135,
+      "variance_across_all_conditions": 0.2801
+    },
+    "Rv0900": {
+      "base_mean_log_tpm": -0.1492,
+      "infection_mean_log_tpm": -0.4189,
+      "stress_hote_mean_log_tpm": 0.0019,
+      "host_union_mean_log_tpm": -0.0923,
+      "delta_host_minus_base": 0.0569,
+      "variance_across_all_conditions": 0.367
+    },
+    "Rv0909": {
+      "base_mean_log_tpm": -0.2784,
+      "infection_mean_log_tpm": -0.2672,
+      "stress_hote_mean_log_tpm": -0.1245,
+      "host_union_mean_log_tpm": -0.1565,
+      "delta_host_minus_base": 0.1219,
+      "variance_across_all_conditions": 0.3711
+    },
+    "Rv0979A": {
+      "base_mean_log_tpm": -0.8978,
+      "infection_mean_log_tpm": -0.0427,
+      "stress_hote_mean_log_tpm": 0.0413,
+      "host_union_mean_log_tpm": 0.0225,
+      "delta_host_minus_base": 0.9203,
+      "variance_across_all_conditions": 1.124
+    },
+    "Rv0979c": {
+      "base_mean_log_tpm": -0.2852,
+      "infection_mean_log_tpm": -0.4568,
+      "stress_hote_mean_log_tpm": -1.6478,
+      "host_union_mean_log_tpm": -1.3811,
+      "delta_host_minus_base": -1.0958,
+      "variance_across_all_conditions": 1.8211
+    },
+    "Rv1088a": {
+      "base_mean_log_tpm": -0.4394,
+      "infection_mean_log_tpm": 0.0023,
+      "stress_hote_mean_log_tpm": 0.1099,
+      "host_union_mean_log_tpm": 0.0858,
+      "delta_host_minus_base": 0.5252,
+      "variance_across_all_conditions": 0.9586
+    },
+    "Rv1113": {
+      "base_mean_log_tpm": -0.3713,
+      "infection_mean_log_tpm": -0.0855,
+      "stress_hote_mean_log_tpm": 0.1297,
+      "host_union_mean_log_tpm": 0.0815,
+      "delta_host_minus_base": 0.4528,
+      "variance_across_all_conditions": 0.5402
+    },
+    "Rv1116": {
+      "base_mean_log_tpm": -0.1904,
+      "infection_mean_log_tpm": 0.3339,
+      "stress_hote_mean_log_tpm": -0.4558,
+      "host_union_mean_log_tpm": -0.2789,
+      "delta_host_minus_base": -0.0885,
+      "variance_across_all_conditions": 1.2732
+    },
+    "Rv1155a": {
+      "base_mean_log_tpm": 0.1566,
+      "infection_mean_log_tpm": -0.7737,
+      "stress_hote_mean_log_tpm": -0.5659,
+      "host_union_mean_log_tpm": -0.6124,
+      "delta_host_minus_base": -0.769,
+      "variance_across_all_conditions": 0.8578
+    },
+    "Rv1228a": {
+      "base_mean_log_tpm": -0.3113,
+      "infection_mean_log_tpm": -0.4429,
+      "stress_hote_mean_log_tpm": -0.334,
+      "host_union_mean_log_tpm": -0.3584,
+      "delta_host_minus_base": -0.0471,
+      "variance_across_all_conditions": 1.0649
+    },
+    "Rv1473A": {
+      "base_mean_log_tpm": 0.2539,
+      "infection_mean_log_tpm": -0.2435,
+      "stress_hote_mean_log_tpm": -0.7424,
+      "host_union_mean_log_tpm": -0.6306,
+      "delta_host_minus_base": -0.8845,
+      "variance_across_all_conditions": 0.7222
+    },
+    "Rv1498A": {
+      "base_mean_log_tpm": 0.2227,
+      "infection_mean_log_tpm": 0.4986,
+      "stress_hote_mean_log_tpm": -0.2043,
+      "host_union_mean_log_tpm": -0.0468,
+      "delta_host_minus_base": -0.2695,
+      "variance_across_all_conditions": 0.8494
+    },
+    "Rv1576c": {
+      "base_mean_log_tpm": 0.0086,
+      "infection_mean_log_tpm": -0.4263,
+      "stress_hote_mean_log_tpm": -0.1259,
+      "host_union_mean_log_tpm": -0.1932,
+      "delta_host_minus_base": -0.2018,
+      "variance_across_all_conditions": 1.8901
+    },
+    "Rv1642": {
+      "base_mean_log_tpm": -0.8698,
+      "infection_mean_log_tpm": 0.254,
+      "stress_hote_mean_log_tpm": 0.2196,
+      "host_union_mean_log_tpm": 0.2273,
+      "delta_host_minus_base": 1.0971,
+      "variance_across_all_conditions": 0.5411
+    },
+    "Rv1693": {
+      "base_mean_log_tpm": 0.1548,
+      "infection_mean_log_tpm": -0.3493,
+      "stress_hote_mean_log_tpm": 0.1387,
+      "host_union_mean_log_tpm": 0.0294,
+      "delta_host_minus_base": -0.1254,
+      "variance_across_all_conditions": 0.4027
+    },
+    "Rv1706A": {
+      "base_mean_log_tpm": -0.0362,
+      "infection_mean_log_tpm": 0.0871,
+      "stress_hote_mean_log_tpm": 1.042,
+      "host_union_mean_log_tpm": 0.8281,
+      "delta_host_minus_base": 0.8643,
+      "variance_across_all_conditions": 1.6079
+    },
+    "Rv1740": {
+      "base_mean_log_tpm": 0.0824,
+      "infection_mean_log_tpm": -0.3169,
+      "stress_hote_mean_log_tpm": -0.2827,
+      "host_union_mean_log_tpm": -0.2904,
+      "delta_host_minus_base": -0.3728,
+      "variance_across_all_conditions": 0.6484
+    },
+    "Rv1786": {
+      "base_mean_log_tpm": -0.8362,
+      "infection_mean_log_tpm": -0.5089,
+      "stress_hote_mean_log_tpm": -0.1076,
+      "host_union_mean_log_tpm": -0.1975,
+      "delta_host_minus_base": 0.6387,
+      "variance_across_all_conditions": 0.5973
+    },
+    "Rv1799": {
+      "base_mean_log_tpm": -0.4588,
+      "infection_mean_log_tpm": -0.8223,
+      "stress_hote_mean_log_tpm": -0.1483,
+      "host_union_mean_log_tpm": -0.2993,
+      "delta_host_minus_base": 0.1596,
+      "variance_across_all_conditions": 0.6903
+    },
+    "Rv1950c": {
+      "base_mean_log_tpm": -0.4469,
+      "infection_mean_log_tpm": -0.3218,
+      "stress_hote_mean_log_tpm": -0.6338,
+      "host_union_mean_log_tpm": -0.5639,
+      "delta_host_minus_base": -0.117,
+      "variance_across_all_conditions": 0.8307
+    },
+    "Rv2057c": {
+      "base_mean_log_tpm": -0.6534,
+      "infection_mean_log_tpm": 0.6374,
+      "stress_hote_mean_log_tpm": -0.4673,
+      "host_union_mean_log_tpm": -0.2198,
+      "delta_host_minus_base": 0.4336,
+      "variance_across_all_conditions": 0.8073
+    },
+    "Rv2082": {
+      "base_mean_log_tpm": -0.2119,
+      "infection_mean_log_tpm": -0.2084,
+      "stress_hote_mean_log_tpm": -0.1369,
+      "host_union_mean_log_tpm": -0.1529,
+      "delta_host_minus_base": 0.059,
+      "variance_across_all_conditions": 0.3088
+    },
+    "Rv2111c": {
+      "base_mean_log_tpm": -0.2867,
+      "infection_mean_log_tpm": -0.0727,
+      "stress_hote_mean_log_tpm": -0.0409,
+      "host_union_mean_log_tpm": -0.048,
+      "delta_host_minus_base": 0.2387,
+      "variance_across_all_conditions": 0.1946
+    },
+    "Rv2128": {
+      "base_mean_log_tpm": -0.4726,
+      "infection_mean_log_tpm": -0.4415,
+      "stress_hote_mean_log_tpm": 0.0469,
+      "host_union_mean_log_tpm": -0.0625,
+      "delta_host_minus_base": 0.4101,
+      "variance_across_all_conditions": 0.602
+    },
+    "Rv2231B": {
+      "base_mean_log_tpm": -0.158,
+      "infection_mean_log_tpm": -0.0185,
+      "stress_hote_mean_log_tpm": -0.3264,
+      "host_union_mean_log_tpm": -0.2574,
+      "delta_host_minus_base": -0.0994,
+      "variance_across_all_conditions": 0.6964
+    },
+    "Rv2256a": {
+      "base_mean_log_tpm": 0.1761,
+      "infection_mean_log_tpm": 0.1169,
+      "stress_hote_mean_log_tpm": 0.1909,
+      "host_union_mean_log_tpm": 0.1743,
+      "delta_host_minus_base": -0.0018,
+      "variance_across_all_conditions": 0.7475
+    },
+    "Rv2283": {
+      "base_mean_log_tpm": 0.4864,
+      "infection_mean_log_tpm": -0.0699,
+      "stress_hote_mean_log_tpm": -0.7506,
+      "host_union_mean_log_tpm": -0.5981,
+      "delta_host_minus_base": -1.0846,
+      "variance_across_all_conditions": 1.345
+    },
+    "Rv2304c": {
+      "base_mean_log_tpm": -0.5928,
+      "infection_mean_log_tpm": -0.3915,
+      "stress_hote_mean_log_tpm": -0.6131,
+      "host_union_mean_log_tpm": -0.5635,
+      "delta_host_minus_base": 0.0294,
+      "variance_across_all_conditions": 0.4636
+    },
+    "Rv2307A": {
+      "base_mean_log_tpm": 0.4966,
+      "infection_mean_log_tpm": -0.2611,
+      "stress_hote_mean_log_tpm": -0.7446,
+      "host_union_mean_log_tpm": -0.6363,
+      "delta_host_minus_base": -1.1329,
+      "variance_across_all_conditions": 1.4358
+    },
+    "Rv2307D": {
+      "base_mean_log_tpm": 0.0777,
+      "infection_mean_log_tpm": -0.1793,
+      "stress_hote_mean_log_tpm": -0.2891,
+      "host_union_mean_log_tpm": -0.2645,
+      "delta_host_minus_base": -0.3422,
+      "variance_across_all_conditions": 0.6712
+    },
+    "Rv2371": {
+      "base_mean_log_tpm": -0.1748,
+      "infection_mean_log_tpm": -0.2078,
+      "stress_hote_mean_log_tpm": -0.9921,
+      "host_union_mean_log_tpm": -0.8164,
+      "delta_host_minus_base": -0.6416,
+      "variance_across_all_conditions": 0.7257
+    },
+    "Rv2386a": {
+      "base_mean_log_tpm": -0.1723,
+      "infection_mean_log_tpm": -1.2692,
+      "stress_hote_mean_log_tpm": 0.7879,
+      "host_union_mean_log_tpm": 0.3271,
+      "delta_host_minus_base": 0.4994,
+      "variance_across_all_conditions": 1.0606
+    },
+    "Rv2395B": {
+      "base_mean_log_tpm": -0.4759,
+      "infection_mean_log_tpm": -0.2366,
+      "stress_hote_mean_log_tpm": -0.2085,
+      "host_union_mean_log_tpm": -0.2148,
+      "delta_host_minus_base": 0.2611,
+      "variance_across_all_conditions": 0.5785
+    },
+    "Rv2401A": {
+      "base_mean_log_tpm": 0.1508,
+      "infection_mean_log_tpm": -0.1235,
+      "stress_hote_mean_log_tpm": -0.4391,
+      "host_union_mean_log_tpm": -0.3684,
+      "delta_host_minus_base": -0.5192,
+      "variance_across_all_conditions": 0.7036
+    },
+    "Rv2490a": {
+      "base_mean_log_tpm": 0.4887,
+      "infection_mean_log_tpm": -0.4502,
+      "stress_hote_mean_log_tpm": -0.6931,
+      "host_union_mean_log_tpm": -0.6387,
+      "delta_host_minus_base": -1.1274,
+      "variance_across_all_conditions": 2.1738
+    },
+    "Rv2512a": {
+      "base_mean_log_tpm": 0.0915,
+      "infection_mean_log_tpm": -0.2392,
+      "stress_hote_mean_log_tpm": -0.0281,
+      "host_union_mean_log_tpm": -0.0754,
+      "delta_host_minus_base": -0.1668,
+      "variance_across_all_conditions": 0.4077
+    },
+    "Rv2738c": {
+      "base_mean_log_tpm": 0.0787,
+      "infection_mean_log_tpm": -0.1356,
+      "stress_hote_mean_log_tpm": -0.161,
+      "host_union_mean_log_tpm": -0.1553,
+      "delta_host_minus_base": -0.234,
+      "variance_across_all_conditions": 0.4439
+    },
+    "Rv2806": {
+      "base_mean_log_tpm": -0.051,
+      "infection_mean_log_tpm": -0.0229,
+      "stress_hote_mean_log_tpm": -0.2968,
+      "host_union_mean_log_tpm": -0.2355,
+      "delta_host_minus_base": -0.1845,
+      "variance_across_all_conditions": 0.7334
+    },
+    "Rv2970A": {
+      "base_mean_log_tpm": 0.1481,
+      "infection_mean_log_tpm": 0.0983,
+      "stress_hote_mean_log_tpm": 0.2637,
+      "host_union_mean_log_tpm": 0.2266,
+      "delta_host_minus_base": 0.0786,
+      "variance_across_all_conditions": 0.3005
+    },
+    "Rv2975a": {
+      "base_mean_log_tpm": -0.8907,
+      "infection_mean_log_tpm": -0.1441,
+      "stress_hote_mean_log_tpm": -0.1309,
+      "host_union_mean_log_tpm": -0.1339,
+      "delta_host_minus_base": 0.7568,
+      "variance_across_all_conditions": 1.1107
+    },
+    "Rv3190A": {
+      "base_mean_log_tpm": -0.1421,
+      "infection_mean_log_tpm": -0.1165,
+      "stress_hote_mean_log_tpm": 0.6407,
+      "host_union_mean_log_tpm": 0.4711,
+      "delta_host_minus_base": 0.6132,
+      "variance_across_all_conditions": 1.2902
+    },
+    "Rv3196A": {
+      "base_mean_log_tpm": -0.6685,
+      "infection_mean_log_tpm": -0.2542,
+      "stress_hote_mean_log_tpm": 0.0386,
+      "host_union_mean_log_tpm": -0.027,
+      "delta_host_minus_base": 0.6415,
+      "variance_across_all_conditions": 0.7401
+    },
+    "Rv3202a": {
+      "base_mean_log_tpm": -0.0329,
+      "infection_mean_log_tpm": -0.8138,
+      "stress_hote_mean_log_tpm": -0.3855,
+      "host_union_mean_log_tpm": -0.4815,
+      "delta_host_minus_base": -0.4486,
+      "variance_across_all_conditions": 0.7608
+    },
+    "Rv3222c": {
+      "base_mean_log_tpm": -0.3676,
+      "infection_mean_log_tpm": -0.3493,
+      "stress_hote_mean_log_tpm": -0.2951,
+      "host_union_mean_log_tpm": -0.3073,
+      "delta_host_minus_base": 0.0603,
+      "variance_across_all_conditions": 0.3298
+    },
+    "Rv3250c": {
+      "base_mean_log_tpm": -0.2286,
+      "infection_mean_log_tpm": -0.3625,
+      "stress_hote_mean_log_tpm": -0.4196,
+      "host_union_mean_log_tpm": -0.4068,
+      "delta_host_minus_base": -0.1782,
+      "variance_across_all_conditions": 1.2906
+    },
+    "Rv3251c": {
+      "base_mean_log_tpm": -0.7571,
+      "infection_mean_log_tpm": -0.3726,
+      "stress_hote_mean_log_tpm": -0.4493,
+      "host_union_mean_log_tpm": -0.4321,
+      "delta_host_minus_base": 0.325,
+      "variance_across_all_conditions": 1.8337
+    },
+    "Rv3312b": {
+      "base_mean_log_tpm": -1.0581,
+      "infection_mean_log_tpm": -1.6009,
+      "stress_hote_mean_log_tpm": -0.378,
+      "host_union_mean_log_tpm": -0.6519,
+      "delta_host_minus_base": 0.4062,
+      "variance_across_all_conditions": 1.3875
+    },
+    "Rv3402c": {
+      "base_mean_log_tpm": -0.0568,
+      "infection_mean_log_tpm": 0.299,
+      "stress_hote_mean_log_tpm": 0.2837,
+      "host_union_mean_log_tpm": 0.2871,
+      "delta_host_minus_base": 0.3439,
+      "variance_across_all_conditions": 1.3658
+    },
+    "Rv3430a": {
+      "base_mean_log_tpm": -0.2027,
+      "infection_mean_log_tpm": -0.54,
+      "stress_hote_mean_log_tpm": -0.3556,
+      "host_union_mean_log_tpm": -0.3969,
+      "delta_host_minus_base": -0.1942,
+      "variance_across_all_conditions": 0.5197
+    },
+    "Rv3489": {
+      "base_mean_log_tpm": 0.2752,
+      "infection_mean_log_tpm": -0.1133,
+      "stress_hote_mean_log_tpm": 0.0986,
+      "host_union_mean_log_tpm": 0.0512,
+      "delta_host_minus_base": -0.2241,
+      "variance_across_all_conditions": 0.2428
+    },
+    "Rv3503c": {
+      "base_mean_log_tpm": -0.3806,
+      "infection_mean_log_tpm": 0.6064,
+      "stress_hote_mean_log_tpm": -0.1437,
+      "host_union_mean_log_tpm": 0.0243,
+      "delta_host_minus_base": 0.4049,
+      "variance_across_all_conditions": 0.5603
+    },
+    "Rv3613c": {
+      "base_mean_log_tpm": -0.9812,
+      "infection_mean_log_tpm": -0.2888,
+      "stress_hote_mean_log_tpm": -0.2569,
+      "host_union_mean_log_tpm": -0.264,
+      "delta_host_minus_base": 0.7172,
+      "variance_across_all_conditions": 1.7999
+    },
+    "Rv3642c": {
+      "base_mean_log_tpm": 0.5771,
+      "infection_mean_log_tpm": -0.3695,
+      "stress_hote_mean_log_tpm": 0.4006,
+      "host_union_mean_log_tpm": 0.2281,
+      "delta_host_minus_base": -0.349,
+      "variance_across_all_conditions": 0.4767
+    },
+    "Rv3643": {
+      "base_mean_log_tpm": 0.0395,
+      "infection_mean_log_tpm": 0.1969,
+      "stress_hote_mean_log_tpm": -1.919,
+      "host_union_mean_log_tpm": -1.445,
+      "delta_host_minus_base": -1.4845,
+      "variance_across_all_conditions": 2.0996
+    },
+    "Rv3648c": {
+      "base_mean_log_tpm": -0.9668,
+      "infection_mean_log_tpm": 0.2347,
+      "stress_hote_mean_log_tpm": 0.2631,
+      "host_union_mean_log_tpm": 0.2568,
+      "delta_host_minus_base": 1.2236,
+      "variance_across_all_conditions": 1.2173
+    },
+    "Rv3656c": {
+      "base_mean_log_tpm": 0.3482,
+      "infection_mean_log_tpm": -0.2319,
+      "stress_hote_mean_log_tpm": -0.523,
+      "host_union_mean_log_tpm": -0.4578,
+      "delta_host_minus_base": -0.8059,
+      "variance_across_all_conditions": 0.7539
+    },
+    "Rv3678A": {
+      "base_mean_log_tpm": 0.0892,
+      "infection_mean_log_tpm": -0.1303,
+      "stress_hote_mean_log_tpm": 0.1756,
+      "host_union_mean_log_tpm": 0.1071,
+      "delta_host_minus_base": 0.0179,
+      "variance_across_all_conditions": 0.5349
+    },
+    "Rv3745c": {
+      "base_mean_log_tpm": -0.0835,
+      "infection_mean_log_tpm": 1.1227,
+      "stress_hote_mean_log_tpm": -0.7552,
+      "host_union_mean_log_tpm": -0.3345,
+      "delta_host_minus_base": -0.251,
+      "variance_across_all_conditions": 2.3555
+    },
+    "Rv3857c": {
+      "base_mean_log_tpm": -0.0054,
+      "infection_mean_log_tpm": -0.0332,
+      "stress_hote_mean_log_tpm": -0.0415,
+      "host_union_mean_log_tpm": -0.0396,
+      "delta_host_minus_base": -0.0342,
+      "variance_across_all_conditions": 0.2944
+    }
+  }
+}

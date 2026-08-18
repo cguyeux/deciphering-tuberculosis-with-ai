@@ -1,0 +1,766 @@
+{
+  "piste": "P8.2",
+  "gene": "Rv0810c",
+  "sequence": "MGRGRAKAKQTKVARELKYSSPQTDFQRLQRELSGTGTDRLDGDGPSDDDSWNDEDDWRR",
+  "n_sites_catalogue": 84,
+  "n_scorables": 81,
+  "n_non_scorables_multi_residus": 3,
+  "modele_esm1v": "esm1v_t33_650M_UR90S_1 (Meier et al. 2021)",
+  "catalogue_note": [
+    {
+      "hgvs_p": "p.Arg3His",
+      "protein_position": 3,
+      "frequency": 4,
+      "mutation_code": "R3H",
+      "llr": -8.9632,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Arg5Leu",
+      "protein_position": 5,
+      "frequency": 12,
+      "mutation_code": "R5L",
+      "llr": -9.259,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Ala6Val",
+      "protein_position": 6,
+      "frequency": 4,
+      "mutation_code": "A6V",
+      "llr": -4.3445,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Lys7Arg",
+      "protein_position": 7,
+      "frequency": 3,
+      "mutation_code": "K7R",
+      "llr": -5.5838,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Gln10His",
+      "protein_position": 10,
+      "frequency": 1,
+      "mutation_code": "Q10H",
+      "llr": -3.972,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Thr11Ile",
+      "protein_position": 11,
+      "frequency": 5,
+      "mutation_code": "T11I",
+      "llr": -5.0443,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Val13Leu",
+      "protein_position": 13,
+      "frequency": 6,
+      "mutation_code": "V13L",
+      "llr": -4.3964,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Glu16Lys",
+      "protein_position": 16,
+      "frequency": 6,
+      "mutation_code": "E16K",
+      "llr": -1.1586,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Ser20Arg",
+      "protein_position": 20,
+      "frequency": 11,
+      "mutation_code": "S20R",
+      "llr": 1.9424,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Ser20Arg",
+      "protein_position": 20,
+      "frequency": 2,
+      "mutation_code": "S20R",
+      "llr": 1.9424,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Ser21Thr",
+      "protein_position": 21,
+      "frequency": 5,
+      "mutation_code": "S21T",
+      "llr": -2.3735,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Ser21Phe",
+      "protein_position": 21,
+      "frequency": 1,
+      "mutation_code": "S21F",
+      "llr": -8.9752,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Gln23Pro",
+      "protein_position": 23,
+      "frequency": 13,
+      "mutation_code": "Q23P",
+      "llr": -2.7672,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Gln23Arg",
+      "protein_position": 23,
+      "frequency": 6,
+      "mutation_code": "Q23R",
+      "llr": -2.4311,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Gln23Lys",
+      "protein_position": 23,
+      "frequency": 2,
+      "mutation_code": "Q23K",
+      "llr": -1.2991,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Thr24Pro",
+      "protein_position": 24,
+      "frequency": 32,
+      "mutation_code": "T24P",
+      "llr": -3.477,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Thr24Ile",
+      "protein_position": 24,
+      "frequency": 2,
+      "mutation_code": "T24I",
+      "llr": -3.7788,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Gln27Glu",
+      "protein_position": 27,
+      "frequency": 10,
+      "mutation_code": "Q27E",
+      "llr": 1.4119,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Arg28Gln",
+      "protein_position": 28,
+      "frequency": 2,
+      "mutation_code": "R28Q",
+      "llr": -0.942,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Gly35Ser",
+      "protein_position": 35,
+      "frequency": 1,
+      "mutation_code": "G35S",
+      "llr": -0.9582,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Thr36Ala",
+      "protein_position": 36,
+      "frequency": 12,
+      "mutation_code": "T36A",
+      "llr": 0.2346,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Gly37Ser",
+      "protein_position": 37,
+      "frequency": 5,
+      "mutation_code": "G37S",
+      "llr": 0.2518,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Thr38Ala",
+      "protein_position": 38,
+      "frequency": 5,
+      "mutation_code": "T38A",
+      "llr": 0.4094,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Thr38Ile",
+      "protein_position": 38,
+      "frequency": 4,
+      "mutation_code": "T38I",
+      "llr": -1.9015,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Thr38Asn",
+      "protein_position": 38,
+      "frequency": 1,
+      "mutation_code": "T38N",
+      "llr": -0.8695,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp39Tyr",
+      "protein_position": 39,
+      "frequency": 15,
+      "mutation_code": "D39Y",
+      "llr": -2.5626,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp39Asn",
+      "protein_position": 39,
+      "frequency": 4,
+      "mutation_code": "D39N",
+      "llr": -1.4262,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp39Glu",
+      "protein_position": 39,
+      "frequency": 3,
+      "mutation_code": "D39E",
+      "llr": -0.7251,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp39Glu",
+      "protein_position": 39,
+      "frequency": 3,
+      "mutation_code": "D39E",
+      "llr": -0.7251,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp42Glu",
+      "protein_position": 42,
+      "frequency": 2,
+      "mutation_code": "D42E",
+      "llr": -1.1611,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp42Gly",
+      "protein_position": 42,
+      "frequency": 1,
+      "mutation_code": "D42G",
+      "llr": -0.0039,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp42Glu",
+      "protein_position": 42,
+      "frequency": 1,
+      "mutation_code": "D42E",
+      "llr": -1.1611,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Gly43Arg",
+      "protein_position": 43,
+      "frequency": 3,
+      "mutation_code": "G43R",
+      "llr": -0.1338,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Gly43Asp",
+      "protein_position": 43,
+      "frequency": 1,
+      "mutation_code": "G43D",
+      "llr": 1.37,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp44Glu",
+      "protein_position": 44,
+      "frequency": 1,
+      "mutation_code": "D44E",
+      "llr": -1.1935,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp44Asn",
+      "protein_position": 44,
+      "frequency": 1,
+      "mutation_code": "D44N",
+      "llr": -2.1941,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp44Gly",
+      "protein_position": 44,
+      "frequency": 1,
+      "mutation_code": "D44G",
+      "llr": -0.014,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Gly45Ser",
+      "protein_position": 45,
+      "frequency": 1,
+      "mutation_code": "G45S",
+      "llr": -0.137,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Ser47Leu",
+      "protein_position": 47,
+      "frequency": 1,
+      "mutation_code": "S47L",
+      "llr": -0.0398,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp48Ala",
+      "protein_position": 48,
+      "frequency": 3,
+      "mutation_code": "D48A",
+      "llr": -1.0028,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp49Asn",
+      "protein_position": 49,
+      "frequency": 10,
+      "mutation_code": "D49N",
+      "llr": -2.6,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp49Gly",
+      "protein_position": 49,
+      "frequency": 1,
+      "mutation_code": "D49G",
+      "llr": -0.9934,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp49Glu",
+      "protein_position": 49,
+      "frequency": 1,
+      "mutation_code": "D49E",
+      "llr": -1.05,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Ser51Trp",
+      "protein_position": 51,
+      "frequency": 7,
+      "mutation_code": "S51W",
+      "llr": -0.0356,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Trp52Arg",
+      "protein_position": 52,
+      "frequency": 1,
+      "mutation_code": "W52R",
+      "llr": -0.076,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp54Glu",
+      "protein_position": 54,
+      "frequency": 7,
+      "mutation_code": "D54E",
+      "llr": -1.5497,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp54Asn",
+      "protein_position": 54,
+      "frequency": 2,
+      "mutation_code": "D54N",
+      "llr": -3.3218,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp54Gly",
+      "protein_position": 54,
+      "frequency": 1,
+      "mutation_code": "D54G",
+      "llr": -2.1593,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Glu55Asp",
+      "protein_position": 55,
+      "frequency": 10,
+      "mutation_code": "E55D",
+      "llr": 1.5904,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Glu55Asp",
+      "protein_position": 55,
+      "frequency": 1,
+      "mutation_code": "E55D",
+      "llr": 1.5904,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp56Ala",
+      "protein_position": 56,
+      "frequency": 73,
+      "mutation_code": "D56A",
+      "llr": -3.1609,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp56Gly",
+      "protein_position": 56,
+      "frequency": 65,
+      "mutation_code": "D56G",
+      "llr": -2.2835,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp56Asn",
+      "protein_position": 56,
+      "frequency": 1,
+      "mutation_code": "D56N",
+      "llr": -3.0833,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp56His",
+      "protein_position": 56,
+      "frequency": 1,
+      "mutation_code": "D56H",
+      "llr": -3.529,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp56Glu",
+      "protein_position": 56,
+      "frequency": 1,
+      "mutation_code": "D56E",
+      "llr": -1.3443,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp57Glu",
+      "protein_position": 57,
+      "frequency": 7,
+      "mutation_code": "D57E",
+      "llr": -1.288,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp57Ala",
+      "protein_position": 57,
+      "frequency": 5,
+      "mutation_code": "D57A",
+      "llr": -2.4819,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Asp57Gly",
+      "protein_position": 57,
+      "frequency": 1,
+      "mutation_code": "D57G",
+      "llr": -1.6253,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Trp58Gly",
+      "protein_position": 58,
+      "frequency": 15,
+      "mutation_code": "W58G",
+      "llr": 0.7503,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Trp58Arg",
+      "protein_position": 58,
+      "frequency": 1,
+      "mutation_code": "W58R",
+      "llr": 0.5635,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Arg59Gln",
+      "protein_position": 59,
+      "frequency": 4,
+      "mutation_code": "R59Q",
+      "llr": -2.5593,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Arg59Trp",
+      "protein_position": 59,
+      "frequency": 2,
+      "mutation_code": "R59W",
+      "llr": -2.7084,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Arg59Gly",
+      "protein_position": 59,
+      "frequency": 2,
+      "mutation_code": "R59G",
+      "llr": -0.5737,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Arg60His",
+      "protein_position": 60,
+      "frequency": 4,
+      "mutation_code": "R60H",
+      "llr": -3.4168,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Arg60Ser",
+      "protein_position": 60,
+      "frequency": 4,
+      "mutation_code": "R60S",
+      "llr": -1.9059,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Arg60Cys",
+      "protein_position": 60,
+      "frequency": 1,
+      "mutation_code": "R60C",
+      "llr": -8.9444,
+      "source": "snp"
+    },
+    {
+      "hgvs_p": "p.Gly35Ser",
+      "protein_position": 35,
+      "frequency": 29,
+      "mutation_code": "G35S",
+      "llr": -0.9582,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Arg31Gln",
+      "protein_position": 31,
+      "frequency": 29,
+      "mutation_code": "R31Q",
+      "llr": -2.1652,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Gln27Thr",
+      "protein_position": 27,
+      "frequency": 24,
+      "mutation_code": "Q27T",
+      "llr": 0.4631,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Gln27Glu",
+      "protein_position": 27,
+      "frequency": 1,
+      "mutation_code": "Q27E",
+      "llr": 1.4119,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Gln27Thr",
+      "protein_position": 27,
+      "frequency": 1,
+      "mutation_code": "Q27T",
+      "llr": 0.4631,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Arg31Gln",
+      "protein_position": 31,
+      "frequency": 1,
+      "mutation_code": "R31Q",
+      "llr": -2.1652,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Gln27Glu",
+      "protein_position": 27,
+      "frequency": 19,
+      "mutation_code": "Q27E",
+      "llr": 1.4119,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Gln27Asp",
+      "protein_position": 27,
+      "frequency": 15,
+      "mutation_code": "Q27D",
+      "llr": 1.9681,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Gln23Asn",
+      "protein_position": 23,
+      "frequency": 1,
+      "mutation_code": "Q23N",
+      "llr": -1.6831,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Gln27Glu",
+      "protein_position": 27,
+      "frequency": 1,
+      "mutation_code": "Q27E",
+      "llr": 1.4119,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.SerSerProGln20AsnThrProGlu",
+      "protein_position": 20,
+      "frequency": 2,
+      "mutation_code": "",
+      "llr": null,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Glu16Asp",
+      "protein_position": 16,
+      "frequency": 3,
+      "mutation_code": "E16D",
+      "llr": -1.6283,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.PheGln26LeuLys",
+      "protein_position": 26,
+      "frequency": 2,
+      "mutation_code": "",
+      "llr": null,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.PheGln26LeuLys",
+      "protein_position": 26,
+      "frequency": 1,
+      "mutation_code": "",
+      "llr": null,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Thr36Ala",
+      "protein_position": 36,
+      "frequency": 1,
+      "mutation_code": "T36A",
+      "llr": 0.2346,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Gln27Asp",
+      "protein_position": 27,
+      "frequency": 1,
+      "mutation_code": "Q27D",
+      "llr": 1.9681,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Gln27Glu",
+      "protein_position": 27,
+      "frequency": 1,
+      "mutation_code": "Q27E",
+      "llr": 1.4119,
+      "source": "mnv"
+    },
+    {
+      "hgvs_p": "p.Glu16Asp",
+      "protein_position": 16,
+      "frequency": 1,
+      "mutation_code": "E16D",
+      "llr": -1.6283,
+      "source": "mnv"
+    }
+  ],
+  "test_a_frequence_vs_llr": {
+    "proteine_entiere": {
+      "rho": -0.1111,
+      "p": 0.32340021923918216,
+      "n": 81,
+      "label": "proteine entiere (81 sites)",
+      "lecture": "rho>0 attendu sous selection purificatrice dose-dependante (frequence elevee <-> LLR moins negatif, moins delatere)"
+    },
+    "module_1_33": {
+      "rho": -0.0843,
+      "p": 0.6465592171674025,
+      "n": 32,
+      "label": "module seul (1-33)",
+      "lecture": "rho>0 attendu sous selection purificatrice dose-dependante (frequence elevee <-> LLR moins negatif, moins delatere)"
+    },
+    "queue_34_60": {
+      "rho": -0.0961,
+      "p": 0.5114384075976147,
+      "n": 49,
+      "label": "queue seule (34-60, modele nul)",
+      "lecture": "rho>0 attendu sous selection purificatrice dose-dependante (frequence elevee <-> LLR moins negatif, moins delatere)"
+    }
+  },
+  "test_b_phosphosites_vs_module": {
+    "positions_module_testees": [
+      20,
+      21,
+      24
+    ],
+    "position_queue_hors_test": 51,
+    "methode": "Moyenne des scores de SATURATION (19 substitutions possibles/position) aux positions {20,21,24}, comparee par permutation EXACTE (les 5456 triplets de positions du module 1-33, pas un bootstrap) a la meme statistique pour tout triplet de positions du module. H1 unilaterale : les phosphosites sont PLUS delateres (LLR moyen plus negatif) que des positions aleatoires du module.",
+    "llr_moyen_saturation_phosphosites_module": -4.3798,
+    "llr_moyen_saturation_module_ensemble": -7.6369,
+    "n_triplets_possibles": 5456,
+    "n_triplets_aussi_ou_plus_delateres": 5301,
+    "p_exact_unilateral": 0.9716,
+    "llr_saturation_par_position": {
+      "1": -13.755,
+      "2": -10.1874,
+      "3": -10.3182,
+      "4": -13.9351,
+      "5": -10.8932,
+      "6": -5.8743,
+      "7": -11.3114,
+      "8": -10.1793,
+      "9": -9.2954,
+      "10": -8.5019,
+      "11": -6.3021,
+      "12": -9.8751,
+      "13": -7.2862,
+      "14": -8.3252,
+      "15": -9.7529,
+      "16": -3.9033,
+      "17": -8.2696,
+      "18": -8.4567,
+      "19": -7.8294,
+      "20": -2.512,
+      "21": -6.4901,
+      "22": -6.0758,
+      "23": -2.7249,
+      "24": -4.1373,
+      "25": -8.8482,
+      "26": -4.251,
+      "27": -2.177,
+      "28": -3.5817,
+      "29": -10.3818,
+      "30": -3.7613,
+      "31": -5.466,
+      "32": -9.8064,
+      "33": -7.5537
+    },
+    "llr_substitutions_observees_aux_phosphosites_module": {
+      "S20R": 1.9424,
+      "S21T": -2.3735,
+      "S21F": -8.9752,
+      "T24P": -3.477,
+      "T24I": -3.7788
+    },
+    "llr_substitutions_observees_S51_queue_hors_test": {
+      "S51W": -0.0356
+    },
+    "avertissement_S51": "S51 est dans la queue desordonnee (34-60), pas dans le module (1-33) : exclu du test de permutation par construction (le modele nul de la piste ne s'applique qu'au module). Valeur(s) rapportee(s) a titre descriptif seulement."
+  }
+}

@@ -1,0 +1,32 @@
+[INFO] Console - predicting pockets for proteins from dataset [rv0810c.pdb]
+[INFO] PredictPocketsRoutine - outdir: p2rank/rv0810c_out
+[INFO] Model - Loading model from directory (v3 format): /home/christophe/docs/codes/mtbc/annotation_mtbc/tools/p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [rv0810c.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [rv0810c.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [rv0810c.pdb] (1/1)
+[INFO] Protein - loading protein [/home/christophe/docs/codes/mtbc/Rv0810c/résultats/p6_3_pocket_detection/rv0810c.pdb]
+[INFO] PdbUtils - loading file [rv0810c.pdb]
+[INFO] Struct - all groups in chain A: 60
+[INFO] Struct - all groups in chain A: 60
+[INFO] Struct - 60 groups in chain A
+[INFO] Protein - structure atoms: 485
+[INFO] Protein - protein   atoms: 466
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 2341
+[INFO] Protein - exposed protein atoms: 458 of 466
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 2341
+[INFO] PocketPredictor - LIGANDABLE POINTS: 0
+[INFO] PocketPredictor - CLUSTERS: 0
+[INFO] PocketPredictor - FILTERED CLUSTERS: 0
+[INFO] PredictionVisualizer - copying [/home/christophe/docs/codes/mtbc/Rv0810c/résultats/p6_3_pocket_detection/rv0810c.pdb] to [p2rank/rv0810c_out/visualizations/data/rv0810c.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 29.439 seconds
+[INFO] Console - results saved to directory [/home/christophe/docs/codes/mtbc/Rv0810c/résultats/p6_3_pocket_detection/p2rank/rv0810c_out]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 42.960 seconds.

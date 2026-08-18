@@ -1,0 +1,317 @@
+{
+  "consensus_source": "Prisic et al. 2010 PNAS, PMID 20368441, PMC2867705",
+  "sites": {
+    "T24": {
+      "position_1based": 24,
+      "n_datasets": 5,
+      "note": "Verma2017, Carette2018, Malakar S2/S3b/S8 (P1.5)",
+      "window_-5_to_+5": "YSSPQTDFQRL",
+      "checks": [
+        {
+          "position": -5,
+          "residue": "Y",
+          "expected": "X (libre)",
+          "match": true
+        },
+        {
+          "position": -4,
+          "residue": "S",
+          "expected": "acide (D/E)",
+          "match": false
+        },
+        {
+          "position": -3,
+          "residue": "S",
+          "expected": "acide (D/E)",
+          "match": false
+        },
+        {
+          "position": -2,
+          "residue": "P",
+          "expected": "acide (D/E)",
+          "match": false
+        },
+        {
+          "position": -1,
+          "residue": "Q",
+          "expected": "acide (D/E)",
+          "match": false
+        },
+        {
+          "position": 0,
+          "residue": "T",
+          "expected": "T (phosphoaccepteur)",
+          "match": true
+        },
+        {
+          "position": 1,
+          "residue": "D",
+          "expected": "X (libre)",
+          "match": true
+        },
+        {
+          "position": 2,
+          "residue": "F",
+          "expected": "X ou V",
+          "match": true
+        },
+        {
+          "position": 3,
+          "residue": "Q",
+          "expected": "hydrophobe volumineux",
+          "match": false
+        },
+        {
+          "position": 4,
+          "residue": "R",
+          "expected": "Pro (PknA/PknB) ou Arg (PknD/E/H)",
+          "match": true
+        },
+        {
+          "position": 5,
+          "residue": "L",
+          "expected": "Ile (predominant)",
+          "match": false
+        }
+      ],
+      "acidic_run_-4_to_-1_matches": "0/4",
+      "plus4_subgroup_lean": "PknD/PknE/PknH (Arg)",
+      "plus3_hydrophobic_match": false,
+      "plus5_ile_exact_match": false
+    },
+    "S21": {
+      "position_1based": 21,
+      "n_datasets": 2,
+      "note": "charniere du module, meme cluster que T24",
+      "window_-5_to_+5": "ELKYSSPQTDF",
+      "checks": [
+        {
+          "position": -5,
+          "residue": "E",
+          "expected": "X (libre)",
+          "match": true
+        },
+        {
+          "position": -4,
+          "residue": "L",
+          "expected": "acide (D/E)",
+          "match": false
+        },
+        {
+          "position": -3,
+          "residue": "K",
+          "expected": "acide (D/E)",
+          "match": false
+        },
+        {
+          "position": -2,
+          "residue": "Y",
+          "expected": "acide (D/E)",
+          "match": false
+        },
+        {
+          "position": -1,
+          "residue": "S",
+          "expected": "acide (D/E)",
+          "match": false
+        },
+        {
+          "position": 0,
+          "residue": "S",
+          "expected": "T (phosphoaccepteur)",
+          "match": false
+        },
+        {
+          "position": 1,
+          "residue": "P",
+          "expected": "X (libre)",
+          "match": true
+        },
+        {
+          "position": 2,
+          "residue": "Q",
+          "expected": "X ou V",
+          "match": true
+        },
+        {
+          "position": 3,
+          "residue": "T",
+          "expected": "hydrophobe volumineux",
+          "match": false
+        },
+        {
+          "position": 4,
+          "residue": "D",
+          "expected": "Pro (PknA/PknB) ou Arg (PknD/E/H)",
+          "match": false
+        },
+        {
+          "position": 5,
+          "residue": "F",
+          "expected": "Ile (predominant)",
+          "match": false
+        }
+      ],
+      "acidic_run_-4_to_-1_matches": "0/4",
+      "plus4_subgroup_lean": null,
+      "plus3_hydrophobic_match": false,
+      "plus5_ile_exact_match": false
+    },
+    "S20": {
+      "position_1based": 20,
+      "n_datasets": 2,
+      "note": "charniere du module, meme cluster que T24",
+      "window_-5_to_+5": "RELKYSSPQTD",
+      "checks": [
+        {
+          "position": -5,
+          "residue": "R",
+          "expected": "X (libre)",
+          "match": true
+        },
+        {
+          "position": -4,
+          "residue": "E",
+          "expected": "acide (D/E)",
+          "match": true
+        },
+        {
+          "position": -3,
+          "residue": "L",
+          "expected": "acide (D/E)",
+          "match": false
+        },
+        {
+          "position": -2,
+          "residue": "K",
+          "expected": "acide (D/E)",
+          "match": false
+        },
+        {
+          "position": -1,
+          "residue": "Y",
+          "expected": "acide (D/E)",
+          "match": false
+        },
+        {
+          "position": 0,
+          "residue": "S",
+          "expected": "T (phosphoaccepteur)",
+          "match": false
+        },
+        {
+          "position": 1,
+          "residue": "S",
+          "expected": "X (libre)",
+          "match": true
+        },
+        {
+          "position": 2,
+          "residue": "P",
+          "expected": "X ou V",
+          "match": true
+        },
+        {
+          "position": 3,
+          "residue": "Q",
+          "expected": "hydrophobe volumineux",
+          "match": false
+        },
+        {
+          "position": 4,
+          "residue": "T",
+          "expected": "Pro (PknA/PknB) ou Arg (PknD/E/H)",
+          "match": false
+        },
+        {
+          "position": 5,
+          "residue": "D",
+          "expected": "Ile (predominant)",
+          "match": false
+        }
+      ],
+      "acidic_run_-4_to_-1_matches": "1/4",
+      "plus4_subgroup_lean": null,
+      "plus3_hydrophobic_match": false,
+      "plus5_ile_exact_match": false
+    },
+    "S51": {
+      "position_1based": 51,
+      "n_datasets": 1,
+      "note": "Verma seul, dans la queue acide desordonnee",
+      "window_-5_to_+5": "PSDDDSWNDED",
+      "checks": [
+        {
+          "position": -5,
+          "residue": "P",
+          "expected": "X (libre)",
+          "match": true
+        },
+        {
+          "position": -4,
+          "residue": "S",
+          "expected": "acide (D/E)",
+          "match": false
+        },
+        {
+          "position": -3,
+          "residue": "D",
+          "expected": "acide (D/E)",
+          "match": true
+        },
+        {
+          "position": -2,
+          "residue": "D",
+          "expected": "acide (D/E)",
+          "match": true
+        },
+        {
+          "position": -1,
+          "residue": "D",
+          "expected": "acide (D/E)",
+          "match": true
+        },
+        {
+          "position": 0,
+          "residue": "S",
+          "expected": "T (phosphoaccepteur)",
+          "match": false
+        },
+        {
+          "position": 1,
+          "residue": "W",
+          "expected": "X (libre)",
+          "match": true
+        },
+        {
+          "position": 2,
+          "residue": "N",
+          "expected": "X ou V",
+          "match": true
+        },
+        {
+          "position": 3,
+          "residue": "D",
+          "expected": "hydrophobe volumineux",
+          "match": false
+        },
+        {
+          "position": 4,
+          "residue": "E",
+          "expected": "Pro (PknA/PknB) ou Arg (PknD/E/H)",
+          "match": false
+        },
+        {
+          "position": 5,
+          "residue": "D",
+          "expected": "Ile (predominant)",
+          "match": false
+        }
+      ],
+      "acidic_run_-4_to_-1_matches": "3/4",
+      "plus4_subgroup_lean": null,
+      "plus3_hydrophobic_match": false,
+      "plus5_ile_exact_match": false
+    }
+  }
+}

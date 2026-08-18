@@ -1,0 +1,64 @@
+{
+  "attendu": "la recherche Pfam doit retrouver DUF3073 (PF11273) a Prob ~100 %",
+  "auto_hit_trouve": {
+    "rang": 1,
+    "hit": "PF11273.11 ; DUF3073 ; Protein",
+    "Prob": 99.9,
+    "E_value": 1.9e-29,
+    "P_value": 9.8e-34,
+    "Score": 145.6,
+    "SS": 0.0,
+    "Cols": 57,
+    "Query_HMM": "1-63",
+    "Template_HMM": "1-58"
+  },
+  "instrument_valide": true
+}
+
+===== proteine_entiere__pfam =====
+   1. Prob=  99.9  E=1.9e-29    Cols= 57  PF11273.11 ; DUF3073 ; Protein
+   2. Prob=  42.1  E=5.2        Cols= 36  PF12040.11 ; DUF3526 ; Domain
+   3. Prob=  26.2  E=14         Cols= 26  PF05895.15 ; DUF859 ; Siphovir
+   4. Prob=  21.2  E=20         Cols= 26  PF06894.14 ; Phage_TAC_2 ; Bac
+   5. Prob=  15.5  E=33         Cols= 26  PF18742.4 ; DpnII-MboI ; REase
+   6. Prob=  13.7  E=40         Cols=  8  PF04502.16 ; Saf4_Yju2 ; Saf4/
+   7. Prob=  13.6  E=40         Cols= 25  PF18383.4 ; IFT81_CH ; Intrafl
+   8. Prob=  11.4  E=52         Cols= 15  PF10893.11 ; Phage_186_Fil ; B
+   9. Prob=  11.1  E=54         Cols= 12  PF18055.4 ; RPN6_N ; 26S prote
+  10. Prob=  10.3  E=60         Cols= 21  PF01616.19 ; Orbi_NS3 ; Orbivi
+
+===== proteine_entiere__scop70 =====
+   1. Prob=  23.5  E=12         Cols= 26  d2d0oa3 c.55.1.6 (A:404-606) D
+   2. Prob=  22.8  E=12         Cols= 22  d1f60b_ d.58.12.1 (B:) Guanine
+   3. Prob=  20.3  E=15         Cols= 10  d1xp8a2 d.48.1.1 (A:283-341) R
+   4. Prob=  20.0  E=16         Cols= 22  d1gh8a_ d.58.12.1 (A:) aEF-1be
+   5. Prob=  19.7  E=16         Cols= 11  d1gdta1 a.4.1.2 (A:141-183) ga
+   6. Prob=  18.4  E=18         Cols= 25  d1nbwa3 c.55.1.6 (A:406-607) A
+   7. Prob=  18.1  E=18         Cols= 22  d1b64a_ d.58.12.1 (A:) Guanine
+   8. Prob=  17.6  E=19         Cols=  9  d1u94a2 d.48.1.1 (A:269-328) R
+   9. Prob=  15.4  E=23         Cols= 16  d1jhga_ a.4.12.1 (A:) Trp repr
+  10. Prob=  14.9  E=25         Cols= 14  d2c3fa1 b.108.1.5 (A:7-336) Ph
+
+===== module_2_33__pfam =====
+   1. Prob=  99.8  E=3.8e-23    Cols= 32  PF11273.11 ; DUF3073 ; Protein
+   2. Prob=  40.5  E=5.7        Cols= 22  PF06894.14 ; Phage_TAC_2 ; Bac
+   3. Prob=  21.3  E=20         Cols= 26  PF05895.15 ; DUF859 ; Siphovir
+   4. Prob=  18.0  E=26         Cols= 12  PF04502.16 ; Saf4_Yju2 ; Saf4/
+   5. Prob=  17.4  E=28         Cols= 22  PF18742.4 ; DpnII-MboI ; REase
+   6. Prob=  17.1  E=29         Cols= 19  PF09894.12 ; DUF2121 ; Unchara
+   7. Prob=  16.1  E=31         Cols= 20  PF12086.11 ; DUF3563 ; Protein
+   8. Prob=  15.6  E=33         Cols= 11  PF10845.11 ; DUF2576 ; Protein
+   9. Prob=  15.6  E=33         Cols= 14  PF02183.21 ; HALZ ; Homeobox a
+  10. Prob=  14.5  E=37         Cols= 20  PF18383.4 ; IFT81_CH ; Intrafl
+
+===== module_2_33__scop70 =====
+   1. Prob=  25.4  E=10         Cols= 17  d1gh8a_ d.58.12.1 (A:) aEF-1be
+   2. Prob=  25.3  E=10         Cols= 18  d1f60b_ d.58.12.1 (B:) Guanine
+   3. Prob=  24.9  E=11         Cols= 21  d1rp3a3 a.177.1.1 (A:0-86) Sig
+   4. Prob=  21.0  E=14         Cols= 17  d1b64a_ d.58.12.1 (A:) Guanine
+   5. Prob=  19.7  E=16         Cols=  9  d1xp8a2 d.48.1.1 (A:283-341) R
+   6. Prob=  18.4  E=18         Cols= 17  d1jhga_ a.4.12.1 (A:) Trp repr
+   7. Prob=  17.3  E=20         Cols=  9  d1u94a2 d.48.1.1 (A:269-328) R
+   8. Prob=  16.2  E=22         Cols=  6  d1hnra_ a.155.1.1 (A:) H1 prot
+   9. Prob=  12.6  E=31         Cols= 15  d1fada_ a.77.1.2 (A:) FADD (Mo
+  10. Prob=  12.1  E=33         Cols= 13  d1hlva1 a.4.1.7 (A:1-66) DNA-b
