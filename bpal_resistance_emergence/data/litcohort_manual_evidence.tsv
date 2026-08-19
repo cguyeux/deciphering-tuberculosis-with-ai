@@ -1,0 +1,3 @@
+pmid	pmcid	journal	source	table	gene	panel_group	mutation	drug	rs	mic	raw_value	column	caption
+42218329		npj Antimicrobials and Resistance	manual_pdf	Fig1	ddn	PMD	Leu49Pro	pretomanid	R	30	30 mg/L (300-fold vs wt)	MIC liquide	Mutant unique H37Rv_DdnL49P ; PDF fourni par CG (paywall, npj OA depuis) — 3e confirmation PMD de l'ancre L49P (avec ACS Omega >16 et Beckert)
+42218329		npj Antimicrobials and Resistance	manual_pdf	Fig1	fbiC	PMD	I476Tfs	pretomanid	R	>50	>50 mg/L (complete resistance)	MIC liquide	Mutant unique H37Rv_fbiC_fs (delta 4 nt 1427, I476T + frameshift + stop) ; resistance PMD complete

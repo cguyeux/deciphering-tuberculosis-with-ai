@@ -1,0 +1,129 @@
+gene	aa	pos	effect	spdi	dlm_R_assoc	catalogue	carr_R	carr_S	OR	p	R_lineages
+ddn	p.L49P	49	missense	NC_000962.3:3986988:T:C	True	delamanid:R-associated;delamanid:R-associated	7	1	456.48	1.6449748786165399e-12	2
+fbiA	p.R321S	321	missense	NC_000962.3:3641502:C:A	False	clofazimine:uncertain;delamanid:uncertain	2	0	inf	0.00024456897197286826	3
+ddn	p.W88*	88	stop_gained	NC_000962.3:3987105:G:A	True	delamanid:R-associated;delamanid:uncertain	2	0	inf	0.00024456897197286826	2
+ddn	p.G81S	81	missense	NC_000962.3:3987083:G:A	False	delamanid:uncertain	2	0	inf	0.00024456897197286826	2,3
+ddn	p.W139*	139	stop_gained	NC_000962.3:3987258:G:A	True	delamanid:R-associated	2	0	inf	0.00024456897197286826	4
+ddn	p.G34R	34	missense	NC_000962.3:3986942:G:A	False	delamanid:uncertain	2	1	126.9	0.000726117975996602	1,4
+ddn	p.Y65S	65	missense	NC_000962.3:3987036:A:C	False	delamanid:uncertain	2	3	42.29	0.0023706750893857003	4
+fbiA	p.S184T	184	missense	NC_000962.3:3641092:G:C	False	clofazimine:uncertain;delamanid:uncertain	1	1	63.11	0.031115484692290078	3
+fbiA	p.H183Q	183	missense	NC_000962.3:3641090:C:G	False	clofazimine:uncertain;delamanid:uncertain	1	1	63.11	0.031115484692290078	3
+fbiB	p.T268I	268	missense	NC_000962.3:3642336:C:T	False	clofazimine:uncertain;delamanid:uncertain	1	1	63.11	0.031115484692290078	1
+fbiC	p.A594S	594	missense	NC_000962.3:1304709:G:T	False	clofazimine:uncertain;delamanid:uncertain	1	2	31.55	0.04631016805043684	2
+fbiA	p.A206T	206	missense	NC_000962.3:3641157:G:A	False	clofazimine:uncertain;delamanid:uncertain	1	3	21.03	0.06126781281891526	2
+fbiC	p.A524G	524	missense	NC_000962.3:1304500:C:G	False	clofazimine:uncertain;delamanid:uncertain	1	5	12.62	0.09048664282750832	?
+fbiA	p.S35A	35	missense	NC_000962.3:3640644:T:G	False	clofazimine:uncertain;delamanid:uncertain	1	5	12.62	0.09048664282750832	4
+fbiB	p.A31T	31	missense	NC_000962.3:3641624:G:A	False	clofazimine:uncertain;delamanid:uncertain	2	57	2.22	0.2364115895666185	2
+fgd1	p.V170M	170	missense	NC_000962.3:491289:G:A	False	clofazimine:S-associated;delamanid:uncertain	4	233	1.08	0.5118690946168821	2
+fbiB	p.K448R	448	missense	NC_000962.3:3642876:A:G	False	clofazimine:uncertain;delamanid:uncertain	2	116	1.08	0.5551164364676854	3
+fbiA	p.T302M	302	missense	NC_000962.3:3641446:C:T	False	clofazimine:S-associated;delamanid:uncertain	1	78	0.8	0.7142591778321177	4
+fgd1	p.K270M	270	missense	NC_000962.3:491590:A:T	False	clofazimine:S-associated;delamanid:uncertain	15	1161	0.79	0.8348825245195524	4
+fgd1	p.R64S	64	missense	NC_000962.3:490971:C:A	False	clofazimine:uncertain;delamanid:uncertain	1	189	0.33	0.9515416800437947	1
+fgd1	p.K296E	296	missense	NC_000962.3:491667:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	6	0.0	1.0	
+fgd1	p.L323F	323	missense	NC_000962.3:491748:C:T	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fgd1	p.M93T	93	missense	NC_000962.3:491059:T:C	False	clofazimine:uncertain;delamanid:uncertain	0	16	0.0	1.0	
+fgd1	p.R187H	187	missense	NC_000962.3:491341:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fgd1	p.T255A	255	missense	NC_000962.3:491544:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fgd1	p.K296R	296	missense	NC_000962.3:491668:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fgd1	p.R45C	45	missense	NC_000962.3:490914:C:T	False	clofazimine:uncertain;delamanid:uncertain	0	9	0.0	1.0	
+fgd1	p.A2V	2	missense	NC_000962.3:490786:C:T	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fgd1	p.H315D	315	missense	NC_000962.3:491724:C:G	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fgd1	p.V37G	37	missense	NC_000962.3:490891:T:G	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fgd1	p.G168R	168	missense	NC_000962.3:491283:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fgd1	p.A35V	35	missense	NC_000962.3:490885:C:T	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiC	p.T273A	273	missense	NC_000962.3:1303746:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	15	0.0	1.0	
+fbiC	p.W678G	678	missense	NC_000962.3:1304961:T:G	False	clofazimine:uncertain;delamanid:uncertain	0	96	0.0	1.0	
+fbiC	p.A505T	505	missense	NC_000962.3:1304442:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	38	0.0	1.0	
+fbiC	p.V581L	581	missense	NC_000962.3:1304670:G:C	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.S762N	762	missense	NC_000962.3:1305214:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiC	p.G839A	839	missense	NC_000962.3:1305445:G:C	False	clofazimine:uncertain;delamanid:uncertain	0	5	0.0	1.0	
+fbiC	p.G508S	508	missense	NC_000962.3:1304451:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.A333V	333	missense	NC_000962.3:1303927:C:T	False	clofazimine:uncertain;delamanid:uncertain	0	8	0.0	1.0	
+fbiC	p.A11V	11	missense	NC_000962.3:1302961:C:T	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.A620T	620	missense	NC_000962.3:1304787:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiC	p.V41M	41	missense	NC_000962.3:1303050:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.D100E	100	missense	NC_000962.3:1303229:C:A	False	clofazimine:uncertain;delamanid:uncertain	0	16	0.0	1.0	
+fbiC	p.G839D	839	missense	NC_000962.3:1305445:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.D272G	272	missense	NC_000962.3:1303744:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiC	p.D375N	375	missense	NC_000962.3:1304052:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	8	0.0	1.0	
+fbiC	p.I693V	693	missense	NC_000962.3:1305006:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.D168E	168	missense	NC_000962.3:1303433:C:G	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiC	p.L114R	114	missense	NC_000962.3:1303270:T:G	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.G522R	522	missense	NC_000962.3:1304493:G:C	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiC	p.D427H	427	missense	NC_000962.3:1304208:G:C	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.D616G	616	missense	NC_000962.3:1304776:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiC	p.T687M	687	missense	NC_000962.3:1304989:C:T	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.T663N	663	missense	NC_000962.3:1304917:C:A	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiC	p.I453V	453	missense	NC_000962.3:1304286:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiC	p.D313G	313	missense	NC_000962.3:1303867:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.S172C	172	missense	NC_000962.3:1303444:C:G	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.M709I	709	missense	NC_000962.3:1305056:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.E299V	299	missense	NC_000962.3:1303825:A:T	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiC	p.V713L	713	missense	NC_000962.3:1305066:G:C	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.A754V	754	missense	NC_000962.3:1305190:C:T	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiC	p.D542E	542	missense	NC_000962.3:1304555:C:A	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiC	p.I781V	781	missense	NC_000962.3:1305270:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiC	p.K113T	113	missense	NC_000962.3:1303267:A:C	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiC	p.I406F	406	missense	NC_000962.3:1304145:A:T	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiD	p.I13L	13	missense	NC_000962.3:3339153:A:C	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiD	p.D90N	90	missense	NC_000962.3:3339384:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	7	0.0	1.0	
+fbiD	p.R57L	57	missense	NC_000962.3:3339286:G:T	False	clofazimine:uncertain;delamanid:uncertain	0	5	0.0	1.0	
+fbiD	p.I59L	59	missense	NC_000962.3:3339291:A:C	False	clofazimine:uncertain;delamanid:uncertain	0	8	0.0	1.0	
+fbiD	p.G145R	145	missense	NC_000962.3:3339549:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiD	p.Q121H	121	missense	NC_000962.3:3339479:G:C	False	clofazimine:uncertain;delamanid:uncertain	0	11	0.0	1.0	
+fbiD	p.L125I	125	missense	NC_000962.3:3339489:C:A	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiD	p.A32T	32	missense	NC_000962.3:3339210:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiD	p.A21T	21	missense	NC_000962.3:3339177:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiD	p.A20V	20	missense	NC_000962.3:3339175:C:T	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiD	p.G155S	155	missense	NC_000962.3:3339579:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiD	p.G74R	74	missense	NC_000962.3:3339336:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiD	p.G76S	76	missense	NC_000962.3:3339342:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiD	p.D78N	78	missense	NC_000962.3:3339348:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiD	p.R169Q	169	missense	NC_000962.3:3339622:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiD	p.P91S	91	missense	NC_000962.3:3339387:C:T	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiA	p.I208V	208	missense	NC_000962.3:3641163:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	43	0.0	1.0	
+fbiA	p.G264R	264	missense	NC_000962.3:3641331:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	22	0.0	1.0	
+fbiA	p.V188I	188	missense	NC_000962.3:3641103:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	11	0.0	1.0	
+fbiA	p.V188F	188	missense	NC_000962.3:3641103:G:T	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiA	p.A199T	199	missense	NC_000962.3:3641136:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiA	p.Q120R	120	missense	NC_000962.3:3640900:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	7	0.0	1.0	
+fbiA	p.L22V	22	missense	NC_000962.3:3640605:C:G	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiA	p.R177H	177	missense	NC_000962.3:3641071:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiA	p.Q27P	27	missense	NC_000962.3:3640621:A:C	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiA	p.A43T	43	missense	NC_000962.3:3640668:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiA	p.A190T	190	missense	NC_000962.3:3641109:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiA	p.V306M	306	missense	NC_000962.3:3641457:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiA	p.H295R	295	missense	NC_000962.3:3641425:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	5	0.0	1.0	
+fbiA	p.Q90H	90	missense	NC_000962.3:3640811:G:C	False	-	0	2	0.0	1.0	
+fbiB	p.L447R	447	missense	NC_000962.3:3642873:T:G	False	clofazimine:uncertain;delamanid:uncertain	0	33	0.0	1.0	
+fbiB	p.V17A	17	missense	NC_000962.3:3641583:T:C	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiB	p.D90N	90	missense	NC_000962.3:3641801:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiB	p.V416I	416	missense	NC_000962.3:3642779:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiB	p.G325S	325	missense	NC_000962.3:3642506:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiB	p.V348I	348	missense	NC_000962.3:3642575:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiB	p.R265Q	265	missense	NC_000962.3:3642327:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiB	p.R334Q	334	missense	NC_000962.3:3642534:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiB	p.D66E	66	missense	NC_000962.3:3641731:C:G	False	clofazimine:uncertain;delamanid:uncertain	0	5	0.0	1.0	
+fbiB	p.R365G	365	missense	NC_000962.3:3642626:C:G	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiB	p.R293G	293	missense	NC_000962.3:3642410:C:G	False	clofazimine:uncertain;delamanid:uncertain	0	4	0.0	1.0	
+fbiB	p.L444F	444	missense	NC_000962.3:3642865:G:T	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiB	p.R253H	253	missense	NC_000962.3:3642291:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiB	p.T374K	374	missense	NC_000962.3:3642654:C:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiB	p.D437G	437	missense	NC_000962.3:3642843:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiB	p.R174H	174	missense	NC_000962.3:3642054:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	3	0.0	1.0	
+fbiB	p.T292A	292	missense	NC_000962.3:3642407:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiB	p.Q339R	339	missense	NC_000962.3:3642549:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiB	p.Q69R	69	missense	NC_000962.3:3641739:A:G	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiB	p.A82T	82	missense	NC_000962.3:3641777:G:A	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiB	p.K206N	206	missense	NC_000962.3:3642151:A:C	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+fbiB	p.I446T	446	missense	NC_000962.3:3642870:T:C	False	clofazimine:uncertain;delamanid:uncertain	0	2	0.0	1.0	
+ddn	p.R72W	72	missense	NC_000962.3:3987056:C:T	False	delamanid:uncertain	0	11	0.0	1.0	
+ddn	p.E83D	83	missense	NC_000962.3:3987091:G:C	False	delamanid:uncertain	0	4	0.0	1.0	
+ddn	p.R30S	30	missense	NC_000962.3:3986930:C:A	False	delamanid:uncertain	0	5	0.0	1.0	
+ddn	p.G34R	34	missense	NC_000962.3:3986942:G:C	False	delamanid:uncertain	0	6	0.0	1.0	
+ddn	p.R23W	23	missense	NC_000962.3:3986909:C:T	False	delamanid:uncertain	0	7	0.0	1.0	
+ddn	p.G34E	34	missense	NC_000962.3:3986943:G:A	False	delamanid:uncertain	0	5	0.0	1.0	
+ddn	p.P45L	45	missense	NC_000962.3:3986976:C:T	False	delamanid:uncertain	0	2	0.0	1.0	
+ddn	p.R72Q	72	missense	NC_000962.3:3987057:G:A	False	delamanid:uncertain	0	2	0.0	1.0	
+ddn	p.G70V	70	missense	NC_000962.3:3987051:G:T	False	delamanid:uncertain	0	3	0.0	1.0	
+ddn	p.A120S	120	missense	NC_000962.3:3987200:G:T	False	delamanid:uncertain	0	2	0.0	1.0	

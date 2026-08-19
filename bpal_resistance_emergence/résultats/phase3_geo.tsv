@@ -1,0 +1,248 @@
+drug	country	n_R_carriers
+bedaquiline	South Africa	95
+bedaquiline	Peru	66
+bedaquiline	India	60
+bedaquiline	China	55
+bedaquiline	Mozambique	34
+bedaquiline	Italy	28
+bedaquiline	Pakistan	16
+bedaquiline	Georgia	16
+bedaquiline	Kazakhstan	14
+bedaquiline	Russia	11
+bedaquiline	United Kingdom	11
+bedaquiline	Australia	10
+bedaquiline	Swaziland	9
+bedaquiline	Thailand	7
+bedaquiline	Switzerland	7
+bedaquiline	Moldova	7
+bedaquiline	Vietnam	6
+bedaquiline	Ukraine	5
+bedaquiline	Bangladesh	4
+bedaquiline	Portugal	4
+bedaquiline	Canada	3
+bedaquiline	Japan	3
+bedaquiline	Brazil	3
+bedaquiline	Romania	3
+bedaquiline	Viet Nam	2
+bedaquiline	Myanmar	2
+bedaquiline	France	2
+bedaquiline	Gambia	2
+bedaquiline	Tajikistan	1
+bedaquiline	Poland	1
+bedaquiline	Cameroon	1
+bedaquiline	Ireland	1
+bedaquiline	Mexico	1
+bedaquiline	Bulgaria	1
+bedaquiline	Taiwan	1
+bedaquiline	Lithuania	1
+bedaquiline	USA	1
+bedaquiline	Belgium	1
+clofazimine	South Africa	91
+clofazimine	Peru	66
+clofazimine	India	58
+clofazimine	China	55
+clofazimine	Mozambique	32
+clofazimine	Italy	27
+clofazimine	Pakistan	14
+clofazimine	Kazakhstan	13
+clofazimine	Georgia	12
+clofazimine	United Kingdom	11
+clofazimine	Australia	10
+clofazimine	Russia	10
+clofazimine	Swaziland	9
+clofazimine	Thailand	7
+clofazimine	Switzerland	7
+clofazimine	Moldova	7
+clofazimine	Vietnam	6
+clofazimine	Ukraine	5
+clofazimine	Bangladesh	4
+clofazimine	Portugal	4
+clofazimine	Canada	3
+clofazimine	Japan	3
+clofazimine	Brazil	3
+clofazimine	Romania	3
+clofazimine	Viet Nam	2
+clofazimine	Myanmar	2
+clofazimine	France	2
+clofazimine	Gambia	2
+clofazimine	Tajikistan	1
+clofazimine	Cameroon	1
+clofazimine	Ireland	1
+clofazimine	Mexico	1
+clofazimine	Taiwan	1
+clofazimine	Lithuania	1
+clofazimine	USA	1
+delamanid	Georgia	94
+delamanid	Viet Nam	21
+delamanid	United Kingdom	15
+delamanid	Moldova	14
+delamanid	Australia	14
+delamanid	Italy	12
+delamanid	Vietnam	11
+delamanid	India	10
+delamanid	USA	10
+delamanid	Mexico	7
+delamanid	Ukraine	5
+delamanid	Canada	3
+delamanid	Portugal	3
+delamanid	Tajikistan	3
+delamanid	Russia	3
+delamanid	France	3
+delamanid	Peru	3
+delamanid	Indonesia	2
+delamanid	China	2
+delamanid	Kazakhstan	2
+delamanid	Croatia	2
+delamanid	Gambia	2
+delamanid	Brazil	2
+delamanid	Djibouti	2
+delamanid	Hungary	2
+delamanid	Ethiopia	2
+delamanid	Belgium	2
+delamanid	Switzerland	1
+delamanid	South Africa	1
+delamanid	Ghana	1
+delamanid	Myanmar	1
+delamanid	Sri Lanka	1
+delamanid	Taiwan	1
+levofloxacin	India	855
+levofloxacin	Georgia	523
+levofloxacin	China	421
+levofloxacin	South Africa	414
+levofloxacin	Moldova	163
+levofloxacin	Italy	111
+levofloxacin	Ukraine	97
+levofloxacin	United Kingdom	90
+levofloxacin	Thailand	90
+levofloxacin	Belarus	83
+levofloxacin	Kazakhstan	76
+levofloxacin	Mozambique	65
+levofloxacin	Peru	62
+levofloxacin	Romania	55
+levofloxacin	Brazil	54
+levofloxacin	Russia	53
+levofloxacin	USA	47
+levofloxacin	Pakistan	40
+levofloxacin	Bangladesh	29
+levofloxacin	Viet Nam	19
+levofloxacin	Argentina	19
+levofloxacin	Azerbaijan	18
+levofloxacin	Japan	17
+levofloxacin	Australia	16
+levofloxacin	Taiwan	15
+levofloxacin	Portugal	14
+levofloxacin	Bulgaria	14
+levofloxacin	Vietnam	13
+levofloxacin	Myanmar	13
+levofloxacin	Lithuania	11
+levofloxacin	Canada	10
+levofloxacin	France	10
+levofloxacin	Botswana	8
+levofloxacin	Ecuador	6
+levofloxacin	Morocco	6
+levofloxacin	Korea	5
+levofloxacin	Latvia	5
+levofloxacin	Tunisia	5
+levofloxacin	Ireland	4
+levofloxacin	Nepal	4
+levofloxacin	Belgium	4
+levofloxacin	Czech Republic	4
+levofloxacin	Israel	4
+levofloxacin	South Korea	4
+levofloxacin	Papua New Guinea	3
+levofloxacin	Mexico	3
+levofloxacin	Uganda	2
+levofloxacin	Indonesia	2
+levofloxacin	Switzerland	2
+levofloxacin	Germany	2
+levofloxacin	Estonia	1
+levofloxacin	Malaysia	1
+levofloxacin	Tajikistan	1
+levofloxacin	Tanzania	1
+levofloxacin	Netherlands	1
+levofloxacin	Poland	1
+levofloxacin	Guinea	1
+levofloxacin	Cameroon	1
+levofloxacin	Iran	1
+levofloxacin	Mali	1
+levofloxacin	Montenegro	1
+linezolid	India	106
+linezolid	Moldova	19
+linezolid	Kazakhstan	13
+linezolid	Russia	12
+linezolid	South Africa	8
+linezolid	Ukraine	6
+linezolid	China	6
+linezolid	Italy	5
+linezolid	Romania	4
+linezolid	USA	3
+linezolid	Pakistan	2
+linezolid	Georgia	2
+linezolid	Switzerland	2
+linezolid	Belarus	2
+linezolid	Czech Republic	1
+linezolid	Taiwan	1
+linezolid	France	1
+linezolid	Japan	1
+linezolid	Argentina	1
+moxifloxacin	India	855
+moxifloxacin	Georgia	523
+moxifloxacin	China	421
+moxifloxacin	South Africa	414
+moxifloxacin	Moldova	163
+moxifloxacin	Italy	111
+moxifloxacin	Ukraine	97
+moxifloxacin	United Kingdom	90
+moxifloxacin	Thailand	90
+moxifloxacin	Belarus	83
+moxifloxacin	Kazakhstan	76
+moxifloxacin	Mozambique	65
+moxifloxacin	Peru	62
+moxifloxacin	Romania	55
+moxifloxacin	Brazil	54
+moxifloxacin	Russia	53
+moxifloxacin	USA	47
+moxifloxacin	Pakistan	40
+moxifloxacin	Bangladesh	29
+moxifloxacin	Viet Nam	19
+moxifloxacin	Argentina	19
+moxifloxacin	Azerbaijan	18
+moxifloxacin	Japan	17
+moxifloxacin	Australia	16
+moxifloxacin	Taiwan	15
+moxifloxacin	Portugal	14
+moxifloxacin	Bulgaria	14
+moxifloxacin	Vietnam	13
+moxifloxacin	Myanmar	13
+moxifloxacin	Lithuania	11
+moxifloxacin	Canada	10
+moxifloxacin	France	10
+moxifloxacin	Botswana	8
+moxifloxacin	Ecuador	6
+moxifloxacin	Morocco	6
+moxifloxacin	Korea	5
+moxifloxacin	Latvia	5
+moxifloxacin	Tunisia	5
+moxifloxacin	Ireland	4
+moxifloxacin	Nepal	4
+moxifloxacin	Belgium	4
+moxifloxacin	Czech Republic	4
+moxifloxacin	Israel	4
+moxifloxacin	South Korea	4
+moxifloxacin	Papua New Guinea	3
+moxifloxacin	Mexico	3
+moxifloxacin	Uganda	2
+moxifloxacin	Indonesia	2
+moxifloxacin	Switzerland	2
+moxifloxacin	Germany	2
+moxifloxacin	Estonia	1
+moxifloxacin	Malaysia	1
+moxifloxacin	Tajikistan	1
+moxifloxacin	Tanzania	1
+moxifloxacin	Netherlands	1
+moxifloxacin	Poland	1
+moxifloxacin	Guinea	1
+moxifloxacin	Cameroon	1
+moxifloxacin	Iran	1
+moxifloxacin	Mali	1
+moxifloxacin	Montenegro	1

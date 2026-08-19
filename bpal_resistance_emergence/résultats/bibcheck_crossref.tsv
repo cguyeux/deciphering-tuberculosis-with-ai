@@ -1,0 +1,103 @@
+key	doi	status	problems
+stover2000pa824	10.1038/35016103	OK	
+choi2001fbiab	10.1128/JB.183.24.7058-7066.2001	MISMATCH	title: bib='Use of transposon Tn5367 mutagenesis and a ni' cr='Use of Transposon Tn
+            <i>5367</i>
+'
+choi2002fbic	10.1128/JB.184.9.2420-2428.2002	MISMATCH	title: bib='Demonstration that fbiC is required by Mycoba' cr='Demonstration that
+            <i>fbiC</i>
+  '
+andries2005diarylquinoline	10.1126/science.1106753	OK	
+manjunatha2006ddn	10.1073/pnas.0508392103	MISMATCH	year: bib=2006 cr=2005
+gagneux2006fitnesscost	10.1126/science.1124410	OK	
+petrella2006atpe	10.1128/AAC.00244-06	OK	
+koul2007atpsynthase	10.1038/nchembio884	OK	
+bashiri2007fgd1	10.1016/j.pep.2007.01.014	OK	
+brandis2012compensatory	10.1111/j.1365-2958.2012.08099.x	OK	
+devos2013rpoc	10.1128/AAC.01541-12	MISMATCH	title: bib='Putative compensatory mutations in the rpoC g' cr='Putative Compensatory Mutations in the
+      ' | author1: bib='Vos' cr='de Vos'
+brandis2013rpobs531l	10.1093/jac/dkt224	OK	
+casali2014russia	10.1038/ng.2878	OK	
+hartkoorn2014crossresistance	10.1128/AAC.00037-14	OK	
+andries2014acquired	10.1371/journal.pone.0102135	OK	
+cohen2015kzn	10.1371/journal.pmed.1001880	OK	
+bloemberg2015acquired	10.1056/NEJMc1505196	OK	
+li2016compensatorybeijing	10.1128/AAC.02358-15	OK	
+yang2017shanghai	10.1016/S1473-3099(16)30418-2	OK	
+xu2017primaryclofazimine	10.1128/AAC.00239-17	OK	
+nguyen2018bdqreview	10.1093/cid/cix992	MISMATCH	year: bib=2018 cr=2017
+ismail2019clofazimineefflux	10.1128/AAC.02141-18	MISMATCH	title: bib='Clofazimine Exposure In Vitro Selects Efflux ' cr='Clofazimine Exposure
+            <i>In Vitro<'
+ismail2019stepwise	10.1128/AAC.00292-19	MISMATCH	title: bib='In Vitro Study of Stepwise Acquisition of rv0' cr='<i>In Vitro</i>
+            Study of Stepwise'
+tweed2019nc005	10.1016/S2213-2600(19)30366-2	OK	
+conradie2020nixtb	10.1056/NEJMoa1901814	OK	
+ismail2020breakpoints	10.1128/AAC.00479-20	OK	
+beckert2020eswatini	10.1186/s13073-020-00793-8	OK	
+black2021pipeline	10.1016/j.jctube.2021.100285	OK	
+guo2022novelbdq	10.3389/fcimb.2022.807095	OK	
+berry2022practecal	10.1186/s13063-022-06331-8	OK	
+conradie2022zenix	10.1056/NEJMoa2119430	OK	
+march2025intrinsictolerance	10.1128/aac.00996-25	MISMATCH	title: bib='Variability in intrinsic drug tolerance in My' cr='Variability in intrinsic drug tolerance in
+  '
+saluzzo2025xdrcluster	10.2807/1560-7917.ES.2025.30.46.2500838	OK	
+pepper2025oxidativestress	10.1101/2025.11.19.689367	OK	
+he2026compensatoryhunan	10.1128/spectrum.02597-25	OK	
+choi2026wgspdst	10.3390/pathogens15030320	OK	
+zhang2026spontaneouspmd	10.1016/j.ijantimicag.2026.107789	OK	
+banaei2026lysg	10.1038/s41467-026-70539-4	OK	
+saxena2026fgd1	10.1016/j.jmgm.2026.109382	OK	
+chitwood2026ural42	10.1038/s41467-026-71193-6	OK	
+sobol2025bdqtransmission	10.1164/rccm.202506-1489OC	MISMATCH	title: bib='Transmission of Bedaquiline-resistant Mycobac' cr='Transmission of bedaquiline-resistant
+       '
+sharma2026spoiltchoice	10.1016/j.ijtb.2025.09.005	OK	
+flores2026l1pretomanid	10.5588/ijtldopen.25.0677	OK	
+boradia2026peppe	10.1038/s41467-026-72431-7	OK	
+cummings2026pmdvsdlm	10.1128/aac.01953-25	OK	
+arbex2026moareview	10.3390/microorganisms14051015	OK	
+ghosh2026mlbdq	10.26508/lsa.202503539	OK	
+srilohasin2026resistancepathways	10.1099/mgen.0.001723	OK	
+islam2026delamanidreview	10.1002/hsr2.72481	OK	
+centis2026update	10.1101/cshperspect.a041826	OK	
+schildkraut2026risingbdq	10.1183/13993003.01531-2025	OK	
+sakhi2026globalmapping	10.1186/s12879-026-13171-3	OK	
+reimer2026rlmn	10.34133/csbj.0090	OK	
+chen2026spatiotemporal	10.1038/s41467-026-73577-0	OK	
+djaout2026dpre2	10.1038/s44259-026-00201-y	OK	
+saluzzo2026futureproofing	10.1016/S1473-3099(25)00547-X	OK	
+victor2026pdstbdq	10.1016/j.ijmmb.2026.101163	OK	
+lin2023esmfold	10.1126/science.ade2574	OK	
+coll2014barcode	10.1038/ncomms5812	OK	
+tien2013rsa	10.1371/journal.pone.0080635	MISMATCH	title: bib='Maximum allowed solvent accessibilities of re' cr='Maximum Allowed Solvent Accessibilites of Res'
+cock2009biopython	10.1093/bioinformatics/btp163	OK	
+feuerriegel2011fgd1ddn	10.1128/AAC.05500-11	MISMATCH	title: bib='Impact of Fgd1 and ddn diversity in Mycobacte' cr='Impact of
+            <i>fgd1</i>
+           '
+haver2015spontaneous	10.1128/AAC.00308-15	MISMATCH	title: bib='Mutations in genes for the F420 biosynthetic ' cr='Mutations in Genes for the F
+            <sub'
+wilson2016popgen	10.1111/mec.13474	MISMATCH	year: bib=2016 cr=2015
+rasigade2017thd	10.1038/srep45326	OK	
+lee2020nitroimidazole	10.1371/journal.ppat.1008287	OK	
+wirth2020phyloepidemiology	10.1111/eva.12991	MISMATCH	issue: bib=7 cr=6
+reichmuth2020naturaldlm	10.1128/AAC.00513-20	OK	
+rifat2020fbid	10.1128/AAC.01948-20	MISMATCH	title: bib='Mutations in fbiD (Rv2983) as a Novel Determi' cr='Mutations in
+                    <i>fbiD</i>
+'
+gomezgonzalez2021diversity	10.1038/s41598-021-98862-4	MISMATCH	author1: bib='Gomez-Gonzalez' cr='Gómez-González'
+edwards2021snppar	10.1099/mgen.0.000694	OK	
+torresortiz2021preresistance	10.1038/s41467-021-27616-7	OK	
+bateson2022intrinsicpmd	10.1093/jac/dkac070	OK	
+riviere2022bdqnaive	10.1128/aac.00322-22	MISMATCH	author1: bib='Riviere' cr='Rivière'
+mansjo2022ddntrp20stop	10.1128/aac.01026-22	MISMATCH	title: bib='The ddn Trp20Stop Mutation and Its Associatio' cr='The
+            <i>ddn</i>
+            Trp20S' | author1: bib='Mansjo' cr='Mansjö'
+loiseau2023mdrfitness	10.1038/s41467-023-37719-y	OK	
+zhu2023beijing	10.1128/spectrum.03339-22	OK	
+timm2023baseline	10.1371/journal.pgph.0002283	OK	
+nimmo2024reservoir	10.1186/s13073-024-01289-5	OK	
+rupasinghe2024refinedpmd	10.1128/spectrum.00070-24	MISMATCH	title: bib='Refined understanding of the impact of the My' cr='Refined understanding of the impact of the
+  ' | issue: bib=4 cr=3
+villellas2024submic	10.1128/aac.01275-23	OK	
+zhao2024pmdchina	10.1186/s12941-024-00697-0	MISMATCH	pages: bib='41' cr='40'
+conklegutierrez2024preexisting	10.1016/j.drup.2024.101156	OK	
+pei2025ddndeletion	10.1021/acsomega.5c00610	MISMATCH	title: bib='High-Level Primary Pretomanid-Resistant with ' cr='High-Level Primary Pretomanid-Resistant with ' | issue: bib=26 cr=25 | pages: bib='27557--27566' cr='26551-26559'
+peppertunick2026oxidative	10.1038/s41467-026-72496-4	OK	

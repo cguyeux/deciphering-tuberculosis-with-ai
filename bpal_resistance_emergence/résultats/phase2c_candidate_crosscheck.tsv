@@ -1,0 +1,10 @@
+candidate	classe	n_carriers	lit_phenotyped	lit_mutations	lit_drugs	lit_pmids
+fgd1:210	convergent_novel	9	non			
+fgd1:10	convergent_dlm_uncertain	9	non			
+ddn:111	convergent_recurrent	38	non			
+ddn:65	phenotype_casecontrol	10	non			
+ddn:81	phenotype_casecontrol	101	non			
+ddn:34	phenotype_casecontrol_weak	84	non			
+ddn:49	catalogued_dlm_R_anchor	57	OUI	Leu49Pro	pretomanid	40630726;42218329
+ddn:88	catalogued_dlm_R_anchor	152	non			
+ddn:139	catalogued_dlm_R_anchor	19	non			

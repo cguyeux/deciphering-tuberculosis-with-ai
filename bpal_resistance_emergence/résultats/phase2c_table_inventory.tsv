@@ -1,0 +1,52 @@
+pmid	pmcid	source	table	rows	cols	drug_cols	acc_in_table	evidence_rows	caption
+40630726	PMC12235975	body	1	9	7	pretomanid	0	9	Summary of the Mutations Identified in ddn for Dataset S1
+40630726	PMC12235975	body	2	10	4	-	10	0	Summary of the In-Frame Mutations Identified in ddn for Dataset S2
+41901773	PMC13028822	body	Table 1	49	7	bedaquiline;delamanid;linezolid;pretomanid	0	0	pDST and gDST results for LZD-, DLM-, BDQ-, and PMD-elevated-MIC isolates.
+41901773	PMC13028822	body	Table 2	50	6	-	0	0	Mutations in BDQ-, DLM-, PMD-, and LZD-associated genes based om the WHO confidence-grading system.
+41901773	PMC13028822	body	Table 3	6	7	bedaquiline	0	0	Mutations in 22 elevated-MIC isolates that are absent from the WHO catalog.
+41901773	PMC13028822	body	Table 4	15	7	bedaquiline	0	0	Mutations detected in 27 drug-susceptible isolates that are absent from the WHO catalog.
+41901773	PMC13028822	body	?	16	2	bedaquiline	0	0	
+40980917	PMC12587575	body	TABLE 1	2	8	clofazimine;delamanid;pretomanid	0	42	Antimicrobial susceptibility testing results of in vitro selected mutants following serial exposure to clofazi
+40980917	PMC12587575	body	TABLE 2	4	8	bedaquiline;clofazimine;delamanid;pretomanid	0	18	Antimicrobial susceptibility testing results of in vitro selected mutants following serial exposure to clofazi
+40817101	PMC12355853	body	Table 1	6	6	delamanid	0	0	The sequence of primers used for polymerase chain reaction amplification in this study
+40817101	PMC12355853	body	Table 2	4	3	-	0	0	The profile of antibiotic susceptibility in multidrug-resistant Mycobacterium tuberculosis isolates
+40817101	PMC12355853	body	Table 3	29	10	bedaquiline;delamanid;linezolid	0	60	The rate of drug resistance of 29 multidrug-resistant Mycobacterium tuberculosis isolates against three drugs:
+40817101	PMC12355853	body	Table 4	15	7	delamanid	0	0	Mutation analysis in genes associated with resistance to bedaquiline, delamanid, and linezolid in 29 multidrug
+41889647	PMC13013479	body	TABLE 1	8	3	-	0	0	Minimum inhibitory concentration (MIC) test concentration range.
+41889647	PMC13013479	body	TABLE 2	4	4	bedaquiline	0	0	Optimal PK levels for anti-TB drugs.
+41889647	PMC13013479	body	TABLE 3	5	5	bedaquiline	0	0	PD cut-offs.
+41889647	PMC13013479	body	TABLE 4	14	4	-	11	0	Accession number of strains whose sequences were deposited in NCBI.
+42254523	PMC13233694	body	Table 1	12	4	-	0	0	Demographic characteristics and BDQ susceptibility outcomes of drug-resistant M. tuberculosis clinical isolate
+42254523	PMC13233694	body	Table 2	2	13	bedaquiline	0	0	Minimum inhibitory concentrations and susceptibility breakpoints for bedaquiline (BDQ) among drug-resistant M.
+42254523	PMC13233694	body	Table 3	17	7	-	0	0	Description of mutations associated with bedaquiline resistance isolates and their association with MICs and W
+42254523	PMC13233694	body	Table 4	16	8	bedaquiline	0	0	Supplementary table of isolates associated with bedaquiline resistance on WGS.
+42254523	PMC13233694	body	Table 5	5	6	-	0	0	Statistical analysis of MIC values, resistance, mutations, and lineage among sequenced M. tuberculosis isolate
+41724179	PMC13100955	body	Table:	19	2	-	0	0	Characteristics of patients with successful Deeplex Myc-TB results
+41890859	PMC13015602	body	Table 1	15	5	bedaquiline	0	0	Demographic and clinical characteristics of people with RR/MDR-TB, stratified by initial bedaquiline susceptib
+41890859	PMC13015602	body	Table 2	30	6	bedaquiline	0	0	Drug resistance per 100 RR/MDR-TB cases by drug and sub-districts. Swellendam sub-district within the Overberg
+42061986	PMC13135273	body	Table 1.	4	9	-	0	0	The performance metrics for the different machine learning algorithms during training with fivefold cross-vali
+41354901	PMC12780197	body	Table 1	11	9	-	0	0	Characteristics of drug-resistant tuberculosis cases
+41354901	PMC12780197	body	Table 2	30	5	-	0	0	Drug resistance-conferring mutations identified using WGS
+41354901	PMC12780197	body	Table 3	22	21	bedaquiline;clofazimine;delamanid;linezolid;moxifloxacin;pretomanid	0	0	Drug susceptibility profile of 11 cases based on pDST and WGS
+41354901	PMC12780197	supp	43856_2025_1271_MOESM2_ESM.xls::pDST and WGS result	13	49	-	0	0	
+41354901	PMC12780197	supp	43856_2025_1271_MOESM3_ESM.xls::SNP distance matrix	12	12	-	0	0	
+41204231	PMC12595642	body	Table 1	15	5	-	0	0	Comparison of drug-resistant profiles between lineage 2 and lineage 4
+41204231	PMC12595642	body	Table 2	31	7	-	0	0	Characteristics of genomic-clustered and unique cases of TB in Huzhou, China
+41648016	PMC12868246	body	Table 1	42	17	-	0	0	Isolates studied, lineage, spoligotypes (SIT/Clade), genomic cluster (GC, ≤12 SNP cutoff), relevant drug resis
+41170421	PMC12568502	body	Table 1	35	2	-	0	0	Demographic and clinical characteristics of study participants.
+41170421	PMC12568502	body	Table 2	7	4	-	0	0	Mutations identified as compensatory.
+41170421	PMC12568502	body	Table 3	11	8	-	0	0	Phenotypic and genotypic drug resistance concordance analysis.
+41170421	PMC12568502	body	Table 4	33	6	-	0	0	Mutations in efflux pumps.
+41170421	PMC12568502	supp	Table_1.docx::t0	21	4	-	0	0	
+41170421	PMC12568502	supp	Table_2.docx::t0	92	4	-	0	0	
+40796628	PMC12344131	body	Table 1	37	4	-	0	0	Demographic data and genotypic drug-resistant Profiles of 2,005 TB cases, Thailand, 1994–2020.
+40796628	PMC12344131	body	Table 2	37	6	-	0	0	Summary of Anti-TB Drug Resistance Mutations in 2,005 Isolates.
+33239092	PMC7687760	body	Table 1	12	7	-	0	0	M. tuberculosis phylogenetic lineages identified in the isolates analysed
+33239092	PMC7687760	body	Table 2	11	4	-	0	0	Emergence of main MDR genome clusters and association with putative compensatory mutations
+33239092	PMC7687760	supp	13073_2020_793_MOESM1_ESM.xlsx::Table S1	4	8	-	4	0	
+33239092	PMC7687760	supp	13073_2020_793_MOESM1_ESM.xlsx::Table S2	21	24	bedaquiline;clofazimine;delamanid;levofloxacin;linezolid;moxifloxacin	20	0	
+33239092	PMC7687760	supp	13073_2020_793_MOESM1_ESM.xlsx::Table S3	45	7	bedaquiline;clofazimine	0	0	
+33239092	PMC7687760	supp	13073_2020_793_MOESM1_ESM.xlsx::Table S4	273	3	-	273	0	
+33239092	PMC7687760	supp	13073_2020_793_MOESM1_ESM.xlsx::Table S5	412	80	-	0	0	
+33239092	PMC7687760	supp	13073_2020_793_MOESM1_ESM.xlsx::Table S6	412	29	-	0	0	
+33239092	PMC7687760	supp	13073_2020_793_MOESM1_ESM.xlsx::Table S7	33	15	-	0	0	

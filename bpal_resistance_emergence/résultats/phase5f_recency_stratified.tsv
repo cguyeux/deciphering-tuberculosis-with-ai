@@ -1,0 +1,10 @@
+position	n_dated	p_recency_global	p_recency_lineage_matched	p_recency_country_matched	n_bg_lineage	n_bg_country	carrier_lineages	carrier_countries
+fgd1:210	6	0.173	0.218	0.429	61109	12732	L1,L2,L3,L4	Australia,China,Mozambique
+fgd1:10	4	0.82	0.802	0.913	41188	6331	BOV,L1,L3,L4	Australia,Belgium,Japan,United Kingdom
+ddn:111	14	0.87	0.904	0.979	61109	18915	L1,L2,L3,L4	Australia,China,India,Italy,Thailand,United Kingdom
+ddn:65	4	0.838	0.817	0.376	26914	1773	L4	Viet Nam,Vietnam
+ddn:81	83	1	1	1	28530	24214	L2,L3	Australia,Canada,China,India,Japan,North Korea,South Korea,Thailand,USA
+ddn:34	23	0.971	0.972	0.981	32579	13280	L1,L4	Brazil,Gambia,India,Italy,Peru,Portugal,Spain,Switzerland,United Kingdom
+ddn:49	36	0.0104	0.0159	0.438	24816	12700	L2	Australia,Indonesia,Mexico,Portugal,USA,Viet Nam,Vietnam
+ddn:88	121	0.989	0.981	1	51730	20588	L2,L4	Canada,Croatia,France,Georgia,India,Kazakhstan,Moldova,Portugal,Russia,Switzerland,Tajikistan,Ukraine,United Kingdom,Vietnam
+ddn:139	9	0.0319	0.0262	0.331	51730	14083	L2,L4	Brazil,Georgia,India,Kazakhstan,Ukraine,United Kingdom

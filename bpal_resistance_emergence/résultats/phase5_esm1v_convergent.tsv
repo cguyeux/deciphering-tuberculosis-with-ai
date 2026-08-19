@@ -1,0 +1,13 @@
+gene	mutation	llr	note
+fgd1	A210E	-8.3867	convergent pos210 (L3) — poche F420 7.8 Å enfoui ; charge
+fgd1	A210P	-6.9423	convergent pos210 (L2) — proline
+fgd1	A210T	-5.8746	convergent pos210 (L1,L4)
+fgd1	A210G	-5.602	convergent pos210 (L1)
+fgd1	A210V	-5.9192	convergent pos210 (L4)
+fgd1	A10V	-6.7499	convergent pos10 (BOV,L1) — poche F420 7.6 Å enfoui ; delamanid:uncertain
+fgd1	A10P	-8.1979	convergent pos10 (L4)
+fgd1	A10T	-6.9167	convergent pos10 (L3)
+ddn	A111T	-4.9638	convergent pos111 (L2,L3,L4) — DISTAL 13 Å (contraste)
+ddn	A111V	-3.9821	convergent pos111 (L4) — distal
+katG	S315T	-7.5228	CONTRÔLE damaging (INH-R, attendu <<0)
+gyrA	E21Q	2.8427	CONTRÔLE toléré (marqueur lignée, attendu ~0)

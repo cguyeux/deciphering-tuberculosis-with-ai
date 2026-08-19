@@ -1,0 +1,16 @@
+locus	gene	start	end	strand	biotype	drug	panel_group	note
+Rv0678	mmpR5	778990	779487	+	protein_coding	bedaquiline	BDQ	régulateur efflux MmpL5/MmpS5 ; cross-résistance clofazimine ; déterminant BDQ dominant
+Rv1305	atpE	1461045	1461290	+	protein_coding	bedaquiline	BDQ	cible ATP synthase sous-unité c
+Rv2535c	pepQ	2859300	2860418	-	protein_coding	bedaquiline	BDQ	peptidase ; résistance BDQ + clofazimine bas niveau
+Rv3547	ddn	3986844	3987299	+	protein_coding	pretomanid	PMD	nitroréductase déazaflavine-dépendante (activation PMD/DLM) ; non catalogué WHO
+Rv0407	fgd1	490783	491793	+	protein_coding	pretomanid	PMD	F420-dépendante glucose-6-P déshydrogénase (voie F420)
+Rv3261	fbiA	3640543	3641538	+	protein_coding	pretomanid	PMD	biosynthèse F420
+Rv3262	fbiB	3641535	3642881	+	protein_coding	pretomanid	PMD	biosynthèse F420
+Rv1173	fbiC	1302931	1305501	+	protein_coding	pretomanid	PMD	biosynthèse F420
+Rv2983	fbiD	3339118	3339762	+	protein_coding	pretomanid	PMD	biosynthèse F420 (fbiD/Rv2983)
+Rvnr02	rrl	1473658	1476795	+	rRNA	linezolid	LZD	ARNr 23S (domaine V) ; cible linézolide
+Rv0701	rplC	800809	801462	+	protein_coding	linezolid	LZD	protéine ribosomale L3
+Rv0006	gyrA	7302	9818	+	protein_coding	moxifloxacin	MFX	ADN gyrase sous-unité A (QRDR D94/A90)
+Rv0005	gyrB	5240	7267	+	protein_coding	moxifloxacin	MFX	ADN gyrase sous-unité B
+Rv0668	rpoC	763370	767320	+	protein_coding	rifampicin	COMP	évolution compensatoire (fitness rpoB)
+Rv3457c	rpoA	3877464	3878507	-	protein_coding	rifampicin	COMP	évolution compensatoire (fitness rpoB)

@@ -1,0 +1,5 @@
+test	scope	label	a	b	c	d	OR	p
+A_dlmR_by_cfz	global	(A) DLM-R | CFZ-R vs CFZ-S -- global	47	453	132	11122	8.742	9.681127989078761e-25
+A_dlmR_by_cfz	restreint L2	(A) DLM-R | CFZ-R vs CFZ-S -- restreint L2	23	238	54	3786	6.775	1.2920934486958734e-10
+B_cfzR_by_f420carrier	global	(B) CFZ-R | porteur F420 vs non-porteur -- global	106	2588	457	8934	0.801	0.04316109011066878
+B_cfzR_by_f420carrier	restreint L2	(B) CFZ-R | porteur F420 vs non-porteur -- restreint L2	34	488	246	3425	0.97	0.9255743067011322

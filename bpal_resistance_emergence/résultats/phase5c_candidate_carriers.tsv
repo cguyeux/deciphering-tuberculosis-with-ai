@@ -1,0 +1,480 @@
+position	class	alt	strain	year	country	major	subcode	rifR
+fgd1:210	convergent_novel	A210E	SRR22251771	2019	Australia	L3	3	0
+fgd1:210	convergent_novel	A210P	SRR25534260	2017	China	L2	2.0	0
+fgd1:210	convergent_novel	A210P	SRR25534525	2016	China	L2	2.0	0
+fgd1:210	convergent_novel	A210P	SRR25534348	2017	China	L2	2.0	0
+fgd1:210	convergent_novel	A210G	ERR718259			L1	1	0
+fgd1:210	convergent_novel	A210V	ERR4811637			L4	4.4	0
+fgd1:210	convergent_novel	A210T	SRR12199434			L1	1.1	0
+fgd1:210	convergent_novel	A210T	ERR11488551	2015	Mozambique	L4	4.1	1
+fgd1:210	convergent_novel	A210T	ERR11488464	2015	Mozambique	L4	4.1	1
+fgd1:10	convergent_dlm_uncertain	A10T	ERR2514099		United Kingdom	L3	3	0
+fgd1:10	convergent_dlm_uncertain	A10V	DRR120408	2016	Japan	BOV	BOV	0
+fgd1:10	convergent_dlm_uncertain	A10V	ERR4822478			L1	1	0
+fgd1:10	convergent_dlm_uncertain	A10V	ERR2503509			L1	1	0
+fgd1:10	convergent_dlm_uncertain	A10V	ERR4816636		United Kingdom	L1	1	0
+fgd1:10	convergent_dlm_uncertain	A10V	SRR13180289	2019	Belgium	L1	1	0
+fgd1:10	convergent_dlm_uncertain	A10V	DRR120409			BOV	BOV	0
+fgd1:10	convergent_dlm_uncertain	A10P	SRR14519991	2005	Australia	L4	4.7	0
+fgd1:10	convergent_dlm_uncertain	A10P	SRR14519723	2004	Australia	L4	4.7	0
+ddn:111	convergent_recurrent	A111T	ERR551625			L3	3	0
+ddn:111	convergent_recurrent	A111T	ERR551626			L3	3	0
+ddn:111	convergent_recurrent	A111T	SRR14519153	2014	China	L2	2.0	0
+ddn:111	convergent_recurrent	A111T	SRR28044883			L3	3	1
+ddn:111	convergent_recurrent	A111V	ERR718443			L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR751827			L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR718464			L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR752117			L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR718477			L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR718303			L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR718219			L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR752111			L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR752206			L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR752065			L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR752105			L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR751801			L4	4.4	0
+ddn:111	convergent_recurrent	A111T	SRR7131027		Italy	L4	4.1	0
+ddn:111	convergent_recurrent	A111V	ERR046935	2007	United Kingdom	L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR171165		Thailand	L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR046892	2007	United Kingdom	L4	4.4	0
+ddn:111	convergent_recurrent	A111V	SRR5709835	2006	Thailand	L4	4.4	0
+ddn:111	convergent_recurrent	A111V	SRR5709845	2010	Thailand	L4	4.4	0
+ddn:111	convergent_recurrent	A111T	ERR4829260		Italy	L4	4.1	0
+ddn:111	convergent_recurrent	A111V	ERR4799046		India	L4	4.3	0
+ddn:111	convergent_recurrent	A111T	SRR18496009	2020	China	L4	4.5	0
+ddn:111	convergent_recurrent	A111V	ERR2516633			L4	4.4	1
+ddn:111	convergent_recurrent	A111V	ERR4815281		United Kingdom	L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR4815255		United Kingdom	L4	4.4	0
+ddn:111	convergent_recurrent	A111V	SRR11662661	2014	Thailand	L4	4.4	1
+ddn:111	convergent_recurrent	A111V	SRR15368920	2013	China	L4	4.4	0
+ddn:111	convergent_recurrent	A111V	SRR15368868	2013	China	L4	4.4	0
+ddn:111	convergent_recurrent	A111V	ERR552538			L4	4.4	0
+ddn:111	convergent_recurrent	A111V	SRR21277256	2013	China	L4	4.4	0
+ddn:111	convergent_recurrent	A111V	SRR21277577			L4	4.4	0
+ddn:111	convergent_recurrent	A111V	SRR23316623	2019	Thailand	L4	4.4	0
+ddn:111	convergent_recurrent	A111V	SRR19857400	2010	Thailand	L4	4.4	0
+ddn:111	convergent_recurrent	A111G	SRR22251093	2017	Australia	L1	1	0
+ddn:111	convergent_recurrent	A111V	SRR21732578	2018	Australia	L4	4.4	0
+ddn:65	phenotype_casecontrol	Y65S	SRR5073572	2009	Viet Nam	L4	4.5	0
+ddn:65	phenotype_casecontrol	Y65S	SRR5065636	2010	Viet Nam	L4	4.5	0
+ddn:65	phenotype_casecontrol	Y65S	SRR5065639	2010	Viet Nam	L4	4.5	0
+ddn:65	phenotype_casecontrol	Y65S	ERR4831928		Vietnam	L4	4.5	0
+ddn:65	phenotype_casecontrol	Y65S	ERR4831961		Vietnam	L4	4.5	0
+ddn:65	phenotype_casecontrol	Y65S	ERR4828699		Vietnam	L4	4.5	0
+ddn:65	phenotype_casecontrol	Y65S	ERR4831921		Vietnam	L4	4.5	0
+ddn:65	phenotype_casecontrol	Y65S	SRR16370292			L4	4.5	1
+ddn:65	phenotype_casecontrol	Y65S	SRR26937073	2020	Vietnam	L4	4.5	1
+ddn:65	phenotype_casecontrol	Y65S	ERR4828707		Vietnam	L4	4.5	0
+ddn:81	phenotype_casecontrol	G81S	SRR6397700	2004	Canada	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR6152985	2009	Canada	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR6397561	2004	Canada	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR6153273	2008	Canada	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR6397796	2010	Canada	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR6397509	2007	Canada	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR6397393	2008	Canada	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR10341352	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	DRR034509	2008	Japan	L2	2	0
+ddn:81	phenotype_casecontrol	G81S	SRR5709762	2011	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR5709899	2008	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11828974	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	DRR034497	2008	Japan	L2	2	0
+ddn:81	phenotype_casecontrol	G81S	SRR3205959	2008	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR5114019	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11828975	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11828982	2011	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11828976	2008	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11828990	2008	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11828973	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR5114017	2012	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR5709934	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR5114020	2008	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR5114018			L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR5837708	2008	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	ERR552177		China	L2	2	0
+ddn:81	phenotype_casecontrol	G81S	SRR5709764	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR5709887			L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR5710027	2012	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR5709872	2012	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR5709798	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	ERR4797324		India	L3	3	0
+ddn:81	phenotype_casecontrol	G81S	SRR18910194	2019	USA	L2	2.2.2	0
+ddn:81	phenotype_casecontrol	G81S	ERR1213864			L2	2	0
+ddn:81	phenotype_casecontrol	G81S	SRR18913795	2019	USA	L2	2.2	1
+ddn:81	phenotype_casecontrol	G81S	ERR4822356			L2	2	1
+ddn:81	phenotype_casecontrol	G81S	ERR3132099			L2	2	0
+ddn:81	phenotype_casecontrol	G81S	SRR11715724	2005	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11662417			L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR10828203	2008	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR10828200	2008	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR10341353	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR12072599	2019	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11715722	2006	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR12072600	2019	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR10394882	2017	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR10394883	2015	Thailand	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR10341349	2008	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR12072597	2019	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11715720	2008	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR10828183	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR10828184	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11828989	2012	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR12072598	2019	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11828987	2017	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR10341347	2012	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11828988	2015	Thailand	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR11828983	2012	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR10828191	2012	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR10828193	2011	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11715725	2005	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR11662498	2014	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR5114021	2012	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR5114022	2008	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR16370661			L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR15368707			L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR3205958	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR7496541	2009	USA	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR19320531	2019	USA	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR19267893			L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	ERR552176			L2	2	0
+ddn:81	phenotype_casecontrol	G81S	SRR19325663	2018	USA	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR21676322	2017	USA	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR21661639	2016	USA	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR21677250	2018	USA	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR21710587	2019	USA	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR21820125	2017	South Korea	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR21820124	2017	South Korea	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR28385881		North Korea	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR28385884		North Korea	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR28385880		North Korea	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR28385882		North Korea	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR19857329	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR19857358	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR19857414	2012	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR24799220	2022	USA	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR19857386	2008	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR21887758	2020	China	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR19857346	2007	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR19857362			NA	NA	1
+ddn:81	phenotype_casecontrol	G81S	SRR25515671	2015	China	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR19857364	2012	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR28409608	2019	USA	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR22249954	2021	Australia	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR19857383	2008	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR19857369	2011	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR19857365	2012	Thailand	L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR21732568	2018	Australia	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR28385876			L2	2.0	1
+ddn:81	phenotype_casecontrol	G81S	SRR21820122	2018	South Korea	L2	2.0	0
+ddn:81	phenotype_casecontrol	G81S	SRR25784783	2018	South Korea	L2	2.0	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206032			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206047			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2517544			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2517314			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR3806843	2014	Gambia	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR3799581	2012	Gambia	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206031			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206045			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206046			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR4831327			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206048			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR4829517		Italy	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206051			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R	ERR2512758		United Kingdom	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R	ERR4829031		Italy	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206035			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206050			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206049			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206034			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR4822481			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR9029923			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206044			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R	ERR1193827			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR3132168			L4	4.3	1
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR1035262			L4	4.3	1
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206043			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR1035316			L4	4.3	1
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206055			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206041			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206042			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2184654			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206039			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206054			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R	ERR4797136		India	L1	1	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206037			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206053			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206052			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206038			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR5748174	2019	Spain	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR5748172	2019	Spain	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR4812135			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR4812642			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R	ERR4814092		Brazil	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	SRR10808847			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR894430			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR894431			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR6866301	2009	Peru	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR6866208	2009	Peru	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR894429			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR6865354	2010	Peru	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR894428			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR6866416	2009	Peru	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	SRR14164468	2018	Brazil	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR894427			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR6866310	2009	Peru	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR6866308	2009	Peru	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR6866532	2009	Peru	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR6866557	2009	Peru	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR6866245	2009	Peru	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR6866993	2009	Peru	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R	SRR14164777	2015	Brazil	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	SRR7517798		Switzerland	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	SRR7517701		Switzerland	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR4195397			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR4195332			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR4195623			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R	ERR553336			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR4195825			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR4195693			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR4195249			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR7363142	2018	Brazil	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR4195388			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR7363037	2016	Brazil	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR4195724			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR9786908			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR9786214	2012	Gambia	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR9786603	2013	Gambia	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR9786563	2013	Gambia	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR10849248			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	SRR28393353	2012	Peru	L4	4.3	1
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR11641191	2021	Portugal	L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206036			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR2206040			L4	4.3	0
+ddn:34	phenotype_casecontrol_weak	G34R(b)	ERR5748173			NA	NA	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR5067527	2010	Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR5067366	2010	Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR5067368	2010	Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR5067441	2010	Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR5067699	2010	Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR5067434	2010	Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR5067533	2010	Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR5067302	2010	Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR5065311	2011	Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR5067612	2010	Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR5067338	2010	Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR5067543	2010	Viet Nam	L2	2.0	1
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR6480574		Indonesia	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	ERR2517283			L2	2	0
+ddn:49	catalogued_dlm_R_anchor	L49P	ERR4831883		Vietnam	L2	2	1
+ddn:49	catalogued_dlm_R_anchor	L49P	ERR4830378		Vietnam	L2	2	0
+ddn:49	catalogued_dlm_R_anchor	L49P	ERR4831910		Vietnam	L2	2	1
+ddn:49	catalogued_dlm_R_anchor	L49P	ERR4830460		Vietnam	L2	2	0
+ddn:49	catalogued_dlm_R_anchor	L49P	ERR4831862		Vietnam	L2	2	1
+ddn:49	catalogued_dlm_R_anchor	L49P	ERR4830220		Vietnam	L2	2	0
+ddn:49	catalogued_dlm_R_anchor	L49P	ERR4830392		Vietnam	L2	2	0
+ddn:49	catalogued_dlm_R_anchor	L49P	ERR4830198		Vietnam	L2	2	0
+ddn:49	catalogued_dlm_R_anchor	L49P	ERR4811374			L2	2	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR10808738	2014	Indonesia	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR18665467	2018	Mexico	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR21662804	2017	USA	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR21657206	2018	USA	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR21663280	2017	USA	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR22248477	2020	Mexico	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR22248482	2020	Mexico	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR21722066	2019	USA	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	ERR10969110	2022	Portugal	L2	2	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR21732047	2017	Australia	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR26399624		Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR26399326		Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR28409719	2018	USA	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR22249456	2019	Australia	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR28389910	2022	Mexico	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR26399278			L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR26399703		Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR26937134	2020	Vietnam	L2	2.0	1
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR26399958		Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR21733072	2019	Australia	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR28389863	2022	Mexico	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR26558621	2021	Australia	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR28381183	2024	USA	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR26400098		Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR26399584		Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR26399551		Viet Nam	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR28375404	2024	USA	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR26399552			L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR22251823	2018	Australia	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR26112707	2017	USA	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR24799213	2022	USA	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR28389873	2022	Mexico	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR28389854	2021	Mexico	L2	2.0	0
+ddn:49	catalogued_dlm_R_anchor	L49P	SRR26399610		Viet Nam	L2	2.0	0
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR6397947	2014	Canada	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR4796320		India	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR4828140			L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR4828139			L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR18714844	2020	Ukraine	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR4827901			L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR4830023			L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR4830175			L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR275226	2000	Portugal	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR4827909			L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR1035242			L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864098	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864099	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865592	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865593	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5866571	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864256	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864257	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR4872309	2019		L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5866246	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865328	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865499	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864096	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865544	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865122	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864254	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5866244	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864097	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865545	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5866211	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865498	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864095	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864094	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865091	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865076	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865121	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864252	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR4872319	2019		L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864253	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5866212	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864250	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864267	2011	Georgia	L2	2	0
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5866210	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865075	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865089	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865090	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865450	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864093	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865074	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865120	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864251	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR4872303	2019		L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865447	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865448	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864090	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864091	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865087	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864264	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864266	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864247	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864249	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865449	2011	Georgia	L2	2	0
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865073	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864092	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865088	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864246	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864263	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865424	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864262	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865878	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865330	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864100	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865879	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864245			L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5866245	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864258	2011	Georgia	L2	2.2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5866572	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865329	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5865425	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864101	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864255	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864243	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864244	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864259	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR5864260	2011	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR10380194	2018	Moldova	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR10397095	2016	Georgia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR10379886	2018	Moldova	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR10397122	2017	Georgia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR10380089	2017	Moldova	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR10397116	2017	Georgia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR10380150	2017	Moldova	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	CUS0000347			NA	NA	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR3085289	2010	Tajikistan	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR3085288		Tajikistan	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR3085285		Tajikistan	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR16087958	2018	Georgia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	CUS0000348			NA	NA	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR16088275	2020	Georgia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR14782715	2018	Moldova	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR14782474	2019	Moldova	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR16088572	2018	Georgia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR14782518	2019	Moldova	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR3086364			L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR14782160	2018	Moldova	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR16088196	2019	Georgia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR7517694		Switzerland	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR7516294	2016	Georgia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR8791319			L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR7516428	2016	Georgia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR7516307			L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR8791316			L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR7516398			L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR7517817			NA	NA	0
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR7911253			L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR23861887	2021	Georgia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR10762347			L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR23938698	2020	Kazakhstan	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR23310986	2018	Moldova	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR23861824	2021	Georgia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR28681415	2023	Russia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR28498559	2020	Moldova	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR23310844	2018	Moldova	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR26583209	2021	Russia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR10762237			L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR12307388	2009	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR26583211	2017	Russia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR12307392			L2	2.2	0
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR12307399	2021	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR28434994	2017	France	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR12350670	2019	Croatia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR11798536	2018	Moldova	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR12307390	2013	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR28351314	2019	Moldova	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR26965298		France	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR28239428	2021	Georgia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR12307389	2009	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR12307391	2013	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR24256220	2021	Ukraine	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR28239780	2019	Georgia	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR26965295		France	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR12037327	2012	Portugal	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR12307393			L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR26937107	2020	Vietnam	L2	2.2	0
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR12350671	2020	Croatia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR12307398	2017	Georgia	L2	2	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR28351424	2019	Moldova	L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR28435005			L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR26965296			L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR26965297			L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	SRR28681416			L2	2.0	1
+ddn:88	catalogued_dlm_R_anchor	W88*	ERR12364927	2020	United Kingdom	L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	SRR24710270	2020	Kazakhstan	L2	2.0	0
+ddn:139	catalogued_dlm_R_anchor	W139*	ERR4831306			L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	ERR4813741		Brazil	L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	ERR4820466		United Kingdom	L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	SRR3105735	2009	India	L4	4.1	1
+ddn:139	catalogued_dlm_R_anchor	W139*	SRR16088082	2020	Ukraine	L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	SRR16370612			L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	SRR16088317	2020	Georgia	L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	SRR7276704	2011	Brazil	L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	ERR2199810			L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	ERR552009			L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	SRR19317528			L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	ERR552317			L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	SRR23861846	2017	Georgia	L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	ERR10465743			L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	ERR841390			L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	SRR23861866	2017	Georgia	L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	SRR28240070	2022	Georgia	L4	4.1	0
+ddn:139	catalogued_dlm_R_anchor	W139*	SRR28240017	2020	Georgia	L4	4.1	0

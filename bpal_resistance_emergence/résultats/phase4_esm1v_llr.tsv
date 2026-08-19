@@ -1,0 +1,14 @@
+gene	mutation	lineage	llr	note
+ddn	D113N	L5	-2.9407	amorce F420 fixée 99.6%
+fgd1	K296E	L6	-2.9602	amorce F420 fixée 98%
+fgd1	K270M	L4	-5.6894	amorce F420 sous-lignée L4 22%
+fgd1	R64S	L1	-8.3315	amorce F420 L1 11.6%
+ddn	L90V	BOV_AFRI	-4.6859	amorce F420 51%
+fbiB	G19E	BOV	-7.5752	amorce F420 16%
+fbiB	D315A	BOV	-0.3707	amorce F420 9.7%
+fbiB	K448R	L3	2.9514	amorce F420 7.5%
+fbiC	A497V	BOV	-2.3975	amorce F420 6.9%
+fbiD	I13L	BOV	-0.0984	amorce F420 7.1%
+katG	S315T	—	-7.5228	CONTRÔLE damaging (INH-R, attendu <<0)
+rpoB	S450L	—	-9.6297	CONTRÔLE damaging (RIF-R, attendu <<0)
+gyrA	E21Q	—	2.8427	CONTRÔLE marqueur lignée toléré (attendu ~0)

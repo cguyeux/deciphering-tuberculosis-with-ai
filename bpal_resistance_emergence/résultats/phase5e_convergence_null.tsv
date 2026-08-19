@@ -1,0 +1,8 @@
+gene	L_aa	n_nonsyn_var	obs_max_alts	candidate_pos	candidate_obs_alts	p_codon_reaches_obs
+ddn	151	190	5	111	3	1.0
+fbiA	331	307	4			0.97765
+fbiB	448	371	4			0.96965
+fbiC	856	779	4			0.9999
+fbiD	214	182	4			0.80186
+fgd1	336	316	5	210	5	0.41643
+fgd1	336	316	5	10	3	1.0
