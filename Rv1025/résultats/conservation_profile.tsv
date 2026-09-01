@@ -1,0 +1,6 @@
+scale	sample	signal	honest_readout
+intra-MTBC	145,209 genomes	5 segregating sites (2 syn, 3 missense, 0 nonsense, 0 frameshift); 0 disruptive	near-invariant; NOT reported as pN/pS (atlas label 'relaxed/neutral' pN/pS=0.581 is underpowered on 5 sites)
+M. canettii (immediate outgroup)	153 genomes	1 substitution (1 syn, 0 non-syn, 0 disruptive)	invariant at the protein level vs the immediate outgroup; the single change is synonymous (dN/dS not reliable, low power — reported as a substitution count)
+genus Mycobacterium	53 species	present in 53/53 (100%), mean identity 84%; classification 'genus-core'	genus-core: retained across the whole genus, including the reductive genomes (M. leprae, M. lepromatosis)
+DUF501 family (PF04417)	4,370 proteins / 5,484 taxa	Actinobacteria-restricted; operon block intact in 61/63 genomes (P3.2); no GO term, no solved structure	deep family conservation of an ordered gene block (signature of selection on the arrangement)
+metal-site triad (Cys113/His115/Glu59)	8,700-seq MSA + Pfam seed (39)	Cys113 100%, His115 100%, Glu59 99% (MSA) / 100% on curated Pfam seed	the functional site is the most conserved feature at every scale; the 3 intra-MTBC missense are non-disruptive and fall outside this invariant triad

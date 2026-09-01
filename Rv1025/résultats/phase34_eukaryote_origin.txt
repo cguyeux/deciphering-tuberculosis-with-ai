@@ -1,0 +1,37 @@
+Alignement PF04417 full : 2228 séquences x 471 colonnes
+Membres eucaryotes (table S10) : 102
+Référence bactérienne : Actinomycetota n=1642, Pseudomonadota n=104 (ratio 15.8x — motive le contrôle à taille égale ci-dessous)
+Calcul des identités par paire (colonnes co-alignées, non-gap des deux côtés)...
+
+==============================================================================
+A. COMPARAISON BRUTE (groupes complets, PAS à taille égale — descriptif seulement)
+==============================================================================
+  meilleur-hit Actinomycetota (n=1642) : médiane 39.4%, moyenne 39.9%
+  meilleur-hit Pseudomonadota (n=104) : médiane 35.1%, moyenne 35.5%
+  Actinomycetota gagne (brut) pour 80/102 séquences eucaryotes
+
+==============================================================================
+B. TEST DÉCISIF : sous-échantillonnage Actinomycetota à N=104 (taille Pseudomonadota), 1000 tirages
+==============================================================================
+  meilleur-hit Actinomycetota (sous-échantillon N=104, moyenne sur 1000 tirages) : médiane 35.0%, moyenne 35.6%
+  meilleur-hit Pseudomonadota (groupe complet, N=104) : médiane 35.1%, moyenne 35.5%
+  Wilcoxon signé apparié (acti sous-échant. vs pseudo, par séquence eucaryote) : statistique=2492.0, p=0.653
+  Actinomycetota (taille égale) gagne pour 56/102 séquences, médiane de l'écart = +0.4 points
+  p empirique médian (fraction des tirages actino >= pseudo observé) : 0.5
+  Mann-Whitney (distributions, non apparié, contrôle) : U=5209.0, p=0.988
+
+==============================================================================
+C. CONTEXTE — les 3 séquences à plus haute identité bactérienne (candidats HGT récents)
+==============================================================================
+  A0A1Y1WPY2_9FUNG/57-180        acti_max= 69.4%  pseudo_max= 51.7%  acti_matched= 62.9%
+  A0A1Y1V0F2_9FUNG/41-164        acti_max= 69.4%  pseudo_max= 50.4%  acti_matched= 61.6%
+  A0A1Y1V0X5_9FUNG/58-181        acti_max= 69.4%  pseudo_max= 50.4%  acti_matched= 61.6%
+  C1ECF1_MICCC/83-248            acti_max= 51.8%  pseudo_max= 37.0%  acti_matched= 38.0%
+  A0A0G4GKB7_VITBC/134-268       acti_max= 50.0%  pseudo_max= 44.8%  acti_matched= 36.0%
+
+==============================================================================
+D. VERDICT
+==============================================================================
+  AUCUNE différence significative à taille égale (NULL NON REJETÉ) : l'identité de séquence seule NE TRANCHE PAS l'origine. Une phylogénie (positionnement des séquences eucaryotes dans un arbre ML avec les deux groupes bactériens) serait nécessaire pour aller plus loin — non entreprise ici (coût plus élevé, gain incertain).
+
+LIMITE MÉTHODOLOGIQUE (à ne pas dissimuler) : 'Pseudomonadota' ici est le groupe COMPLET du phylum tel que bucketé par le code mnémonique UniProt (phase28), PAS restreint aux Alphaproteobacteria — le clade spécifiquement pertinent pour une origine mitochondriale. Un résultat 'Pseudomonadota gagne' devrait donc être creusé au niveau de la classe avant d'être lu comme 'mitochondrial' ; ce script ne fait pas cette résolution plus fine.

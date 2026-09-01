@@ -1,0 +1,9 @@
+Apicomplexes testés : 6 (dont Neospora, cas index déjà connu)
+Tandem PF04417 confirmé par 2 sources indépendantes (sto + InterPro) : 3/6
+  dont dégénérescence COMPLÉMENTAIRE (une copie E--, l'autre -CH) : 3/6
+  A0A9W5T8J3 (Babesia ovis): sto=2 interpro=2 coords=446-486;562-617 gap=76aa motifs=E--;-CH tandem=True complementaire=True
+  A0A1D3CV76 (Cyclospora cayetanensis): sto=1 interpro=1 coords=486-564 gap=aa motifs=E-- tandem=False complementaire=False
+  F0VAI8 (Neospora caninum): sto=2 interpro=2 coords=212-352;397-455 gap=45aa motifs=E--;-CH tandem=True complementaire=True
+  A0A2A9M7T6 (Besnoitia besnoiti): sto=2 interpro=2 coords=295-414;486-522 gap=72aa motifs=E--;-CH tandem=True complementaire=True
+  U6GA88 (Eimeria acervulina): sto=1 interpro=1 coords=283-347 gap=aa motifs=E-- tandem=False complementaire=False
+  A0A2C6L2K9 (Cystoisospora suis): sto=1 interpro=1 coords=575-641 gap=aa motifs=E-- tandem=False complementaire=False

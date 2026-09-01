@@ -1,0 +1,103 @@
+accession	organisme	clade	longueur	domaine_debut	domaine_fin	ext_Nterm	motif	identite_Rv1025	pfam	localisation
+A0A9W5T8J3	Babesia ovis	Apicomplexa	626	504	619	503	-CH	32.6	PF04417	-
+A0A1D3CV76	Cyclospora cayetanensis	Apicomplexa	1336	460	583	459	E--	31.3	PF04417	-
+F0VAI8	Neospora caninum (strain Liverpool)	Apicomplexa	472	208	364	207	E--	31.2	PF04417	-
+A0A2A9M7T6	Besnoitia besnoiti (Apicomplexan protozoan)	Apicomplexa	543	291	444	290	E--	30.8	PF04417	-
+U6GA88	Eimeria acervulina (Coccidian parasite)	Apicomplexa	482	249	361	248	E--	29.9	PF04417	-
+A0A2C6L2K9	Cystoisospora suis	Apicomplexa	763	550	663	549	E--	27.7	PF04417	-
+A0A061J860	Trypanosoma rangeli SC58	Discoba	274	29	175	28	ECH	29.6	PF04417	-
+A0A3R7L3I4	Trypanosoma conorhini	Discoba	279	29	173	28	ECH	29.6	PF04417	-
+A0A422N2V1	Trypanosoma rangeli	Discoba	272	29	173	28	ECH	29.6	PF04417	-
+K2MEG4	Trypanosoma cruzi marinkellei	Discoba	271	29	173	28	ECH	28.7	PF04417	-
+A0A0S4KPJ4	Bodo saltans (Flagellated protozoan)	Discoba	299	39	180	38	ECH	27.4	PF04417	-
+Q4DED9	Trypanosoma cruzi (strain CL Brener)	Discoba	271	29	173	28	ECH	27.0	PF04417	-
+Q4CZW9	Trypanosoma cruzi (strain CL Brener)	Discoba	271	29	173	28	ECH	27.0	PF04417	-
+A0A0N0DX18	Leptomonas pyrrhocoris (Firebug parasite)	Discoba	303	35	177	34	ECH	26.7	PF04417	-
+Q4Q2H2	Leishmania major	Discoba	302	36	178	35	ECH	25.6	PF04417	-
+Q580D1	Trypanosoma brucei brucei (strain 927/4 GUTat10.1)	Discoba	275	23	168	22	ECH	25.6	PF04417	-
+A4IAD9	Leishmania infantum	Discoba	302	36	178	35	ECH	25.6	PF04417	-
+A0A1X0PAX3	Trypanosoma theileri	Discoba	301	29	173	28	ECH	25.4	PF04417	-
+A0A7G2C5F5	Angomonas deanei	Discoba	313	33	176	32	ECH	23.9	PF04417	-
+S9TXE0	Strigomonas culicis	Discoba	358	63	206	62	ECH	21.6	PF04417	-
+A0A1Y1WPY2	Anaeromyces robustus	Fungi	194	57	180	56	ECH	50.8	PF04417	-
+A0A1Y1V0F2	Piromyces finnis	Fungi	177	41	164	40	ECH	50.0	PF04417	-
+A0A1Y1V0X5	Piromyces finnis	Fungi	194	58	181	57	ECH	50.0	PF04417	-
+A0A8J6C647	Diacronema lutheri (Unicellular marine alga) (Monochrysis lutheri)	Haptista	333	35	187	34	ECH	34.9	PF04417	-
+A0A0D3JLZ0	Emiliania huxleyi (strain CCMP1516)	Haptista	519	81	263	80	ECH	27.3	PF04417	-
+A0A0D3KZC9	Emiliania huxleyi (strain CCMP1516)	Haptista	519	81	263	80	ECH	27.3	PF04417	-
+A0A8J5XFE8	Diacronema lutheri (Unicellular marine alga) (Monochrysis lutheri)	Haptista	332	100	242	99	ECH	27.1	PF04417	-
+A0AA88KMG9	Naegleria lovaniensis (Amoeba)	Heterolobosea	372	131	247	130	E--	20.6	PF04417	-
+A0A6A5CBS0	Naegleria fowleri (Brain eating amoeba)	Heterolobosea	301	58	170	57	E--	18.4	PF04417	-
+A0A9N8E898	Seminavis robusta	Stramenopiles	427	231	379	230	ECH	40.0	PF04417	-
+A0AAD8Y377	Skeletonema marinoi	Stramenopiles	443	251	410	250	ECH	39.3	PF04417	-
+A0A485L0L8	Aphanomyces stellatus	Stramenopiles	241	69	215	68	ECH	37.4	PF04417	-
+B8CC62	Thalassiosira pseudonana (Marine diatom) (Cyclotella nana)	Stramenopiles	493	279	441	278	ECH	37.0	PF04417	-
+A0A024G9M3	Albugo candida	Stramenopiles	196	39	186	38	ECH	35.1	PF04417	-
+A0AAD3CV09	Chaetoceros tenuissimus	Stramenopiles	314	112	296	111	ECH	35.0	PF04417	-
+A0A6G0WVN6	Aphanomyces euteiches	Stramenopiles	223	69	214	68	ECH	34.8	PF04417	-
+A0A8J2ST05	Pelagomonas calceolata	Stramenopiles	194	52	182	51	ECH	34.5	PF04417	-
+T0RLE0	Saprolegnia diclina (strain VS20)	Stramenopiles	218	62	208	61	ECH	34.5	PF04417	-
+A0A067CIQ7	Saprolegnia parasitica (strain CBS 223.65)	Stramenopiles	221	65	211	64	ECH	33.6	PF04417	-
+B7FZ01	Phaeodactylum tricornutum (strain CCAP 1055/1)	Stramenopiles	326	127	302	126	ECH	33.6	PF04417	-
+A0A1W0AC20	Thraustotheca clavata	Stramenopiles	221	63	209	62	ECH	33.0	PF04417	-
+A0AAD2PVL0	Cylindrotheca closterium	Stramenopiles	345	134	333	133	ECH	33.0	PF04417	-
+A0A024TNQ5	Aphanomyces invadans	Stramenopiles	242	68	214	67	ECH	32.8	PF04417	-
+A0A1V9Z5R7	Achlya hypogyna (Oomycete) (Protoachlya hypogyna)	Stramenopiles	220	64	210	63	ECH	32.7	PF04417	-
+A0A1E7FHM1	Fragilariopsis cylindrus CCMP1102	Stramenopiles	350	151	337	150	ECH	32.0	PF04417	-
+M4BYE9	Hyaloperonospora arabidopsidis (strain Emoy2) (Downy mildew agent) (Peronospora arabidopsidis)	Stramenopiles	200	46	189	45	ECH	31.9	PF04417	-
+A0A1Z5K406	Fistulifera solaris (Oleaginous diatom)	Stramenopiles	294	107	278	106	ECH	31.9	PF04417	-
+A0AAD3CTX2	Chaetoceros tenuissimus	Stramenopiles	239	60	228	59	ECH	31.7	PF04417	-
+A0AAD8Y1T9	Skeletonema marinoi	Stramenopiles	334	144	328	143	ECH	31.6	PF04417	-
+A0A3R7HVX3	Phytophthora kernoviae	Stramenopiles	213	53	199	52	ECH	31.6	PF04417	-
+A0A448ZFV9	Pseudo-nitzschia multistriata	Stramenopiles	444	208	437	207	ECH	31.5	PF04417	-
+A0A225VD34	Phytophthora megakarya	Stramenopiles	204	48	193	47	ECH	31.2	PF04417	-
+A0A6A3MUS4	Phytophthora rubi	Stramenopiles	217	57	203	56	ECH	31.0	PF04417	-
+A0A6A3EY96	Phytophthora fragariae	Stramenopiles	217	57	203	56	ECH	31.0	PF04417	-
+A0A8T1W2Z0	Phytophthora pseudosyringae	Stramenopiles	207	49	194	48	ECH	31.0	PF04417	-
+A0A1Z5JA01	Fistulifera solaris (Oleaginous diatom)	Stramenopiles	292	109	280	108	ECH	31.0	PF04417	-
+A0AAD9G490	Phytophthora citrophthora	Stramenopiles	207	48	194	47	ECH	31.0	PF04417	-
+A0A9K3PP58	Nitzschia inconspicua	Stramenopiles	388	176	305	175	E--	30.1	PF04417	-
+D0NKV2	Phytophthora infestans (strain T30-4) (Potato late blight agent)	Stramenopiles	201	47	194	46	ECH	30.1	PF04417	-
+A0A833W5L3	Phytophthora infestans (Potato late blight agent) (Botrytis infestans)	Stramenopiles	201	47	194	46	ECH	30.1	PF04417	-
+A0A2P4Y3U7	Phytophthora palmivora	Stramenopiles	205	46	192	45	ECH	30.1	PF04417	-
+A0A8T1WVM5	Phytophthora boehmeriae	Stramenopiles	211	51	197	50	ECH	29.9	PF04417	-
+V9FNE8	Phytophthora nicotianae P1569	Stramenopiles	201	48	194	47	ECH	29.8	PF04417	-
+H3HCG6	Phytophthora ramorum (Sudden oak death agent)	Stramenopiles	189	30	175	29	ECH	29.8	PF04417	-
+A0A9W7F214	Triparma strigata	Stramenopiles	384	221	369	220	ECH	29.7	PF04417	-
+A0A329RZZ6	Phytophthora cactorum	Stramenopiles	204	51	197	50	ECH	29.6	PF04417	-
+A0A8J5M6Y4	Phytophthora aleatoria	Stramenopiles	204	51	197	50	ECH	29.6	PF04417	-
+A0A8J2S4W0	Pelagomonas calceolata	Stramenopiles	267	79	228	78	ECH	29.6	PF04417	-
+G4ZX89	Phytophthora sojae (strain P6497) (Soybean stem and root rot agent) (Phytophthora megasperma f. sp. glycines)	Stramenopiles	212	53	198	52	ECH	28.9	PF04417	-
+W7TTH5	Nannochloropsis gaditana	Stramenopiles	341	118	255	117	ECH	28.7	PF04417	-
+A0A0P1A8J7	Plasmopara halstedii (Downy mildew of sunflower)	Stramenopiles	213	51	197	50	ECH	28.7	PF04417	-
+B7FYF2	Phaeodactylum tricornutum (strain CCAP 1055/1)	Stramenopiles	294	92	283	91	ECH	28.7	PF04417	-
+A0A448ZKR0	Pseudo-nitzschia multistriata	Stramenopiles	308	69	214	68	E--	28.4	PF04417	-
+A0A9N8EKR1	Seminavis robusta	Stramenopiles	268	67	257	66	ECH	28.3	PF04417	-
+A0A976FR31	Bremia lactucae (Lettuce downy mildew)	Stramenopiles	211	50	196	49	ECH	28.1	PF04417	-
+A0AAD9DHG2	Skeletonema marinoi	Stramenopiles	298	66	237	65	ECH	27.8	PF04417	-
+A0A9K3KWR1	Nitzschia inconspicua	Stramenopiles	452	196	345	195	E--	27.7	PF04417	-
+A0AAD2GC12	Cylindrotheca closterium	Stramenopiles	229	48	218	47	ECH	27.6	PF04417	-
+A0A9W7CHG9	Triparma laevis f. longispina	Stramenopiles	368	197	347	196	ECH	27.0	PF04417	-
+A0AAD8Y711	Skeletonema marinoi	Stramenopiles	204	12	138	11	ECH	26.6	PF04417	-
+A0A9W7GL09	Triparma columacea	Stramenopiles	318	128	285	127	ECH	26.5	PF04417	-
+A0A9N8DX47	Seminavis robusta	Stramenopiles	274	58	207	57	ECH	26.5	PF04417	-
+K0SY20	Thalassiosira oceanica (Marine diatom)	Stramenopiles	894	684	822	683	ECH	26.4	PF04417;PF00849	-
+A0AAD7XP85	Chrysophaeum taylorii	Stramenopiles	272	59	197	58	ECH	26.3	PF04417	-
+A0A9N8EZL3	Seminavis robusta	Stramenopiles	294	78	228	77	ECH	26.1	PF04417	-
+A0A8J2S7V2	Pelagomonas calceolata	Stramenopiles	271	58	196	57	ECH	25.9	PF04417	-
+D8LLL9	Ectocarpus siliculosus (Brown alga) (Conferva siliculosa)	Stramenopiles	285	5	144	4	ECH	25.9	PF04417	-
+A0A1Z5K273	Fistulifera solaris (Oleaginous diatom)	Stramenopiles	228	57	217	56	ECH	25.8	PF04417	-
+A0AAD3DF44	Chaetoceros tenuissimus	Stramenopiles	221	19	164	18	ECH	24.4	PF04417	-
+A0AAD2CGX9	Cylindrotheca closterium	Stramenopiles	312	76	225	75	ECH	24.3	PF04417	-
+F0YD16	Aureococcus anophagefferens (Harmful bloom alga)	Stramenopiles	3593	65	208	64	ECH	23.9	PF04417	-
+A0A1E7F370	Fragilariopsis cylindrus CCMP1102	Stramenopiles	243	16	194	15	ECH	23.6	PF04417	-
+C1ECF1	Micromonas commoda (strain RCC299 / NOUM17 / CCMP2709) (Picoplanktonic green alga)	Viridiplantae	269	83	248	82	ECH	30.5	PF04417	-
+A4SB46	Ostreococcus lucimarinus (strain CCE9901)	Viridiplantae	251	68	222	67	ECH	29.5	PF04417	-
+A4SAH6	Ostreococcus lucimarinus (strain CCE9901)	Viridiplantae	233	38	208	37	ECH	29.4	PF04417	-
+A0A096PAX5	Ostreococcus tauri (Marine green alga)	Viridiplantae	198	19	177	18	ECH	28.2	PF04417	-
+C1EGC9	Micromonas commoda (strain RCC299 / NOUM17 / CCMP2709) (Picoplanktonic green alga)	Viridiplantae	344	102	314	101	ECH	27.0	PF04417	-
+C1MVM0	Micromonas pusilla (strain CCMP1545) (Picoplanktonic green alga)	Viridiplantae	372	164	316	163	ECH	22.5	PF04417	-
+A0A812SID3	Symbiodinium natans	autre eucaryote	451	226	367	225	ECH	30.8	PF04417	-
+A0A0G4GKB7	Vitrella brassicaformis (strain CCMP3155)	autre eucaryote	276	134	268	133	ECH	28.8	PF04417	-
+A0A9P1DTS0	Cladocopium goreaui	autre eucaryote	290	67	210	66	ECH	28.2	PF04417	-
+A0A813HLF5	Polarella glacialis (Dinoflagellate)	autre eucaryote	295	85	231	84	ECH	26.9	PF04417	-

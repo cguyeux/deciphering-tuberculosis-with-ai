@@ -1,0 +1,37 @@
+=== homodimer_2fe ===
+Running on CPU, this will be slow. Consider using a GPU.
+Downloading the Boltz-2 affinity weights to /home/christophe/.boltz/boltz2_aff.ckpt. You may change the cache directory with the --cache flag.
+Checking input data.
+Traceback (most recent call last):
+  File "/home/christophe/venvs/boltz/bin/boltz", line 10, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/boltz/main.py", line 1162, in predict
+    process_inputs(
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/lightning_utilities/core/rank_zero.py", line 42, in wrapped_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/boltz/main.py", line 766, in process_inputs
+    ccd = load_canonicals(mol_dir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/boltz/data/mol.py", line 56, in load_canonicals
+    return load_molecules(moldir, const.canonical_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/boltz/data/mol.py", line 36, in load_molecules
+    raise ValueError(msg)
+ValueError: CCD component ASP not found!

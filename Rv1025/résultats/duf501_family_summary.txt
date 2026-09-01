@@ -1,0 +1,42 @@
+Alignement PF04417 full : 2228 séquences x 471 colonnes
+Ancre : P96375_MYCTU/16-137 (domaine 16-137)
+  E59 -> colonne d'alignement 172
+  C113 -> colonne d'alignement 395
+  H115 -> colonne d'alignement 397
+
+==============================================================================
+A. LA TRIADE EST-ELLE UNIVERSELLE ?
+==============================================================================
+  position E59 (col 172) : E:2194 (98.5%) | gaps : 34 (1.5%)
+  position C113 (col 395) : C:2177 (97.7%) | gaps : 51 (2.3%)
+  position H115 (col 397) : H:2174 (97.6%) | gaps : 54 (2.4%)
+TRIADE STRICTE (E/C/H exacts)          : 2142/2228 = 96.1%
+TRIADE CHIMIQUEMENT COMPATIBLE (E ou D) : 2142/2228 = 96.1%
+MEMBRES SANS triade compatible          : 86 (3.9%)
+
+==============================================================================
+B. LES EXCEPTIONS : ARTEFACT D'ALIGNEMENT, OU VRAIE PERTE ?
+==============================================================================
+86 membres sans triade compatible, dont 86 où l'écart tient UNIQUEMENT à des gaps (bord de domaine, séquence partielle)
+-> vraies SUBSTITUTIONS non conservatives : 0
+Composition des positions perdues (hors gaps) :
+
+==============================================================================
+C. LA PERTE EST-ELLE LIÉE À LA TAXONOMIE ?
+==============================================================================
+groupe                  n    triade compatible
+  Actinomycetota     1645       1622/1645 =  98.6%
+  autre/inconnu       479        417/479 =  87.1%
+  Pseudomonadota      104        103/104 =  99.0%
+Fisher (Actinomycetota vs reste) : OR = 8.54, p = 1.45e-20
+
+==============================================================================
+D. SOUS-STRUCTURE : LA PERTE EST-ELLE CONCENTRÉE DANS UN CLADE ?
+==============================================================================
+  k   plus gros amas de pertes    p (permutation)
+  5              86/86                     0.8570
+ 10              81/86                     1.0000
+ 20              81/86                     0.9991
+Lecture : p faible = les pertes se concentrent dans un même sous-groupe de séquences
+(sous-famille candidate) ; p élevé = elles sont dispersées, donc plutôt du bruit
+d'annotation ou des séquences partielles, pas un clade métal-indépendant.

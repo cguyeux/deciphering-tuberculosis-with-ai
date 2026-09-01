@@ -1,0 +1,18 @@
+{
+  "locus_tag": "Rv1025",
+  "copie": "Rv1025_atlas_fiche.json",
+  "seeded_from": "annotation_mtbc/site/content/genes/Rv1025.json",
+  "seeded_at": "2026-08-26",
+  "copy_sha256": "63348ab1bb4d6d7349248b572a043241b9d425a73b50d242b9d177ead62a3597",
+  "source_sha256": "63348ab1bb4d6d7349248b572a043241b9d425a73b50d242b9d177ead62a3597",
+  "source_mtime": "2026-08-26",
+  "retroactive": false,
+  "note": "Copie resynchronisée par gene_project_sync.py --sync ; les deux empreintes datent du même instant, donc l'identité est vérifiable.",
+  "dossier": {
+    "fichier": "Rv1025_dossier.txt",
+    "generateur": "annotation_mtbc/analyses/dark_dossier.py",
+    "generateur_sha256": "1b15c80df02c78021699c429d01729890f3303531b3fddf2fa6d5b364dded1d3",
+    "genere_le": "2026-08-26",
+    "note": "Le GÉNÉRATEUR change aussi (cf. P18.2) : un dossier ancien peut être trompeur même si le JSON, lui, est à jour."
+  }
+}

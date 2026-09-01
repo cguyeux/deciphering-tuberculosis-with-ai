@@ -1,0 +1,8 @@
+=== rv1025_sepF_Rv2147c 22:50:01 ===
+  rv1025_sepF_Rv2147c BLOQUE : boltz.log immobile depuis 1800s, process 1328850 toujours vivant -> SIGKILL
+  rv1025_sepF_Rv2147c ECHEC (stall)
+=== apicomplex_neospora_F0VAI8 23:26:32 ===
+  apicomplex_neospora_F0VAI8 BLOQUE : boltz.log immobile depuis 1800s, process 1359914 toujours vivant -> SIGKILL
+  apicomplex_neospora_F0VAI8 ECHEC (stall)
+  cycle 1/150 : 5 job(s) restant(s), attente 300s (09:56:52)
+=== rv1025_ftsZ_Rv2150c 10:03:39 ===

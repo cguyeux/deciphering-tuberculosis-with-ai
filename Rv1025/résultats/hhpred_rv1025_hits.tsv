@@ -1,0 +1,22 @@
+# HHpred (MPI Bioinformatics Toolkit) — Rv1025 (DUF501), bases PDB_mmCIF70 + Pfam-A + SCOPe70
+# Soumis 2026-07-06. Colonnes : rank	hit	description	Prob	E-value	Score	SS	Cols	Tlen
+# Verdict : aucun hit significatif au-delà de DUF501 lui-même (self-hits Prob 100) ; tout le reste Prob<56% + E-value elevee = bruit non convergent.
+1	COG1507	COG1507; Uncharacterized protein, DUF501 family [Function unknown].	100	7.9e-53	330.46	16.2	153	167
+2	PF04417.18	DUF501; Protein of unknown function (DUF501)	100	1.7e-44	275.07	12.8	117	136
+3	PF21441.5	DUF3860-like	55.56	18	23.89	0.9	25	65
+4	PF27625.1	DUF8358; Domain of unknown function	52.18	83	27.72	4.2	55	184
+5	3EPH_B	tRNA isopentenyltransferase (MiaA-like)	44.41	64	30.88	2.8	30	409
+6	7BZH_A	Sul7s; Sulfolobus DNA binding protein (NMR)	42.35	31	23.62	0.4	21	59
+7	PF26891.1	Phage_N4_Gp1; Bacteriophage N4 gene product 1	38.1	190	23.62	4.1	27	112
+8	3ZMD_A	Putative transcriptional regulator; MarR-family winged helix	34.06	38	28.31	-0.2	23	178
+9	PF18918.6	DUF5669; Family of unknown function	33.74	62	22.97	0.8	18	77
+10	PF07862.17	Nif11 domain	31.44	180	18.5	2.6	20	51
+11	PF06457.16	Ectatomin	31.41	68	20.51	0.6	22	34
+12	SCOP_d2frha2	SarA; pleiotropic regulator of virulence (all-alpha)	30.69	69	24.59	0.7	18	123
+13	PF20008.6	DUF6429	29.97	74	21.96	0.7	21	71
+14	PF20542.6	DUF6757; Family of unknown function	29.88	230	20.39	3	29	54
+15	COG0324	MiaA; tRNA A37 N6-isopentenyltransferase	28.99	220	25.59	3.5	35	308
+16	PF11313.15	DUF3116; Protein of unknown function	28.3	90	21.8	0.9	25	83
+17	KOG1384	tRNA delta(2)-isopentenylpyrophosphate transferase	28.08	230	26.27	3.5	34	348
+18	PF01325.26	Fe_dep_repress; Iron dependent repressor, N-terminal DNA binding	27.76	83	18.96	0.6	23	59
+19	PF22120.3	T6SS_Tse3_N; peptidoglycan muramidase Tse3 N-term	27.51	160	24.34	2.2	35	116

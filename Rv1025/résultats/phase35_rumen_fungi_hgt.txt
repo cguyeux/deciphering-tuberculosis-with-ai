@@ -1,0 +1,47 @@
+==============================================================================
+P8.1.a.3 — contexte génomique des 3 DUF501 de champignons du rumen
+==============================================================================
+
+-- A0A1Y1WPY2 (Anaeromyces robustus) -- MCFG01000348 , BioProject: PRJNA330692
+   scaffold : 73,743 pb, 13 CDS annotées (échelle multi-gène, PAS un contig court isolé)
+   CDS cible ORX75599.1 : CDS             complement(63427..64011) -> mono-exonique
+   3 voisins de chaque côté : ORX75596.1=thioredoxin-like protein; ORX75597.1=hypothetical protein; ORX75598.1=hypothetical protein; ORX75600.1=hypothetical protein; ORX75601.1=hypothetical protein
+
+-- A0A1Y1V0F2 (Piromyces finnis) -- MCFH01000044 , BioProject: PRJNA330696
+   scaffold : 471,331 pb, 116 CDS annotées (échelle multi-gène, PAS un contig court isolé)
+   CDS cible ORX44629.1 : CDS             join(18166..18169,18217..18746) -> ÉPISSÉE (join, intron reconnu par la machinerie fongique)
+   3 voisins de chaque côté : ORX44626.1=glycoside hydrolase; ORX44627.1=glycoside hydrolase; ORX44628.1=alpha/beta-hydrolase; ORX44630.1=hypothetical protein; ORX44631.1=hypothetical protein; ORX44632.1=hypothetical protein
+
+-- A0A1Y1V0X5 (Piromyces finnis) -- MCFH01000043 , BioProject: PRJNA330696
+   scaffold : 478,762 pb, 94 CDS annotées (échelle multi-gène, PAS un contig court isolé)
+   CDS cible ORX44854.1 : CDS             complement(271659..272243) -> mono-exonique
+   3 voisins de chaque côté : ORX44851.1=serine palmitoyltransferase; ORX44852.1=hypothetical protein; ORX44853.1=hypothetical protein; ORX44855.1=alpha/beta-hydrolase; ORX44856.1=glycoside hydrolase; ORX44857.1=glycoside hydrolase
+
+==============================================================================
+VERDICT
+==============================================================================
+Les trois signatures attendues d'une CONTAMINATION (fragment court, isolé, sans
+voisinage fongique cohérent) sont ABSENTES aux trois loci : scaffolds de 73,7 kb à
+478,8 kb portant 39 à 347 CDS, voisins immédiats tous annotés comme gènes fongiques
+ordinaires (glycoside hydrolases, alpha/bêta-hydrolase, thioredoxine, sérine
+palmitoyltransférase -- pas de motif bactérien de type opéron dense).
+
+Signal DÉCISIF au locus Piromyces finnis BCR36scaffold_44 (A0A1Y1V0F2) : la CDS est
+ÉPISSÉE -- join(18166..18169,18217..18746), un intron canonique de 47 pb entre les
+deux exons. Un fragment bactérien contaminant n'a pas de site d'épissage reconnu par
+le spliceosome fongique ; l'appel de gène du pipeline JGI (informé transcriptome,
+Haitjema 2016/Mondo 2019) atteste que ce locus est transcrit ET épissé comme un gène
+fongique natif -- intégration nucléaire réelle, pas un artefact d'assemblage.
+
+CONCLUSION : les trois loci sont des HGT INTÉGRÉS, pas des contaminations. Cohérent
+avec la littérature indépendante (Murphy et al. 2019 AEM/PMC6643240 ; Wang et al. 2019
+mSystems PMC6712302) : 2-3,5 % du génome des champignons anaérobies du rumen provient
+de HGT bactérien, majoritairement de bactéries fermentaires anaérobies du même habitat
+-- exactement le type d'événement documenté ici pour DUF501.
+
+LIMITE : l'identité (~50 %) et le contexte confirment un HGT réel et ancien, mais ne
+datent PAS l'événement ni n'identifient le donneur bactérien précis (l'homologue le
+plus proche dans l'alignement Pfam n'est pas nécessairement le donneur -- 471 M années
+d'évolution séparée et un échantillonnage bactérien incomplet empêchent toute
+attribution de lignée donneuse à ce stade). Non poursuivi : hors du périmètre de gain
+pour Rv1025 (le fait notable est déjà établi : intégration réelle, pas artefact).

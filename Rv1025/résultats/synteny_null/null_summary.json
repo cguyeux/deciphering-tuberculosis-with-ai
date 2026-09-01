@@ -1,0 +1,33 @@
+{
+  "operon": {
+    "genes": [
+      "Rv1023",
+      "Rv1024",
+      "Rv1025",
+      "Rv1026"
+    ],
+    "n_present": 11,
+    "n_syntenic": 11,
+    "syntenic_fraction": 1.0
+  },
+  "n_random_blocks_evaluable": 43,
+  "null_mean_syntenic_fraction": 0.474,
+  "null_median": 0.545,
+  "operon_syntenic_fraction": 1.0,
+  "n_random_ge_operon": 8,
+  "empirical_p": 0.2045,
+  "operon_percentile": 81.4,
+  "distant_genomes": [
+    "Blongum_NCC2705",
+    "Cacnes_KPA171202",
+    "Cdiphtheriae_NCTC13129",
+    "Cglutamicum_ATCC13032",
+    "Gbronchialis_DSM43247",
+    "Mabscessus_ATCC19977",
+    "Mluteus_NCTC2665",
+    "Nfarcinica_IFM10152",
+    "Rjostii_RHA1",
+    "Scoelicolor_A3-2",
+    "Tpaurometabola_DSM20162"
+  ]
+}

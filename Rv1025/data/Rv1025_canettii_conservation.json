@@ -1,0 +1,10 @@
+{
+  "n_substitutions": 1,
+  "n_syn": 1,
+  "n_nonsyn": 0,
+  "n_disruptive": 0,
+  "dN_dS": 0.0,
+  "power": "low",
+  "interpretation": "low power (1 canettii-consensus substitution(s)); present in M. canettii but dN/dS not reliable",
+  "source": "M. canettii (immediate outgroup, 153 genomes) vs H37Rv, Nei-Gojobori dN/dS over the >=50% canettii-consensus substitutions (annotation_mtbc P10)"
+}

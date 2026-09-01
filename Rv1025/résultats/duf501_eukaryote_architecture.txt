@@ -1,0 +1,95 @@
+102 membres eucaryotes quasi complets à caractériser
+UniProt lu depuis le cache (102 entrées)
+102/102 entrées résolues dans UniProt
+
+==============================================================================
+A. QUI SONT-ILS ? (clade, et genres représentés)
+==============================================================================
+  Stramenopiles      n=63   triade perdue 3   identité médiane  30.1 %
+      genres : Phytophthora(15), Seminavis(4), Skeletonema(4), Aphanomyces(3), Chaetoceros(3), Pelagomonas(3)
+  Discoba            n=14   triade perdue 0   identité médiane  26.9 %
+      genres : Trypanosoma(8), Leishmania(2), Bodo(1), Leptomonas(1), Angomonas(1), Strigomonas(1)
+  Apicomplexa        n=6    triade perdue 6   identité médiane  31.0 %
+      genres : Babesia(1), Cyclospora(1), Neospora(1), Besnoitia(1), Eimeria(1), Cystoisospora(1)
+  Viridiplantae      n=6    triade perdue 0   identité médiane  28.8 %
+      genres : Micromonas(3), Ostreococcus(3)
+  Haptista           n=4    triade perdue 0   identité médiane  27.3 %
+      genres : Diacronema(2), Emiliania(2)
+  autre eucaryote    n=4    triade perdue 0   identité médiane  28.5 %
+      genres : Symbiodinium(1), Vitrella(1), Cladocopium(1), Polarella(1)
+  Fungi              n=3    triade perdue 0   identité médiane  50.0 %
+      genres : Piromyces(2), Anaeromyces(1)
+  Heterolobosea      n=2    triade perdue 2   identité médiane  19.5 %
+      genres : Naegleria(2)
+
+==============================================================================
+B. ARTEFACT 1 — CONTAMINATION D'ASSEMBLAGE ?
+==============================================================================
+identité à Rv1025 : médiane 29.6 %, IQR 27.0-31.6
+membres ANORMALEMENT proches (> 45 %) : 3
+    A0A1Y1WPY2    50.8 %   194 aa  ext. N-term   56  Anaeromyces robustus
+    A0A1Y1V0F2    50.0 %   177 aa  ext. N-term   40  Piromyces finnis
+    A0A1Y1V0X5    50.0 %   194 aa  ext. N-term   57  Piromyces finnis
+Lecture : identité proche du niveau bactérien (~63 %) + protéine de taille bactérienne
++ extension N-terminale nulle = signature de CONTAMINATION, pas d'homologie ancienne.
+
+==============================================================================
+C. ARTEFACT 2 — ARCHITECTURES HÉTÉROCLITES ? (le null de la piste)
+==============================================================================
+architectures Pfam observées :
+  PF04417                                  101
+  PF00849;PF04417                          1
+-> DUF501 SEUL (aucun autre domaine Pfam) : 101/102 = 99%
+Lecture : une architecture DOMINANTE et partagée entre clades indépendants réfute
+l'hypothèse « domaines dérivés hétéroclites ».
+
+==============================================================================
+D. EXTENSIONS N-TERMINALES : SIGNATURE D'UN ADRESSAGE ?
+==============================================================================
+clade                 n  longueur totale   extension N-term
+  Stramenopiles      63           242 aa              62 aa
+  Discoba            14           289 aa              28 aa
+  Apicomplexa         6           584 aa             374 aa
+  Viridiplantae       6           260 aa              74 aa
+  Haptista            4           426 aa              80 aa
+  autre eucaryote     4           292 aa             108 aa
+  Fungi               3           194 aa              56 aa
+  Heterolobosea       2           336 aa              94 aa
+Repère : Rv1025 fait 155 aa avec une extension N-terminale de 15 résidus.
+Une extension de plusieurs dizaines à centaines de résidus, SYSTÉMATIQUE dans un clade,
+est compatible avec un adressage bipartite (peptide signal + transit) vers un organite.
+
+==============================================================================
+E. TEST FALSIFIANT — CRYPTOSPORIDIUM (apicomplexe SANS apicoplaste)
+==============================================================================
+genres d'apicomplexes présents dans l'ALIGNEMENT : {'Babesia': 1, 'Cyclospora': 1, 'Neospora': 1, 'Besnoitia': 1, 'Eimeria': 1, 'Cystoisospora': 1}
+
+Une absence dans l'alignement n'est PAS une absence dans le génome : Pfam full est un
+échantillon, pas un recensement. Le test se fait donc par interrogation DIRECTE d'UniProt,
+genre par genre, sur le domaine (PF04417) ET sur la famille InterPro (IPR007511, plus
+sensible car elle intègre d'autres signatures).
+genre               plastide   PF04417   IPR007511
+  Plasmodium             oui         7           7
+  Babesia                oui        10          10
+  Theileria              oui         4           4
+  Eimeria                oui         3           0
+  Toxoplasma             oui         0           0
+  Cryptosporidium        non         0           0
+  Trypanosoma            non         9           9
+  Leishmania             non        14          14
+  Naegleria              non         3           3
+
+VERDICT de l'hypothèse plastidiale — elle exige : présent SI plastide, absent SINON.
+  contre-exemples SANS plastide mais AVEC le gène : ['Trypanosoma', 'Leishmania', 'Naegleria']
+  contre-exemples AVEC plastide mais SANS le gène : ['Toxoplasma']
+  -> HYPOTHÈSE RÉFUTÉE : des contre-exemples existent dans les deux sens. Les
+     kinétoplastidés (Trypanosoma, Leishmania), qui n'ont jamais eu de plastide,
+     portent des membres à triade INTACTE ; l'absence chez Cryptosporidium relève
+     plus simplement de la réduction génomique extrême de ce genre.
+
+==============================================================================
+F. LES MEMBRES À SITE DÉGRADÉ SE DISTINGUENT-ILS DES AUTRES ?
+==============================================================================
+  site dégradé   n=11   longueur médiane   472 aa   extension N-term médiane   207 aa   identité 29.9 %
+  site complet   n=91   longueur médiane   271 aa   extension N-term médiane    57 aa   identité 29.6 %
+  clades des dégradés : {'Apicomplexa': 6, 'Stramenopiles': 3, 'Heterolobosea': 2}

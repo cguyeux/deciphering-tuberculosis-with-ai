@@ -1,0 +1,7 @@
+accession	organisme	n_occurrences_sto	n_matches_interpro	interpro_coords	gap_interpro_aa	motifs_sto	tandem_confirme_2_sources	complementaire_E_puis_CH
+A0A9W5T8J3	Babesia ovis	2	2	446-486;562-617	76	E--;-CH	True	True
+A0A1D3CV76	Cyclospora cayetanensis	1	1	486-564		E--	False	False
+F0VAI8	Neospora caninum	2	2	212-352;397-455	45	E--;-CH	True	True
+A0A2A9M7T6	Besnoitia besnoiti	2	2	295-414;486-522	72	E--;-CH	True	True
+U6GA88	Eimeria acervulina	1	1	283-347		E--	False	False
+A0A2C6L2K9	Cystoisospora suis	1	1	575-641		E--	False	False

@@ -1,0 +1,77 @@
+100.0000	5	0	no rank	1	root
+100.0000	5	0	no rank	131567	  cellular organisms
+60.0000	3	0	superkingdom	2759	    Eukaryota
+40.0000	2	0	clade	33154	      Opisthokonta
+40.0000	2	0	kingdom	33208	        Metazoa
+40.0000	2	0	clade	6072	          Eumetazoa
+40.0000	2	0	clade	33213	            Bilateria
+20.0000	1	0	clade	33511	              Deuterostomia
+20.0000	1	0	phylum	7711	                Chordata
+20.0000	1	0	subphylum	89593	                  Craniata
+20.0000	1	0	clade	7742	                    Vertebrata
+20.0000	1	0	clade	7776	                      Gnathostomata
+20.0000	1	0	clade	117570	                        Teleostomi
+20.0000	1	0	clade	117571	                          Euteleostomi
+20.0000	1	0	superclass	8287	                            Sarcopterygii
+20.0000	1	0	clade	1338369	                              Dipnotetrapodomorpha
+20.0000	1	0	clade	32523	                                Tetrapoda
+20.0000	1	0	clade	32524	                                  Amniota
+20.0000	1	0	class	40674	                                    Mammalia
+20.0000	1	0	clade	32525	                                      Theria
+20.0000	1	0	clade	9347	                                        Eutheria
+20.0000	1	0	clade	1437010	                                          Boreoeutheria
+20.0000	1	0	superorder	314146	                                            Euarchontoglires
+20.0000	1	0	order	9443	                                              Primates
+20.0000	1	0	suborder	376913	                                                Haplorrhini
+20.0000	1	0	infraorder	314293	                                                  Simiiformes
+20.0000	1	0	parvorder	9526	                                                    Catarrhini
+20.0000	1	0	superfamily	314295	                                                      Hominoidea
+20.0000	1	0	family	9604	                                                        Hominidae
+20.0000	1	0	subfamily	207598	                                                          Homininae
+20.0000	1	0	genus	9605	                                                            Homo
+20.0000	1	1	species	9606	                                                              Homo sapiens
+20.0000	1	0	clade	33317	              Protostomia
+20.0000	1	0	clade	1206794	                Ecdysozoa
+20.0000	1	0	clade	88770	                  Panarthropoda
+20.0000	1	0	phylum	6656	                    Arthropoda
+20.0000	1	0	clade	197563	                      Mandibulata
+20.0000	1	0	clade	197562	                        Pancrustacea
+20.0000	1	0	subphylum	6960	                          Hexapoda
+20.0000	1	0	class	50557	                            Insecta
+20.0000	1	0	clade	85512	                              Dicondylia
+20.0000	1	0	subclass	7496	                                Pterygota
+20.0000	1	0	infraclass	33340	                                  Neoptera
+20.0000	1	0	cohort	33392	                                    Endopterygota
+20.0000	1	0	order	7147	                                      Diptera
+20.0000	1	0	suborder	7203	                                        Brachycera
+20.0000	1	0	infraorder	43733	                                          Muscomorpha
+20.0000	1	0	clade	480118	                                            Eremoneura
+20.0000	1	0	clade	480117	                                              Cyclorrhapha
+20.0000	1	0	no rank	43738	                                                Schizophora
+20.0000	1	0	no rank	43741	                                                  Acalyptratae
+20.0000	1	0	superfamily	43746	                                                    Ephydroidea
+20.0000	1	0	family	7214	                                                      Drosophilidae
+20.0000	1	0	subfamily	43845	                                                        Drosophilinae
+20.0000	1	0	tribe	46877	                                                          Drosophilini
+20.0000	1	0	genus	7215	                                                            Drosophila
+20.0000	1	0	subgenus	32341	                                                              Sophophora
+20.0000	1	0	species group	32346	                                                                melanogaster group
+20.0000	1	0	species subgroup	32351	                                                                  melanogaster subgroup
+20.0000	1	1	species	7227	                                                                    Drosophila melanogaster
+20.0000	1	0	clade	2611352	      Discoba
+20.0000	1	0	phylum	33682	        Euglenozoa
+20.0000	1	0	class	5653	          Kinetoplastea
+20.0000	1	0	subclass	2704647	            Metakinetoplastina
+20.0000	1	0	order	2704949	              Trypanosomatida
+20.0000	1	0	family	5654	                Trypanosomatidae
+20.0000	1	0	genus	5690	                  Trypanosoma
+20.0000	1	0	subgenus	47570	                    Schizotrypanum
+20.0000	1	1	species	5693	                      Trypanosoma cruzi
+40.0000	2	0	superkingdom	2	    Bacteria
+40.0000	2	0	clade	1783272	      Terrabacteria group
+40.0000	2	0	phylum	201174	        Actinomycetota
+40.0000	2	0	class	1760	          Actinomycetes
+40.0000	2	0	order	85009	            Propionibacteriales
+40.0000	2	0	family	31957	              Propionibacteriaceae
+40.0000	2	0	genus	53456	                Propioniferax
+40.0000	2	2	species	1753	                  Propioniferax innocua

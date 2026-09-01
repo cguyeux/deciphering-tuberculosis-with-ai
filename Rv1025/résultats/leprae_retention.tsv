@@ -1,0 +1,8 @@
+set	n	retained	rate_pct	note
+background_essential	45	39	86.7	H37Rv random sample
+background_non-essential	353	161	45.6	H37Rv random sample
+background_unknown	2	0	0.0	H37Rv random sample
+Rv1023	1	1	100	essential=True; pident=89
+Rv1024	1	1	85	essential=True; pident=71
+Rv1025	1	1	99	essential=True; pident=85
+Rv1026	1	1	99	essential=False; pident=77

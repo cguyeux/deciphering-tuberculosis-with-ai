@@ -1,0 +1,18 @@
+Accessibilité de la sphère de coordination — eaux et ligands EXCLUS partout
+sonde à 2.1 A du métal, 4000 directions ; « ouvert » = aucun atome de la
+protéine à moins de 2,4 / 2,6 / 2,8 A de la sonde (trois seuils = test de robustesse)
+« débouché solvant » = direction ouverte le long de laquelle on atteint 10 A
+sans jamais passer à moins de 1.9 A d'un atome.
+
+Rv1025 : 1167 atomes polymère, 1 métal(aux)
+  Rv1025 (holo Fe)       FE  donneurs 3  ouvert 19.8%/14.7%/10.3%  débouché solvant 14.3%   <- LE CANDIDAT
+  1CA2 anhydrase carbonique II ZN  donneurs 3  ouvert 12.2%/ 7.4%/ 3.7%  débouché solvant  0.5%   catalytique (sulfonamides)
+  8TLN thermolysine      ZN  donneurs 4  ouvert 13.9%/ 9.5%/ 5.5%  débouché solvant  4.9%   catalytique (hydroxamates)
+  4MDT LpxC              ZN  donneurs 4  ouvert 10.1%/ 5.9%/ 2.9%  débouché solvant  2.0%   catalytique (hydroxamates)
+  1ZNF doigt de zinc     ZN  donneurs 4  ouvert  0.0%/ 0.0%/ 0.0%  débouché solvant  0.0%   STRUCTURAL (contrôle négatif)
+
+LECTURE : un métal CATALYTIQUE garde des positions de coordination libres ET débouchant
+sur le solvant, puisqu'il doit lier son substrat. Un métal STRUCTURAL est saturé et
+enfoui. Si Rv1025 se range avec les catalytiques, son site est chimiquement attaquable
+par un ligand coordinant — ce qui est l'argument de druggabilité, SANS prétendre prédire
+une affinité. Si Rv1025 ressemble au doigt de zinc, l'argument tombe.

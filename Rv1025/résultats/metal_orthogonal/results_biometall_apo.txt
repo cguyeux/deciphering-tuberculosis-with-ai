@@ -1,0 +1,8 @@
+*****BioMetAll v1.0
+*****biometall apo.pdb --min_coordinators 3 --pdb --cores 4
+ # |    Coordinating residues     | Coordinates of center | Num. probes | Radius search | Proposed mutations 
+---+------------------------------+-----------------------+-------------+---------------+--------------------
+ 1 | CYS:20:A GLU:24:A HIS:48:A   |  -7.489 8.083 2.574   |          13 | 4.133         |                    
+ 2 | CYS:113:A HIS:115:A GLU:59:A |   5.544 0.063 9.591   |           8 | 2.242         |                    
+ 3 | GLU:86:A GLU:91:A ASP:93:A   | 6.547 -6.955 -10.459  |           1 | 0.000         |                    
+*****Calculation took 9.64 seconds

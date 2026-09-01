@@ -1,0 +1,38 @@
+Meff (80 % id) = 2260 sur 8700 brutes ; Meff/L = 14.6
+VALIDATION top-L/2 (77 paires) : précision 58.4% de vrais contacts (Cbeta < 8.0 A) ; top-L : 49.0% ; fond = 2.8%
+  facteur d'enrichissement top-L/2 = 20.6x
+Parmi les 155 paires les mieux couplées : 16 ont une distance Cbeta > 15.0 A dans le modèle monomère (candidats interface/allostérie)
+
+PAIRES DE LA TRIADE (rang parmi les paires classées, |i-j| >= 5 sauf mention) :
+  E59-C113 : APC +0.434 rang 1080/11935  d(Cbeta) = 7.3 A
+  E59-H115 : APC +0.218 rang 1986/11935  d(Cbeta) = 7.8 A
+  C113-H115 : APC +3.510 rang 16/11935  d(Cbeta) = 5.3 A  [local, hors filtre |i-j|>=5]
+
+PARTENAIRES CO-ÉVOLUANTS des ligands métal (top 8 chacun, |i-j| >= 5) :
+  E59 :
+      P41   APC +1.170  rang   340  d =  16.0 A   <- non expliqué par le monomère
+      M64   APC +1.130  rang   360  d =   6.1 A
+      Y45   APC +1.060  rang   390  d =  16.0 A   <- non expliqué par le monomère
+      L46   APC +0.554  rang   836  d =  11.9 A
+      T42   APC +0.464  rang  1003  d =  15.3 A   <- non expliqué par le monomère
+      L71   APC +0.436  rang  1074  d =  15.7 A   <- non expliqué par le monomère
+      C113  APC +0.434  rang  1080  d =   7.3 A
+      H48   APC +0.420  rang  1114  d =  16.1 A   <- non expliqué par le monomère
+  C113 :
+      L122  APC +1.079  rang   383  d =  14.3 A
+      A119  APC +1.022  rang   415  d =   9.4 A
+      G106  APC +0.690  rang   653  d =   6.9 A
+      G105  APC +0.679  rang   664  d =   4.3 A
+      M107  APC +0.471  rang   985  d =   9.8 A
+      E59   APC +0.434  rang  1080  d =   7.3 A
+      R8    APC +0.434  rang  1081  d =  19.6 A   <- non expliqué par le monomère
+      A104  APC +0.369  rang  1258  d =   7.6 A
+  H115 :
+      L122  APC +1.461  rang   224  d =  10.6 A
+      G106  APC +0.677  rang   666  d =  11.6 A
+      G105  APC +0.608  rang   755  d =   8.0 A
+      A123  APC +0.562  rang   815  d =  12.3 A
+      H120  APC +0.401  rang  1163  d =   9.6 A
+      P25   APC +0.357  rang  1305  d =  14.8 A
+      S121  APC +0.331  rang  1397  d =  11.2 A
+      A104  APC +0.311  rang  1476  d =   9.5 A

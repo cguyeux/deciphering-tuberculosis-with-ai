@@ -1,0 +1,6 @@
+structure	metal	donneurs_proteine	ouvert_2.4A	ouvert_2.6A	ouvert_2.8A	debouche_solvant	type
+Rv1025 (holo Fe)	FE	3	0.198	0.147	0.103	0.143	candidat
+1CA2 anhydrase carbonique II	ZN	3	0.122	0.074	0.037	0.005	catalytique (sulfonamides)
+8TLN thermolysine	ZN	4	0.139	0.095	0.054	0.049	catalytique (hydroxamates)
+4MDT LpxC	ZN	4	0.101	0.059	0.029	0.020	catalytique (hydroxamates)
+1ZNF doigt de zinc	ZN	4	0.000	0.000	0.000	0.000	STRUCTURAL (contrôle négatif)

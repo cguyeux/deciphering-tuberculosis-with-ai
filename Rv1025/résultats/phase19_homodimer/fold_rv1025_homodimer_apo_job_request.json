@@ -1,0 +1,19 @@
+[
+ {
+  "name": "Rv1025_homodimer_apo",
+  "modelSeeds": [
+   "1"
+  ],
+  "sequences": [
+   {
+    "proteinChain": {
+     "sequence": "VVTRQLGRAPRGVLAIAYRCPNGEPGVVKTAPRLPDGTPFPTLYYLTHPVLTAAASRLETTGLMREMNRRLGQDAELAAAYRRAHESYLSERDALEPLGTTVSAGGMPDRVKCLHVLIAHSLAKGPGLNPFGDEALALLAAEPRTAATLVAGQWR",
+     "count": 2,
+     "useStructureTemplate": true
+    }
+   }
+  ],
+  "dialect": "alphafoldserver",
+  "version": 3
+ }
+]

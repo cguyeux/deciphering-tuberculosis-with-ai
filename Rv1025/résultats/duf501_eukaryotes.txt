@@ -1,0 +1,38 @@
+2228 séquences ; longueur médiane des membres à triade complète : 124
+2150 séquences QUASI COMPLÈTES (>= 90 % de cette médiane)
+Interrogation d'UniProt pour 2204 accessions (45 lots) ...
+Écrit : résultats/duf501_taxonomy.tsv (2204 accessions)
+
+==============================================================================
+A. TRIADE PAR DOMAINE DU VIVANT (séquences quasi complètes seulement)
+==============================================================================
+domaine           n    triade complète
+  Bacteria     1472       1472/1472 = 100.0%
+  supprimé d'UniProt    526        526/526 = 100.0%
+  Eukaryota     102         91/102 =  89.2%
+  non retourné par UniProt     50         50/50 = 100.0%
+Fisher bactéries vs eucaryotes : OR = inf, p = 5.01e-14
+  -> le confondant de complétude est ÉCARTÉ : le test ne porte que sur des
+     séquences de longueur comparable.
+
+==============================================================================
+B. QUE RESTE-T-IL DU SITE CHEZ LES EUCARYOTES ?
+==============================================================================
+motifs observés (E59/C113/H115) sur 102 eucaryotes quasi complets :
+  ECH : 91
+  E-- : 10
+  -CH : 1
+motifs chez les 1472 bactéries quasi complètes :
+  ECH : 1472
+
+==============================================================================
+C. HOMOLOGIE RÉELLE OU HIT HMM MARGINAL ?
+==============================================================================
+identité à Rv1025 : eucaryotes 29.9 % (médiane 29.6, min 18.4, max 50.8)
+                    bactéries  62.7 % (médiane 64.5)
+Mann-Whitney (eucaryotes MOINS identiques) : p = 2.7e-59
+Seuil de prudence : sous ~20 % d'identité sur un domaine court, un hit HMM n'est pas
+une homologie assurée, et une « perte de site » n'y est pas interprétable.
+  eucaryotes sous 20 % d'identité : 1%
+
+Détail des 102 membres eucaryotes : table_S10_duf501_eukaryotes.tsv

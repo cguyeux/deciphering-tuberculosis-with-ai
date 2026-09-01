@@ -1,0 +1,6 @@
+job	source	iptm	ptm	ranking	pae_cross_min	iface_contacts
+fold_divic_ftsq_posctrl	af3	0.38	0.44	0.69	5.1	70
+fold_rv1025_divic_test	af3	0.25	0.44	0.55	14.73	30
+fold_rv1025_eno_ctrl	af3	0.19	0.74	0.3	19.46	60
+fold_rv1025_ftsq	af3	0.19	0.46	0.36	15.17	80
+fold_rv1025_ppx2_ctrl	af3	0.17	0.67	0.27	21.21	63

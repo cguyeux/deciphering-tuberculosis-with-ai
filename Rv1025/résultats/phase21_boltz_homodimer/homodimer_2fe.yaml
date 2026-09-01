@@ -1,0 +1,12 @@
+version: 1
+sequences:
+  - protein:
+      id: [A, B]
+      sequence: VVTRQLGRAPRGVLAIAYRCPNGEPGVVKTAPRLPDGTPFPTLYYLTHPVLTAAASRLETTGLMREMNRRLGQDAELAAAYRRAHESYLSERDALEPLGTTVSAGGMPDRVKCLHVLIAHSLAKGPGLNPFGDEALALLAAEPRTAATLVAGQWR
+      msa: /home/christophe/docs/codes/mtbc/Rv1025/résultats/af3_out/fold_rv1025_divic_test/msas/fold_rv1025_divic_test_unpaired_msa_chains_a.a3m
+  - ligand:
+      id: C
+      ccd: FE
+  - ligand:
+      id: D
+      ccd: FE

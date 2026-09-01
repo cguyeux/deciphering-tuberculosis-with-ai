@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Rv1025_holo_Zn",
+    "modelSeeds": [
+      1
+    ],
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "VVTRQLGRAPRGVLAIAYRCPNGEPGVVKTAPRLPDGTPFPTLYYLTHPVLTAAASRLETTGLMREMNRRLGQDAELAAAYRRAHESYLSERDALEPLGTTVSAGGMPDRVKCLHVLIAHSLAKGPGLNPFGDEALALLAAEPRTAATLVAGQWR",
+          "count": 1
+        }
+      },
+      {
+        "ion": {
+          "ion": "ZN",
+          "count": 1
+        }
+      }
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  },
+  {
+    "name": "Rv1025_holo_Fe",
+    "modelSeeds": [
+      1
+    ],
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "VVTRQLGRAPRGVLAIAYRCPNGEPGVVKTAPRLPDGTPFPTLYYLTHPVLTAAASRLETTGLMREMNRRLGQDAELAAAYRRAHESYLSERDALEPLGTTVSAGGMPDRVKCLHVLIAHSLAKGPGLNPFGDEALALLAAEPRTAATLVAGQWR",
+          "count": 1
+        }
+      },
+      {
+        "ion": {
+          "ion": "FE",
+          "count": 1
+        }
+      }
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  },
+  {
+    "name": "Rv1025_holo_Mn",
+    "modelSeeds": [
+      1
+    ],
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "VVTRQLGRAPRGVLAIAYRCPNGEPGVVKTAPRLPDGTPFPTLYYLTHPVLTAAASRLETTGLMREMNRRLGQDAELAAAYRRAHESYLSERDALEPLGTTVSAGGMPDRVKCLHVLIAHSLAKGPGLNPFGDEALALLAAEPRTAATLVAGQWR",
+          "count": 1
+        }
+      },
+      {
+        "ion": {
+          "ion": "MN",
+          "count": 1
+        }
+      }
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  }
+]

@@ -1,0 +1,3 @@
+=== homodimer_2fe ===
+Running on CPU, this will be slow. Consider using a GPU.
+Downloading the CCD data to /home/christophe/.boltz/mols.tar. This may take a bit of time. You may change the cache directory with the --cache flag.

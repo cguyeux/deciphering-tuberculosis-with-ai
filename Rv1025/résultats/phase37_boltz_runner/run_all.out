@@ -1,0 +1,17 @@
+  PRE-VOL ECHEC : RAM disponible 11286 Mio < 1,2x besoin estime 13119 Mio (542 tokens)
+  PRE-VOL ECHEC : RAM disponible 11282 Mio < 1,2x besoin estime 12892 Mio (534 tokens)
+  pre-vol OK : 11267 Mio dispo, besoin estime 9038 Mio (373 tokens)
+=== rv1025_sepF_Rv2147c 22:50:01 ===
+  rv1025_sepF_Rv2147c BLOQUE : boltz.log immobile depuis 1800s, process 1328850 toujours vivant -> SIGKILL
+  rv1025_sepF_Rv2147c ECHEC (stall)
+  pre-vol OK : 15440 Mio dispo, besoin estime 11246 Mio (472 tokens)
+=== apicomplex_neospora_F0VAI8 23:26:32 ===
+  apicomplex_neospora_F0VAI8 BLOQUE : boltz.log immobile depuis 1800s, process 1359914 toujours vivant -> SIGKILL
+  apicomplex_neospora_F0VAI8 ECHEC (stall)
+  PRE-VOL ECHEC : RAM disponible 15075 Mio < 1,2x besoin estime 17533 Mio (679 tokens)
+  PRE-VOL ECHEC : RAM disponible 15074 Mio < 1,2x besoin estime 23722 Mio (834 tokens)
+  PRE-VOL ECHEC : RAM disponible 15073 Mio < 1,2x besoin estime 31023 Mio (986 tokens)
+  cycle 1/150 : 5 job(s) restant(s), attente 300s (09:56:52)
+  PRE-VOL ECHEC : RAM disponible 15476 Mio < 1,2x besoin estime 13119 Mio (542 tokens)
+  pre-vol OK : 15476 Mio dispo, besoin estime 12892 Mio (534 tokens)
+=== rv1025_ftsZ_Rv2150c 10:03:39 ===

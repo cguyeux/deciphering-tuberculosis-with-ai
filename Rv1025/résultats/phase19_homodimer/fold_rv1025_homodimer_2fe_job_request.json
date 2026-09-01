@@ -1,0 +1,25 @@
+[
+ {
+  "name": "Rv1025_homodimer_2Fe",
+  "modelSeeds": [
+   "1"
+  ],
+  "sequences": [
+   {
+    "proteinChain": {
+     "sequence": "VVTRQLGRAPRGVLAIAYRCPNGEPGVVKTAPRLPDGTPFPTLYYLTHPVLTAAASRLETTGLMREMNRRLGQDAELAAAYRRAHESYLSERDALEPLGTTVSAGGMPDRVKCLHVLIAHSLAKGPGLNPFGDEALALLAAEPRTAATLVAGQWR",
+     "count": 2,
+     "useStructureTemplate": true
+    }
+   },
+   {
+    "ion": {
+     "ion": "FE",
+     "count": 2
+    }
+   }
+  ],
+  "dialect": "alphafoldserver",
+  "version": 3
+ }
+]

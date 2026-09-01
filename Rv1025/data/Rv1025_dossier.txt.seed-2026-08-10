@@ -1,0 +1,34 @@
+================ Rv1025 ================
+len=155aa | verdict=dark/low | product=hypothetical protein
+function_revised: Conserved hypothetical protein; DUF domain(s) DUF501 (PF04417). Function unknown. No structural homologue (Foldseek vs pdb100 + afdb-swissprot + cath50) and no profile homologue (HHpred): the fold is 
+
+[VRAI GÈNE ?] conservation: selection=quasi-invariant (5 sites), pN/pS sous-puissant pN/pS=0.581 snp_sites=5 syn/mis/non/fs=2/3/0/0 pseudo=None (n=145209)
+  essentiality: ES essential=True | proteomics MS: detected=True n_datasets=10
+  CRISPRi vulnerability VI=-5.717 (95%CI -6.214..-5.202)  [plus négatif=plus vulnérable]
+
+[LOCALISATION] GLOB TM=0 SP=False lipo=False (predicted cytoplasmic / globular)
+
+[PFAM au seuil de gathering (--cut_ga) — c'est LA couche de référence]
+    DUF501 (PF04417.18) 17-136 i-E=1.3e-36 :: Protein of unknown function (DUF501)
+
+[STRUCTURE] pLDDT(ESM)=86.8 pLDDT(AF)=95.3 PDB=None Foldseek_AFDB_hits=1
+    AFDB: 3a5a-assembly1_A Crystal structure of a hemoglobin comp tm=0.2084 sig=False
+    (sig=False = NON significatif au seuil de l'atlas, E<1e-3. Un TM~0,6 sur un petit repli est ordinaire.)
+[HHpred] no_hit=True note=No confident hit beyond DUF501 itself: everything past the two self-hits sits below 56 % probability with E-values >= 18 top=['COG1507 DUF501 family, function unknown (100 %, E=7.9e-53) -- self-hit', 'PF04417.18 DUF501 (100 %, E=1.7e-44) -- self-hit', 'PF21441.5 DUF3860-like (55.6 %, E=18)', 'PF27625.1 DUF8358 (52.2 %, E=83)', '3EPH_B tRNA isopentenyltransferase MiaA-like (44.4 %, E=64)']
+
+[OPÉRON] size=4 strand=+
+    Rv1023(eno, requalified): eno
+    Rv1024(divIC, family_assigned): divIC
+    Rv1025 <-- CE GÈNE
+    Rv1026(ppx2, requalified): ppx2
+
+[RÉGULON] régulé par: Rv1353c(activates)
+
+[STRING] 22 partenaires ; ancre contexte=
+    eno(Rv1023) no_tm=877 [neighborhood:861] :: enolase
+    lpqU(Rv1022) no_tm=763 [neighborhood:762] :: lipoprotein LpqU
+    mazG(Rv1021) no_tm=687 [neighborhood:682] :: nucleoside triphosphate pyrophosphohydro
+    whiB1(Rv3219) no_tm=656 [cooccurence:656] :: transcriptional regulator WhiB1
+    whiB2(Rv3260c) no_tm=622 [cooccurence:620] :: transcriptional regulator WhiB2
+[MYCOBROWSER legacy] {"legacy_product": "Conserved protein", "legacy_function": "Function unknown", "legacy_ec": [], "conserved_hypothetical": true, "atlas_ahead": false, 
+

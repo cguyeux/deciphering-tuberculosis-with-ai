@@ -1,0 +1,43 @@
+DCA : L = 155, Meff = 2260, colonnes écartées (gaps > 50 %) : 17
+
+==============================================================================
+A. LE SIGNAL EST-IL AUTRE CHOSE QUE LE REPLI ? (modèle nul du challenge)
+==============================================================================
+Taux de base sur 8911 paires éligibles : 72.2% éloignées (> 15 A), 2.8% en contact (< 8 A)
+  top-77   : contacts  58.4% (fond 2.8%, x20.6)   éloignées   4/77 =  5.2% contre 56 attendues  p = 8.9e-36
+  top-155  : contacts  49.0% (fond 2.8%, x17.3)   éloignées  16/155 = 10.3% contre 112 attendues  p = 6.0e-59
+  top-310  : contacts  32.9% (fond 2.8%, x11.6)   éloignées  60/310 = 19.4% contre 224 attendues  p = 2.2e-83
+VERDICT : le déficit de paires éloignées est massif — le classement est dominé par les
+contacts du repli. La co-évolution ne fournit donc PAS, en bloc, une information
+fonctionnelle nouvelle : c'est le contre-argument du challenge, confirmé.
+
+==============================================================================
+B. LE RÉSIDU NON EXPLIQUÉ PAR LE MONOMÈRE EST-IL UNE INTERFACE ? (P8.2.a)
+==============================================================================
+16 paires éloignées dans le top-155, impliquant 25 résidus distincts
+  RSA moyenne de ces résidus : 0.24  (fond protéine 0.27)
+  test « plus exposés que le reste » (Mann-Whitney) : p = 0.838
+  résidus réellement exposés (RSA > 0,25) : 11/25
+  regroupement spatial (10 A) : 2 amas, tailles [18, 7]
+    plus gros amas : [5, 8, 11, 14, 20, 22, 25, 27, 30, 32, 40, 41, 42, 45, 48, 84, 121, 124]
+  (détail dans résultats/dca_far_pairs.tsv)
+
+==============================================================================
+C. PIÈGE DE PUISSANCE : L'INVARIANCE REND LE DCA AVEUGLE
+==============================================================================
+couplage MAXIMAL par position : décile le plus conservé 1.23 contre 1.70 pour le reste
+  test « les positions très conservées couplent MOINS » : p = 0.1015
+La triade elle-même :
+  E59 : conservation 99.1 %, couplage max 1.17 (percentile 39)
+  C113 : conservation 99.0 %, couplage max 1.08 (percentile 34)
+  H115 : conservation 99.0 %, couplage max 1.46 (percentile 53)
+LECTURE : un site fonctionnel quasi invariant est un ANGLE MORT du DCA. Le rang modeste
+des paires impliquant Glu59 ne réfute donc rien — il était attendu.
+
+==============================================================================
+D. POCHE 1 ET POCHE 3 : UN SITE ÉTENDU OU DEUX SITES ? (P8.2.b)
+==============================================================================
+Poche 1 : 14 résidus ; Poche 3 : 9 ; partagés : [41, 45]
+80 paires inter-poches éligibles, APC moyen observé = -0.013
+null apparié en distance (10 000 tirages) : moyenne -0.038 (IC95 -0.104-0.035)  p = 0.2324
+VERDICT : aucun couplage inter-poches au-delà de ce que la distance explique -> rien ne permet de fusionner les deux cavités ; elles restent distinctes.

@@ -1,0 +1,27 @@
+================ Rv1025 ================
+len=155aa | verdict=dark/low | product=hypothetical protein
+function_revised: Conserved hypothetical protein; DUF domain(s) DUF501. Function unknown. Foldseek best (non-significant) hit: 4xku-assembly1_A E coli BFR variant Y114F (prob 0.01, TM 0.19).
+
+[VRAI GÈNE ?] conservation: selection=relaxed/neutral pN/pS=0.581 snp_sites=5 syn/mis/non/fs=2/3/0/0 pseudo=None (n=145209)
+  essentiality: ES essential=True | proteomics MS: detected=True n_datasets=10
+  CRISPRi vulnerability VI=-5.717 (95%CI -6.214..-5.202)  [plus négatif=plus vulnérable]
+
+[LOCALISATION] GLOB TM=0 SP=False lipo=False (predicted cytoplasmic / globular)
+[STRUCTURE] pLDDT(ESM)=86.8 pLDDT(AF)=95.3 PDB=None Foldseek_AFDB_hits=1 pfam_tentative=False
+    AFDB: 3a5a-assembly1_A Crystal structure of a hemoglobin comp tm=0.2084 sig=False
+
+[OPÉRON] size=4 strand=+
+    Rv1023(eno, requalified): eno
+    Rv1024(divIC, family_assigned): divIC
+    Rv1025 <-- CE GÈNE
+    Rv1026(ppx2, requalified): ppx2
+
+[RÉGULON] régulé par: Rv1353c(activates)
+
+[STRING] 22 partenaires ; ancre contexte=
+    eno(Rv1023) no_tm=877 [neighborhood:861] :: enolase
+    lpqU(Rv1022) no_tm=763 [neighborhood:762] :: lipoprotein LpqU
+    mazG(Rv1021) no_tm=687 [neighborhood:682] :: nucleoside triphosphate pyrophosphohydro
+    whiB1(Rv3219) no_tm=656 [cooccurence:656] :: transcriptional regulator WhiB1
+    whiB2(Rv3260c) no_tm=622 [cooccurence:620] :: transcriptional regulator WhiB2
+[MYCOBROWSER legacy] {"legacy_product": "Conserved protein", "legacy_function": "Function unknown", "legacy_ec": [], "conserved_hypothetical": true, "atlas_ahead": false, 

@@ -1,0 +1,41 @@
+=== homodimer_2fe ===
+Running on CPU, this will be slow. Consider using a GPU.
+Extracting the CCD data to /home/christophe/.boltz/mols. This may take a bit of time. You may change the cache directory with the --cache flag.
+Traceback (most recent call last):
+  File "/home/christophe/venvs/boltz/bin/boltz", line 10, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/boltz/main.py", line 1141, in predict
+    download_boltz2(cache)
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/lightning_utilities/core/rank_zero.py", line 42, in wrapped_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/christophe/venvs/boltz/lib/python3.11/site-packages/boltz/main.py", line 224, in download_boltz2
+    tar.extractall(cache)  # noqa: S202
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/christophe/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/tarfile.py", line 2315, in extractall
+    self._extract_one(tarinfo, path, set_attrs=not tarinfo.isdir(),
+  File "/home/christophe/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/tarfile.py", line 2418, in _extract_one
+    self._extract_member(tarinfo, os.path.join(path, tarinfo.name),
+  File "/home/christophe/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/tarfile.py", line 2507, in _extract_member
+    self.makefile(tarinfo, targetpath)
+  File "/home/christophe/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/tarfile.py", line 2564, in makefile
+    copyfileobj(source, target, tarinfo.size, ReadError, bufsize)
+  File "/home/christophe/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/tarfile.py", line 254, in copyfileobj
+    raise exception("unexpected end of data")
+tarfile.ReadError: unexpected end of data

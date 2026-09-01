@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0722
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9473
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6168
+HEADER 5  - Mean B-factor of pocket residues  : 0.7929
+HEADER 6  - Hydrophobicity Score              : 33.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 269.5542
+HEADER 10 - Pocket volume (convex hull)       : 11.5838
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM    400   CA ALA A  53      -1.940   6.906  12.360  0.00  0.00           C 0
+ATOM    399    N ALA A  53      -1.800   7.086  10.918  0.76  1.09           N 0
+ATOM    402   CB ALA A  53      -2.632   8.143  12.942  0.00  0.00           C 0
+ATOM    397  CG2 THR A  52       1.299   7.454   8.764  0.00  0.00           C 0
+ATOM    374    O PRO A  49      -2.827   9.617  10.007  0.00  0.00           O 0
+ATOM    398  OG1 THR A  52      -0.107   7.809   6.900  0.79  2.14           O 0
+ATOM     50  CD2 LEU A   6       3.137  12.297   3.166  0.00  0.00           C 0
+ATOM    349    O LEU A  46       1.419   7.711   3.547  0.60  2.14           O 0
+ATOM    357    O THR A  47      -0.800  11.380   4.323  0.57  1.07           O 0
+ATOM     38    O GLN A   5       1.049  14.814   6.174  0.00  0.00           O 0
+ATOM    343   OH TYR A  45       5.924   8.928   4.169  0.00  0.00           O 0
+ATOM     44   CA LEU A   6       3.339  14.994   4.562  0.00  0.00           C 0
+ATOM     47    O LEU A   6       5.204  15.542   5.942  0.00  0.00           O 0
+ATOM    371   CA PRO A  49      -2.530  11.288   8.319  0.00  0.00           C 0
+ATOM    373   CB PRO A  49      -2.560  12.728   8.839  0.00  0.00           C 0
+ATOM    395   CB THR A  52      -0.142   7.657   8.300  0.00  0.00           C 0
+TER
+END

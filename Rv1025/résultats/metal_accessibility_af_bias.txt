@@ -1,0 +1,16 @@
+CONTRÔLE DE BIAIS — même protéine, cristal contre modèle AlphaFold DB
+(métal importé du cristal après superposition Kabsch sur les CA appariés)
+
+protéine                     origine     ouvert 2,4 A   débouché    RMSD
+    (décalage de numérotation détecté : -1 résidus)
+  anhydrase carbonique II    cristal           12.2%      0.5%       -
+                             AlphaFold          7.4%      0.1%   0.95 A   (141 CA appariés)
+    (décalage de numérotation détecté : +232 résidus)
+  thermolysine               cristal           13.9%      4.9%       -
+                             AlphaFold         16.2%      3.6%   0.34 A   (314 CA appariés)
+
+DISPERSION DE Rv1025 — 5 modèles AF3 par métal
+jeu               ouvert 2,4 A (moy ± et)       débouché solvant
+  FE                   19.8% ± 0.3%             14.5% ± 0.4%   (n=5)
+  ZN                   17.2% ± 0.4%             12.4% ± 0.4%   (n=5)
+  MN                   20.6% ± 0.3%             15.1% ± 0.4%   (n=5)
