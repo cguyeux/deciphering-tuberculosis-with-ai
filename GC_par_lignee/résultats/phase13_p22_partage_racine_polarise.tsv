@@ -1,0 +1,12 @@
+clade	n_racine	n_partages	pct_partages	partenaires
+L1	289	1	0.346	L2.2.1:1,L6.1:1,L9:1,Caprae_La2:1
+L2.2.1	333	49	14.715	L3:45,Caprae_La2:2,L6.1:2,L9:2,L1:1,L7:1
+L3	232	45	19.397	L2.2.1:45
+L4.1.2	76	0	0.000	
+L4.3	100	0	0.000	
+L6.1	559	349	62.433	L9:343,Caprae_La2:173,Orygis_La3:159,Microti:131,L2.2.1:2,L1:1,L7:1
+L7	727	3	0.413	Orygis_La3:2,L6.1:1,L9:1,Caprae_La2:1,L2.2.1:1,Microti:1
+L9	608	387	63.651	L6.1:343,Caprae_La2:210,Orygis_La3:186,Microti:144,L2.2.1:2,L1:1,L7:1
+Orygis_La3	962	233	24.220	Caprae_La2:223,L9:186,L6.1:159,Microti:138,L7:2
+Caprae_La2	795	257	32.327	Orygis_La3:223,L9:210,L6.1:173,Microti:146,L2.2.1:2,L1:1,L7:1
+Microti	439	156	35.535	Caprae_La2:146,L9:144,Orygis_La3:138,L6.1:131,L7:1

@@ -1,0 +1,3 @@
+gene	n	rho_q1	p_q1	puissance	mediane_delta	signes_positifs	W	p	verdict
+mutT3	9	0.2008385781013735	0.6043593545214949	0.9965	0.015466426318161336	5	23.0	0.5	PAS D'EFFET, a resolution suffisante
+dinP	5	0.6324555320336759	0.25221549635550466	0.42225	-0.028571428571428553	2	6.0	0.8125	silence de resolution

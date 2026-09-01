@@ -1,0 +1,276 @@
+locus	nom	debut	fin	brin	produit	categorie	longueur
+Rv0002	dnaN	2051	3260	+	DNA polymerase III subunit beta	3R	1209
+Rv0003	recF	3279	4437	+	DNA replication/repair protein RecF	3R	1158
+Rv0013	trpG	14913	15612	+	anthranilate synthase component II	temoin_neutre	699
+Rv0023		27594	28365	+	transcriptional regulator	temoin_neutre	771
+Rv0035	fadD34	37258	38947	+	fatty-acid--CoA ligase FadD34	temoin_neutre	1689
+Rv0054	ssb	58585	59080	+	single-strand DNA-binding protein	3R	495
+Rv0058	dnaB	60395	63020	+	replicative DNA helicase	3R	2625
+Rv0062	celA1	65551	66694	+	cellulase CelA	temoin_neutre	1143
+Rv0064A	vapB1	71588	71828	+	antitoxin VapB1	temoin_neutre	240
+Rv0066c	icd2	72273	74511	-	isocitrate dehydrogenase	temoin_neutre	2238
+Rv0083		90399	92322	+	oxidoreductase	temoin_neutre	1923
+Rv0106		124373	125570	+	hypothetical protein	temoin_neutre	1197
+Rv0123		148855	149224	+	hypothetical protein	temoin_neutre	369
+Rv0149		175699	176668	+	quinone oxidoreductase	temoin_neutre	969
+Rv0180c		210891	212250	-	transmembrane protein	temoin_neutre	1359
+Rv0182c	sigG	213027	214140	-	ECF RNA polymerase sigma factor SigG	temoin_neutre	1113
+Rv0187		218704	219367	+	O-methyltransferase	temoin_neutre	663
+Rv0193c		224723	226571	-	hypothetical protein	temoin_neutre	1848
+Rv0218		260923	262252	+	transmembrane protein	temoin_neutre	1329
+Rv0268c		322763	323273	-	hypothetical protein	temoin_neutre	510
+Rv0271c	fadE6	326265	328461	-	acyl-CoA dehydrogenase FadE6	temoin_neutre	2196
+Rv0292	eccE3	355879	356875	+	ESX-3 secretion system protein EccE	temoin_neutre	996
+Rv0293c		356861	358064	-	hypothetical protein	temoin_neutre	1203
+Rv0294	tam	358170	358956	+	trans-aconitate methyltransferase	temoin_neutre	786
+Rv0310c		378656	379148	-	hypothetical protein	temoin_neutre	492
+Rv0312		380555	382418	+	hypothetical protein	temoin_neutre	1863
+Rv0324		391351	392032	+	transcriptional regulator	temoin_neutre	681
+Rv0338c		403192	405841	-	iron-sulfur-binding reductase	temoin_neutre	2649
+Rv0397		475815	476184	+	hypothetical protein	temoin_neutre	369
+Rv0413	mutT3	499712	500366	+	8-oxo-dGTP diphosphatase	3R	654
+Rv0427c	xthA	516016	516892	-	exodeoxyribonuclease III protein XthA	3R	876
+Rv0439c		527378	528314	-	dehydrogenase/reductase	temoin_neutre	936
+Rv0456B	mazE1	547343	547517	-	antitoxin MazE1	temoin_neutre	174
+Rv0457c		547585	549607	-	peptidase	temoin_neutre	2022
+Rv0497		587376	588309	+	transmembrane protein	temoin_neutre	933
+Rv0501	galE2	591653	592784	+	UDP-glucose 4-epimerase GalE	temoin_neutre	1131
+Rv0560c		650778	651504	-	benzoquinone methyltransferase	temoin_neutre	726
+Rv0566c		657547	658039	-	hypothetical protein	temoin_neutre	492
+Rv0629c	recD	720004	721732	-	exonuclease V subunit alpha RecD	3R	1728
+Rv0630c	recB	721728	725013	-	exonuclease V subunit beta RecB	3R	3285
+Rv0631c	recC	725012	728306	-	exonuclease V subunit gamma RecC	3R	3294
+Rv0638	secE1	733736	734222	+	preprotein translocase SecE	temoin_neutre	486
+Rv0644c	mmaA2	738296	739160	-	cyclopropane mycolic acid synthase CmaA	temoin_neutre	864
+Rv0706	rplV	803688	804282	+	50S ribosomal protein L22	temoin_neutre	594
+Rv0744c		834439	834946	-	transcriptional regulator	temoin_neutre	507
+Rv0749	vapC31	841227	841656	+	ribonuclease VapC31	temoin_neutre	429
+Rv0754	PE_PGRS11	846158	847913	+	PE-PGRS family protein PE_PGRS11	temoin_neutre	1755
+Rv0853c	pdc	949435	951118	-	alpha-keto-acid decarboxylase	temoin_neutre	1683
+Rv0861c	ercc3	958522	960151	-	DNA helicase Ercc3	3R	1629
+Rv0872c	PE_PGRS15	968423	970244	-	PE-PGRS family protein PE_PGRS15	temoin_neutre	1821
+Rv0882		980224	980509	+	transmembrane protein	temoin_neutre	285
+Rv0902c	prrB	1004500	1005841	-	two component sensor histidine kinase PrrB	temoin_neutre	1341
+Rv0937c	mku	1045198	1046020	-	non-homologous end joining protein Ku	3R	822
+Rv0938	ligD	1046135	1048415	+	multifunctional non-homologous end joining DNA repair protein/ATP dependent DNA ligase LigD	3R	2280
+Rv0944		1053764	1054241	+	formamidopyrimidine-DNA glycosylase	3R	477
+Rv0949	uvrD1	1058259	1060575	+	ATP-dependent DNA helicase UvrD	3R	2316
+Rv0958		1069882	1071262	+	magnesium chelatase	temoin_neutre	1380
+Rv0959		1071254	1073273	+	hypothetical protein	temoin_neutre	2019
+Rv0990c		1107442	1108099	-	hypothetical protein	temoin_neutre	657
+Rv0993	galU	1109271	1110192	+	UTP--glucose-1-phosphate uridylyltransferase	temoin_neutre	921
+Rv1020	mfd	1138966	1142671	+	transcription-repair coupling factor	3R	3705
+Rv1022	lpqU	1143735	1144467	+	lipoprotein LpqU	temoin_neutre	732
+Rv1087	PE_PGRS21	1211559	1213863	+	PE-PGRS family protein PE_PGRS21	temoin_neutre	2304
+Rv1107c	xseB	1233965	1234223	-	exodeoxyribonuclease VII small subunit	3R	258
+Rv1108c	xseA	1234212	1235460	-	exodeoxyribonuclease VII large subunit	3R	1248
+Rv1119c		1242863	1243013	-	hypothetical protein	temoin_neutre	150
+Rv1140		1267346	1268195	+	integral membrane protein	temoin_neutre	849
+Rv1144		1271155	1271908	+	oxidoreductase	temoin_neutre	753
+Rv1160	mutT2	1286594	1287020	+	8-oxo-dGTP diphosphatase	3R	426
+Rv1169c	lipX	1299821	1300124	-	lipase LipX	temoin_neutre	303
+Rv1203c		1346320	1346905	-	hypothetical protein	temoin_neutre	585
+Rv1210	tagA	1353521	1354136	+	DNA-3-methyladenine glycosylase I TagA	3R	615
+Rv1218c		1361797	1362733	-	tetronasin ABC transporter ATP-binding protein	temoin_neutre	936
+Rv1242	vapC33	1384534	1384966	+	ribonuclease VapC33	temoin_neutre	432
+Rv1259	udgB	1407338	1408238	+	uracil DNA glycosylase	3R	900
+Rv1279		1430061	1431648	+	GMC-type oxidoreductase	temoin_neutre	1587
+Rv1280c	oppA	1431664	1433440	-	oligopeptide ABC transporter substrate-binding lipoprotein OppA	temoin_neutre	1776
+Rv1316c	ogt	1477133	1477631	-	methylated-DNA--protein-cysteine methyltransferase	3R	498
+Rv1317c	alkA	1477627	1479118	-	bifunctional regulatory protein/DNA repair enzyme AlkA	3R	1491
+Rv1321		1484278	1484959	+	endonuclease NucS	3R	681
+Rv1348	irtA	1513046	1515626	+	iron ABC transporter ATP-binding protein/permease IrtA	temoin_neutre	2580
+Rv1352		1518762	1519134	+	hypothetical protein	temoin_neutre	372
+Rv1401		1576929	1577532	+	membrane protein	temoin_neutre	603
+Rv1402	priA	1577612	1579580	+	primosomal protein N'	3R	1968
+Rv1404		1580590	1581073	+	transcriptional regulator	temoin_neutre	483
+Rv1415	ribA2	1590396	1591674	+	bifunctional riboflavin biosynthesis GTP cyclohydrolase II/3%2C4-dihydroxy-2-butanone 4-phosphate synthase	temoin_neutre	1278
+Rv1420	uvrC	1594041	1595982	+	excinuclease ABC subunit UvrC	3R	1941
+Rv1426c	lipO	1601058	1602321	-	esterase LipO	temoin_neutre	1263
+Rv1433		1611433	1612249	+	hypothetical protein	temoin_neutre	816
+Rv1439c		1616960	1617386	-	hypothetical protein	temoin_neutre	426
+Rv1463		1650715	1651516	+	ABC transporter ATP-binding protein	temoin_neutre	801
+Rv1467c	fadE15	1653672	1655502	-	acyl-CoA dehydrogenase	temoin_neutre	1830
+Rv1482c		1672456	1673299	-	hypothetical protein	temoin_neutre	843
+Rv1496		1686883	1687888	+	transport system kinase	temoin_neutre	1005
+Rv1507A		1697355	1697859	+	hypothetical protein	temoin_neutre	504
+Rv1521	fadD25	1712301	1714053	+	fatty-acid--CoA ligase FadD25	temoin_neutre	1752
+Rv1537	dinX	1739855	1741247	+	DNA polymerase IV	3R	1392
+Rv1544		1746093	1746897	+	ketoacyl reductase	temoin_neutre	804
+Rv1547	dnaE1	1747693	1751248	+	DNA polymerase III subunit alpha	3R	3555
+Rv1575		1780198	1780699	+	phage protein	temoin_neutre	501
+Rv1576c		1780642	1782064	-	phage capsid protein	temoin_neutre	1422
+Rv1580c		1783619	1783892	-	phage protein	temoin_neutre	273
+Rv1596	nadC	1797387	1798245	+	nicotinate-nucleotide pyrophosphatase	temoin_neutre	858
+Rv1606	hisI	1805652	1806000	+	phosphoribosyl-AMP cyclohydrolase	temoin_neutre	348
+Rv1625c	cya	1826613	1827945	-	adenylate cyclase	temoin_neutre	1332
+Rv1629	polA	1830664	1833379	+	DNA polymerase I	3R	2715
+Rv1633	uvrB	1837074	1839171	+	excinuclease ABC subunit UvrB	3R	2097
+Rv1638	uvrA	1843740	1846659	+	excinuclease ABC subunit UvrA	3R	2919
+Rv1640c	lysX	1848516	1852035	-	bifunctional lysine--tRNA ligase/phosphatidylglycerol lysyltransferase	temoin_neutre	3519
+Rv1688	mpg	1912978	1913590	+	3-methyladenine DNA glycosylase	3R	612
+Rv1696	recN	1919682	1921446	+	DNA repair protein RecN	3R	1764
+Rv1699	pyrG	1923828	1925589	+	CTP synthase	temoin_neutre	1761
+Rv1701		1926201	1927137	+	tyrosine recombinase XerD	3R	936
+Rv1722		1947860	1949345	+	carboxylase	temoin_neutre	1485
+Rv1733c		1959854	1960487	-	transmembrane protein	temoin_neutre	633
+Rv1783	eccC5	2019256	2023432	+	ESX-5 type VII secretion system protein EccC5	temoin_neutre	4176
+Rv1806	PE20	2048071	2048371	+	PE family protein PE20	temoin_neutre	300
+Rv1833c		2078928	2079789	-	haloalkane dehalogenase	temoin_neutre	861
+Rv1841c		2089680	2090718	-	hypothetical protein	temoin_neutre	1038
+Rv1876	bfrA	2125339	2125819	+	bacterioferritin BfrA	temoin_neutre	480
+Rv1900c	lipJ	2146244	2147633	-	lignin peroxidase LipJ	temoin_neutre	1389
+Rv1908c	katG	2153888	2156111	-	catalase-peroxidase	temoin_positif	2223
+Rv1919c		2171060	2171525	-	hypothetical protein	temoin_neutre	465
+Rv1932	tpx	2183371	2183869	+	2-Cys peroxiredoxin	temoin_neutre	498
+Rv1934c	fadE17	2184958	2186188	-	acyl-CoA dehydrogenase FadE17	temoin_neutre	1230
+Rv1968	mce3C	2211625	2212858	+	Mce family protein Mce3C	temoin_neutre	1233
+Rv1976c		2218843	2219251	-	hypothetical protein	temoin_neutre	408
+Rv1987		2231025	2231454	+	chitinase	temoin_neutre	429
+Rv2012		2259325	2259820	+	hypothetical protein	temoin_neutre	495
+Rv2022c		2267118	2267724	-	hypothetical protein	temoin_neutre	606
+Rv2027c	dosT	2272786	2274508	-	two component sensor histidine kinase DosT	temoin_neutre	1722
+Rv2029c	pfkB	2275404	2276424	-	6-phosphofructokinase PfkB	temoin_neutre	1020
+Rv2043c	pncA	2288680	2289241	-	pyrazinamidase/nicotinamidase PncA	temoin_positif	561
+Rv2055c	rpsR2	2314086	2314353	-	30S ribosomal protein S18	temoin_neutre	267
+Rv2071c	cobM	2328221	2328977	-	precorrin-4 C(11)-methyltransferase	temoin_neutre	756
+Rv2086		2343310	2343916	+	hypothetical protein	temoin_neutre	606
+Rv2092c	helY	2349333	2352054	-	ATP-dependent DNA helicase HelY	3R	2721
+Rv2171	lppM	2432950	2433634	+	lipoprotein LppM	temoin_neutre	684
+Rv2188c	pimB	2449992	2451150	-	alpha-(1-6)-phosphatidylinositol monomannoside mannosyltransferase	temoin_neutre	1158
+Rv2189c		2451246	2452020	-	hypothetical protein	temoin_neutre	774
+Rv2195	qcrA	2458391	2459681	+	ubiquinol-cytochrome C reductase rieske iron-sulfur subunit	temoin_neutre	1290
+Rv2228c		2501643	2502738	-	multifunctional RNASE H/alpha-ribazole phosphatase/acid phosphatase	temoin_neutre	1095
+Rv2254c		2528519	2528975	-	integral membrane protein	temoin_neutre	456
+Rv2256c		2529340	2529874	-	hypothetical protein	temoin_neutre	534
+Rv2310		2583434	2583779	+	excisionase	3R	345
+Rv2312		2584485	2584755	+	hypothetical protein	temoin_neutre	270
+Rv2335	cysE	2609731	2610421	+	serine acetyltransferase	temoin_neutre	690
+Rv2357c	glyS	2639672	2641064	-	glycine--tRNA ligase	temoin_neutre	1392
+Rv2362c	recO	2643460	2644258	-	DNA repair protein RecO	3R	798
+Rv2365c		2646746	2647088	-	hypothetical protein	temoin_neutre	342
+Rv2374c	hrcA	2654061	2655093	-	heat-inducible transcription repressor HrcA	temoin_neutre	1032
+Rv2392	cysH	2686366	2687131	+	phosphoadenosine phosphosulfate reductase	temoin_neutre	765
+Rv2396	PE_PGRS41	2692798	2693884	+	acid and phagosome regulated protein AprC	temoin_neutre	1086
+Rv2412	rpsT	2710074	2710335	+	30S ribosomal protein S20	temoin_neutre	261
+Rv2422		2719082	2719355	+	hypothetical protein	temoin_neutre	273
+Rv2429	ahpD	2726805	2727339	+	alkyl hydroperoxide reductase AphD	temoin_neutre	534
+Rv2448c	valS	2747594	2750225	-	valine--tRNA ligase	temoin_neutre	2631
+Rv2464c		2766858	2767665	-	DNA glycosylase	3R	807
+Rv2499c		2813172	2813730	-	oxidase regulatory-like protein	temoin_neutre	558
+Rv2513		2830160	2830583	+	hypothetical protein	temoin_neutre	423
+Rv2544	lppB	2867123	2867786	+	lipoprotein LppB	temoin_neutre	663
+Rv2554c		2873257	2873770	-	Holliday junction resolvase	3R	513
+Rv2558		2877830	2878541	+	hypothetical protein	temoin_neutre	711
+Rv2578c		2902508	2903531	-	hypothetical protein	temoin_neutre	1023
+Rv2591	PE_PGRS44	2921550	2923182	+	PE-PGRS family protein PE_PGRS44	temoin_neutre	1632
+Rv2592c	ruvB	2923198	2924233	-	Holliday junction ATP-dependent DNA helicase RuvB	3R	1035
+Rv2593c	ruvA	2924229	2924820	-	Holliday junction ATP-dependent DNA helicase RuvA	3R	591
+Rv2594c	ruvC	2924816	2925383	-	crossover junction endodeoxyribonuclease RuvC	3R	567
+Rv2601	speE	2928387	2929959	+	spermidine synthase	temoin_neutre	1572
+Rv2652c		2975927	2976554	-	prophage protein	temoin_neutre	627
+Rv2696c		3012828	3013608	-	hypothetical protein	temoin_neutre	780
+Rv2712c		3024269	3025328	-	hypothetical protein	temoin_neutre	1059
+Rv2713	sthA	3025440	3026847	+	pyridine nucleotide transhydrogenase	temoin_neutre	1407
+Rv2716		3029171	3029858	+	hypothetical protein	temoin_neutre	687
+Rv2720	lexA	3031787	3032498	+	repressor LexA	3R	711
+Rv2721c		3032519	3034619	-	hypothetical protein	temoin_neutre	2100
+Rv2724c	fadE20	3036130	3037291	-	acyl-CoA dehydrogenase FadE20	temoin_neutre	1161
+Rv2726c	dapF	3038930	3039800	-	diaminopimelate epimerase	temoin_neutre	870
+Rv2736c	recX	3048561	3049086	-	regulatory protein RecX	3R	525
+Rv2737c	recA	3049051	3051424	-	recombinase A	3R	2373
+Rv2762c		3072636	3073056	-	hypothetical protein	temoin_neutre	420
+Rv2836c	dinF	3142308	3143628	-	DNA-damage-inducible protein DinF	temoin_neutre	1320
+Rv2850c		3158164	3160054	-	magnesium chelatase	temoin_neutre	1890
+Rv2856	nicT	3166683	3167802	+	nickel-transport integral membrane protein NicT	temoin_neutre	1119
+Rv2869c	rip	3180547	3181762	-	zinc metalloprotease	temoin_neutre	1215
+Rv2887		3196430	3196850	+	HTH-type transcriptional regulator	temoin_neutre	420
+Rv2894c	xerC	3203393	3204290	-	tyrosine recombinase XerC	3R	897
+Rv2909c	rpsP	3217154	3217643	-	30S ribosomal protein S16	temoin_neutre	489
+Rv2914c	pknI	3221766	3223524	-	serine/threonine-protein kinase PknI	temoin_neutre	1758
+Rv2924c	fpg	3238600	3239470	-	formamidopyrimidine-DNA glycosylase	3R	870
+Rv2933	ppsC	3255684	3262251	+	phthiocerol synthesis polyketide synthase type I PpsC	temoin_neutre	6567
+Rv2935	ppsE	3267736	3272203	+	phthiocerol synthesis polyketide synthase type I PpsE	temoin_neutre	4467
+Rv2942	mmpL7	3285069	3287832	+	transmembrane transport protein MmpL7	temoin_neutre	2763
+Rv2973c	recG	3327732	3329946	-	ATP-dependent DNA helicase RecG	3R	2214
+Rv2976c	ung	3332070	3332754	-	uracil-DNA glycosylase	3R	684
+Rv2985	mutT1	3342164	3343118	+	8-oxo-dGTP diphosphatase	3R	954
+Rv2997		3355098	3356541	+	dehydrogenase	temoin_neutre	1443
+Rv3014c	ligA	3372544	3374620	-	DNA ligase A	3R	2076
+Rv3017c	esxQ	3376489	3376852	-	ESAT-6 like protein EsxQ	temoin_neutre	363
+Rv3020c	esxS	3379035	3379329	-	ESAT-6 like protein EsxS	temoin_neutre	294
+Rv3027c		3386073	3386919	-	GCN5-like N-acetyltransferase	temoin_neutre	846
+Rv3039c	echA17	3399418	3400183	-	enoyl-CoA hydratase EchA17	temoin_neutre	765
+Rv3043c	ctaD	3403199	3404921	-	cytochrome C oxidase cytochrome 1	temoin_neutre	1722
+Rv3045	adhC	3406284	3407325	+	NADP-dependent alcohol dehydrogenase	temoin_neutre	1041
+Rv3056	dinP	3416704	3417745	+	DNA polymerase IV 2	3R	1041
+Rv3062	ligB	3425583	3427107	+	DNA ligase	3R	1524
+Rv3149	nuoE	3514656	3515415	+	NADH-quinone oxidoreductase subunit E	temoin_neutre	759
+Rv3160c		3529337	3529979	-	TetR family transcriptional regulator	temoin_neutre	642
+Rv3163c		3531641	3532913	-	hypothetical protein	temoin_neutre	1272
+Rv3167c		3535430	3536057	-	TetR family transcriptional regulator	temoin_neutre	627
+Rv3190c		3555421	3556687	-	hypothetical protein	temoin_neutre	1266
+Rv3196A		3566695	3566896	-	hypothetical protein	temoin_neutre	201
+Rv3198c	uvrD2	3569108	3571211	-	ATP-dependent DNA helicase UvrD	3R	2103
+Rv3201c		3573730	3577036	-	ATP-dependent DNA helicase	3R	3306
+Rv3202c		3577032	3580200	-	ATP-dependent DNA helicase	3R	3168
+Rv3211	rhlE	3587797	3589381	+	ATP-dependent RNA helicase RhlE	temoin_neutre	1584
+Rv3223c	sigH	3598900	3599551	-	ECF RNA polymerase sigma factor SigH	temoin_neutre	651
+Rv3226c		3602563	3603322	-	hypothetical protein	temoin_neutre	759
+Rv3252c	alkB	3630737	3631988	-	transmembrane alkane 1-monooxygenase AlkB	3R	1251
+Rv3284		3665817	3666249	+	hypothetical protein	temoin_neutre	432
+Rv3297	nei	3681319	3682087	+	endonuclease VIII	3R	768
+Rv3299c	atsB	3683050	3685963	-	arylsulfatase AtsB	temoin_neutre	2913
+Rv3342		3728623	3729355	+	methyltransferase	temoin_neutre	732
+Rv3363c		3774135	3774504	-	hypothetical protein	temoin_neutre	369
+Rv3365c		3774870	3777501	-	hypothetical protein	temoin_neutre	2631
+Rv3370c	dnaE2	3781500	3784740	-	error-prone DNA polymerase	3R	3240
+Rv3384c	vapC46	3799242	3799635	-	ribonuclease VapC46	temoin_neutre	393
+Rv3394c		3809441	3811025	-	hypothetical protein	3R	1584
+Rv3395A		3811718	3812345	+	membrane protein	temoin_neutre	627
+Rv3395c		3811021	3811636	-	hypothetical protein	3R	615
+Rv3396c	guaA	3812500	3814078	-	GMP synthase	temoin_neutre	1578
+Rv3422c		3839690	3840197	-	tRNA threonylcarbamoyladenosine biosynthesis protein	temoin_neutre	507
+Rv3423c	alr	3840193	3841420	-	alanine racemase	temoin_neutre	1227
+Rv3450c	eccB4	3871083	3872496	-	ESX-4 secretion system protein EccB4	temoin_neutre	1413
+Rv3466		3883524	3884193	+	hypothetical protein	temoin_neutre	669
+Rv3483c		3902149	3902812	-	hypothetical protein	temoin_neutre	663
+Rv3488		3907666	3907990	+	hypothetical protein	temoin_neutre	324
+Rv3539	PPE63	3978058	3979498	+	PPE family protein PPE63	temoin_neutre	1440
+Rv3575c		4017088	4018168	-	LacI family transcriptional regulator	temoin_neutre	1080
+Rv3580c	cysS1	4022393	4023803	-	cysteine--tRNA ligase	temoin_neutre	1410
+Rv3585	radA	4026443	4027886	+	DNA repair protein RadA	3R	1443
+Rv3589	mutY	4030492	4031407	+	A/G-specific adenine glycosylase	3R	915
+Rv3595c	PE_PGRS59	4036730	4038050	-	PE-PGRS family protein PE_PGRS59	temoin_neutre	1320
+Rv3616c	espA	4055196	4056375	-	ESX-1 secretion-associated protein EspA	temoin_neutre	1179
+Rv3618		4058697	4059885	+	monooxygenase	temoin_neutre	1188
+Rv3628	ppa	4067422	4067911	+	inorganic pyrophosphatase	temoin_neutre	489
+Rv3634c	galE1	4072666	4073611	-	UDP-glucose 4-epimerase	temoin_neutre	945
+Rv3644c		4081515	4082721	-	DNA polymerase	3R	1206
+Rv3646c	topA	4084452	4087257	-	DNA topoisomerase I	3R	2805
+Rv3660c		4098095	4099148	-	hypothetical protein	temoin_neutre	1053
+Rv3674c	nth	4115156	4115894	-	endonuclease III	3R	738
+Rv3679		4118775	4119798	+	anion transporter ATPase	temoin_neutre	1023
+Rv3690		4131738	4132392	+	membrane protein	temoin_neutre	654
+Rv3697c	vapC48	4139804	4140242	-	ribonuclease VapC48	temoin_neutre	438
+Rv3711c	dnaQ	4155739	4156729	-	DNA polymerase III subunit epsilon	3R	990
+Rv3715c	recR	4159888	4160500	-	recombination protein RecR	3R	612
+Rv3721c	dnaZX	4164994	4166731	-	DNA polymerase III subunit gamma/tau	3R	1737
+Rv3731	ligC	4181757	4182834	+	DNA ligase C	3R	1077
+Rv3745c		4195885	4196098	-	hypothetical protein	temoin_neutre	213
+Rv3750c		4198204	4198597	-	excisionase	3R	393
+Rv3761c	fadE36	4205861	4206917	-	acyl-CoA dehydrogenase FadE36	temoin_neutre	1056
+Rv3780		4226988	4227525	+	hypothetical protein	temoin_neutre	537
+Rv3786c		4232373	4233597	-	hypothetical protein	temoin_neutre	1224
+Rv3813c		4278393	4279215	-	hypothetical protein	temoin_neutre	822
+Rv3831		4305756	4306239	+	hypothetical protein	temoin_neutre	483
+Rv3839		4312764	4313541	+	hypothetical protein	temoin_neutre	777
+Rv3852	hns	4325073	4325478	+	histone-like protein Hns	temoin_neutre	405
+Rv3854c	ethA	4326003	4327473	-	monooxygenase EthA	temoin_positif	1470
+Rv3860		4336776	4337949	+	hypothetical protein	temoin_neutre	1173
+Rv3861		4337945	4338272	+	hypothetical protein	temoin_neutre	327
+Rv3898c		4383652	4383985	-	hypothetical protein	temoin_neutre	333
+Rv3908	mutT4	4393448	4394195	+	mutator protein MutT	3R	747
+Rv3914	trxC	4402731	4403082	+	thioredoxin TrxC	temoin_neutre	351
+Rv3919c	gid	4407527	4408202	-	16S rRNA (guanine(527)-N(7))-methyltransferase RsmG	temoin_positif	675
+Rv3921c		4408968	4410069	-	membrane protein insertase YidC	temoin_neutre	1101

@@ -1,0 +1,13 @@
+clade	n_sample	n_suspect	pct_suspect	suspect_loci_max_n_others_missing
+L1	299	6	2.01	Rv3617:11
+L2.2.1	299	1	0.33	Rv0029:1
+L3	299	5	1.67	Rv1761c:12
+L4.1.2	298	5	1.68	Rv1931c:3
+L4.3	300	5	1.67	Rv2101:1
+L6.1	299	3	1.00	Rv0886:1
+L7	299	1	0.33	Rv1999c:4
+L9	300	3	1.00	Rv0271c:1
+Orygis_La3	258	2	0.78	Rv1754c:2
+Caprae_La2	295	7	2.37	Rv2350c:39
+Microti	299	6	2.01	Rv1754c:5
+TOTAL	3245	44	1.36

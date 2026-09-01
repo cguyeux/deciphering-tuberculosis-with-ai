@@ -1,0 +1,110 @@
+# spectre canonique ecrit dans résultats/phase1_spectre_canonique_n40.tsv
+clade	n	mode	n_units	loss	gain	neutral	ratio_loss_gain
+L1	40	A_par_souche	77850	35745	30869	11236	1.158
+L1	40	B_evenements_tous	9883	6268	2394	1221	2.618
+L1	40	C_evenements_hors_racine	8918	5892	1951	1075	3.020
+L1	40	D_racine	965	376	443	146	0.849	# 1 branches
+L1	40	D_interne	2641	1617	710	314	2.277	# 356 branches
+L1	40	D_terminal	6277	4275	1241	761	3.445	# 40 branches
+L2.2.1	40	A_par_souche	52942	21039	23537	8366	0.894
+L2.2.1	40	B_evenements_tous	4167	2078	1493	596	1.392
+L2.2.1	40	C_evenements_hors_racine	3206	1724	1037	445	1.662
+L2.2.1	40	D_racine	961	354	456	151	0.776	# 1 branches
+L2.2.1	40	D_interne	983	508	345	130	1.472	# 213 branches
+L2.2.1	40	D_terminal	2223	1216	692	315	1.757	# 40 branches
+L3	40	A_par_souche	52927	22949	21216	8762	1.082
+L3	40	B_evenements_tous	6423	3756	1650	1017	2.276
+L3	40	C_evenements_hors_racine	5606	3454	1262	890	2.737
+L3	40	D_racine	817	302	388	127	0.778	# 1 branches
+L3	40	D_interne	1112	641	286	185	2.241	# 274 branches
+L3	40	D_terminal	4494	2813	976	705	2.882	# 40 branches
+L4.1.2	40	A_par_souche	35723	14697	15012	6014	0.979
+L4.1.2	40	B_evenements_tous	4758	2722	1308	728	2.081
+L4.1.2	40	C_evenements_hors_racine	4274	2558	1064	652	2.404
+L4.1.2	40	D_racine	484	164	244	76	0.672	# 1 branches
+L4.1.2	40	D_interne	881	475	256	150	1.855	# 237 branches
+L4.1.2	40	D_terminal	3393	2083	808	502	2.578	# 40 branches
+L4.3	40	A_par_souche	32083	12898	14035	5150	0.919
+L4.3	40	B_evenements_tous	4154	2190	1285	679	1.704
+L4.3	40	C_evenements_hors_racine	3713	2027	1068	618	1.898
+L4.3	40	D_racine	441	163	217	61	0.751	# 1 branches
+L4.3	40	D_interne	1154	585	358	211	1.634	# 249 branches
+L4.3	40	D_terminal	2559	1442	710	407	2.031	# 40 branches
+L5.1	12	A_par_souche	23559	10494	9856	3209	1.065
+L5.1	12	B_evenements_tous	2271	1056	897	318	1.177
+L5.1	12	C_evenements_hors_racine	520	297	142	81	2.092
+L5.1	12	D_racine	1751	759	755	237	1.005	# 1 branches
+L5.1	12	D_interne	380	204	113	63	1.805	# 85 branches
+L5.1	12	D_terminal	140	93	29	18	3.207	# 8 branches
+L6.1	40	A_par_souche	83461	40567	31739	11155	1.278
+L6.1	40	B_evenements_tous	7169	4516	1865	788	2.421
+L6.1	40	C_evenements_hors_racine	5803	3898	1308	597	2.980
+L6.1	40	D_racine	1366	618	557	191	1.110	# 1 branches
+L6.1	40	D_interne	1704	1049	458	197	2.290	# 326 branches
+L6.1	40	D_terminal	4099	2849	850	400	3.352	# 38 branches
+L7	40	A_par_souche	77406	34656	32457	10293	1.068
+L7	40	B_evenements_tous	4093	2112	1510	471	1.399
+L7	40	C_evenements_hors_racine	2507	1407	838	262	1.679
+L7	40	D_racine	1586	705	672	209	1.049	# 1 branches
+L7	40	D_interne	964	469	387	108	1.212	# 249 branches
+L7	40	D_terminal	1543	938	451	154	2.080	# 35 branches
+L8	4	A_par_souche	7777	4029	2913	835	1.383
+L8	4	B_evenements_tous	2192	1149	812	231	1.415
+L8	4	C_evenements_hors_racine	577	327	197	53	1.660
+L8	4	D_racine	1615	822	615	178	1.337	# 1 branches
+L8	4	D_interne	529	309	175	45	1.766	# 8 branches
+L8	4	D_terminal	48	18	22	8	0.818	# 4 branches
+L9	36	A_par_souche	73822	35317	28224	10281	1.251
+L9	36	B_evenements_tous	5011	3105	1350	556	2.300
+L9	36	C_evenements_hors_racine	3477	2443	713	321	3.426
+L9	36	D_racine	1534	662	637	235	1.039	# 1 branches
+L9	36	D_interne	1562	1061	359	142	2.955	# 240 branches
+L9	36	D_terminal	1915	1382	354	179	3.904	# 31 branches
+L10	2	A_par_souche	3942	1947	1521	474	1.280
+L10	2	B_evenements_tous	2232	1151	827	254	1.392
+L10	2	C_evenements_hors_racine	522	355	133	34	2.669
+L10	2	D_racine	1710	796	694	220	1.147	# 1 branches
+L10	2	D_interne	0	0	0	0	nan	# 0 branches
+L10	2	D_terminal	522	355	133	34	2.669	# 2 branches
+Bovis.1.1	6	A_par_souche	13035	5582	5730	1723	0.974
+Bovis.1.1	6	B_evenements_tous	2433	1064	1052	317	1.011
+Bovis.1.1	6	C_evenements_hors_racine	381	197	141	43	1.397
+Bovis.1.1	6	D_racine	2052	867	911	274	0.952	# 1 branches
+Bovis.1.1	6	D_interne	203	112	71	20	1.577	# 20 branches
+Bovis.1.1	6	D_terminal	178	85	70	23	1.214	# 4 branches
+Orygis_La3	40	A_par_souche	96404	40259	41223	14922	0.977
+Orygis_La3	40	B_evenements_tous	5607	2687	2081	839	1.291
+Orygis_La3	40	C_evenements_hors_racine	3782	1942	1282	558	1.515
+Orygis_La3	40	D_racine	1825	745	799	281	0.932	# 1 branches
+Orygis_La3	40	D_interne	1291	604	492	195	1.228	# 286 branches
+Orygis_La3	40	D_terminal	2491	1338	790	363	1.694	# 34 branches
+Caprae_La2	40	A_par_souche	89847	40584	37446	11817	1.084
+Caprae_La2	40	B_evenements_tous	4336	2199	1614	523	1.362
+Caprae_La2	40	C_evenements_hors_racine	2617	1444	873	300	1.654
+Caprae_La2	40	D_racine	1719	755	741	223	1.019	# 1 branches
+Caprae_La2	40	D_interne	1666	908	561	197	1.619	# 240 branches
+Caprae_La2	40	D_terminal	951	536	312	103	1.718	# 36 branches
+Microti	32	A_par_souche	59700	26422	24227	9051	1.091
+Microti	32	B_evenements_tous	4479	2128	1582	769	1.345
+Microti	32	C_evenements_hors_racine	3386	1650	1134	602	1.455
+Microti	32	D_racine	1093	478	448	167	1.067	# 1 branches
+Microti	32	D_interne	2048	989	711	348	1.391	# 365 branches
+Microti	32	D_terminal	1338	661	423	254	1.563	# 29 branches
+Pinnipedii	15	A_par_souche	29440	13703	11601	4136	1.181
+Pinnipedii	15	B_evenements_tous	2406	1174	903	329	1.300
+Pinnipedii	15	C_evenements_hors_racine	894	504	281	109	1.794
+Pinnipedii	15	D_racine	1512	670	622	220	1.077	# 1 branches
+Pinnipedii	15	D_interne	727	397	244	86	1.627	# 132 branches
+Pinnipedii	15	D_terminal	167	107	37	23	2.892	# 11 branches
+La4	21	A_par_souche	46066	19842	20049	6175	0.990
+La4	21	B_evenements_tous	3531	1607	1449	475	1.109
+La4	21	C_evenements_hors_racine	1872	895	726	251	1.233
+La4	21	D_racine	1659	712	723	224	0.985	# 1 branches
+La4	21	D_interne	1116	505	465	146	1.086	# 165 branches
+La4	21	D_terminal	756	390	261	105	1.494	# 12 branches
+Canettii	40	A_par_souche	640175	256950	267018	116207	0.962
+Canettii	40	B_evenements_tous	72631	31809	27703	13119	1.148
+Canettii	40	C_evenements_hors_racine	70768	31284	26671	12813	1.173
+Canettii	40	D_racine	1863	525	1032	306	0.509	# 1 branches
+Canettii	40	D_interne	42473	18590	16243	7640	1.144	# 2979 branches
+Canettii	40	D_terminal	28295	12694	10428	5173	1.217	# 32 branches

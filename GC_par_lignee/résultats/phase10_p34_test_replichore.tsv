@@ -1,0 +1,2 @@
+n_lignees	rho	p_rho	etendue_log_vu_repl1	etendue_log_vu_repl2	rapport_etendues	seuil_rho	seuil_rapport	verdict
+13	0.9395604395604396	1.878248429938887e-06	0.3407553089825752	0.324706266436293	0.9529015627248734	0.7	0.7	ROBUSTE

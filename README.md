@@ -4,7 +4,7 @@ An open, AI-assisted research program on the *Mycobacterium tuberculosis* comple
 
 This page is a curated index. New items are added one at a time, as each reaches sufficient maturity.
 
-Last updated: 2026-08-30 (corrected two stale submission statuses: Rv2438A is now with the Journal of Microbiological Methods, and the BPaL/BPaLM manuscript is being prepared for a new venue rather than under review).
+Last updated: 2026-09-01 (added the GC_par_lignee reproducibility bundle, a code-only deposit ahead of any submission decision).
 
 ## About this repository
 
@@ -54,6 +54,7 @@ AI-based methods are now mature enough, when properly instrumented, to progressi
 | bpal_resistance_emergence | Phased analysis pipeline and result tables reproducing the numbers, tables and figures of the BPaL/BPaLM resistance-emergence manuscript (feasibility scan, IPW-adjusted lineage prevalence, primed-polymorphism/ESM-1v scoring, DST validation, convergence discovery with permutation null, candidate emergence timing, structural figure, compensatory-background negative control), plus the curated literature-mining evidence tables. Lightweight, project-specific deposit: excludes the shared upstream AMR reference infrastructure (mutation catalogue, pangenome, phenotype table), which belongs to a separate internal project. | [bpal_resistance_emergence/](bpal_resistance_emergence/) |
 | dark_enzymes | Structure prediction, active-site and conservation analysis scripts for the six-enzyme manuscript. Kept in a separate private repository rather than duplicated here. | private repository (not public) |
 | Rv2438A | 22 reproducibility scripts covering the ORF-artefact analysis (frame-overlap detection, essentiality/vulnerability re-derivation, codon-position control). | [Zenodo, DOI 10.5281/zenodo.21718307](https://doi.org/10.5281/zenodo.21718307) |
+| GC_par_lignee | Analysis scripts and derived results reproducing every figure, table and reported statistic of a manuscript on mutational GC-to-AT bias heterogeneity across the seventeen MTBC lineages (polarized event counting against the MTBC0 ancestral genome, Sueoka $GC_{eq}=u/(u+v)$ conversion, coverage-bias and sampling-density confound controls, four-fold-degenerate-site restriction). Manuscript not yet submitted or preprinted. | [GC_par_lignee/](GC_par_lignee/) |
 
 ## Contributing
 
